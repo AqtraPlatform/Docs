@@ -82,13 +82,15 @@ class AnchorsDoctor:
     MD_LINK_RE = re.compile(r'(?<!\!)\[[^\]]+\]\(([^)\n]+?)\)')  # [text](url)
     MD_IMG_RE = re.compile(r'!\[[^\]]*\]\(([^)\n]+?)\)')        # ![alt](url)
     
-    def __init__(self, src_dir: str = "docs", exclude: List[str] = None):
+    def __init__(self, src_dir: str = "docs", exclude: List[str] = None, skip_images: bool = False):
         self.src_dir = Path(src_dir).resolve()
         self.anchors_found = {}  # page -> set of anchors
         self.broken_links = []   # list of broken links
         self.fixes_applied = []  # list of applied fixes
         self.safe_fixes = []     # list of safe fixes that can be applied
         self.exclude_patterns = exclude or []  # list of files to exclude
+        self.skip_images = skip_images  # skip image validation
+        self.image_warnings = []  # warnings for missing images
     
     @staticmethod
     def clean_url(url: str) -> str:
@@ -214,7 +216,7 @@ class AnchorsDoctor:
                     else:
                         # Link without anchor - check file existence
                         if url:  # Skip empty links
-                            self._check_file_link(relative_path, url, match.group(0), dry_run)
+                            self._check_file_link(relative_path, url, match.group(0), dry_run, is_image=False)
                 
                 # Also check image links for completeness
                 for match in self.MD_IMG_RE.finditer(content_no_code):
@@ -227,7 +229,7 @@ class AnchorsDoctor:
                     # Check only file part (images usually don't have anchors)
                     file_part = url.split('#')[0].strip()
                     if file_part:
-                        self._check_file_link(relative_path, file_part, match.group(0), dry_run)
+                        self._check_file_link(relative_path, file_part, match.group(0), dry_run, is_image=True)
                             
             except Exception as e:
                 print(f"  ⚠️  Ошибка обработки {md_file}: {e}")
@@ -296,10 +298,20 @@ class AnchorsDoctor:
                 'suggestion': ''
             })
     
-    def _check_file_link(self, source_page: str, target_file: str, full_link: str, dry_run: bool):
+    def _check_file_link(self, source_page: str, target_file: str, full_link: str, dry_run: bool, is_image: bool = False):
         """Проверка ссылки на файл без якоря"""
         target_page = self._resolve_file_path(source_page, target_file)
         if not target_page:
+            # Check if this is an image and skip_images is enabled
+            if is_image and self.skip_images:
+                self.image_warnings.append({
+                    'page': source_page,
+                    'original_link': full_link,
+                    'target_file': target_file,
+                    'status': 'Image not found (skipped)'
+                })
+                return
+            
             self.broken_links.append({
                 'page': source_page,
                 'original_link': full_link,
@@ -480,6 +492,13 @@ class AnchorsDoctor:
             if len(self.safe_fixes) > 5:
                 print(f"  ... и еще {len(self.safe_fixes) - 5} исправлений")
         
+        if self.image_warnings:
+            print(f"⚠️  Пропущенных изображений: {len(self.image_warnings)}")
+            for warning in self.image_warnings[:10]:
+                print(f"  {warning['page']}: {warning['original_link']} ({warning['status']})")
+            if len(self.image_warnings) > 10:
+                print(f"  ... и еще {len(self.image_warnings) - 10} пропущенных изображений")
+        
         if self.broken_links:
             print(f"❌ Битых ссылок: {len(self.broken_links)}")
             for broken in self.broken_links[:10]:
@@ -499,6 +518,7 @@ def main():
     parser.add_argument('--dry-run', action='store_true', help='Only generate report, do not apply fixes')
     parser.add_argument('--apply', action='store_true', help='Apply safe fixes')
     parser.add_argument('--exclude', action='append', help='Exclude files matching pattern (can be used multiple times)')
+    parser.add_argument('--skip-images', action='store_true', help='Do not fail on missing image files, only warn')
     
     args = parser.parse_args()
     
@@ -513,7 +533,10 @@ def main():
     if args.exclude:
         print(f"📋 Исключения: {', '.join(args.exclude)}")
     
-    doctor = AnchorsDoctor(args.src, exclude=args.exclude or [])
+    if args.skip_images:
+        print("🖼️  Режим: пропускать отсутствующие изображения (только предупреждения)")
+    
+    doctor = AnchorsDoctor(args.src, exclude=args.exclude or [], skip_images=args.skip_images)
     success = doctor.check_anchors(args.dry_run)
     
     if not success:

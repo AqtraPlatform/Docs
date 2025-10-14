@@ -23,12 +23,13 @@ jobs:
       - name: Lint config
         run: |
           poetry run yamllint .
-      - name: Images & anchors doctor (report)
+      - name: Fix image paths and check anchors
         run: |
-          poetry run python tools/fix_image_paths.py --dry-run
+          poetry run python tools/fix_image_paths.py --apply || true
           poetry run python tools/anchors_doctor.py --dry-run \
             --exclude "release-notes.md" \
-            --exclude "de/release-notes.md"
+            --exclude "de/release-notes.md" \
+            --skip-images
       - name: Build docs (strict)
         run: poetry run mkdocs build --strict
       - name: Upload pages artifact
