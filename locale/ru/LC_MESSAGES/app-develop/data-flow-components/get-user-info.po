@@ -1,0 +1,202 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:1
+msgid "Get user info"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:11
+msgid "Основные сведения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:12
+msgid ""
+"Шаг \"Get User Info\" используется для получения данных о пользователе "
+"платформы, таких как email, имя и фамилия, для их дальнейшей обработки в "
+"текущем dataflow. Этот шаг является необходимым для большинства операций "
+"над пользователями, за исключением создания нового пользователя."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:14
+msgid "**Получение информации о пользователе**"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:15
+msgid ""
+"**Использование флага 'Get user info from request'**: Шаг попытается "
+"получить данные о текущем пользователе. Для корректной работы необходимо,"
+" чтобы dataflow был вызван от имени конкретного пользователя (например, с"
+" формы запроса или через Proxy запрос). Если вызван от имени платформы "
+"(например, в Input dataflow), результат будет null."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:16
+msgid ""
+"**Без флага 'Get user info from request'**: Пользователь может быть "
+"определен:"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:17
+msgid ""
+"Через системное имя, используя параметр типа String текущей модели "
+"dataflow."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:18
+msgid ""
+"Через ссылку на каталог user info, например, поля типа creatorSubject или"
+" changeAuthor. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:21
+msgid "Параметры"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:22
+msgid "**Настройки Шага:**"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:4
+msgid "Поле настройки"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:4
+msgid "Варианты значений"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:4
+msgid "Назначение"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:4
+msgid "Step name"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:4
+msgid "-"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:4
+msgid "Наименование шага"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:4
+msgid "Source step"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:4
+msgid "Выбор предыдущего шага"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:4
+msgid "Get user info from request"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:4
+msgid "Флаг для получения информации о текущем пользователе"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:4
+msgid "User info field"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:4
+msgid "Поле для определения пользователя"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:4
+msgid "User name"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:4
+msgid "Имя пользователя"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:4
+msgid "Result store field"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:4
+msgid "Поле для сохранения полученной информации о пользователе"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:35
+msgid "Кейсы"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:36
+msgid ""
+"**Получение данных пользователя для обработки**: Используется для "
+"извлечения информации о пользователе для последующего использования в "
+"dataflow."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:37
+msgid ""
+"**Отправка персонализированных уведомлений**: В случаях, когда необходимо"
+" отправить персонализированные email-уведомления пользователям, шаг \"Get"
+" User Info\" используется для получения их email-адресов. Далее эта "
+"информация передается в шаг, отвечающий за отправку уведомлений. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:40
+msgid "Исключения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:41
+msgid ""
+"**Обработка случаев, когда пользователь не найден**: В ситуациях, когда "
+"пользователь не может быть определен, результат будет null, что требует "
+"дополнительной обработки в dataflow. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:44
+msgid "Вариант применения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:46
+msgid ""
+"\"Get user info\" предназначен для получения информации о пользователе. В"
+" рамках датафлоу этот шаг используется для запроса данных о пользователе "
+"по заданным критериям, таким как имя пользователя или другие "
+"идентификационные данные. Например, в датафлоу можно указать имя "
+"пользователя, чтобы получить информацию о нем, и затем использовать эту "
+"информацию для дальнейших действий, таких как вывод на экран или "
+"обновление базы данных."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-user-info.md:48
+msgid ""
+"Вы можете скачать конфигурацию компонента "
+"[здесь](https://drive.google.com/file/d/16keZXK_MXlWLmcSA4a-nLvhx-"
+"GPP3RPy/view?usp=sharing)"
+msgstr ""
+
+#~ msgid ""
+#~ "**Обработка случаев, когда пользователь не "
+#~ "найден**: В ситуациях, когда пользователь "
+#~ "не может быть определен, результат будет"
+#~ " null, что требует дополнительной обработки"
+#~ " в dataflow."
+#~ msgstr ""
+

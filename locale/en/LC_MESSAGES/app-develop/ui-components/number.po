@@ -1,0 +1,267 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 11:37+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/ui-components/number.md:1
+msgid "Number"
+msgstr "Number"
+
+#: ../../src/app-develop/ui-components/number.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/ui-components/number.md:12
+msgid ""
+"Компонент \"Number\" представляет собой интерфейс для ввода числовых "
+"значений. Этот компонент позволяет пользователям вводить числа и может "
+"использоваться для различных целей, таких как ввод чисел, количества или "
+"других числовых данных. <br>"
+msgstr ""
+"The “Number” component is an interface for entering numeric values. This "
+"component allows users to enter numbers and can be used for various "
+"purposes such as entering numbers, quantities or other numeric data. <br>"
+
+#: ../../src/app-develop/ui-components/number.md:15
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/ui-components/number.md:16
+msgid "**Component properties**"
+msgstr "**Component properties**"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Группа настроек"
+msgstr "Settings group"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Поле настройки"
+msgstr "Setting field"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Name"
+msgstr "Name"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Наименование UI Компонента в системе"
+msgstr "Name of the UI Component in the system"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Common"
+msgstr "Common"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Disabled"
+msgstr "Disabled"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "true, false"
+msgstr "true, false"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Свойство позволяет отключить элемент на форме"
+msgstr "The property allows you to disable an element on the form"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Required"
+msgstr "Required"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Свойство делает элемент обязательным для заполнения перед отправкой формы"
+msgstr ""
+"The property makes the element required to be filled out prior to "
+"submitting the form"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Label"
+msgstr "Label"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Содержит оглавление текстового контейнера"
+msgstr "Contains the table of contents of the text container"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Binding"
+msgstr "Binding"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Множественный выбор Catalog"
+msgstr "Multiselect of Catalog"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Содержит связанное поле типа “Integer” и “Number” из модели"
+msgstr "Contains the associated “Integer” and “Number” field from the model"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Events"
+msgstr "Events"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "On value changed"
+msgstr "On value changed"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Позволяет запускать указанный скрипт, после изменения значения поля"
+msgstr ""
+"Allows you to run the specified script after changing the value of the "
+"field"
+
+#: ../../src/app-develop/ui-components/number.md:27
+msgid "**CSS properties**"
+msgstr "**CSS properties**"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Layout"
+msgstr "Layout"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Width"
+msgstr "Width"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Ширина компонента"
+msgstr "Component width"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Height"
+msgstr "Height"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Высота компонента"
+msgstr "Component height"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Grow"
+msgstr "Grow"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid ""
+"Свойство определяет, насколько элемент будет расти по сравнению с "
+"остальными гибкими элементами внутри того же контейнера"
+msgstr ""
+"The property determines how much an element will grow relative to the "
+"rest of the flex elements within the same container"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Margin"
+msgstr "Margin"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Свойство определяет внешний отступ на всех четырёх сторонах элемента"
+msgstr "The property defines the outer paddings on all four sides of the element"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Padding"
+msgstr "Padding"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Свойство устанавливает внутренние отступы поля со всех сторон элемента"
+msgstr "The property sets the inner paddings on all sides of the element"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Appearance"
+msgstr "Appearance"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "CornerRadius"
+msgstr "CornerRadius"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Свойство используется для закругления углов элемента"
+msgstr "The property is used to round the corners of an element"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "BorderThickness"
+msgstr "BorderThickness"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Свойство позволяет задать рамки для элемента"
+msgstr "The property allows you to set the boundaries for the element"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Brush"
+msgstr "Brush"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Background"
+msgstr "Background"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Свойство устанавливает цвет фона элемента"
+msgstr "The property sets the background color of the element"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "BorderBrush"
+msgstr "BorderBrush"
+
+#: ../../src/app-develop/ui-components/number.md:4
+msgid "Свойство устанавливает цвет рамки элемента"
+msgstr "The property sets the color of the element's border"
+
+#: ../../src/app-develop/ui-components/number.md:43
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/ui-components/number.md:44
+msgid ""
+"**Ввод числовых значений:** Пользователи могут вводить числа в компонент "
+"Number, например, количество товаров или числовые параметры."
+msgstr ""
+"**Entering Numeric Values:** Users can enter numbers into the Number "
+"component, such as product quantities or numeric parameters."
+
+#: ../../src/app-develop/ui-components/number.md:45
+msgid ""
+"**Ограничение диапазона:** Минимальное и максимальное значение позволяют "
+"ограничивать вводимые числа в определенном диапазоне."
+msgstr ""
+"**Range Limit:** Minimum and maximum values ​​allow you to limit the "
+"numbers you enter to a specific range."
+
+#: ../../src/app-develop/ui-components/number.md:46
+msgid ""
+"**Изменение числа с помощью стрелок:** Пользователи могут увеличивать или"
+" уменьшать число с помощью стрелок вверх и вниз. <br>"
+msgstr ""
+"**Change Number Using Arrows:** Users can increase or decrease a number "
+"using the up and down arrows. <br>"
+
+#: ../../src/app-develop/ui-components/number.md:49
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/ui-components/number.md:50
+msgid "**Ввод нечисловых данных:** Возможен ввод только числовых данных"
+msgstr "**Non-Numeric Data Entry:** Only numeric data can be entered"
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

@@ -1,0 +1,178 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:1
+msgid "Lookup reference"
+msgstr "Lookup reference"
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:12
+msgid ""
+"Шаг \"Lookup Reference\" используется для поиска ссылок на экземпляры "
+"(instances) компонента по внешним ключам. Этот процесс требует, чтобы в "
+"компоненте, в которой производится поиск, было настроено как минимум одно"
+" поле (property) с флагом \"Primary key\"."
+msgstr ""
+"The “Lookup Reference” step is used to search for references to component"
+" instances by external keys. This process requires that at least one "
+"property with the “Primary key” flag be configured in the component to be"
+" searched."
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:14
+msgid ""
+"Поиск осуществляется по этому полю, и результат поиска в виде Id "
+"(integer) найденной записи будет записан в переменную, указанную в поле "
+"\"Field name\". Если экземпляр компонента с таким ключом не найден, "
+"переменная будет иметь значение null. <br>"
+msgstr ""
+"The search is performed by this property, and the result of the search in"
+" the form of Id (integer) of the found record will be recorded to the "
+"variable specified in the “Field name.” If no instance of a component "
+"with such a key is found, the variable will be null. <br>"
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:17
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:18
+msgid "**Настройки Шага:**"
+msgstr "**Step Settings:**"
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:4
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:4
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:4
+msgid "Step name"
+msgstr "Step name"
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:4
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:4
+msgid "Наименование шага"
+msgstr "Name of the step"
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:4
+msgid "Source step"
+msgstr "Source step"
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:4
+msgid "Выбор предыдущего шага"
+msgstr "Selecting the previous step"
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:4
+msgid "Component"
+msgstr "Component"
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:4
+msgid "Компонент, в котором осуществляется поиск"
+msgstr "Component that is being searched"
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:4
+msgid "Field name"
+msgstr "Field name"
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:4
+msgid "Имя поля, куда будет записан результат поиска"
+msgstr "Name of the field where the search result will be recorded"
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:29
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:30
+msgid ""
+"**Поиск по первичным ключам**: Используется для определения наличия и "
+"идентификации экземпляров компонент по уникальным идентификаторам."
+msgstr ""
+"**Primary Key Search**: Used to determine the availability and identify "
+"instances of components by unique identifiers."
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:31
+msgid ""
+"**Связывание данных компонентов**: Подходит для сценариев, где требуется "
+"связать данные из разных компонентов на основе уникальных ключей. <br>"
+msgstr ""
+"**Component Data Linking**: Suitable for scripts where you want to link "
+"data from different components based on unique keys. <br>"
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:34
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:35
+msgid ""
+"**Требование наличия первичного ключа**: Необходимо, чтобы в компоненте "
+"был настроен первичный ключ для успешного поиска."
+msgstr ""
+"**Primary Key Requirement**: The component must have a primary key "
+"configured to ensure a successful search."
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:36
+msgid ""
+"**Обработка отсутствующих записей**: В случае отсутствия экземпляра с "
+"указанным ключом, значение переменной будет null, что может потребовать "
+"дополнительной обработки. <br>"
+msgstr ""
+"**Handling Missing Records**: If there is no instance with the specified "
+"key, the value of the variable will be null, which may require additional"
+" processing."
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:39
+msgid "Вариант применения"
+msgstr "Application scenario"
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:41
+msgid ""
+"Этот компонент использует шаг Lookup Reference для поиска идентификатора "
+"записи в таблице \"Задание на сортировку\" по введенному номеру "
+"сортировки. После ввода номера сортировки и выполнения датафлоу, на "
+"фронт-энде отображается соответствующий идентификатор записи."
+msgstr ""
+"This component utilizes the Lookup Reference step to find the record ID in the "
+""Sorting Task" table based on the entered sorting number. After entering "
+"the sorting number and executing the data flow, the corresponding record ID "
+"is displayed on the frontend."
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:43
+msgid ""
+"Вы можете скачать конфигурацию компонента "
+"[здесь](https://drive.google.com/file/d/1LZzqHGc7I5IdAVLmK6H1_ItODiiruSAJ/view?usp=sharing)"
+msgstr ""
+"You can download the component configuration "
+"[here](https://drive.google.com/file/d/1LZzqHGc7I5IdAVLmK6H1_ItODiiruSAJ/view?usp=sharing)"
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

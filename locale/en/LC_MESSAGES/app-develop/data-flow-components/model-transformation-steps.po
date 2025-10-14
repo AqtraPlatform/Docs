@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-15 06:42+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/data-flow-components/model-transformation-steps.md:1
+msgid "ГРУППА \"MODEL TRANSFORMATION\"|separator"
+msgstr "MODEL TRANSFORMATION GROUP|separator"
+
+#: ../../src/app-develop/data-flow-components/model-transformation-steps.md:3
+msgid "[Transform model](transform-model.md)"
+msgstr "[Transform model](transform-model.md)"
+
+#: ../../src/app-develop/data-flow-components/model-transformation-steps.md:4
+msgid "[Join models](join-modes.md)"
+msgstr "[Join models](join-modes.md)"
+
+#: ../../src/app-develop/data-flow-components/model-transformation-steps.md:5
+msgid "[Extract collections](extract-collections.md)"
+msgstr "[Extract collections](extract-collections.md)"
+
+#: ../../src/app-develop/data-flow-components/model-transformation-steps.md:6
+msgid "[Filter source](filter-source.md)"
+msgstr "[Filter source](filter-source.md)"
+
+#: ../../src/app-develop/data-flow-components/model-transformation-steps.md:7
+msgid "[Lookup reference](lookup-reference.md)"
+msgstr "[Lookup reference](lookup-reference.md)"
+
+#: ../../src/app-develop/data-flow-components/model-transformation-steps.md:8
+msgid "[Execute script](execute-script.md)"
+msgstr "[Execute script](execute-script.md)"
+
+#: ../../src/app-develop/data-flow-components/model-transformation-steps.md:9
+msgid "[Query entity by filter](query-entity-by-filter.md)"
+msgstr "[Query entity by filter](query-entity-by-filter.md)"
+
+#: ../../src/app-develop/data-flow-components/model-transformation-steps.md:10
+msgid "[Select many](select-many.md)"
+msgstr "[Select many](select-many.md)"
+
+#: ../../src/app-develop/data-flow-components/model-transformation-steps.md:11
+msgid "[Get entity by id](get-entity-by-id.md)"
+msgstr "[Get entity by id](get-entity-by-id.md)"
+
+#: ../../src/app-develop/data-flow-components/model-transformation-steps.md:12
+msgid "[Load catalogs by key](load-catalogs-by-key.md)"
+msgstr "[Load catalogs by key](load-catalogs-by-key.md)"
+
+#: ../../src/app-develop/data-flow-components/model-transformation-steps.md:13
+msgid "[Distinct](distinct.md)"
+msgstr "[Distinct](distinct.md)"
+
+#: ../../src/app-develop/data-flow-components/model-transformation-steps.md:14
+msgid "[Group by](group-by.md)"
+msgstr "[Group by](group-by.md)"
+
+#: ../../src/app-develop/data-flow-components/model-transformation-steps.md:15
+msgid "[Calculate array](calculate-array.md)"
+msgstr "[Calculate array](calculate-array.md)"
+
+#: ../../src/app-develop/data-flow-components/model-transformation-steps.md:16
+msgid "[Simple math](simple-math.md)"
+msgstr "[Simple math](simple-math.md)"
+
+#: ../../src/app-develop/data-flow-components/model-transformation-steps.md:17
+msgid "[Execute dataflow](execute-dataflow.md)"
+msgstr "[Execute dataflow](execute-dataflow.md)"
+
+#: ../../src/app-develop/data-flow-components/model-transformation-steps.md:18
+msgid "[Get file info](get-file-info.md)"
+msgstr "[Get file info](get-file-info.md)"
+

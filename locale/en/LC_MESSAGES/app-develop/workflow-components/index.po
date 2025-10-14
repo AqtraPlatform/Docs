@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-15 06:42+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/workflow-components/index.md:1
+msgid "Workflow"
+msgstr "Workflow"
+
+#: ../../src/app-develop/workflow-components/index.md:36
+msgid "Что такое workflow?"
+msgstr "What is workflow?"
+
+#: ../../src/app-develop/workflow-components/index.md:38
+msgid ""
+"Workflow - это механизм управления состояниями и задачами в различных "
+"сценариях компонентов на платформе. Он позволяет организовать "
+"последовательное выполнение задач, сохраняя состояния и обеспечивая "
+"возможность перезапуска при отказе."
+msgstr "Workflow is a mechanism for managing states and tasks in various component scripts on the platform. It allows you to organize the sequential execution of tasks, maintaining states and providing the ability to restart in case of failure."
+
+#: ../../src/app-develop/workflow-components/index.md:40
+msgid "Как создать workflow?"
+msgstr "How do I create a workflow?"
+
+#: ../../src/app-develop/workflow-components/index.md:42
+msgid ""
+"**Открыть Toolbox**: В окне компонентов открыть меню Toolbox и перейти на"
+" вкладку Flows."
+msgstr "**Open Toolbox**: Open the Toolbox menu in the components window and go to the Flows tab."
+
+#: ../../src/app-develop/workflow-components/index.md:43
+msgid ""
+"**Добавление Workflow**: Кликнуть на иконку Workflow и перетащить её в "
+"рабочую область. Появится новый workflow для настройки."
+msgstr "**Add Workflow**: Click on the Workflow icon and drag it to the workspace. A new workflow will appear to be configured."
+
+#: ../../src/app-develop/workflow-components/index.md:45
+msgid ""
+"Используя Visual builder of Workflow, можно настроить сценарий работы "
+"workflow:"
+msgstr "Using Visual builder of Workflow, you can configure a workflow script:"
+
+#: ../../src/app-develop/workflow-components/index.md:46
+msgid ""
+"**Добавление Этапов и Шагов**: В редакторе доступно добавление этапов "
+"(Stages) и шагов (Steps), формирующих логику workflow."
+msgstr "**Adding Stages and Steps**: The editor allows you to add Stages and Steps that form the workflow logic."
+
+#: ../../src/app-develop/workflow-components/index.md:47
+msgid ""
+"**Настройка Последовательности**: Сценарии проходятся сверху вниз и слева"
+" направо, позволяя формировать последовательный поток задач."
+msgstr "**Sequence Configuring**: Scripts are run from top to bottom and left to right, allowing you to create a consistent flow of tasks."
+
+#: ../../src/app-develop/workflow-components/index.md:49
+msgid "Workflow имеет следующие параметры:"
+msgstr "Workflow has the following parameters:"
+
+#: ../../src/app-develop/workflow-components/index.md:51
+msgid ""
+"**Имя workflow**: Имя, используемое для идентификации workflow в "
+"компоненте."
+msgstr "**Workflow name**: The name used to identify the workflow in the component."
+
+#: ../../src/app-develop/workflow-components/index.md:52
+msgid ""
+"**Restrict Access**: Если установлено в \"Yes\", создает контекст "
+"безопасности для workflow."
+msgstr "**Restrict Access**: When set to “Yes”, creates a security context for workflow."
+
+#: ../../src/app-develop/workflow-components/index.md:54
+msgid "Редактирование этапов и шагов workflow:"
+msgstr "Editing workflow stages and steps:"
+
+#: ../../src/app-develop/workflow-components/index.md:56
+msgid "**Добавление Этапов**: Используя кнопку \"+\", можно добавить новые этапы."
+msgstr "**Add Stages**: Using the “+” button, you can add new stages."
+
+#: ../../src/app-develop/workflow-components/index.md:57
+msgid "**Удаление Этапов**: Кнопка \"X\" позволяет удалить ненужные этапы."
+msgstr "**Delete Stages**: The “X” button allows you to delete unnecessary stages."
+
+#: ../../src/app-develop/workflow-components/index.md:58
+msgid "**Редактирование Этапов**: Возможность изменения только имени этапа."
+msgstr "**Edit Stages**: Only the stage name can be changed."
+
+#: ../../src/app-develop/workflow-components/index.md:59
+msgid ""
+"**Добавление и Удаление Шагов**: Шаги добавляются и удаляются внутри "
+"этапов, определяя конкретные действия workflow."
+msgstr "**Add and Delete Steps**: Steps can be added and removed within stages, defining specific workflow actions."
+

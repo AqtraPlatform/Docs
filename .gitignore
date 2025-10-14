@@ -1,0 +1,113 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Poetry
+poetry.lock
+
+# MkDocs
+site/
+build/
+
+# Caches
+.cache/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+
+# Node.js (if not used)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Old package managers
+requirements*.txt
+Pipfile
+Pipfile.lock
+setup.py
+setup.cfg
+
+# Editor and system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.old
+*.orig
+*.tmp
+*.backup
+*.swp
+*.swo
+*~
+*.yml.bak
+*.md.bak
+mkdocs.yml.bak
+
+# Archives and binaries
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.exe
+*.dll
+*.dmg
+*.pkg
+*.deb
+*.rpm
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+.tmp/
+temp/

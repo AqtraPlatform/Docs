@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/distinct.md:1
+msgid "Distinct"
+msgstr "Distinct"
+
+#: ../../src/app-develop/data-flow-components/distinct.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/data-flow-components/distinct.md:12
+msgid ""
+"Шаг \"Distinct\" применяется для исключения повторяющихся записей из "
+"потока данных, что позволяет оставить только уникальные значения. Этот "
+"процесс помогает в оптимизации обработки данных, исключая дубликаты и "
+"сокращая объем анализируемых данных. <br>"
+msgstr ""
+"The Distinct step is used to eliminate duplicate entries from the data "
+"stream, leaving only unique values. This process helps in optimizing data"
+" processing by eliminating duplicates and reducing the amount of data "
+"analyzed. <br>"
+
+#: ../../src/app-develop/data-flow-components/distinct.md:15
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/data-flow-components/distinct.md:16
+msgid "**Настройки Шага:**"
+msgstr "**Step Settings:**"
+
+#: ../../src/app-develop/data-flow-components/distinct.md:4
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/data-flow-components/distinct.md:4
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/data-flow-components/distinct.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/data-flow-components/distinct.md:4
+msgid "Step name"
+msgstr "Step name"
+
+#: ../../src/app-develop/data-flow-components/distinct.md:4
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/data-flow-components/distinct.md:4
+msgid "Название шага в потоке данных"
+msgstr "Name of the step in the data flow"
+
+#: ../../src/app-develop/data-flow-components/distinct.md:4
+msgid "Source step"
+msgstr "Source step"
+
+#: ../../src/app-develop/data-flow-components/distinct.md:4
+msgid "Выбор предыдущего шага"
+msgstr "Selecting the previous step"
+
+#: ../../src/app-develop/data-flow-components/distinct.md:4
+msgid "Keys"
+msgstr "Keys"
+
+#: ../../src/app-develop/data-flow-components/distinct.md:4
+msgid "Ключи для проверки уникальности"
+msgstr "Keys for checking uniqueness"
+
+#: ../../src/app-develop/data-flow-components/distinct.md:26
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/data-flow-components/distinct.md:27
+msgid "**Очистка данных**: Удаление дублирующих записей для упрощения анализа."
+msgstr "**Data Cleaning**: Removing of duplicate entries to simplify analysis."
+
+#: ../../src/app-develop/data-flow-components/distinct.md:28
+msgid ""
+"**Подготовка к агрегации**: Предварительная очистка данных перед "
+"выполнением агрегирующих операций. <br>"
+msgstr ""
+"**Preparation for aggregation**: Pre-cleaning of data before performing "
+"aggregation operations. <br>"
+
+#: ../../src/app-develop/data-flow-components/distinct.md:31
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/data-flow-components/distinct.md:32
+msgid ""
+"**Выбор ключей**: Неправильный выбор ключей может привести к потере "
+"важных данных."
+msgstr ""
+"**Selection of keys**: Incorrect selection of keys may result in the loss"
+" of important data."
+
+#: ../../src/app-develop/data-flow-components/distinct.md:33
+msgid ""
+"**Потеря информации**: Риск потери части данных при неверной настройке "
+"шага. <br>"
+msgstr ""
+"**Loss of information**: Risk of losing part of the data if the step is "
+"configured incorrectly."
+
+#: ../../src/app-develop/data-flow-components/distinct.md:36
+msgid "Вариант применения"
+msgstr "Application scenario"
+
+#: ../../src/app-develop/data-flow-components/distinct.md:38
+msgid ""
+"Этот компонент проверяет доступность полей шага Distinct. Нажимается "
+"кнопка \"Distinct\" на фронте. Если шаг работает правильно, во вкладке "
+"сеть появляется строка \"execute\" с предварительным просмотром ответа "
+"HTTP, в котором должны быть данные о трех записях."
+msgstr ""
+"This component checks the availability of fields in the Distinct step. The "Distinct" button is clicked on the frontend. If the step works correctly, a "execute" line with a preview of the HTTP response should appear in the Network tab, containing data for three records."
+
+#: ../../src/app-develop/data-flow-components/distinct.md:40
+msgid ""
+"Конфигурацию компонента можно скачать "
+"[здесь](https://drive.google.com/file/d/1dA9EzzJOn9sWBYhdvL__AcI1kJ5qNNLd/view?usp=sharing)."
+msgstr ""
+"You can download the component configuration "
+"[here](https://drive.google.com/file/d/1dA9EzzJOn9sWBYhdvL__AcI1kJ5qNNLd/view?usp=sharing)."
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

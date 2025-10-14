@@ -1,0 +1,404 @@
+site_name: Aqtra Docs
+site_url: https://docs.aqtra.io
+repo_url: https://github.com/Fershtater/AqtraDocs
+repo_name: Fershtater/AqtraDocs
+edit_uri: edit/main/docs/
+use_directory_urls: false
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  logo: assets/brand/logo-light.svg
+  logo_dark: assets/brand/logo-dark.svg
+  favicon: assets/brand/favicon.svg
+  icon:
+    repo: material/github
+    admonition:
+      note: material/information-outline
+      tip: material/lightbulb-on-outline
+      warning: material/alert-outline
+      danger: material/alert
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
+    - content.action.edit
+    - content.action.view
+    - search.suggest
+    - search.highlight
+    - search.share
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - def_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.critic
+  - pymdownx.highlight:
+      anchor_linenums: true
+      auto_title: true
+      linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search:
+      lang:
+        - en
+        - de
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+      cache_safe: true
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: false
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: de
+          name: Deutsch
+          build: true
+          nav_translations:
+            Home: Startseite
+            Getting Started: Erste Schritte
+            First Time Login: Erste Anmeldung
+            Installation: Installation
+            Basic Platform Settings: Grundlegende Plattformeinstellungen
+            User Interface: Benutzeroberfläche
+            Home: Startseite
+            Access: Zugriff
+            Applications: Anwendungen
+            Extensions: Erweiterungen
+            File Storage: Dateispeicher
+            Localizations: Lokalisierungen
+            Maintenance: Wartung
+            App Development: App-Entwicklung
+            Component: Komponente
+            UI Components: UI-Komponenten
+            Basic: Grundlegend
+            Label: Beschriftung
+            Text Field: Textfeld
+            Password: Passwort
+            Text Area: Textbereich
+            Code Editor: Code-Editor
+            WYSIWYG Editor: WYSIWYG-Editor
+            Phone Number: Telefonnummer
+            Hyperlink: Hyperlink
+            HTML: HTML
+            SVG: SVG
+            Image: Bild
+            PDF Viewer: PDF-Viewer
+            File: Datei
+            Number: Nummer
+            Checkbox: Kontrollkästchen
+            Select: Auswählen
+            Multiselect: Mehrfachauswahl
+            Switch: Schalter
+            Button: Schaltfläche
+            Radio Button: Optionsfeld
+            Advanced: Erweitert
+            Date Time: Datum und Uhrzeit
+            Day: Tag
+            Time: Zeit
+            Data Grid: Datengitter
+            Pivot Grid: Pivot-Tabelle
+            Confirmation State: Bestätigungsstatus
+            Tab Control: Registerkarten-Steuerung
+            List View: Listenansicht
+            Tree View: Baumansicht
+            Slider: Schieberegler
+            Signature: Unterschrift
+            Charts: Diagramme
+            Progress Bar: Fortschrittsbalken
+            Layout: Layout
+            Page: Seite
+            Panel: Panel
+            Grid: Raster
+            Flows: Flüsse
+            Dataflow: Datenfluss
+            Input Steps: Eingabeschritte
+            Get values from connector: Werte vom Connector abrufen
+            Subscribe to connector: Connector abonnieren
+            Get Action Model: Aktionsmodell abrufen
+            Get workflow model: Workflow-Modell abrufen
+            Get Empty Model: Leeres Modell abrufen
+            Proxy get entry: Proxy-Eintrag abrufen
+            Proxy query entry: Proxy-Abfrage-Eintrag
+            Get raw model: Rohmodell abrufen
+            Import file: Datei importieren
+            Model Transformation Steps: Modelltransformationsschritte
+            Transform model: Modell transformieren
+            Join models: Modelle verbinden
+            Extract collection: Sammlung extrahieren
+            Filter source: Quelle filtern
+            Lookup reference: Referenz nachschlagen
+            Execute script: Skript ausführen
+            Query entity by filter: Entität nach Filter abfragen
+            Select many: Mehrere auswählen
+            Get entity by id: Entität nach ID abrufen
+            Load catalogs by key: Kataloge nach Schlüssel laden
+            Distinct: Eindeutig
+            Group By: Gruppieren nach
+            Calculate array: Array berechnen
+            Simple math: Einfache Mathematik
+            Execute dataflow: Datenfluss ausführen
+            Get file info: Dateiinfo abrufen
+            User Contexts Steps: Benutzerkontextschritte
+            Register context for model: Kontext für Modell registrieren
+            Register external user: Externen Benutzer registrieren
+            Prepare external keys: Externe Schlüssel vorbereiten
+            Assign context role for model: Kontextrolle für Modell zuweisen
+            Get one-time code for user: Einmalcode für Benutzer abrufen
+            Confirm one-time code for user: Einmalcode für Benutzer bestätigen
+            Update or create user info: Benutzerinfo aktualisieren oder erstellen
+            Get user info: Benutzerinfo abrufen
+            Login with password: Mit Passwort anmelden
+            Reset user password request: Benutzerpasswort-Zurücksetzungsanfrage
+            Confirm user email request: Benutzer-E-Mail-Bestätigungsanfrage
+            Send templated notification: Vorlagenbenachrichtigung senden
+            Send notification: Benachrichtigung senden
+            Remove assigned roles for user: Zugewiesene Rollen für Benutzer entfernen
+            Output Steps: Ausgabeschritte
+            Store entry over bus: Eintrag über Bus speichern
+            Update entry: Eintrag aktualisieren
+            Deferred update entry: Verzögerten Eintrag aktualisieren
+            Apply deferred update operations: Verzögerte Aktualisierungsvorgänge anwenden
+            Execute API call: API-Aufruf ausführen
+            Write response: Antwort schreiben
+            Form action: Formularaktion
+            Execute Workflow: Workflow ausführen
+            Export to File: In Datei exportieren
+            Render template: Vorlage rendern
+            Workflow: Workflow
+            Notifications Steps: Benachrichtigungsschritte
+            Get user confirmation: Benutzerbestätigung abrufen
+            Integrations Steps: Integrationsschritte
+            Execute dataflow: Datenfluss ausführen
+            Common Steps: Allgemeine Schritte
+            Update model: Modell aktualisieren
+            Finish: Beenden
+            Update model field: Modellfeld aktualisieren
+            Reset to draft: Auf Entwurf zurücksetzen
+            Conditions Steps: Bedingungsschritte
+            Switch case: Switch-Anweisung
+            If Condition: Wenn-Bedingung
+            Using Python: Python verwenden
+            Publications: Veröffentlichungen
+            Tutorials: Tutorials
+            Release Notes: Versionshinweise
+  - glightbox
+  - mermaid2:
+      javascript: assets/js/mermaid.theme.js
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+      enabled: !ENV [ENABLED_GIT_REVISION_DATE, true]
+      exclude:
+        - de/*
+  # - redirects:
+  #     redirect_maps:
+  #       "getting-started.html": "overview/getting-started.md"
+  #       "overview/index.html": "index.md"
+  #       "release-notes.html#1-2-0": "release-notes.md#1-2-0"
+  #       "release-notes.html#2025-01-15": "release-notes.md#2025-01-15"
+  #       "ui/buttons.html": "app-development/ui-components/button.md"
+
+extra:
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: Deutsch
+      link: /de/
+      lang: de
+  social:
+    - icon: material/github
+      link: https://github.com/Fershtater/AqtraDocs
+    - icon: material/email
+      link: mailto:goblinx99@gmail.com
+
+extra_css:
+  - assets/styles/extra.css
+  - assets/stylesheets/back-to-top.css
+
+extra_javascript:
+  - assets/js/nav-anchor.js
+  - assets/javascripts/back-to-top.js
+
+nav:
+  - Home: index.md
+  - Getting Started: learn/index.md
+  - First Time Login: overview/getting-started.md
+  - Installation:
+      - Basic Platform Settings: installation/configuration.md
+  - User Interface:
+      - Home: user-interface/home.md
+      - Access: user-interface/access.md
+      - Applications: user-interface/applications.md
+      - Extensions: user-interface/extensions.md
+      - File Storage: user-interface/file-storage.md
+      - Localizations: user-interface/localizations.md
+      - Maintenance: user-interface/maintenance.md
+  - App Development:
+      - app-development/index.md
+      - Component: app-development/component.md
+      - UI Components:
+          - app-development/ui-components/index.md
+          - Basic: app-development/ui-components/basic.md
+          - Label: app-development/ui-components/label.md
+          - Text Field: app-development/ui-components/text-field.md
+          - Password: app-development/ui-components/password.md
+          - Text Area: app-development/ui-components/text-area.md
+          - Code Editor: app-development/ui-components/code-editor.md
+          - WYSIWYG Editor: app-development/ui-components/wysiwyg-editor.md
+          - Phone Number: app-development/ui-components/phone-number.md
+          - Hyperlink: app-development/ui-components/hyperlink.md
+          - HTML: app-development/ui-components/html.md
+          - SVG: app-development/ui-components/svg.md
+          - Image: app-development/ui-components/image.md
+          - PDF Viewer: app-development/ui-components/pdf-viewer.md
+          - File: app-development/ui-components/file.md
+          - Number: app-development/ui-components/number.md
+          - Checkbox: app-development/ui-components/checkbox.md
+          - Select: app-development/ui-components/select.md
+          - Multiselect: app-development/ui-components/multiselect.md
+          - Switch: app-development/ui-components/switch.md
+          - Button: app-development/ui-components/button.md
+          - Radio Button: app-development/ui-components/radio-button.md
+          - Advanced: app-development/ui-components/advanced.md
+          - Date Time: app-development/ui-components/date-time.md
+          - Day: app-development/ui-components/day.md
+          - Time: app-development/ui-components/time.md
+          - Data Grid: app-development/ui-components/data-grid.md
+          - Pivot Grid: app-development/ui-components/pivot-grid.md
+          - Confirmation State: app-development/ui-components/confirmation-state.md
+          - Tab Control: app-development/ui-components/tab-control.md
+          - List View: app-development/ui-components/list-view.md
+          - Tree View: app-development/ui-components/tree-view.md
+          - Slider: app-development/ui-components/slider.md
+          - Signature: app-development/ui-components/signature.md
+          - Charts: app-development/ui-components/charts.md
+          - Progress Bar: app-development/ui-components/progress-bar.md
+          - Layout: app-development/ui-components/layout.md
+          - Page: app-development/ui-components/page.md
+          - Panel: app-development/ui-components/panel.md
+          - Grid: app-development/ui-components/grid.md
+          - Flows: app-development/ui-components/flows.md
+      - Dataflow:
+          - app-development/data-flow-components/index.md
+          - Input Steps: app-development/data-flow-components/input-steps.md
+          - Get values from connector: app-development/data-flow-components/get-values-from-connector.md
+          - Subscribe to connector: app-development/data-flow-components/subscribe-to-connector.md
+          - Get Action Model: app-development/data-flow-components/get-action-model.md
+          - Get workflow model: app-development/data-flow-components/get-workflow-model.md
+          - Get Empty Model: app-development/data-flow-components/get-empty-model.md
+          - Proxy get entry: app-development/data-flow-components/proxy-get-entry.md
+          - Proxy query entry: app-development/data-flow-components/proxy-query-entry.md
+          - Get raw model: app-development/data-flow-components/get-raw-model.md
+          - Import file: app-development/data-flow-components/import-file.md
+          - Model Transformation Steps: app-development/data-flow-components/model-transformation-steps.md
+          - Transform model: app-development/data-flow-components/transform-model.md
+          - Join models: app-development/data-flow-components/join-modes.md
+          - Extract collection: app-development/data-flow-components/extract-collections.md
+          - Filter source: app-development/data-flow-components/filter-source.md
+          - Lookup reference: app-development/data-flow-components/lookup-reference.md
+          - Execute script: app-development/data-flow-components/execute-script.md
+          - Query entity by filter: app-development/data-flow-components/query-entity-by-filter.md
+          - Select many: app-development/data-flow-components/select-many.md
+          - Get entity by id: app-development/data-flow-components/get-entity-by-id.md
+          - Load catalogs by key: app-development/data-flow-components/load-catalogs-by-key.md
+          - Distinct: app-development/data-flow-components/distinct.md
+          - Group By: app-development/data-flow-components/group-by.md
+          - Calculate array: app-development/data-flow-components/calculate-array.md
+          - Simple math: app-development/data-flow-components/simple-math.md
+          - Execute dataflow: app-development/data-flow-components/execute-dataflow.md
+          - Get file info: app-development/data-flow-components/get-file-info.md
+          - User Contexts Steps: app-development/data-flow-components/user-contexts-steps.md
+          - Register context for model: app-development/data-flow-components/register-context-for-model.md
+          - Register external user: app-development/data-flow-components/register-external-user.md
+          - Prepare external keys: app-development/data-flow-components/prepare-external-keys.md
+          - Assign context role for model: app-development/data-flow-components/assign-context-role-for-model.md
+          - Get one-time code for user: app-development/data-flow-components/get-one-time-code-for-user.md
+          - Confirm one-time code for user: app-development/data-flow-components/confirm-one-time-code-for-user.md
+          - Update or create user info: app-development/data-flow-components/update-or-create-user-info.md
+          - Get user info: app-development/data-flow-components/get-user-info.md
+          - Login with password: app-development/data-flow-components/login-with-password.md
+          - Reset user password request: app-development/data-flow-components/reset-user-password-request.md
+          - Confirm user email request: app-development/data-flow-components/confirm-user-email-request.md
+          - Send templated notification: app-development/data-flow-components/send-templated-notification.md
+          - Send notification: app-development/data-flow-components/send-notification.md
+          - Remove assigned roles for user: app-development/data-flow-components/remove-assigned-roles-for-user.md
+          - Output Steps: app-development/data-flow-components/output-steps.md
+          - Store entry over bus: app-development/data-flow-components/store-entry-over-bus.md
+          - Update entry: app-development/data-flow-components/update-entry.md
+          - Deferred update entry: app-development/data-flow-components/deferred-update-entry.md
+          - Apply deferred update operations: app-development/data-flow-components/apply-deferred-update-operations.md
+          - Execute API call: app-development/data-flow-components/execute-api-call.md
+          - Write response: app-development/data-flow-components/write-response.md
+          - Form action: app-development/data-flow-components/form-action.md
+          - Execute Workflow: app-development/data-flow-components/execute-workflow.md
+          - Export to File: app-development/data-flow-components/export-to-file.md
+          - Render template: app-development/data-flow-components/render-template.md
+      - Workflow:
+          - app-development/workflow-components/index.md
+          - Notifications Steps: app-development/workflow-components/notifications-steps.md
+          - Send notification: app-development/workflow-components/send-notification.md
+          - Send templated notification: app-development/workflow-components/send-templated-notification.md
+          - Get user confirmation: app-development/workflow-components/get-user-confirmation.md
+          - Integrations Steps: app-development/workflow-components/integrations-steps.md
+          - Execute dataflow: app-development/workflow-components/execute-data-flow.md
+          - Common Steps: app-development/workflow-components/common-steps.md
+          - Update model: app-development/workflow-components/update-model.md
+          - Finish: app-development/workflow-components/finish.md
+          - Update model field: app-development/workflow-components/update-model-field.md
+          - Reset to draft: app-development/workflow-components/reset-to-draft.md
+          - Conditions Steps: app-development/workflow-components/conditions-steps.md
+          - Switch case: app-development/workflow-components/switch-case.md
+          - If Condition: app-development/workflow-components/if-condition.md
+      - Using Python: app-development/using-python.md
+      - Publications: app-development/publishing-applications.md
+
+  - Tutorials:
+      - tutorials/index.md
+      - Tutorial №1: tutorials/01-basic-setup.md
+      - Tutorial №2: tutorials/02-data-flow.md
+      - Tutorial №3: tutorials/03-workflow.md
+  - Release Notes: release-notes.md

@@ -1,0 +1,187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:2
+msgid "Apply deferred update operations"
+msgstr "Apply deferred update operations"
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:12
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:13
+msgid ""
+"Шаг \"Apply Deferred Update Operations\" отвечает за массовое применение "
+"обновлений, которые были подготовлены с помощью серии шагов \"Deferred "
+"Update Entry\". Этот шаг позволяет выполнять накопленные операции "
+"обновления в эффективной манере, применяя их все сразу. <br>"
+msgstr ""
+"The “Apply Deferred Update Operations” step is used for the bulk "
+"application of updates that have been prepared using the “Deferred Update"
+" Entry” series of steps. This step allows you to perform the accumulated "
+"update operations in an efficient manner by applying them all at once. "
+"<br>"
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:16
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:17
+msgid "**Настройки Шага:**"
+msgstr "**Step Settings:**"
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:5
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:5
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:5
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:5
+msgid "Step name"
+msgstr "Step name"
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:5
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:5
+msgid "Наименование шага"
+msgstr "Name of the step"
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:5
+msgid "Batch chunk size"
+msgstr "Batch chunk size"
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:5
+msgid "1000"
+msgstr "1000"
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:5
+msgid "Размер пакета данных для обработки"
+msgstr "Size of the data batch to be processed"
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:5
+msgid "Batch idle timeout in ms"
+msgstr "Batch idle timeout in ms"
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:5
+msgid "Время ожидания в миллисекундах между пакетами"
+msgstr "Idle timeout in milliseconds between batches"
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:5
+msgid "Parallel number of batches"
+msgstr "Parallel number of batches"
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:5
+msgid "0"
+msgstr "0"
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:5
+msgid "Количество параллельно обрабатываемых пакетов данных"
+msgstr "Number of data batches processed in parallel"
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:28
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:29
+msgid ""
+"**Массовое применение обновлений**: Идеально подходит для сценариев, где "
+"требуется массовое обновление данных, например, при синхронизации "
+"большого объема данных или при необходимости быстро внести изменения в "
+"несколько компонентов системы."
+msgstr ""
+"**Bulk Update Application**: Ideal for scenarios where you need to update"
+" data in bulk, such as when you synchronize a large amount of data or "
+"when you need to quickly make changes to multiple system components."
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:30
+msgid ""
+"**Оптимизация производительности**: Позволяет улучшить производительность"
+" при массовых обновлениях за счет параллельной обработки и эффективного "
+"управления пакетами данных. <br>"
+msgstr ""
+"**Performance Optimization**: Improves performance for bulk updates via "
+"parallel processing and efficient management of data batches. <br>"
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:33
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:34
+msgid ""
+"**Управление последовательностью обновлений**: Важно обеспечить "
+"корректную последовательность обновлений, особенно если данные в разных "
+"шагах \"Deferred Update Entry\" взаимосвязаны."
+msgstr ""
+"**Update Sequence Management**: It is important to ensure that updates "
+"are sequenced correctly, especially if the data in the different steps of"
+" the “Deferred Update Entry” are interrelated."
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:35
+msgid ""
+"**Настройка параметров пакетной обработки**: Необходимо аккуратно "
+"настроить параметры, такие как размер пакета и количество параллельных "
+"пакетов, чтобы избежать перегрузки системы и гарантировать эффективное "
+"выполнение обновлений. <br>"
+msgstr ""
+"**Configuring Batch Processing Parameters**: Parameters such as batch "
+"size and number of parallel batches must be carefully configured to avoid"
+" overloading the system and ensure that updates are performed "
+"efficiently."
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:38
+msgid "Вариант применения"
+msgstr "Application scenario"
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:40
+msgid ""
+"В компоненте с кастомным дефинишеном настраивается датафлоу для "
+"обновления записей. Пользователь начинает с извлечения модели действия с "
+"помощью шага Get action model. Затем используется шаг Deferred update "
+"entry для отложенного обновления записей, где пользователь может указать "
+"компонент, идентификатор компонента, а также соответствия полей. Шаг "
+"Apply deferred update позволяет настраивать параметры пакетной обработки "
+"и параллельного выполнения. После выполнения этих шагов компонент готов к"
+" обновлению, созданию или удалению записей, что происходит на фронтенде "
+"при взаимодействии с соответствующими элементами интерфейса."
+msgstr ""
+"The component with a custom definition configures a data flow for updating records. Users start by extracting the action model using the "Get action model" step. Then, the "Deferred update entry" step is used for deferred updates of records, where users can specify the component, component ID, and field mappings. The "Apply deferred update" step allows configuring batch processing and parallel execution parameters. After completing these steps, the component is ready for updating, creating, or deleting records, which occurs on the frontend when interacting with the corresponding interface elements."
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:42
+msgid ""
+"Вы можете скачать конфигурацию компонента "
+"[здесь](https://drive.google.com/file/d/16uo9P5IWDv-"
+"QnT749fYDISyyWEbKrDVR/view?usp=sharing)"
+msgstr ""
+"You can download the component configuration "
+"[here](https://drive.google.com/file/d/16uo9P5IWDv-"
+"QnT749fYDISyyWEbKrDVR/view?usp=sharing)"
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

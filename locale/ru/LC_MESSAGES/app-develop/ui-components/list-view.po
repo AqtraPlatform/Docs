@@ -1,0 +1,378 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 08:10+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/ui-components/list-view.md:2
+msgid "List view"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:12
+msgid "Основные сведения"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:13
+msgid ""
+"\"List View\" - это UI-Компонент для отображения и настройки контейнера "
+"“карточного” представления данных. <br>"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:16
+msgid "Параметры"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:17
+msgid "**Component properties**"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Группа настроек"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Поле настройки"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Варианты значений"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Назначение"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Name"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "-"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Наименование UI Компонента в системе"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Common"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Component"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Множественный выбор Catalog"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Содержит список из всех Компонентов"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Number of columns"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Количество столбцов контейнера"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Number of rows"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Количество строк контейнера"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Column gap"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Расстояние между столбцами"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Row gap"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Расстояние между строками"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Page size"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Размер контейнера"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Manual reload"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "true, false"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Возможность ручной перезагрузки данных"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Hide page selector"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Скрыть селектор страницы"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Enable drag and drop"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Включить перетаскивание"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Drag and drop group"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Группа для перетаскивания(если таковая имеется)"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Automation id"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Идентификатор для автоматизации"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Events"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "On datasource loaded"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Событие при загрузке источника данных"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "On loaded"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Событие при загрузке компонента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "On drop"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Событие при перетаскивании"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:38
+msgid "**CSS properties**"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Layout"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Width"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Ширина компонента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Height"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Высота компонента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Margin"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Внешний отступ компонента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Padding"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Внутренний отступ компонента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Visible"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Видимость компонента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Hidden"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Скрытость компонента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Orientation"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Horizontal, Vertical"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Ориентация компонента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Appearance"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "CornerRadius"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Радиус скругления углов"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "BorderThickness"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Толщина границы компонента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Opacity"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Прозрачность компонента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Brush"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Background"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Цвет фона компонента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "BorderBrush"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:5
+msgid "Цвет границы компонента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:58
+msgid "Использование drag-and-drop"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:59
+msgid "Сперва в группе настроек \"Common\" необходимо выбрать следующий параметр:"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:68
+msgid ""
+"После сохранения и публикации применение drag-and-drop уже будет доступно"
+" для данного list-view на work-place. Для последующей корректной работы "
+"Вам необходимо перейти в component script и подготовить функцию обработки"
+" события перетаскивания(on drop)."
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:70
+msgid ""
+"Ниже приведен пример функции, применяемой к canban-доске, состоящей из "
+"основного list-view и вложенного. Основной выполняет функцию стадий "
+"воронки продаж и переведен в горизонтальное положение, а вложенный в него"
+" содержит сами сделки и находится в вертикальном положении. Функция "
+"забирает ID перетаскиваемого объекта(в данном случае - сделки) и стадию, "
+"в которую сделка переводится, затем вызывает dataflow и при его успешном "
+"выполнении обновляет list-view, переводя сделку в новую стадию: <br>"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:110
+msgid "Кейсы"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:111
+msgid ""
+"**Отображение данных**: Эффективно для представления данных в виде "
+"карточек или списков."
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:112
+msgid ""
+"**Интерфейс пользователя**: Подходит для интерфейсов, требующих "
+"карточного или списочного представления информации. <br>"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:115
+msgid "Исключения"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:116
+msgid ""
+"**Ограниченная гибкость**: Не подходит для отображения данных вне "
+"карточного формата или списков, так как специализирован на определенном "
+"визуальном представлении"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/list-view.md:117
+msgid ""
+"**Визуальные ограничения**: Стиль и внешний вид могут быть ограничены "
+"параметрами CSS, что может не соответствовать всем дизайнерским "
+"требованиям."
+msgstr ""
+

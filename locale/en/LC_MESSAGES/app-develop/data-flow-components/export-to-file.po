@@ -1,0 +1,210 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:1
+msgid "Export to File"
+msgstr "Export to File"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:12
+msgid ""
+"Шаг \"Export to File\" используется для экспорта данных из внутренней "
+"модели Dataflow в структурированный файл. Этот шаг поддерживает создание "
+"файлов в форматах CSV, Excel и JSON, позволяя эффективно передавать и "
+"распространять обработанные данные. <br>"
+msgstr ""
+"The “Export to File” step is used to export data from the internal "
+"Dataflow model to a structured file. This step supports the creation of "
+"files in CSV, Excel and JSON formats, allowing you to efficiently "
+"transfer and distribute processed data. <br>"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:15
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:16
+msgid "**Настройки Шага:**"
+msgstr "**Step Settings:**"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Step name"
+msgstr "Step name"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Наименование шага"
+msgstr "Name of the step"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Source Step"
+msgstr "Source Step"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Выбор из предыдущих шагов для источника данных"
+msgstr "Selecting from previous steps for data source"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Output file type"
+msgstr "Output file type"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Csv, Excel, JSON"
+msgstr "Csv, Excel, JSON"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Формат файла для экспорта"
+msgstr "Export file format"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "File name"
+msgstr "File name"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Имя файла для экспорта"
+msgstr "Export file name"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Column separator"
+msgstr "Column separator"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "; (default)"
+msgstr "; (default)"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Разделитель для CSV файла (по умолчанию \";\")"
+msgstr "CSV file separator (default \";\")"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Worksheet name(Если Iput file type = Excel)"
+msgstr "Worksheet name (If Iput file type = Excel)"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Имя листа в Excel файле"
+msgstr "Sheet name in Excel file"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Fields mapping"
+msgstr "Fields mapping"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Сопоставление полей модели Dataflow и структуры файла"
+msgstr "Mapping Dataflow model fields and file structure"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:30
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:31
+msgid ""
+"**Распространение данных**: Идеально подходит для создания отчетов, "
+"распределения информации среди клиентов или партнеров и передачи данных "
+"между различными системами или отделами."
+msgstr ""
+"**Data Distribution**: Ideal for creating reports, distributing "
+"information to clients or partners, and transferring data between "
+"different systems or departments."
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:32
+msgid ""
+"**Архивация данных**: Может использоваться для сохранения важной "
+"информации в структурированном и легко доступном формате."
+msgstr ""
+"**Data Archiving**: Can be used to store important information in a "
+"structured and easily accessible format."
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:33
+msgid ""
+"**Интеграция с другими системами**: Позволяет готовить данные для "
+"последующей интеграции или обработки другими системами, которые "
+"поддерживают форматы CSV, Excel или JSON. <br>"
+msgstr ""
+"**Integration with other systems**: Allows you to prepare data for "
+"subsequent integration or processing by other systems that support CSV, "
+"Excel or JSON formats. <br>"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:36
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:37
+msgid ""
+"**Соблюдение формата файла**: Важно точно настроить параметры экспорта, "
+"чтобы обеспечить совместимость сформированных файлов с ожиданиями и "
+"требованиями конечных пользователей или систем."
+msgstr ""
+"**File format compatibility**: It is important to fine-tune export "
+"settings to ensure that the generated files are compatible with the "
+"expectations and requirements of end users or systems."
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:38
+msgid ""
+"**Оптимизация производительности при больших объемах данных**: При "
+"экспорте больших объемов данных необходимо учитывать производительность и"
+" возможные ограничения на размер файлов(по умолчанию 1 МБ). <br>"
+msgstr ""
+"**Optimizing performance for large volumes of data**: When exporting "
+"large volumes of data, you need to consider performance and possible file"
+" size restrictions (default 1 MB)."
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:41
+msgid "Вариант применения"
+msgstr "Application scenario"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:43
+msgid ""
+"Созданный компонент представляет собой инструмент для экспорта данных из "
+"системы. Он включает в себя несколько шагов, таких как получение модели "
+"данных, фильтрация и экспорт в файл Excel. Пользователь может настроить "
+"фильтрацию данных перед экспортом и скачать результаты в удобном формате,"
+" используя кнопку на пользовательском интерфейсе."
+msgstr ""
+"The created component serves as a tool for exporting data from the system. It includes several steps such as fetching the data model, filtering, and exporting to an Excel file. The user can customize data filtering before exporting and download the results in a convenient format using the button on the user interface."
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:45
+msgid ""
+"Вы можете скачать конфигурацию компонента "
+"[здесь](https://drive.google.com/file/d/1haTgN7Qyu6rD3GSYcDKPEMu3V_KcOdVt/view?usp=sharing)"
+msgstr ""
+"You can download the component configuration "
+"[here](https://drive.google.com/file/d/1haTgN7Qyu6rD3GSYcDKPEMu3V_KcOdVt/view?usp=sharing)."
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

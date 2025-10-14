@@ -1,0 +1,747 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/using-python.md:2
+msgid "Использование Python"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:5
+msgid "Введение"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:6
+msgid ""
+"Платформа предоставляет возможность использовать Python для различных "
+"целей, благодаря его удобству и широкому распространению как языка "
+"сценариев и программирования. Сценарии Python на платформе должны "
+"соответствовать версии 3.0, как описано в [официальной документации "
+"Python](https://docs.python.org/3/). Полное руководство разработчика "
+"доступно в [Руководстве разработчика Python](https://docs.python.org/3/)."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:8
+msgid ""
+"Python на платформе называется Iron Python, обеспечивающим взаимодействие"
+" с кодом C#. Он включает в себя две основные библиотеки - `clr` и "
+"`system`, которые обеспечивают доступ к сущностям платформы. <br> <br>"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:13
+msgid "Меню библиотеки Python"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:14
+msgid ""
+"В этом меню вы можете добавлять общие модули Python, которые становятся "
+"доступными на front-end (в Component Script) и на back-end (в шаге "
+"Execute Script для dataflow). <br> <br>"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:18
+msgid "Просмотр общих модулей Python"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:19
+msgid ""
+"В меню \"Python modules\" отображается список уже добавленных модулей, "
+"включая информацию о доступности модуля для front-end, back-end или "
+"обоих."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:27
+msgid "Добавление нового модуля"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:28
+msgid "При нажатии на кнопку \"Add\" открывается окно добавления нового модуля."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:35
+msgid "В этом окне вы можете:"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:36
+msgid "Выбрать тип доступности нового модуля (front, back или both)."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:37
+msgid "Указать имя нового модуля для импорта."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:38
+msgid "Вставить и проверить код модуля через \"Compile\". <br> <br>"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:42
+msgid "Платформа и Python"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:43
+msgid ""
+"Python может использоваться как часть Component Script для каждого "
+"компонента, позволяя контролировать формы приложений, а также как часть "
+"Dataflow через шаг Execute Script."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:45
+msgid ""
+"Функции могут быть вызваны различными способами, например, одним из "
+"контролей UI при наступлении определенных событий."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:47
+msgid ""
+"Для доступа к компонентам платформы необходимо импортировать библиотеки "
+"IronPython (`clr` и `system`) и использовать системную переменную "
+"`context`. <br> <br>"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:51
+msgid "`context.Model` & `context.DataModel`"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:52
+msgid ""
+"`context.Model` & `context.DataModel` предоставляют доступ к различным "
+"полям данных модели Platform."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:53
+msgid ""
+"Рекомендуется использовать `context.DataModel` для доступа к "
+"настраиваемым полям и `context.Model` для доступа к внутренним полям "
+"компонента по умолчанию. <br> <br>"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:57
+msgid "`context.Properties`"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:58
+msgid ""
+"`context.Properties` позволяет управлять элементами управления "
+"пользовательского интерфейса, например, изменять их видимость или "
+"доступность. Пример:"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:65
+msgid "`context.Form`"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:66
+msgid ""
+"`context.Form` используется для доступа к данным формы или управления "
+"визуальным представлением формы, например, для настройки сообщений об "
+"ошибках. Доступные функции:"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:69
+msgid ""
+"`context.Form.Get().SetValue()` — устанавливает значение для "
+"определенного элемента управления пользовательского интерфейса в текущей "
+"форме."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:70
+msgid ""
+"`context.Form.Get().AddError()` — устанавливает сообщение об ошибке, "
+"отображаемое под определенным элементом управления пользовательского "
+"интерфейса в текущей форме."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:71
+msgid ""
+"`context.Form.Get().ClearError()` — очищает сообщение об ошибке, "
+"показанное под конкретным элементом управления пользовательского "
+"интерфейса в текущей форме."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:73
+msgid "Пример:"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:83
+msgid "`context.Commands`"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:84
+msgid ""
+"`context.Commands` можно использовать для управления пользовательским "
+"интерфейсом исполняемого в данный момент компонента, изменения "
+"содержимого текущей формы, открытия разных страниц, открытия новых "
+"компонентов, возврата на предыдущую страницу или даже запуска новых "
+"Workflows, Dataflows или Scripts."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:86
+msgid "Примеры доступных функции context.Commands:"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:88
+msgid ""
+"`context.Commands.AddItem (GUID)`: Добавить элемент управления "
+"пользовательским интерфейсом на страницу с помощью GUID."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:89
+msgid ""
+"`context.Commands.ChangePageAsync (GUID)`: Открыть страницу, используя ее"
+" GUID."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:90
+msgid ""
+"`context.Commands.ChangePageByName (\"ИмяСтраницы\")`: Измените текущую "
+"страницу компонента на новую страницу, используя внутреннее имя."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:91
+msgid ""
+"`context.Commands.OpenComponent (GUID ComponentID, GUID PageID)`: Открыть"
+" новый компонент и определенную страницу внутри компонента."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:92
+msgid ""
+"`context.Commands.EditItem (GUID UI_ControlID, EntityId)`: Смещение "
+"фокуса пользовательского интерфейса на конкретный элемент управления "
+"пользовательского интерфейса и определенные данные (используя его "
+"внутренний идентификатор)."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:93
+msgid ""
+"`context.Commands.ExecuteWorkflow (GUID WorkflowID)`: Выполнить workflow,"
+" используя его идентификатор."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:94
+msgid ""
+"`context.Commands.ExecuteDataflow (GUID DataflowID, ContextID)`: "
+"Выполнить dataflow, используя его GUID и указанный контекст данных."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:95
+msgid ""
+"`context.Commands.ExecuteScript (\"ScriptName\", \"ScriptParams\")`: "
+"Выполнить скрипт (функцию) из Component Script с некоторыми параметрами. "
+"<br> <br>"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:99
+msgid "`context.Logger`"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:100
+msgid ""
+"Функции из `context.Logger` позволяют записывать информацию из Component "
+"Script в консоль браузера."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:102
+msgid ""
+"Текущая версия `context.Logger` включает в себя следующие методы, которые"
+" отличаются тем, как соответствующие сообщения показываются в консоли "
+"браузера (например, Info - черный цвет, Error - красный цвет и т.д.):"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:104
+msgid ""
+"`context.Logger.Info(String)`: Записывает информационное сообщение в "
+"консоль браузера."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:105
+msgid ""
+"`context.Logger.Error(String)`: Записывает сообщение об ошибке в консоль "
+"браузера."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:106
+msgid ""
+"`context.Logger.Trace(String)`: Записывает трассировочное сообщение в "
+"консоль браузера."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:107
+msgid ""
+"`context.Logger.Error(Exception, String)`: Записывает сообщение об ошибке"
+" и информацию об исключении в консоль браузера. <br>"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:110
+msgid ""
+"Пример функции из Component Script, которая выводит строку \"Show model "
+"info\" и значение поля `Property_1`:"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:119
+msgid "`context.PlatformServices`"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:120
+msgid "Обновлено до версии 0.7.0"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:122
+msgid ""
+"Функции `context.PlatformServices` включают в себя широкий набор функций,"
+" доступных на различных платформах (web, mobile), плюс функции по "
+"построению и показу модальных окон и окон типа sidebar."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:124
+msgid "Следующие методы доступны как часть `context.PlatformServices`:"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:127
+msgid ""
+"`context.PlatformServices.Device()`: Возвращает тип устройства (Browser, "
+"Android, iOS)."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:128
+msgid ""
+"`context.PlatformServices.FingerpintAvailible()`: Возвращает `True`, если"
+" есть сканер отпечатка пальцев."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:129
+msgid ""
+"`context.PlatformServices.EnableFingerpint()`: Разрешает сканер отпечатка"
+" пальцев."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:130
+msgid ""
+"`context.PlatformServices.DisableFingerpint()`: Запрещает сканер "
+"отпечатка пальцев."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:131
+msgid ""
+"`context.PlatformServices.FingerpintEnabled()`: Проверяет, разрешен ли "
+"сканер отпечатка пальцев."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:132
+msgid "`context.PlatformServices.SetAppLock()`: Устанавливает lock на приложение."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:133
+msgid ""
+"`context.PlatformServices.ChangeAppPinLock()`: Устанавливает PIN на lock "
+"на приложение."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:134
+msgid ""
+"`context.PlatformServices.AppLockEnabled()`: Проверяет, установлен ли "
+"lock на приложение."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:135
+msgid ""
+"`context.PlatformServices.ScanBarcode(BarcodeType)`: Сканирует баркод по "
+"выставленному типу."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:136
+msgid ""
+"`context.PlatformServices.OpenUrl(“url”)`: Открывает новую закладку в "
+"браузере по предоставленному URL."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:137
+msgid ""
+"`context.PlatformServices.OpenFromBase64Url(url)`: Открывает новую "
+"закладку в браузере по предоставленному Base64 URL."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:138
+msgid ""
+"`context.PlatformServices.OpenApp(appUrl)`: Открывает приложение по "
+"предоставленному URL."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:139
+msgid ""
+"`context.PlatformServices.CanOpenApp(params string[] appUrls)`: Проверка "
+"возможности открытия приложения на устройстве."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:140
+msgid "`context.PlatformServices.CanUsePayment()`: Проверка возможности оплаты."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:141
+msgid "`context.PlatformServices.StartPayment()`: Запускает процесс оплаты."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:142
+msgid "`context.PlatformServices.SMSRetriever()`: Позволяет получить SMS."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:143
+msgid ""
+"`context.PlatformServices.ShowDialog(string message, string title)`: "
+"Показывает простой диалог с кнопкой ОК."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:144
+msgid ""
+"`context.PlatformServices.ShowDialog(ComponentID, title, hSize, vSize, "
+"style)`: Показывает простой диалог по ID компонента с заданными "
+"размерами, заголовком и передачей CSS стилей."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:145
+msgid ""
+"`context.PlatformServices.Confirm(string message, string title = “”)`: "
+"Показывает диалог с кнопками Yes/No."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:146
+msgid ""
+"`context.PlatformServices.GeolocationPosition()`: Возвращает текущую "
+"геолокацию. <br>"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:149
+msgid "Пример использования `context.PlatformServices.GeolocationPosition`:"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:167
+msgid "Пример использования функции `context.PlatformServices.Confirm`:"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:182
+msgid ""
+"Следующая группа функций используется для определения того, на каком "
+"устройстве и в каком разрешении открыт интерфейс у текущего пользователя:"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:184
+msgid ""
+"`context.PlatformServices.IsDesktop()`: Возвращает `True`, если интерфейс"
+" открыт на десктопе."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:185
+msgid ""
+"`context.PlatformServices.IsMobile()`: Возвращает `True`, если интерфейс "
+"открыт на мобильном устройстве."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:186
+msgid ""
+"`context.PlatformServices.IsExtraSmall()`: Возвращает `True`, если "
+"интерфейс открыт на экране размером меньше 576px."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:187
+msgid ""
+"`context.PlatformServices.IsSmall()`: Возвращает `True`, если интерфейс "
+"открыт на экране размером больше 576px."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:188
+msgid ""
+"`context.PlatformServices.IsMedium()`: Возвращает `True`, если интерфейс "
+"открыт на экране размером больше 768px."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:189
+msgid ""
+"`context.PlatformServices.IsLarge()`: Возвращает `True`, если интерфейс "
+"открыт на экране размером больше 992px."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:190
+msgid ""
+"`context.PlatformServices.IsExtraLarge()`: Возвращает `True`, если "
+"интерфейс открыт на экране размером больше 1200px."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:195
+msgid "`context.PlatformServices.Sidebar.Builder`"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:196
+msgid ""
+"`context.PlatformServices.Sidebar.Builder` используется для создания "
+"окон, открывающихся в одной из заданных позиций относительно главного "
+"окна (формы) приложения - сверху, снизу, справа или слева."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:198
+msgid ""
+"Перед так как sidebar может быть вызван, он должен быть построен "
+"следующим образом:"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:209
+msgid "Функции для открытия sidebar в разных позициях:"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:227
+msgid "`context.PlatformServices.DialogBuilder`"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:228
+msgid ""
+"Функции `context.PlatformServices.DialogBuilder` используются для "
+"создания модальных окон, открывающихся поверх текущего окна (формы) "
+"приложения."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:230
+msgid ""
+"Пример набора функций, которые создают и показывают модальное окно поверх"
+" текущего окна. Важно изменить ID компонента и окна (page), которые будут"
+" использоваться:"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:256
+msgid "`context.SessionManager`"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:257
+msgid ""
+"`context.SessionManager` можно использовать для получения данных о "
+"пользовательском token, а так же для принудительного выхода из сессии."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:259
+#: ../../src/app-develop/using-python.md:271
+#: ../../src/app-develop/using-python.md:283
+#: ../../src/app-develop/using-python.md:292
+msgid "Доступные методы:"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:261
+msgid "`context.SessionManager.GetAccessToken()`: Получает текущий токен."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:262
+msgid "`context.SessionManager.UpdateToken(token)`: Обновляет токен на новый."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:263
+msgid ""
+"`context.SessionManager.LogOut()`: Завершает текущую сессию для "
+"пользователя (user logout). <br> <br>"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:267
+msgid "`context.Runtime`"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:269
+msgid ""
+"`context.Runtime` можно использовать для вызова функций JavaScript. Void "
+"для вызова функций без возвращаемого значения. Async для асинхронного "
+"вызова."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:273
+msgid "`context.Runtime.Invoke()`: Вызывает функцию."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:274
+msgid ""
+"`context.Runtime.InvokeVoid()`: Вызывает функцию без возвращаемого "
+"значения."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:275
+msgid "`context.Runtime.InvokeAsync()`: Асинхронно вызывает функцию."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:276
+msgid ""
+"`context.Runtime.InvokeVoidAsync()`: Асинхронно вызывает функцию без "
+"возвращаемого значения. <br> <br>"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:280
+msgid "`context.UserInfo`"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:281
+msgid ""
+"`context.UserInfo` можно использовать для работы с учетной записью "
+"пользователя."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:284
+msgid "`context.UserInfo.Identity()`: Получает информацию о текущем пользователе."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:285
+msgid ""
+"`context.UserInfo.Identities()`: Получает список всех идентификаторов "
+"пользователя. <br> <br>"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:289
+msgid "`context.ConfirmationServices`"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:290
+msgid ""
+"`context.ConfirmationServices` можно использовать для открытия простых "
+"диалогов."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:293
+msgid ""
+"`context.ConfirmationServices.Confirm(message, header, icon)`: Простой "
+"диалог подтверждения с указанным сообщением, заголовком и иконкой."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:294
+msgid ""
+"`context.ConfirmationServices.ConfirmAsync(message, header, icon)`: "
+"Простой немодальный диалог подтверждения с указанным сообщением, "
+"заголовком и иконкой."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:295
+msgid ""
+"`context.ConfirmationServices.StateTheReason(header)`: Простой диалог с "
+"заголовком и кнопкой ОК. <br> <br>"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:300
+msgid ""
+"`smth.Busy(boolean)`, `smth.Error(boolean, string)`, "
+"`smth.GetDynamicFilterValue(string)`"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:302
+msgid ""
+"Метод `Busy(boolean)` переводит UIElement в статус загрузки, показывает "
+"или убирает прелоадер. Метод `Error(boolean, string)` переводит UIElement"
+" в статус ошибки, показывает сообщение об ошибке. Метод "
+"`GetDynamicFilterValue(string)` вычисляет занчение Dynamic фильтра. Если "
+"на одно поле есть два фильтра, будет вычислен первый по списку"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:306
+msgid "Примеры:"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:338
+msgid "Загрузка картинок через http.client и file storage"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:339
+msgid "**Доступно только в скриптах `Dataflow`:**"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:361
+msgid "SIP в Component Script"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:363
+msgid ""
+"**Проверка доступности SIP**: Вы можете управлять доступностью SIP, "
+"обратившись к свойству Enabled."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:373
+msgid ""
+"**Реакция на события звонков**: Вы можете подписаться на различные "
+"события, такие как создание исходящего звонка, получение входящего "
+"звонка, завершение звонка и ответ на звонок."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:395
+msgid ""
+"**Вызов и завершение звонка**: Вы можете совершать вызов и завершать "
+"звонок с помощью следующих методов:"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:407
+msgid ""
+"**Создание компонента телефона**: Вы можете дополнительно создать "
+"компонент, который будет отображаться при событии звонка в рамках "
+"небольшой технической области."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:414
+msgid "Про его настройку можно почитать ниже. <br>"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:418
+msgid ""
+"**Настройка параметров и стилей компонента**: Эти методы позволяют "
+"регистрировать параметры, идентификаторы страниц и стили компонентов "
+"телефона, а также идентификаторы записей, если необходимо:"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:436
+msgid "Запросы к сервису catalogs из скриптов сценариев data-flow"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:438
+msgid ""
+"Этот код использует модуль Python под названием `catalogs`. В нем "
+"выполняется SQL-запрос для выборки данных из таблицы с идентификатором "
+"\"f28ff85c-ddad-4704-bb80-407bc45315ab\". Запрос выбирает поля `\"Id\"`, "
+"`\"Name\"` и `\"Data_Property_1\"`, где значение поля `\"Name\"` равно "
+"определенному значению (в данном случае `\"test name\"`). Результат "
+"выполнения запроса записывается в переменную `query_result`."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:456
+msgid "Добавление методов CRUD для скриптов сценариев data-flow"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:458
+msgid ""
+"**Добавление методов CRUD для работы с сущностями**: В данном коде "
+"используется библиотека `catalogs`, которая предоставляет методы для "
+"работы с сущностями (entity sets). Сначала создается экземпляр сущности "
+"entity_set с указанием соответствующего идентификатора. Затем формируются"
+" операции создания, обновления и удаления записей с использованием "
+"методов `create()`, `update()` и `delete()` соответственно. Для каждой "
+"операции устанавливаются соответствующие свойства и выполняются "
+"соответствующие команды."
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:497
+msgid "Методы расширения для работы с JSON"
+msgstr ""
+
+#: ../../src/app-develop/using-python.md:499
+msgid ""
+"В данном коде используется библиотека `json_extensions`, которая "
+"предоставляет методы для работы с JSON-данными. Например, методы "
+"`select_token()` и `select_tokens()` используются для выбора элементов по"
+" указанному пути или запросу. Методы `is_null()` и `is_undefined()` "
+"используются для проверки типа элемента на значение Null или undefined "
+"соответственно."
+msgstr ""
+

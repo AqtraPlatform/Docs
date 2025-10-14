@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-24 15:27+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../src/user-interface/localizations.md:2
+msgid "Меню Localizations"
+msgstr ""
+
+#: ../../src/user-interface/localizations.md:5
+msgid ""
+"Платформа предоставляет обширные возможности для создания многоязычных "
+"пользовательских интерфейсов, облегчая разработку приложений, "
+"поддерживающих глобальную аудиторию. На данный момент платформа "
+"поддерживает несколько языков, в том числе английский, турецкий и "
+"русский. Это достигается за счет использования системы локализации и "
+"ключей перевода, что позволяет динамически адаптировать интерфейс "
+"пользователя под различные языковые стандарты. Благодаря этим функциям "
+"обеспечивается гибкость и масштабируемость при разработке многоязычных "
+"приложений, делая ее идеальным решением для создания комплексных "
+"международных проектов. <br>"
+msgstr ""
+
+#: ../../src/user-interface/localizations.md:8
+msgid "Настройка translation key для UI Компонента"
+msgstr ""
+
+#: ../../src/user-interface/localizations.md:9
+msgid ""
+"При добавлении UI элементов в компонент, вы можете настроить `Translation"
+" Key` вместо статической метки."
+msgstr ""
+
+#: ../../src/user-interface/localizations.md:10
+msgid ""
+"Пример: Кнопка \"Save\" может иметь ключ перевода вместо жестко "
+"запрограммированного текста \"Save\"."
+msgstr ""
+
+#: ../../src/user-interface/localizations.md:11
+msgid "Если ключ перевода новый, введите его имя и добавьте как новый ключ."
+msgstr ""
+
+#: ../../src/user-interface/localizations.md:12
+msgid "Если ключ существует, выберите его из раскрывающегося списка."
+msgstr ""
+
+#: ../../src/user-interface/localizations.md:13
+msgid "Пример использования нового ключа:"
+msgstr ""
+
+#: ../../src/user-interface/localizations.md:15
+msgid "![Добавление нового ключа](new-translation-key.png) <br>"
+msgstr ""
+
+#: ../../src/user-interface/localizations.md:15
+msgid "Adding a New Key"
+msgstr ""
+
+#: ../../src/user-interface/localizations.md:18
+msgid "Пример использования существующего ключа:"
+msgstr ""
+
+#: ../../src/user-interface/localizations.md:20
+msgid "![Выбор существующего ключа](chose-translation-key.png) <br>"
+msgstr ""
+
+#: ../../src/user-interface/localizations.md:20
+msgid "Selecting an Existing Key"
+msgstr ""
+
+#: ../../src/user-interface/localizations.md:23
+msgid "Предоставление значений перевода для Translation Keys"
+msgstr ""
+
+#: ../../src/user-interface/localizations.md:24
+msgid "Откройте `Studio→Localizations→Localization Settings`."
+msgstr ""
+
+#: ../../src/user-interface/localizations.md:25
+msgid "Выберите ключ для редактирования и нажмите на карандаш."
+msgstr ""
+
+#: ../../src/user-interface/localizations.md:26
+msgid "Внесите изменения в значения локализации для нужных языков."
+msgstr ""
+
+#: ../../src/user-interface/localizations.md:27
+msgid "Подтвердите изменения."
+msgstr ""
+
+#: ../../src/user-interface/localizations.md:28
+msgid "Пример редактирования:"
+msgstr ""
+
+#: ../../src/user-interface/localizations.md:30
+msgid "![Редактирование локализации](locale-key-edit.png)"
+msgstr ""
+
+#: ../../src/user-interface/localizations.md:30
+msgid "Localization Editing"
+msgstr ""
+
+#~ msgid "Добавление нового ключа"
+#~ msgstr ""
+
+#~ msgid "Выбор существующего ключа"
+#~ msgstr ""
+
+#~ msgid "Редактирование локализации"
+#~ msgstr ""
+

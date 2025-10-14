@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-15 06:42+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/data-flow-components/output-steps.md:1
+msgid "ГРУППА \"OUTPUT\"|separator"
+msgstr "OUTPUT GROUP|separator"
+
+#: ../../src/app-develop/data-flow-components/output-steps.md:3
+msgid "[Store entry over bus](store-entry-over-bus.md)"
+msgstr "[Store entry over bus](store-entry-over-bus.md)"
+
+#: ../../src/app-develop/data-flow-components/output-steps.md:4
+msgid "[Update entry](update-entry.md)"
+msgstr "[Update entry](update-entry.md)"
+
+#: ../../src/app-develop/data-flow-components/output-steps.md:5
+msgid "[Deferred update entry](deferred-update-entry.md)"
+msgstr "[Deferred update entry](deferred-update-entry.md)"
+
+#: ../../src/app-develop/data-flow-components/output-steps.md:6
+msgid "[Apply deferred update operations](apply-deferred-update-operations.md)"
+msgstr "[Apply deferred update operations](apply-deferred-update-operations.md)"
+
+#: ../../src/app-develop/data-flow-components/output-steps.md:7
+msgid "[Execute api call](execute-api-call.md)"
+msgstr "[Execute api call](execute-api-call.md)"
+
+#: ../../src/app-develop/data-flow-components/output-steps.md:8
+msgid "[Write response](write-response.md)"
+msgstr "[Write response](write-response.md)"
+
+#: ../../src/app-develop/data-flow-components/output-steps.md:9
+msgid "[Form action](form-action.md)"
+msgstr "[Form action](form-action.md)"
+
+#: ../../src/app-develop/data-flow-components/output-steps.md:10
+msgid "[Execute workflow](execute-workflow.md)"
+msgstr "[Execute workflow](execute-workflow.md)"
+
+#: ../../src/app-develop/data-flow-components/output-steps.md:11
+msgid "[Export to file](export-to-file.md)"
+msgstr "[Export to file](export-to-file.md)"
+
+#: ../../src/app-develop/data-flow-components/output-steps.md:12
+msgid "[Render template](render-template.md)"
+msgstr "[Render template](render-template.md)"
+

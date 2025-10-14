@@ -1,0 +1,239 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:1
+#: ../../src/app-develop/data-flow-components/form-action.md:4
+msgid "Form action"
+msgstr "Form action"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:12
+msgid ""
+"Шаг \"Form Action\" отвечает за выполнение различных действий на "
+"пользовательском интерфейсе (UI) во фронтенд-части приложения, таких как "
+"открытие страниц, выполнение скриптов, открытие модальных окон и другие. "
+"Шаг является связующим между серверной логикой и пользовательским "
+"интерфейсом, позволяя динамически управлять поведением UI. <br>"
+msgstr ""
+"The “Form Action” step is used for performing various actions in the user"
+" interface (UI) in the frontend of the application, such as opening "
+"pages, executing scripts, opening modal windows, etc. The step is the "
+"link between the server logic and the user interface allowing you to "
+"dynamically control the behavior of the UI. <br>"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:15
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:16
+msgid "**Настройки Шага:**"
+msgstr "**Step Settings:**"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:4
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:4
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:4
+msgid "Step name"
+msgstr "Step name"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:4
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:4
+msgid "Наименование шага"
+msgstr "Name of the step"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:4
+msgid "Source step"
+msgstr "Source step"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:4
+msgid "Множественный выбор Catalog"
+msgstr "Multiselect of Catalog"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:4
+msgid "Выбор из предыдущих шагов"
+msgstr "Selection from the previous steps"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:4
+msgid ""
+"Execute script, Open page, Open component, Open Sidebar, Open Modal, Open"
+" file in new tab"
+msgstr ""
+"Execute script, Open page, Open component, Open Sidebar, Open Modal, Open"
+" file in new tab"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:4
+msgid "Тип команды для UI"
+msgstr "UI command type"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:4
+msgid "Method name"
+msgstr "Method name"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:4
+msgid "(Если выбрано Execute script)"
+msgstr "(If ‘Execute script’ is selected)"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:4
+msgid "Название скриптовой функции для исполнения"
+msgstr "Name of the script function to execute"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:4
+msgid "Open page"
+msgstr "Open page"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:4
+msgid "(Если выбрано Open page)"
+msgstr "(If ‘Open page’ is selected)"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:4
+msgid "Список страниц для открытия"
+msgstr "List of pages to open"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:4
+msgid "File info field"
+msgstr "File info field"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:4
+msgid "(Если выбрано Open file in new tab)"
+msgstr "(If ‘Open file’ in new tab is selected)"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:4
+msgid "Поле с информацией о файле для открытия"
+msgstr "File information field to open"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:4
+msgid "Open sidebar"
+msgstr "Open sidebar"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:4
+msgid "Настройки для sidebar"
+msgstr "Settings for the sidebar"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:4
+msgid "Конфигурация для открытия боковой панели"
+msgstr "Configuring to open the sidebar"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:4
+msgid "Open modal"
+msgstr "Open modal"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:4
+msgid "Настройки для modal"
+msgstr "Settings for modal windows"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:4
+msgid "Конфигурация для открытия модального окна"
+msgstr "Configuring to open a modal window"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:31
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:32
+msgid ""
+"**Динамическое управление элементами UI**: Использование \"Open Sidebar\""
+" или \"Open Modal\" позволяет динамически отображать боковые панели или "
+"модальные окна с дополнительной информацией, формами или другим "
+"контентом, что повышает интерактивность и удобство интерфейса."
+msgstr ""
+"**Dynamic UI Element Management**: Using an “Open Sidebar” or “Open "
+"Modal” allows you to dynamically display sidebars or modals with "
+"additional information, forms, or other content, which increases the "
+"interactivity and usability of the interface."
+
+#: ../../src/app-develop/data-flow-components/form-action.md:33
+msgid ""
+"**Обновление data grid**: В сценарии, когда пользователь загружает "
+"какие-то новые данные, можно повесить на form action функцию с рефрешем и"
+" датагрид обновится без рефреша страницы. <br>"
+msgstr ""
+"**Data Grid Update**: In a script where the user loads some new data, you"
+" can add a refresh function to the form and the datagrid will be updated "
+"without refreshing the page. <br>"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:36
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:37
+msgid ""
+"**Необходимость шага Write Response**: После выполнения действий, таких "
+"как открытие страницы или файла, необходимо добавить шаг \"Write "
+"Response\" для корректного завершения Dataflow."
+msgstr ""
+"**Write Response Step Required**: After performing actions such as "
+"opening a page or file, you need to add a “Write Response” step to "
+"complete the Dataflow correctly."
+
+#: ../../src/app-develop/data-flow-components/form-action.md:38
+msgid ""
+"**Зависимость от предыдущих шагов**: При использовании определенных "
+"действий, таких как \"Open file in new tab\", требуется наличие "
+"соответствующего файла, подготовленного предшествующими шагами. <br>"
+msgstr ""
+"**Dependency on Previous Steps**: When using certain actions, such as "
+"“Open file in new tab”, you need to have an appropriate file prepared by "
+"the previous steps."
+
+#: ../../src/app-develop/data-flow-components/form-action.md:41
+msgid "Вариант применения"
+msgstr "Application scenario"
+
+#: ../../src/app-develop/data-flow-components/form-action.md:43
+msgid ""
+"В этом компоненте используются различные методы в шаге Form action для "
+"взаимодействия с интерфейсом пользователя на фронтенде. Пользователь "
+"может выполнить различные действия, такие как выполнение скрипта (Execute"
+" Script), открытие страницы (Open page) или компонента (Open component), "
+"загрузка файла (Download file) и открытие файла в новой вкладке (Open "
+"file in new tab). После выполнения этих действий данные обрабатываются и "
+"отправляются обратно на фронтенд с помощью шага Write response."
+msgstr ""
+"This component employs various methods in the Form action step to interact with the user interface on the frontend. Users can perform different actions such as executing a script (Execute Script), opening a page (Open page) or a component (Open component), downloading a file (Download file), and opening a file in a new tab (Open file in new tab). After these actions are executed, the data is processed and sent back to the frontend using the Write response step."
+
+#: ../../src/app-develop/data-flow-components/form-action.md:45
+msgid ""
+"Вы можете скачать конфигурацию компонента "
+"[здесь](https://drive.google.com/file/d/1AgjjrOW-"
+"z2LPMj7sFWg_PKjHjFfVtxub/view?usp=sharing)"
+msgstr ""
+"You can download the component configuration "
+"[here](https://drive.google.com/file/d/1AgjjrOW-"
+"z2LPMj7sFWg_PKjHjFfVtxub/view?usp=sharing)"
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

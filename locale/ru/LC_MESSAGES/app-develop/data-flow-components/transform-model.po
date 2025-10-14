@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:1
+msgid "Transform model"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:11
+msgid "Основные сведения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:12
+msgid ""
+"Шаг \"Transform Model\" используется для маппинга и трансформации полей в"
+" модели данных. Это включает в себя изменение наименований полей и "
+"удаление лишних полей из модели. Шаг создает новую копию модели dataflow,"
+" позволяя модифицировать ее структуру, что часто применяется для "
+"минимизации ответа в виде модели данных. Также может использоваться для "
+"оптимизации модели данных после выполнения множественных операций "
+"группировки (Group by). <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:15
+msgid "Параметры"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:16
+msgid "**Настройки Шага:**"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:4
+msgid "Поле настройки"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:4
+msgid "Варианты значений"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:4
+msgid "Назначение"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:4
+msgid "Step name"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:4
+msgid "-"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:4
+msgid "Наименование шага"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:4
+msgid "Source step"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:4
+msgid "Выбор предыдущего шага"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:4
+msgid "Fields mapping"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:4
+msgid "Сопоставление и изменение полей в модели данных"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:26
+msgid "Кейсы"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:27
+msgid ""
+"**Оптимизация модели данных**: Используется для изменения структуры "
+"модели данных, включая переименование или удаление полей. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:30
+msgid "Исключения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:31
+msgid ""
+"**Важность точного маппинга**: Ошибки в настройке \"Fields Mapping\" "
+"могут привести к нежелательным изменениям в модели данных."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:32
+msgid ""
+"**Зависимость от исходных данных**: Корректное применение шага требует "
+"точного понимания структуры исходных данных. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:35
+msgid "Вариант применения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:37
+msgid ""
+"Данный компонент содержит датафлоу, использующийся для трансформации "
+"данных в соответствии с заданными правилами. В датафлоу присутствуют "
+"шаги, такие как Extract Collection и Execute Script, которые позволяют "
+"добавлять новые записи к массивам данных клиента."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:39
+msgid ""
+"Вы можете скачать конфигурацию компонента "
+"[здесь](https://drive.google.com/file/d/1buQNdkjcnY8wgIUM9TjjI7KoikEcSmv3/view?usp=sharing)"
+msgstr ""
+
+#~ msgid ""
+#~ "**Зависимость от исходных данных**: Корректное"
+#~ " применение шага требует точного понимания"
+#~ " структуры исходных данных."
+#~ msgstr ""
+

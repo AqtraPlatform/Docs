@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/get-action-model.md:1
+msgid "Get Action Model"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-action-model.md:11
+msgid "Основные сведения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-action-model.md:12
+msgid ""
+"Шаг \"Get Action Model\" предназначен для извлечения модели действия из "
+"определенного источника или системы. Этот шаг может использоваться для "
+"получения данных о конкретных действиях или процессах, необходимых для "
+"дальнейшей обработки или анализа в рамках dataflow. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-action-model.md:15
+msgid "Параметры"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-action-model.md:16
+msgid "**Настройки Шага:**"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-action-model.md:4
+msgid "Поле настройки"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-action-model.md:4
+msgid "Варианты значений"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-action-model.md:4
+msgid "Назначение"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-action-model.md:4
+msgid "Step name"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-action-model.md:4
+msgid "-"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-action-model.md:4
+msgid "Наименование шага"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-action-model.md:4
+msgid "Validate input values"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-action-model.md:4
+msgid "true, false"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-action-model.md:4
+msgid ""
+"Указывает, следует ли проверять входные значения на корректность перед "
+"обработкой"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-action-model.md:25
+msgid "Кейсы"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-action-model.md:26
+msgid ""
+"**Интеграция с пользовательским интерфейсом**: Часто используется как "
+"начальный шаг в dataflow, особенно когда dataflow активируется из UI, "
+"например, через кнопку. Позволяет получить текущее состояние данных "
+"компонента в момент активации."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-action-model.md:27
+msgid ""
+"**Автоматическая передача данных из UI**: При активации из элементов UI, "
+"таких как кнопки, платформа автоматически передает текущие данные "
+"компонента, включая изменения, сделанные пользователем. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-action-model.md:30
+msgid "Исключения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-action-model.md:31
+msgid ""
+"**Ограничения по полученным данным**: Шаг извлекает только данные полей "
+"(properties) компонента. Для получения переменных, установленных в "
+"Component Script, требуется использовать другие шаги, например, \"Get raw"
+" model\". <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-action-model.md:34
+msgid "Вариант применения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-action-model.md:36
+msgid ""
+"Компонент представляет собой систему для добавления и отображения данных "
+"с использованием различных типов полей. Он включает в себя возможность "
+"добавления полей различных типов в **definition** и предоставляет "
+"интерфейс на фронте для ввода значений, а также отображает данные в "
+"**датагриде** с возможностью обновления страницы. Данный компонент "
+"использует следующие **шаги датафлоу**: **Get action model**, **Update "
+"entry**, **Write response**."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-action-model.md:38
+msgid ""
+"Вы можете скачать конфигурацию компонента "
+"[здесь](https://drive.google.com/file/d/15M_FvmlFmkJXunTeeT6jtFolPvE5jCfk/view?usp=sharing)"
+msgstr ""
+
+#~ msgid ""
+#~ "**Ограничения по полученным данным**: Шаг "
+#~ "извлекает только данные полей (properties) "
+#~ "компонента. Для получения переменных, "
+#~ "установленных в Component Script, требуется"
+#~ " использовать другие шаги, например, \"Get"
+#~ " raw model\"."
+#~ msgstr ""
+

@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 08:10+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/workflow-components/get-user-confirmation.md:1
+msgid "Get user confirmation"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/get-user-confirmation.md:11
+msgid "Основные сведения"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/get-user-confirmation.md:12
+msgid ""
+"Шаг \"Get User Confirmation\" в рамках workflow используется для запроса "
+"подтверждения или выполнения действия от пользователя. Шаг отправляет "
+"уведомление пользователю с запросом на совершение определенного действия "
+"над объектом, где объектом выступает состояние текущей модели."
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/get-user-confirmation.md:14
+msgid "Параметры"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/get-user-confirmation.md:15
+msgid "**Настройки Шага:**"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/get-user-confirmation.md:4
+msgid "Поле настройки"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/get-user-confirmation.md:4
+msgid "Варианты значений"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/get-user-confirmation.md:4
+msgid "Назначение"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/get-user-confirmation.md:4
+msgid "Step name"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/get-user-confirmation.md:4
+msgid "-"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/get-user-confirmation.md:4
+msgid "Наименование шага \"Get User Confirmation\""
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/get-user-confirmation.md:4
+msgid "Confirmation field"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/get-user-confirmation.md:4
+msgid "Поле с вариантами действий для запроса у пользователя"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/get-user-confirmation.md:4
+msgid "User info field"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/get-user-confirmation.md:4
+msgid "Множественный выбор Catalog"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/get-user-confirmation.md:4
+msgid "Поле с информацией о пользователе или группе пользователей"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/get-user-confirmation.md:4
+msgid "User routing"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/get-user-confirmation.md:4
+msgid "Объект, являющийся контекстом безопасности"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/get-user-confirmation.md:24
+msgid "Кейсы"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/get-user-confirmation.md:25
+msgid ""
+"**Запрос подтверждения от пользователя**: Идеально подходит для "
+"сценариев, где требуется подтверждение или выбор действия от "
+"пользователя, например, подтверждение транзакции, согласие на обработку "
+"данных или выбор варианта ответа."
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/get-user-confirmation.md:26
+msgid ""
+"**Интерактивное участие пользователя в процессе**: Подходит для workflow,"
+" где важно учитывать решения или выбор пользователя для продолжения или "
+"изменения хода процесса."
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/get-user-confirmation.md:28
+msgid "Исключения"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/get-user-confirmation.md:29
+msgid ""
+"**Обеспечение ясности запроса**: Важно четко формулировать запрос "
+"подтверждения, чтобы пользователь понимал, какое действие от него "
+"ожидается."
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/get-user-confirmation.md:30
+msgid ""
+"**Управление ответами пользователя**: Необходимо адекватно обрабатывать и"
+" учитывать ответы пользователя, особенно в ситуациях, когда от них "
+"зависит ход дальнейших действий в workflow."
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/get-user-confirmation.md:31
+msgid ""
+"**Учет контекста безопасности и разрешений**: При использовании параметра"
+" User routing важно учитывать контекст безопасности и соответствующие "
+"разрешения пользователей."
+msgstr ""
+

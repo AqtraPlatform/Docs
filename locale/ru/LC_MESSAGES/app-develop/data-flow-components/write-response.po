@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/write-response.md:1
+msgid "Write response"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/write-response.md:11
+msgid "Основные сведения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/write-response.md:12
+msgid ""
+"Шаг \"Write Response\" играет ключевую роль в Dataflow, так как он "
+"отвечает за возвращение итогового результата вызывающей стороне. Этот шаг"
+" обычно является последним в любом Dataflow, подытоживая и отправляя "
+"полученные данные обратно запрашивающему источнику. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/write-response.md:15
+msgid "Параметры"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/write-response.md:16
+msgid "**Настройки Шага:**"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/write-response.md:4
+msgid "Поле настройки"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/write-response.md:4
+msgid "Варианты значений"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/write-response.md:4
+msgid "Назначение"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/write-response.md:4
+msgid "Step name"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/write-response.md:4
+msgid "-"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/write-response.md:4
+msgid "Наименование шага"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/write-response.md:4
+msgid "Source step"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/write-response.md:4
+msgid "Выбор предыдущего шага"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/write-response.md:25
+msgid "Кейсы"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/write-response.md:26
+msgid ""
+"**Возвращение результатов Dataflow**: Используется для отправки итогов "
+"данных процесса Dataflow обратно вызывающей стороне, что может быть "
+"критически важно в аналитике данных и работе с ошибками."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/write-response.md:27
+msgid ""
+"**Преобразование данных перед ответом**: Может сочетаться с шагом "
+"\"Transform Model\" для преобразования или фильтрации данных перед их "
+"отправкой, что позволяет оптимизировать и настраивать содержание ответа в"
+" соответствии с требованиями запрашивающей стороны. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/write-response.md:30
+msgid "Вариант применения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/write-response.md:32
+msgid ""
+"Компонент содержит пользовательские определения данных (дефинишены) и "
+"предоставляет возможность создания и управления данными с помощью "
+"датафлоу. В нем реализованы шаги для получения модели данных (Get action "
+"model) и записи ответа (Write response), что позволяет пользователям "
+"взаимодействовать с данными через интерфейс пользователя и "
+"взаимодействовать с ними на фронтенде приложения."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/write-response.md:34
+msgid ""
+"Вы можете скачать конфигурацию компонента "
+"[здесь](https://drive.google.com/file/d/1qNTgk1uYrMO3uUkDRmTO3i4En5mbG22i/view?usp=sharing)"
+msgstr ""
+
+#~ msgid ""
+#~ "**Преобразование данных перед ответом**: Может"
+#~ " сочетаться с шагом \"Transform Model\" "
+#~ "для преобразования или фильтрации данных "
+#~ "перед их отправкой, что позволяет "
+#~ "оптимизировать и настраивать содержание ответа"
+#~ " в соответствии с требованиями "
+#~ "запрашивающей стороны."
+#~ msgstr ""
+

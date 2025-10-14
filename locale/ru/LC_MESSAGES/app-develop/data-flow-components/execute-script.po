@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:1
+msgid "Execute script"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:11
+msgid "Основные сведения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:12
+msgid ""
+"Шаг \"Execute Script\" предназначен для выполнения скриптов на языке "
+"Python с использованием стандартных библиотек Python."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:14
+msgid ""
+"Этот шаг позволяет выполнять скрипты Python любой сложности, работая с "
+"текущей моделью dataflow. С помощью скрипта можно изменять модель, "
+"добавляя новые переменные или меняя значения существующих."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:16
+msgid "Примеры использования:"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:17
+msgid ""
+"Для получения значения переменной из шага \"get action model\": "
+"`item['data']['Property_name']`"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:18
+msgid "Для создания новой переменной в скрипте: `item['Property_name']` <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:21
+msgid "Параметры"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:22
+msgid "**Настройки Шага:**"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:4
+msgid "Поле настройки"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:4
+msgid "Варианты значений"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:4
+msgid "Назначение"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:4
+msgid "Step name"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:4
+msgid "-"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:4
+msgid "Наименование шага"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:4
+msgid "Source step"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:4
+msgid "Выбор предыдущего шага"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:31
+msgid "Кейсы"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:32
+msgid ""
+"**Кастомизация обработки данных**: Использование для выполнения сложной "
+"логики обработки данных, которая не может быть реализована стандартными "
+"средствами dataflow."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:33
+msgid ""
+"**Добавление и изменение данных**: Подходит для сценариев, где требуется "
+"добавление новых данных или модификация существующих в модели. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:36
+msgid "Исключения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:37
+msgid ""
+"**Необходимость знания Python**: Требует знаний языка Python и понимания "
+"логики работы с dataflow."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:38
+msgid ""
+"**Типизация переменных**: Строгая типизация переменных может требовать "
+"дополнительного внимания при написании скриптов. Поддерживаемые типы: "
+"`@number`, `@integer`, `@string`, `@uuid`, `@boolean`, `@uri`, `@date`, "
+"`@date-time`, `@time`, `@catalog`, `@array`."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:40
+msgid "Вариант применения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:42
+msgid ""
+"В этом компоненте представлены различные сценарии использования шага "
+"Execute script в рамках датафлоу, включая создание новых переменных "
+"различных типов и изменение значений доступных полей в датамодели."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:44
+msgid ""
+"Вы можете скачать конфигурацию компонента "
+"[здесь](https://drive.google.com/file/d/18fbg2g2rcvXORI7i31zu81NdSKwMqE99/view?usp=sharing)"
+msgstr ""
+

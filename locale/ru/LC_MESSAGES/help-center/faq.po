@@ -1,0 +1,452 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi platform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi platform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/help-center/faq.md:1
+msgid "FAQ"
+msgstr ""
+
+#: ../../src/help-center/faq.md:4
+msgid "Запросы к БД"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Запрос"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "SQL"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Получить датафлоу по ключу"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid ""
+"`SELECT * FROM dataflow.\"DataflowDefinitions\" Where \"Key\" = 'bd6abf69"
+"-49ad-409c-9907-94264f020f88’`"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Получить объект по данным из json"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid ""
+"`SELECT * FROM catalogs.\"CatalogEntries_89\" Where \"Data\" ->> "
+"'Product' = '2202’`"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Поиск по id"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "`SELECT * FROM catalogs.\"CatalogEntries_89\" Where \"Id\" = '3687’`"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Проверка 2 таблиц"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid ""
+"`SELECT * FROM catalogs.\"CatalogEntries_136\" AS src LEFT JOIN "
+"catalogs.\"CatalogEntries_134\" ref_table ON (src.\"Data\" ->> "
+"'Acceptance')::bigint = ref_table.\"Id\" where NOT (src.\"Data\" ->> "
+"'Acceptance')::bigint IS NULL and ref_table.\"Id\" is NULL`"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Показать все компоненты вмс, сортировка по названию"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid ""
+"`SELECT * FROM view_service.\"ApplicationDefinitions\" where \"Title\" "
+"like 'WMS.%' ORDER BY \"Title\" ASC`"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Получить все датафлоу по guid компонента"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid ""
+"`SELECT * FROM dataflow.\"DataflowDefinitions\" where \"OwnerId\" = "
+"'23ae5f3f-aded-4961-bdef-ea668728bfea’`"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid ""
+"Получить последние 100 записей в которых историчность схемы датафлоу по "
+"id этого датафлоу"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid ""
+"`SELECT * FROM dataflow.\"DataflowDefinitionVersions\" where "
+"\"DataFlowDefinition_Id\" = '245' ORDER BY \"Id\" DESC LIMIT 100`"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Получить шаги в датафлоу"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid ""
+"`select drafts.\"Key\", drafts.\"Name\", "
+"drafts.\"OwnerId\",steps.value->'name' from "
+"dataflow.\"DataflowDefinitionDrafts\" drafts, "
+"jsonb_array_elements(\"Stages\") stages, "
+"jsonb_array_elements(stages->'steps') steps, jsonb_each(steps->'keyMap') "
+"keyMaps where drafts.\"DelMark\" = false and steps.value->>'stepType' = "
+"'LookupReferenceStep' and keyMaps.value = '\"\"’`"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid ""
+"Изменить в поле Data значение поля json Дока: [https://aaronbos.dev/posts"
+"/update-json-postgresql](https://aaronbos.dev/posts/update-json-"
+"postgresql)"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid ""
+"`UPDATE catalogs.\"CatalogEntries_143\" SET \"Data\" = "
+"jsonb_set(\"Data\", '{Quantity}', '1', false) WHERE \"Data\" ->> "
+"'NumberCollectionTask' = '2024' AND \"Data\" ->> 'Product' = '3723’`"
+msgstr ""
+
+#: ../../src/help-center/faq.md:20
+msgid "Component scripts"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Действие"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Код"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Вставить текст в label"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "`context.Properties.<наименование лейбла>.SetText('<Текст лейбла>')`"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Выполнить датафлоу"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "`context.ExecuteDataflow('<Гуид датафлоу>', <Датамодель>)`"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Создать гуид"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "``from System import Guid`` <br> ``Guid.Parse(\"<Гуид>\")``"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Переход на другую страницу"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "`context.Commands.ChangePageByName(\"<Имя страницы>\")`"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Правильно отобразить кириллицу"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "`str(<Строка>).encode('utf-8').decode('unicode_escape')`"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Вывести модалку"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid ""
+"`context.PlatformServices.Confirm('<Тело Модалки, Обязательно стринг>', "
+"'<Заголовок Модалки>')`"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Вписать строку в текстбокс"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "`context.Properties.<Имя тексбокса>.Label.Value = ‘<Строка>’`"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Получить датамодель из темплейта по евенту"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "`model.Model.Data.<Имя дефинишина>`"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Обработка событий на модалке"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid ""
+"``def checkResponse(task)`` <br> ``if (task.Result == True):`` <br> "
+"``context.Logger.Error(\"TRUE\") else:`` <br> "
+"``context.Logger.Error(\"FALSE\")`` <br> <br> ``def show_modal():`` <br> "
+"``explicitSystemAction = System.Action[Task](checkResponse)`` <br> "
+"``result = context.PlatformServices.Confirm(\"Сообщение\", "
+"\"Заголвок\").ContinueWith(explicitSystemAction)``"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Лог в консоль"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "`context.Logger.Error(’<Строка>’)`"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Поставить лейбл текстбоксу"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "`context.Properties.TextBox_342.Label.Value = 'aSHGfj’`"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Засунуть SVG в контейнер"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid ""
+"`context.Properties.SvgRight_1.File.Value = Guid.Parse(\"b505b8c4-4c88"
+"-4bdc-bb60-e2115047f263\")`"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Покрасить элемент в скрипте"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid ""
+"``from Liminuza.Platform.Shared.RenderEngine.Models import "
+"SolidColorBrush, Color, Brush`` <br> ``color = Color.FromARgb(255, 255, "
+"0, 0)`` <br> #Покрасить шрифт <br> "
+"``context.Properties.Button_462.FontColor.Value = color`` <br> #Покрасить"
+" фон <br> ``context.Properties.Button_462.Background.Value = "
+"SolidColorBrush(color)`` <br> #Надо уведомить систему об изменении <br> "
+"c``ontext.Properties.Button_462.RaisePropertyChanged('Background')`` <br>"
+" ``context.Properties.Button_462.RaisePropertyChanged('FontColor')``"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Доступ к датамодели"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid ""
+"# к обычному компоненту <br> ``datamodel = context.DataModel.Model`` <br>"
+" # к мультикомпоненту <br> ``dm1 = context.DataModel[\"fcf3cd08-ded3"
+"-45ef-a5a4-2f0c837add47\"].Model``"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Добавить ошибку к полю"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid ""
+"``context.Form.Get(\"TransportCompany\").AddError(\"Ключи интеграции с "
+"Траснпортной компанией не заданы или некорректны\")`` <br> "
+"``context.Form.GetForm(\"1fe65ccf-50f0-42d3-b18b-"
+"da99971f4faa\").Get(\"NumberRecipient\").AddError(\"Введите номер "
+"начинающийся на +7\")`` <br> ``context.Form.GetForm(\"1fe65ccf-50f0-42d3"
+"-b18b-da99971f4faa\").Get(\"NumberRecipient\").ClearError()``"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Вытащить из форм экшна данные"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid ""
+"```def decode_json(serialized_data): serialized_data = "
+"str(serialized_data).encode('utf-8').decode('unicode_escape') "
+"serialized_data = eval(serialized_data.replace('null', "
+"'None').replace('true', 'True').replace('false', 'False')) return "
+"serialized_data```"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid ""
+"В поле навесить скрипт в On key down в котором проверяем какая клавиша "
+"нажата <br> Документация: [https://learn.microsoft.com/en-"
+"us/dotnet/api/microsoft.aspnetcore.components.web.keyboardeventargs?view=aspnetcore-7.0](https://learn.microsoft.com"
+"/en-"
+"us/dotnet/api/microsoft.aspnetcore.components.web.keyboardeventargs?view=aspnetcore-7.0)"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid ""
+"``def test_enter(*args):`` <br> ``if str(args[1].Code) == 'Enter':`` <br>"
+" ``context.PlatformServices.ShowDialog(”Нажат энтер”, \"1\")``"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Вызов js"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "`context.InvokeInterop(\"Foo_Method\",1,2,3,\"Тестовая строка\")`"
+msgstr ""
+
+#: ../../src/help-center/faq.md:45
+msgid "Скрипты к сценариям data-flow"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Обнулить время в дате"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid ""
+"``from System import DateTime`` <br> ``date = "
+"item[\"_TaskData\"][\"InitialDate\"]`` <br> ``new_date = "
+"DateTime.Parse(str(date)).ToString(\"dd.MM.yyyy\")`` <br> "
+"``item[\"_date@date\"] = DateTime.ParseExact(new_date, \"dd.MM.yyyy\", "
+"None)``"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Удаление объектов из массива"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid ""
+"`to_remove = [] for i in item[\"_Remainings\"]` <br> `to_remove.append(i)"
+" for i in to_remove` <br> `item[\"_Remainings\"].Remove(i)`"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Использование результата Execute Dataflow"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid ""
+"``item[\"_Result\"][0][\"_someVariable@string\"]`` <br> или "
+"``item[\"_Result\"][0][\"data\"][\"Property_1\"]``"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "SQL запрос в скрипте"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid ""
+"``import catalogs`` <br> ``query = catalogs.query('select test_cmp.\"Id\""
+" as \"Id\", test_cmp.\"Name\" as \"Name\", test_cmp.\"Data_Product\" as "
+"\"Product\", test_cmp.\"Data_Agent\" as \"Agent\" from "
+"\"538777b0-cba4-4b1e-a188-8c36d1d7defe\" as test_cmp where "
+"test_cmp.\"Name\" = @test_cmp_name') "
+"query.add_parameter(\"@test_cmp_name\", \"test name\")`` <br> "
+"``item[\"query_result\"] = query.execute()``"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Создание записи в скрипте"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid ""
+"``import catalogs`` <br> ``import json_extensions`` <br> ``entity_set = "
+"catalogs.entity_set(\"a65c74b3-162b-4538-bd81-49d7adfc84e3\")`` <br> "
+"``create_operation = entity_set.create()`` <br> "
+"``create_operation.set_name(\"Имя в поле name\")`` <br> "
+"``create_operation.data[\"Property_1\"] = \"Значение\"`` <br> "
+"``create_operation.data[\"Property_2\"] = "
+"json_extensions.select_token(item,\"data.Property_2\")`` <br> ``entry_id "
+"= create_operation.apply()``"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid "Редактирование записи в скрипте"
+msgstr ""
+
+#: ../../src/help-center/faq.md
+msgid ""
+"``import catalogs`` <br> ``import json_extensions`` <br> ``entity_set = "
+"catalogs.entity_set(\"a65c74b3-162b-4538-bd81-49d7adfc84e3\")`` <br> "
+"``update_operation = entity_set.update(entry_id)`` <br> "
+"``update_operation.no_tracking()`` <br> "
+"``update_operation.set_name(\"Нове имя в поле name\")`` <br> "
+"``update_operation.data[\"Property_1\"] = \"Новое значение\"`` <br> "
+"``update_operation.data[\"Property_2\"] = "
+"json_extensions.select_token(item,\"data.Property_2\")`` <br> "
+"``update_operation.apply()``"
+msgstr ""
+
+#: ../../src/help-center/faq.md:58
+msgid "Настройка компонента"
+msgstr ""
+
+#: ../../src/help-center/faq.md:60
+msgid "CRON"
+msgstr ""
+
+#: ../../src/help-center/faq.md:63
+msgid "![Cron](cronn.png)"
+msgstr ""
+
+#: ../../src/help-center/faq.md:63
+msgid "Cron"
+msgstr ""
+
+#: ../../src/help-center/faq.md:65
+msgid "Ссылка на генерацию крона"
+msgstr ""
+
+#: ../../src/help-center/faq.md:66
+msgid "Вставлять крон сюда"
+msgstr ""
+
+#: ../../src/help-center/faq.md:67
+msgid "Чтобы запустился датафлоу нужно выбрать юзера с правами на этот компонент"
+msgstr ""
+
+#: ../../src/help-center/faq.md:69
+msgid "**Крон запускает Input dataflow**"
+msgstr ""
+

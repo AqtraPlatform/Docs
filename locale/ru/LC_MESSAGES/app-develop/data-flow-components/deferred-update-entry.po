@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:2
+msgid "Deferred update entry"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:12
+msgid "Основные сведения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:13
+msgid ""
+"Шаг \"Deferred Update Entry\" используется для организации отложенного "
+"обновления записей в конкретном компоненте. Этот шаг позволяет "
+"накапливать действия по созданию, обновлению или удалению записей, "
+"которые затем выполняются после активации шага \"Apply Deferred Update "
+"Operations\". Таким образом, можно собрать несколько операций обновления."
+" <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:16
+msgid "Параметры"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:17
+msgid "**Настройки Шага:**"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:5
+msgid "Поле настройки"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:5
+msgid "Варианты значений"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:5
+msgid "Назначение"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:5
+msgid "Step name"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:5
+msgid "-"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:5
+msgid "Наименование шага"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:5
+msgid "Source step"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:5
+msgid "Выбор предыдущего шага"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:5
+msgid "Component"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:5
+msgid "Компонент, в который будет вноситься обновление"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:5
+msgid "Field component key"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:5
+msgid "Поле с ключом компонента для обновления"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:5
+msgid "Mark entry for deletion"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:5
+msgid "true, false"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:5
+msgid "Отметка удаления записи"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:5
+msgid "Name field"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:5
+msgid "Название поля для обновления"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:5
+msgid "Fields mapping"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:5
+msgid "Сопоставление полей между data flow и компонентом"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:31
+msgid "Кейсы"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:32
+msgid ""
+"**Батч-обработка данных**: Используется для сбора нескольких операций "
+"обновления данных и их последующего выполнения в одной транзакции, что "
+"повышает производительность и снижает нагрузку на систему."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:33
+msgid ""
+"**Комплексное управление данными**: Подходит для сценариев, где требуется"
+" сложная логика обновления данных, включая создание, изменение и удаление"
+" записей в рамках одного рабочего процесса. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:36
+msgid "Исключения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:37
+msgid ""
+"**Необходимость последующего применения обновлений**: Все операции "
+"обновления, собранные этим шагом, требуют активации через шаг \"Apply "
+"Deferred Update Operations\" для их выполнения. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:40
+msgid "Вариант применения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:42
+msgid ""
+"В компоненте с кастомным дефинишеном настраивается датафлоу для "
+"обновления записей. Пользователь начинает с извлечения модели действия с "
+"помощью шага Get action model. Затем используется шаг Deferred update "
+"entry для отложенного обновления записей, где пользователь может указать "
+"компонент, идентификатор компонента, а также соответствия полей. Шаг "
+"Apply deferred update позволяет настраивать параметры пакетной обработки "
+"и параллельного выполнения. После выполнения этих шагов компонент готов к"
+" обновлению, созданию или удалению записей, что происходит на фронтенде "
+"при взаимодействии с соответствующими элементами интерфейса."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/deferred-update-entry.md:44
+msgid ""
+"Вы можете скачать конфигурацию компонента "
+"[здесь](https://drive.google.com/file/d/16uo9P5IWDv-"
+"QnT749fYDISyyWEbKrDVR/view?usp=sharing)"
+msgstr ""
+
+#~ msgid ""
+#~ "**Необходимость последующего применения "
+#~ "обновлений**: Все операции обновления, "
+#~ "собранные этим шагом, требуют активации "
+#~ "через шаг \"Apply Deferred Update "
+#~ "Operations\" для их выполнения."
+#~ msgstr ""
+

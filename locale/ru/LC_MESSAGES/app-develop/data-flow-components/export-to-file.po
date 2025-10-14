@@ -1,0 +1,196 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:1
+msgid "Export to File"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:11
+msgid "Основные сведения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:12
+msgid ""
+"Шаг \"Export to File\" используется для экспорта данных из внутренней "
+"модели Dataflow в структурированный файл. Этот шаг поддерживает создание "
+"файлов в форматах CSV, Excel и JSON, позволяя эффективно передавать и "
+"распространять обработанные данные. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:15
+msgid "Параметры"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:16
+msgid "**Настройки Шага:**"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Поле настройки"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Варианты значений"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Назначение"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Step name"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "-"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Наименование шага"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Source Step"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Выбор из предыдущих шагов для источника данных"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Output file type"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Csv, Excel, JSON"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Формат файла для экспорта"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "File name"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Имя файла для экспорта"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Column separator"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "; (default)"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Разделитель для CSV файла (по умолчанию \";\")"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Worksheet name(Если Iput file type = Excel)"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Имя листа в Excel файле"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Fields mapping"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:4
+msgid "Сопоставление полей модели Dataflow и структуры файла"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:30
+msgid "Кейсы"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:31
+msgid ""
+"**Распространение данных**: Идеально подходит для создания отчетов, "
+"распределения информации среди клиентов или партнеров и передачи данных "
+"между различными системами или отделами."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:32
+msgid ""
+"**Архивация данных**: Может использоваться для сохранения важной "
+"информации в структурированном и легко доступном формате."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:33
+msgid ""
+"**Интеграция с другими системами**: Позволяет готовить данные для "
+"последующей интеграции или обработки другими системами, которые "
+"поддерживают форматы CSV, Excel или JSON. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:36
+msgid "Исключения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:37
+msgid ""
+"**Соблюдение формата файла**: Важно точно настроить параметры экспорта, "
+"чтобы обеспечить совместимость сформированных файлов с ожиданиями и "
+"требованиями конечных пользователей или систем."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:38
+msgid ""
+"**Оптимизация производительности при больших объемах данных**: При "
+"экспорте больших объемов данных необходимо учитывать производительность и"
+" возможные ограничения на размер файлов(по умолчанию 1 МБ). <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:41
+msgid "Вариант применения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:43
+msgid ""
+"Созданный компонент представляет собой инструмент для экспорта данных из "
+"системы. Он включает в себя несколько шагов, таких как получение модели "
+"данных, фильтрация и экспорт в файл Excel. Пользователь может настроить "
+"фильтрацию данных перед экспортом и скачать результаты в удобном формате,"
+" используя кнопку на пользовательском интерфейсе."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/export-to-file.md:45
+msgid ""
+"Вы можете скачать конфигурацию компонента "
+"[здесь](https://drive.google.com/file/d/1haTgN7Qyu6rD3GSYcDKPEMu3V_KcOdVt/view?usp=sharing)"
+msgstr ""
+
+#~ msgid ""
+#~ "**Оптимизация производительности при больших "
+#~ "объемах данных**: При экспорте больших "
+#~ "объемов данных необходимо учитывать "
+#~ "производительность и возможные ограничения на"
+#~ " размер файлов(по умолчанию 1 МБ)."
+#~ msgstr ""
+

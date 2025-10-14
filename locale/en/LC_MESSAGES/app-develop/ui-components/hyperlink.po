@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:1
+msgid "Hyperlink"
+msgstr "Hyperlink"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:12
+#, fuzzy
+msgid ""
+"Hyperlink в Scalaxi Platform - это интерфейсный компонент для создания "
+"гиперссылок. Он позволяет пользователям легко переходить между различными"
+" частями приложения или на внешние ресурсы, обеспечивая эффективную и "
+"интуитивно понятную навигацию. <br>"
+msgstr ""
+"Hyperlink in the Platform is a front-end component for creating "
+"hyperlinks. It allows users to easily navigate between different parts of"
+" the app or to external resources, ensuring efficient and intuitive "
+"navigation. <br>"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:15
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:16
+msgid "**Component properties**"
+msgstr "**Component properties**"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Группа настроек"
+msgstr "Settings group"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Поле настройки"
+msgstr "Setting field"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Name"
+msgstr "Name"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Наименование UI Компонента в системе"
+msgstr "Name of the UI Component in the system"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Common"
+msgstr "Common"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Label"
+msgstr "Label"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Содержит наименование текстового контейнера"
+msgstr "Contains the name of the text container"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Binding"
+msgstr "Binding"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Множественный выбор Catalog"
+msgstr "Multiselect of Catalog"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Содержит связанное поле типа “Uri” из модели"
+msgstr "Contains a related “Uri” field from the model"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Value"
+msgstr "Value"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid ""
+"Позволяет задать статическое значение поля, используется для указания "
+"ссылки"
+msgstr "Allows you to specify a static value for the field, used to specify a link"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Text"
+msgstr "Text"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Font size"
+msgstr "Font size"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Свойство определяет размер шрифта"
+msgstr "The property determines the font size"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Color"
+msgstr "Color"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "модуль в CSS, который работает с цветами, типами цветов и прозрачностью."
+msgstr "A module in CSS that works with colors, color types, and transparency."
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Bold"
+msgstr "Bold"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "true, false"
+msgstr "true, false"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Свойство, позволяет сделать текст жирным"
+msgstr "Property that allows you to make text bold"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Italic"
+msgstr "Italic"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Свойство, позволяет сделать текст курсивным"
+msgstr "Property that allows you to italicize the text"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Text alignment"
+msgstr "Text alignment"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Left, Right, Center, Justify"
+msgstr "Left, Right, Center, Justify"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Свойство используется для установки выравнивания текста по горизонтали"
+msgstr "The property is used to set the horizontal alignment of the text"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:30
+msgid "**CSS properties**"
+msgstr "**CSS properties**"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Layout"
+msgstr "Layout"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Width"
+msgstr "Width"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Ширина компонента"
+msgstr "Component width"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Height"
+msgstr "Height"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Высота компонента"
+msgstr "Component height"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Grow"
+msgstr "Grow"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid ""
+"Свойство определяет, насколько элемент будет расти по сравнению с "
+"остальными гибкими элементами внутри того же контейнера"
+msgstr ""
+"The property determines how much an element will grow relative to the "
+"rest of the flex elements within the same container"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Margin"
+msgstr "Margin"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Свойство определяет внешний отступ на всех четырёх сторонах элемента"
+msgstr "The property defines the outer paddings on all four sides of the element"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Padding"
+msgstr "Padding"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Свойство устанавливает внутренние отступы поля со всех сторон элемента"
+msgstr "The property sets the inner paddings on all sides of the element"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Appearance"
+msgstr "Appearance"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "CornerRadius"
+msgstr "CornerRadius"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Свойство используется для закругления углов элемента"
+msgstr "The property is used to round the corners of an element"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "BorderThickness"
+msgstr "BorderThickness"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Свойство позволяет задать рамки для элемента"
+msgstr "The property allows you to set the boundaries for the element"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Brush"
+msgstr "Brush"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Background"
+msgstr "Background"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Свойство устанавливает цвет фона элемента"
+msgstr "The property sets the background color of the element"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "BorderBrush"
+msgstr "BorderBrush"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:4
+msgid "Свойство устанавливает цвет рамки элемента"
+msgstr "The property sets the color of the element's border"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:46
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:47
+msgid ""
+"**Навигация по Сайту**: Применяется для создания ссылок на другие "
+"страницы приложения или внешние веб-сайты, улучшая пользовательский "
+"интерфейс."
+msgstr ""
+"**Site Navigation**: Used to create links to other pages of the "
+"application or external websites, improving the user interface."
+
+#: ../../src/app-develop/ui-components/hyperlink.md:48
+msgid ""
+"**Улучшение Пользовательского Опыта**: Предоставляет удобный доступ к "
+"важным ресурсам и информации, улучшая взаимодействие пользователя с "
+"приложением. <br>"
+msgstr ""
+"**User Experience Enhancement**: Provides easy access to important "
+"resources and information, improving the user experience with the app. "
+"<br>"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:51
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/ui-components/hyperlink.md:52
+msgid ""
+"**Ограничения Функциональности**: Гиперссылка может иметь ограниченные "
+"возможности взаимодействия, предлагая только базовую функциональность "
+"перехода по ссылке."
+msgstr ""
+"**Functionality Limitations**: A hyperlink may have limited "
+"interoperability by offering only basic click-through functionality."
+
+#: ../../src/app-develop/ui-components/hyperlink.md:53
+msgid ""
+"**Зависимость от Контекста**: Важно учитывать контекст использования "
+"ссылок для обеспечения эффективной навигации и избегания недопонимания."
+msgstr ""
+"**Context Dependency**: It is important to consider the context in which "
+"links are used to ensure effective navigation and avoid "
+"misunderstandings."
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

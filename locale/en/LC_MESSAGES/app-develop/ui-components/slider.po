@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 11:37+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/ui-components/slider.md:1
+msgid "Slider"
+msgstr "Slider"
+
+#: ../../src/app-develop/ui-components/slider.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/ui-components/slider.md:12
+msgid ""
+"\"Slider\" - это UI-Компонент, используемый для отображения и настройки "
+"слайдера с изображениями. <br>"
+msgstr ""
+"“Slider” is a UI component used to display and customize a slider with "
+"images. <br>"
+
+#: ../../src/app-develop/ui-components/slider.md:15
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/ui-components/slider.md:16
+msgid "**Component properties:**"
+msgstr "**Component properties:**"
+
+#: ../../src/app-develop/ui-components/slider.md:4
+msgid "Группа настроек"
+msgstr "Settings group"
+
+#: ../../src/app-develop/ui-components/slider.md:4
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/ui-components/slider.md:4
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/ui-components/slider.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/ui-components/slider.md:4
+msgid "Name"
+msgstr "Name"
+
+#: ../../src/app-develop/ui-components/slider.md:4
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/ui-components/slider.md:4
+msgid "Наименование компонента в системе"
+msgstr "Name of the UI Component in the system"
+
+#: ../../src/app-develop/ui-components/slider.md:4
+msgid "Common"
+msgstr "Common"
+
+#: ../../src/app-develop/ui-components/slider.md:4
+msgid "Columns"
+msgstr "Columns"
+
+#: ../../src/app-develop/ui-components/slider.md:4
+msgid "Button"
+msgstr "Button"
+
+#: ../../src/app-develop/ui-components/slider.md:4
+msgid "Добавление нового объекта в контейнер"
+msgstr "Add a new object to a container"
+
+#: ../../src/app-develop/ui-components/slider.md:4
+msgid "Show arrows"
+msgstr "Show arrows"
+
+#: ../../src/app-develop/ui-components/slider.md:4
+msgid "true, false"
+msgstr "true, false"
+
+#: ../../src/app-develop/ui-components/slider.md:4
+msgid "Включение стрелок для переключения изображений"
+msgstr "Enabling arrows to switch images"
+
+#: ../../src/app-develop/ui-components/slider.md:26
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/ui-components/slider.md:27
+msgid ""
+"**Галереи изображений**: Прекрасно подходит для создания интерактивных "
+"галерей или каруселей изображений."
+msgstr ""
+"**Image Galleries**: Great for creating interactive galleries or image "
+"carousels."
+
+#: ../../src/app-develop/ui-components/slider.md:28
+msgid ""
+"**Интерактивные презентации**: Используется для демонстрации продуктов, "
+"проектов или любого другого визуального контента. <br>"
+msgstr ""
+"**Interactive Presentations**: Used to showcase products, projects, or "
+"any other visual content. <br>"
+
+#: ../../src/app-develop/ui-components/slider.md:31
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/ui-components/slider.md:32
+msgid ""
+"**Ограниченное использование**: Не подходит для текстового или другого "
+"контента, который не предполагает слайдерное представление."
+msgstr ""
+"**Limited Use**: Not suitable for text or other content that does not "
+"involve a slider view."
+
+#: ../../src/app-develop/ui-components/slider.md:33
+msgid ""
+"**Визуальные настройки**: Ограничен возможностями кастомизации визуальных"
+" элементов слайдера."
+msgstr ""
+"**Visual Settings**: Limited customization options for slider visual "
+"elements."
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

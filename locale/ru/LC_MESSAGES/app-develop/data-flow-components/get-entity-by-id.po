@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/get-entity-by-id.md:2
+msgid "Get entity by id"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-entity-by-id.md:12
+msgid "Основные сведения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-entity-by-id.md:13
+msgid ""
+"Шаг \"Get Entity by ID\" предназначен для получения элемента данных "
+"компоненты по его уникальному идентификатору (ID). Этот шаг обычно "
+"используется в комбинации с шагами, такими как \"Lookup\" или \"Update "
+"Entry\", которые возвращают ID, пригодный для использования в данном "
+"шаге. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-entity-by-id.md:16
+msgid "Параметры"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-entity-by-id.md:17
+msgid "**Настройки Шага:**"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-entity-by-id.md:5
+msgid "Поле настройки"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-entity-by-id.md:5
+msgid "Варианты значений"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-entity-by-id.md:5
+msgid "Назначение"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-entity-by-id.md:5
+msgid "Step name"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-entity-by-id.md:5
+msgid "-"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-entity-by-id.md:5
+msgid "Наименование шага"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-entity-by-id.md:5
+msgid "Source step"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-entity-by-id.md:5
+msgid "Выбор предыдущего шага"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-entity-by-id.md:5
+msgid "Src field"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-entity-by-id.md:5
+msgid "Поле, содержащее ID для поиска"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-entity-by-id.md:5
+msgid "Dst field name"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-entity-by-id.md:5
+msgid "Поле, куда будет записан результат"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-entity-by-id.md:5
+msgid "Component"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-entity-by-id.md:5
+msgid "Компонент, в котором осуществляется поиск"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-entity-by-id.md:29
+msgid "Кейсы"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-entity-by-id.md:30
+msgid ""
+"**Поиск данных по ID**: Используется для точного извлечения конкретной "
+"записи по ID из компонента. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-entity-by-id.md:33
+msgid "Исключения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-entity-by-id.md:34
+msgid ""
+"**Зависимость от точности ID**: Необходимо точное указание и наличие "
+"соответствующего ID в исходных данных для успешного выполнения запроса."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-entity-by-id.md:35
+msgid ""
+"**Обработка несоответствий**: В случае отсутствия записи с указанным ID, "
+"шаг может вернуть пустой результат. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-entity-by-id.md:38
+msgid "Вариант применения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-entity-by-id.md:40
+msgid ""
+"Этот компонент предоставляет возможность добавления поля типа каталога и "
+"создания датафлоу для получения сущности по ее идентификатору. Поле типа "
+"каталога размещается на странице для выбора соответствующего значения из "
+"каталога. Датафлоу включает шаг Get action model для инициализации, шаг "
+"Get entity by id для получения сущности по идентификатору, используя "
+"выбранное значение из каталога, и шаг Write response для вывода "
+"результата."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-entity-by-id.md:42
+msgid ""
+"Конфигурацию компонента можно скачать "
+"[здесь](https://drive.google.com/file/d/1eCxoYHKg0Zl8APxnUMRA9qmpqNkrtfuW/view?usp=sharing)."
+msgstr ""
+
+#~ msgid ""
+#~ "**Обработка несоответствий**: В случае "
+#~ "отсутствия записи с указанным ID, шаг"
+#~ " может вернуть пустой результат."
+#~ msgstr ""
+

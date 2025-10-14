@@ -1,0 +1,50 @@
+name: preview
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+        with:
+          version: 1.8.3
+          virtualenvs-create: true
+          virtualenvs-in-project: true
+      - name: Install deps
+        run: poetry install --no-interaction --no-root
+      - name: Lint config
+        run: |
+          poetry run yamllint .
+      - name: Images & anchors doctor (report)
+        run: |
+          poetry run python tools/fix_image_paths.py --dry-run
+          poetry run python tools/anchors_doctor.py --dry-run
+      - name: Build docs (strict)
+        run: poetry run mkdocs build --strict
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./site
+
+  deploy-preview:
+    if: github.event.pull_request.head.repo.fork == false
+    needs: build-preview
+    permissions:
+      pages: write
+      id-token: write
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

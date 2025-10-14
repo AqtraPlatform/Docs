@@ -1,0 +1,173 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:2
+msgid "Subscribe to connector"
+msgstr "Subscribe to connector"
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:12
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:13
+msgid ""
+"Шаг \"Subscribe to connector\" предназначен для подписки на получение "
+"сообщений от различных messaging систем, таких как RabbitMQ или Kafka.  "
+"<br>"
+msgstr ""
+"The “Subscribe to connector” step is for subscribing to receive messages "
+"from various messaging systems, such as RabbitMQ or Kafka. <br>"
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:16
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:17
+msgid "**Настройки Шага:**"
+msgstr "**Step Settings:**"
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:5
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:5
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:5
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:5
+msgid "Step name"
+msgstr "Step name"
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:5
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:5
+msgid "Наименование шага"
+msgstr "Name of the step"
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:5
+msgid "System"
+msgstr "System"
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:5
+msgid "Множественный выбор Catalog"
+msgstr "Multiselect of Catalog"
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:5
+msgid "Содержит преднастроенные интеграционные системы"
+msgstr "Contains preconfigured integration systems"
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:5
+msgid "Connector"
+msgstr "Connector"
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:5
+msgid "Содержит преднастроенные коннекторы в интеграционной системе"
+msgstr "Contains pre-configured connectors in the integration system"
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:5
+msgid "Query path"
+msgstr "Query path"
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:5
+msgid "Содержит “EndPoint”, к которому необходимо обратиться"
+msgstr "Contains the “EndPoint” to be accessed"
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:5
+msgid "Method name"
+msgstr "Method name"
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:5
+msgid "Get, Post, Put, Delete"
+msgstr "Get, Post, Put, Delete"
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:5
+msgid "Тип запроса, который необходимо выполнить"
+msgstr "Type of request to be executed"
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:29
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:30
+msgid ""
+"**Реакция на события**: Автоматическое получение уведомлений о событиях "
+"или изменениях в данных из внешних источников."
+msgstr ""
+"**Response to Events**: Automatic receiving of notifications about events"
+" or changes in data from external sources."
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:31
+msgid ""
+"**Интеграция с messaging системами**: Взаимодействие с различными "
+"messaging платформами для обеспечения непрерывного потока данных. <br>"
+msgstr ""
+"**Integration with Messaging Systems**: Interaction with various "
+"messaging platforms to ensure a continuous dataflow. <br>"
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:34
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:35
+msgid ""
+"**Ограниченная функциональность**: Шаг ограничен подпиской на сообщения и"
+" не поддерживает другие типы взаимодействий с внешними системами."
+msgstr ""
+"**Limited Functionality**: The step is limited to subscribing to messages"
+" and does not support other types of interactions with external systems."
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:36
+msgid ""
+"**Зависимость от внешних систем**: Требует надежной настройки и поддержки"
+" со стороны используемых messaging систем. <br>"
+msgstr ""
+"**Dependency on External Systems**: Requires reliable configuration and "
+"support from the messaging systems used."
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:39
+msgid "Вариант применения"
+msgstr "Application scenario"
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:41
+msgid ""
+"Компонент настроен для **подписки на очередь RabbitMQ** и сохранения "
+"полученных сообщений в **базе данных**. При этом используются шаги "
+"датафлоу \"**Subscribe to connector**\", \"**Execute script**\" для "
+"обработки данных и \"**Update entry**\" для сохранения сообщений."
+msgstr ""
+"The component is configured to **subscribe to a RabbitMQ queue** and save the "
+"received messages in a **database**. Steps such as \"**Subscribe to connector**\", "
+"\"**Execute script**\" for data processing, and \"**Update entry**\" for saving "
+"messages are utilized in this process."
+
+#: ../../src/app-develop/data-flow-components/subscribe-to-connector.md:43
+msgid "Вы можете скачать конфигурацию компонента [здесь]()"
+msgstr "You can take component configuration from [here]()"
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

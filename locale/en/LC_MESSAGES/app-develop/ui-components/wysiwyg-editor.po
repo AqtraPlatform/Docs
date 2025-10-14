@@ -1,0 +1,313 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 11:37+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:1
+msgid "WYSIWYG editor"
+msgstr "WYSIWYG editor"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:12
+msgid ""
+"WYSIWYG editor - это UI компонент, предназначенный для ввода и "
+"редактирования rich текста в формате WYSIWYG. Он обеспечивает функционал,"
+" аналогичный редакторам типа Wordpad, позволяя пользователям легко "
+"форматировать текст и вставлять различные медиа-элементы. <br>"
+msgstr ""
+"WYSIWYG editor is a UI component designed for entering and editing rich "
+"text in WYSIWYG format. It provides functionality similar to editors like"
+" Wordpad, allowing users to easily format text and insert various media "
+"elements. <br>"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:15
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:16
+msgid "**Свойства Компонента:**"
+msgstr "**Component Properties:**"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Группа настроек"
+msgstr "Settings group"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "(Общие)"
+msgstr "(Global settings)"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Name"
+msgstr "Name"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Наименование UI Компонента в системе"
+msgstr "Name of the UI Component in the system"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Common"
+msgstr "Common"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Disabled"
+msgstr "Disabled"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "true, false"
+msgstr "true, false"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Отключение элемента"
+msgstr "Disabling an element"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Required"
+msgstr "Required"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Обязательность поля для заполнения"
+msgstr "Required field to fill out"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Plugins"
+msgstr "Plugins"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Подключение плагинов"
+msgstr "Enabling plugins"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Label"
+msgstr "Label"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Описание поля"
+msgstr "Field description"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Binding"
+msgstr "Binding"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Множественный выбор Catalog"
+msgstr "Multiselect of Catalog"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Привязка данных"
+msgstr "Data binding"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Events"
+msgstr "Events"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "On value changed"
+msgstr "On value changed"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Событие изменения значения"
+msgstr "Value change event"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "On key down"
+msgstr "On key down"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Событие при нажатии клавиши"
+msgstr "Key press event"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "On key up"
+msgstr "On key up"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Событие при отпускании клавиши"
+msgstr "Key release event"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "On focus"
+msgstr "On focus"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Событие при фокусировке на элементе"
+msgstr "Event when focusing on an element"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Tab index"
+msgstr "Tab index"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Целое число"
+msgstr "Integer"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Порядок переключения полей"
+msgstr "Field switching order"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:32
+msgid "**CSS Свойства:**"
+msgstr "**CSS Properties:**"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Layout"
+msgstr "Layout"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Width"
+msgstr "Width"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Ширина компонента"
+msgstr "Component width"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Height"
+msgstr "Height"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Высота компонента"
+msgstr "Component height"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Grow"
+msgstr "Grow"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Растягивание компонента"
+msgstr "Component stretching"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Margin"
+msgstr "Margin"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Внешний отступ"
+msgstr "Outer padding"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Padding"
+msgstr "Padding"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Внутренний отступ"
+msgstr "Inner padding"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Appearance"
+msgstr "Appearance"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "CornerRadius"
+msgstr "CornerRadius"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Закругление углов"
+msgstr "Corner radius"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "BorderThickness"
+msgstr "BorderThickness"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Толщина рамки"
+msgstr "Border thickness"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Brush"
+msgstr "Brush"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Background"
+msgstr "Background"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Цвет фона"
+msgstr "Background color"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "BorderBrush"
+msgstr "BorderBrush"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:4
+msgid "Цвет рамки"
+msgstr "Border color"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:48
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:49
+msgid ""
+"**Форматирование Текста**: Использование для создания богато оформленных "
+"документов и контента."
+msgstr ""
+"**Text Formatting**: Used to create richly formatted documents and "
+"content."
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:50
+msgid ""
+"**Редактирование Контента**: Применение в системах управления контентом "
+"для облегчения редактирования статей, блогов и другого текстового "
+"контента. <br>"
+msgstr ""
+"**Content Editing**: Used in content management systems to facilitate "
+"editing articles, blogs, and other text content. <br>"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:53
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:54
+msgid ""
+"**Сложность Интерфейса**: Может быть сложно использовать для "
+"пользователей без опыта работы с подобными редакторами."
+msgstr ""
+"**Interface Complexity**: May be difficult to use for users without "
+"experience with similar editors."
+
+#: ../../src/app-develop/ui-components/wysiwyg-editor.md:55
+msgid ""
+"**Технические Ограничения**: В зависимости от реализации, может не "
+"поддерживать все функции продвинутых текстовых редакторов."
+msgstr ""
+"**Technical Limitations**: Depending on implementation, may not support "
+"all features of advanced text editors."
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

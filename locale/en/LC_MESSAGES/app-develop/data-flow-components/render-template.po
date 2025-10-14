@@ -1,0 +1,205 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/render-template.md:1
+msgid "Render template"
+msgstr "Render template"
+
+#: ../../src/app-develop/data-flow-components/render-template.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/data-flow-components/render-template.md:12
+msgid ""
+"Шаг \"Render Template\" используется для создания документов, особенно в "
+"формате PDF, с использованием данных из Dataflow и шаблонов, доступных в "
+"системе. Шаг позволяет преобразовывать данные в профессионально "
+"оформленные документы, что находит широкое применение в генерации "
+"отчетов, договоров, инвойсов и других официальных документов. <br>"
+msgstr ""
+"The “Render Template” step is used to create documents, especially in PDF"
+" format, using data from Dataflow and templates available in the system. "
+"The step allows you to convert data into professionally designed "
+"documents, which is widely used in the generation of reports, contracts, "
+"invoices, and other official documents. <br>"
+
+#: ../../src/app-develop/data-flow-components/render-template.md:15
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/data-flow-components/render-template.md:16
+msgid "**Настройки Шага:**"
+msgstr "**Step Settings:**"
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "Step name"
+msgstr "Step name"
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "Наименование шага"
+msgstr "Name of the step"
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "Source step"
+msgstr "Source step"
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "Выбор из предыдущих шагов для источника данных"
+msgstr "Selecting from previous steps for data source"
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "Template"
+msgstr "Template"
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "Выбор из доступных шаблонов для создания документа"
+msgstr "Selection from the available templates to create a document"
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "Render type"
+msgstr "Render type"
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "text, HTML, Docx, Xlsx, PDF"
+msgstr "text, HTML, Docx, Xlsx, PDF"
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "Формат документа для генерации"
+msgstr "Format of the document to be generated"
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "File name"
+msgstr "File name"
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "Имя сгенерированного файла"
+msgstr "Name of the generated file"
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "Fields mapping"
+msgstr "Fields mapping"
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "Сопоставление полей между шаблоном и моделью данных"
+msgstr "Mapping fields between a template and a data model"
+
+#: ../../src/app-develop/data-flow-components/render-template.md:29
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/data-flow-components/render-template.md:30
+msgid ""
+"**Генерация формализованных документов**: Особенно полезен для "
+"автоматизированной генерации официальных документов, таких как отчеты, "
+"инвойсы, договоры, путем применения предварительно заданных шаблонов."
+msgstr ""
+"**Generation of Formalized Documents**: Especially useful for automated "
+"generation of official documents such as reports, invoices, and "
+"contracts, by applying preset templates."
+
+#: ../../src/app-develop/data-flow-components/render-template.md:31
+msgid ""
+"**Персонализация контента**: Позволяет создавать персонализированные "
+"документы для клиентов или пользователей, используя данные, специфичные "
+"для каждого случая, например, персональные предложения или индивидуальные"
+" отчеты."
+msgstr ""
+"**Content Personalization**: Allows you to create personalized documents "
+"for customers or users using data specific to each case, such as "
+"personalized offers or customized reports."
+
+#: ../../src/app-develop/data-flow-components/render-template.md:32
+msgid ""
+"**Подготовка к распространению документов**: Используется для создания "
+"документов, которые затем могут быть предоставлены пользователям для "
+"скачивания или отправлены по электронной почте. <br>"
+msgstr ""
+"**Preparation for Document Distribution**: Used to create documents that "
+"can then be made available to users for downloading or sent via email. "
+"<br>"
+
+#: ../../src/app-develop/data-flow-components/render-template.md:35
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/data-flow-components/render-template.md:36
+msgid ""
+"**Требование к качеству и точности шаблонов**: Качество итоговых "
+"документов напрямую зависит от точности и профессионализма используемых "
+"шаблонов."
+msgstr ""
+"**Requirement for the Quality and Accuracy of Templates**: The quality of"
+" the resulting documents is directly related to the accuracy and "
+"professionalism of the templates used."
+
+#: ../../src/app-develop/data-flow-components/render-template.md:37
+msgid ""
+"**Необходимость последующих действий для распространения документов**: "
+"После генерации документа часто требуется последующий шаг, например "
+"\"Form Action\" с параметром \"Download file\", для предоставления "
+"доступа к документу пользователям. <br>"
+msgstr ""
+"**Need for Follow-Up to Distribute Documents**: Once a document is "
+"generated, a follow-up step, such as “Form Action” with “Download file” "
+"option, is often required to make the document available to users."
+
+#: ../../src/app-develop/data-flow-components/render-template.md:40
+msgid "Вариант применения"
+msgstr "Application scenario"
+
+#: ../../src/app-develop/data-flow-components/render-template.md:42
+msgid ""
+"В данном компоненте используются несколько шагов для создания и загрузки "
+"PDF файла. Сначала происходит получение модели данных, затем "
+"осуществляется рендеринг шаблона PDF файла. Шаг Form action настраивается"
+" для скачивания файла, указывая поле данных, содержащее информацию о "
+"файле. После шага Write Response происходит отправка сформированного "
+"файла на фронтенд для загрузки."
+msgstr ""
+"This component utilizes several steps to create and download a PDF file. First, the data model is fetched, then the PDF template is rendered. The Form action step is configured to download the file, specifying the data field containing file information. After the Write Response step, the generated file is sent to the frontend for downloading."
+
+#: ../../src/app-develop/data-flow-components/render-template.md:44
+msgid ""
+"Вы можете скачать конфигурацию компонента "
+"[здесь](https://drive.google.com/file/d/1Omst72osc9qf1FtxQcIohdARDzqwDKHT/view?usp=sharing)"
+msgstr ""
+"You can download the component configuration "
+"[here](https://drive.google.com/file/d/1Omst72osc9qf1FtxQcIohdARDzqwDKHT/view?usp=sharing)."
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

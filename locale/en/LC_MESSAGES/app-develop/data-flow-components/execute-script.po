@@ -1,0 +1,174 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:1
+msgid "Execute script"
+msgstr "Execute script"
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:12
+msgid ""
+"Шаг \"Execute Script\" предназначен для выполнения скриптов на языке "
+"Python с использованием стандартных библиотек Python."
+msgstr ""
+"The “Execute Script” step is designed to execute Python scripts using "
+"standard Python libraries."
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:14
+msgid ""
+"Этот шаг позволяет выполнять скрипты Python любой сложности, работая с "
+"текущей моделью dataflow. С помощью скрипта можно изменять модель, "
+"добавляя новые переменные или меняя значения существующих."
+msgstr ""
+"This step allows you to execute Python scripts of any complexity while "
+"working with the current dataflow model. Using the script, you can change"
+" the model by adding new variables or changing the values of existing "
+"ones."
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:16
+msgid "Примеры использования:"
+msgstr "Examples of use:"
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:17
+msgid ""
+"Для получения значения переменной из шага \"get action model\": "
+"`item['data']['Property_name']`"
+msgstr ""
+"To get a variable value from the “get action model” step: `item ['data'] "
+"['Property_name'] `"
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:18
+msgid "Для создания новой переменной в скрипте: `item['Property_name']` <br>"
+msgstr "To create a new variable in the script: `item ['Property_name'] `<br>"
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:21
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:22
+msgid "**Настройки Шага:**"
+msgstr "**Step Settings:**"
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:4
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:4
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:4
+msgid "Step name"
+msgstr "Step name"
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:4
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:4
+msgid "Наименование шага"
+msgstr "Name of the step"
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:4
+msgid "Source step"
+msgstr "Source step"
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:4
+msgid "Выбор предыдущего шага"
+msgstr "Selecting the previous step"
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:31
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:32
+msgid ""
+"**Кастомизация обработки данных**: Использование для выполнения сложной "
+"логики обработки данных, которая не может быть реализована стандартными "
+"средствами dataflow."
+msgstr ""
+"**Customization of data processing**: Suitable for complex data "
+"processing logic that cannot be implemented with standard dataflow tools."
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:33
+msgid ""
+"**Добавление и изменение данных**: Подходит для сценариев, где требуется "
+"добавление новых данных или модификация существующих в модели. <br>"
+msgstr ""
+"**Adding and modifying data**: Suitable for scenarios that require adding"
+" new data or modifying existing data in the model. <br>"
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:36
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:37
+msgid ""
+"**Необходимость знания Python**: Требует знаний языка Python и понимания "
+"логики работы с dataflow."
+msgstr ""
+"**Need for Python proficiency**: Requires knowledge of Python and an "
+"understanding of the logic of working with dataflow."
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:38
+msgid ""
+"**Типизация переменных**: Строгая типизация переменных может требовать "
+"дополнительного внимания при написании скриптов. Поддерживаемые типы: "
+"`@number`, `@integer`, `@string`, `@uuid`, `@boolean`, `@uri`, `@date`, "
+"`@date-time`, `@time`, `@catalog`, `@array`."
+msgstr ""
+"**Variable typing**: Strict typing of variables may require additional "
+"attention when writing scripts. Supported types: `@number`, `@integer`, "
+"`@string`, `@uuid`, `@boolean`, `@uri`, `@date`, `@date-time`, `@time`, "
+"`@catalog`, `@array`."
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:40
+msgid "Вариант применения"
+msgstr "Application scenario"
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:42
+msgid ""
+"В этом компоненте представлены различные сценарии использования шага "
+"Execute script в рамках датафлоу, включая создание новых переменных "
+"различных типов и изменение значений доступных полей в датамодели."
+msgstr ""
+"This component showcases various usage scenarios of the Execute Script step "
+"within a data flow, including creating new variables of different types and "
+"modifying values of available fields in the data model."
+
+#: ../../src/app-develop/data-flow-components/execute-script.md:44
+msgid ""
+"Вы можете скачать конфигурацию компонента "
+"[здесь](https://drive.google.com/file/d/18fbg2g2rcvXORI7i31zu81NdSKwMqE99/view?usp=sharing)"
+msgstr ""
+"You can download the component configuration "
+"[here](https://drive.google.com/file/d/18fbg2g2rcvXORI7i31zu81NdSKwMqE99/view?usp=sharing)"
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

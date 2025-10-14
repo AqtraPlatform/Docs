@@ -1,0 +1,247 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 08:10+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/ui-components/image.md:2
+msgid "Image"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:12
+msgid "Основные сведения"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:13
+msgid ""
+"Компонент \"Изображение\" используется для отображения изображений в "
+"пользовательском интерфейсе. Этот компонент является ключевым элементом "
+"для визуализации и может использоваться для отображения фотографий, "
+"иллюстраций и других графических элементов. <br>"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:16
+msgid "Параметры"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:17
+msgid "**Component properties**"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Группа настроек"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Поле настройки"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Варианты значений"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Назначение"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Name"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "-"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Наименование UI Компонента в системе"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Common"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Binding"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Множественный выбор Catalog"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Содержит связанное поле типа “File” из модели"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "File"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Button"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Позволяет загрузить файл с расширением .png, .jpg, .svg"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Show default image"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "True, False"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Отображать дефолнтное изображение"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "No image placeholder"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Choose file from the disk, choose file from the storage"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Изображение-заглушка, если изображение не загружено"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:27
+msgid "**CSS properties**"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Layout"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Width"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Ширина компонента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Height"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Высота компонента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Grow"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "true, false"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid ""
+"Свойство определяет, насколько элемент будет расти по сравнению с "
+"остальными гибкими элементами внутри того же контейнера"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Margin"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Свойство определяет внешний отступ на всех четырёх сторонах элемента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Padding"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Свойство устанавливает внутренние отступы поля со всех сторон элемента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Appearance"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "CornerRadius"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Свойство используется для закругления углов элемента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "BorderThickness"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Свойство позволяет задать рамки для элемента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Brush"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Background"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Свойство устанавливает цвет фона элемента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "BorderBrush"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:5
+msgid "Свойство устанавливает цвет рамки элемента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:43
+msgid "Кейсы"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:44
+msgid ""
+"**Отображение фотографий:** Используется для отображения пользовательских"
+" фотографий, изображений продуктов и других объектов."
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:45
+msgid ""
+"**Иллюстрации и графика:** Применяется для отображения иллюстраций, "
+"графических элементов и логотипов. <br>"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:48
+msgid "Исключения"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/image.md:49
+msgid ""
+"**Производительность:** Использование больших изображений или нескольких "
+"изображений на странице может повлиять на производительность."
+msgstr ""
+

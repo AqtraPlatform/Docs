@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 08:10+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/overview1/first-entry.md:1
+msgid "Первый вход в систему"
+msgstr ""
+
+#: ../../src/overview1/first-entry.md:4
+msgid "Доступ к Studio"
+msgstr ""
+
+#: ../../src/overview1/first-entry.md:7
+msgid "Вход в Studio"
+msgstr ""
+
+#: ../../src/overview1/first-entry.md:8
+msgid ""
+"Для доступа к Studio используйте ссылку в формате `/studio/`, добавленную"
+" к адресу вашего развернутого экземпляра платформы. Например, если "
+"платформа развернута на `mydomain.io`, для входа в Studio необходимо "
+"перейти по адресу `https://mydomain.io/studio/`."
+msgstr ""
+
+#: ../../src/overview1/first-entry.md:10
+msgid ""
+"При этом вы увидите экран входа. Для входа в Studio введите свои учетные "
+"данные — логин и пароль. После авторизации вы будете перенаправлены на "
+"основную страницу. <br>"
+msgstr ""
+
+#: ../../src/overview1/first-entry.md:13
+msgid "Основная страница"
+msgstr ""
+
+#: ../../src/overview1/first-entry.md:14
+msgid ""
+"На основной странице представлена информация о вашей лицензии и "
+"развернутых доменах приложений. Вы получите доступ к следующим функциям и"
+" информации:"
+msgstr ""
+
+#: ../../src/overview1/first-entry.md:16
+msgid ""
+"**Тип тарифного плана**: Здесь отображается тип вашего текущего тарифного"
+" плана и дата истечения или обновления подписки."
+msgstr ""
+
+#: ../../src/overview1/first-entry.md:17
+msgid ""
+"**Информация о приложениях (Application Domains)**: Этот раздел позволяет"
+" создавать компоненты приложений, подключать пользователей через "
+"определенные URL и переходить в раздел \"Navigation Menu\"."
+msgstr ""
+
+#: ../../src/overview1/first-entry.md:18
+msgid ""
+"**Статистика использования**: Отображается информация о текущем "
+"количестве приложений по сравнению с общим ограничением, а также текущее "
+"и общее количество пользователей, рабочих процессов (workflows) и потоков"
+" данных (dataflows). <br>"
+msgstr ""
+
+#: ../../src/overview1/first-entry.md:21
+msgid "![Main dashboard](main-dashboard.png) <br>"
+msgstr ""
+
+#: ../../src/overview1/first-entry.md:21
+msgid "Main dashboard"
+msgstr ""
+
+#: ../../src/overview1/first-entry.md:24
+msgid "Слева находится панель, содержащая 7 типов меню:"
+msgstr ""
+
+#: ../../src/overview1/first-entry.md:25
+msgid "**[Меню Home](#home);**"
+msgstr ""
+
+#: ../../src/overview1/first-entry.md:26
+msgid "**[Меню Applications](#applications);**"
+msgstr ""
+
+#: ../../src/overview1/first-entry.md:27
+msgid "**[Меню Maintenance](#maintenance);**"
+msgstr ""
+
+#: ../../src/overview1/first-entry.md:28
+msgid "**[Меню Localizations](#localizations);**"
+msgstr ""
+
+#: ../../src/overview1/first-entry.md:29
+msgid "**[Меню Extensions](#extensions);**"
+msgstr ""
+
+#: ../../src/overview1/first-entry.md:30
+msgid "**[Меню Access](#access);**"
+msgstr ""
+
+#: ../../src/overview1/first-entry.md:31
+msgid "**[Меню File storage](#file-storage).** <br>"
+msgstr ""
+
+#: ../../src/overview1/first-entry.md:34
+msgid "Управление подпиской"
+msgstr ""
+
+#: ../../src/overview1/first-entry.md:35
+msgid ""
+"**Обновление подписки**: Чтобы продлить текущую подписку, нажмите кнопку "
+"\"Продлить\" (Renew)."
+msgstr ""
+
+#: ../../src/overview1/first-entry.md:36
+msgid ""
+"**Смена тарифного плана**: Для выбора другого тарифного плана используйте"
+" кнопку \"Выбрать другой план\" (Choose Other Plan)."
+msgstr ""
+
+#: ../../src/overview1/first-entry.md:37
+msgid ""
+"**Уведомления о подписке**: Если до окончания срока действия вашей "
+"подписки осталось менее 10 дней, вы получите соответствующее уведомление "
+"о необходимости ее обновления."
+msgstr ""
+

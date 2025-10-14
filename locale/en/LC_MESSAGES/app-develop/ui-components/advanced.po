@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-15 06:42+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/ui-components/advanced.md:1
+msgid "ГРУППА \"ADVANCED\"|separator"
+msgstr "“ADVANCED” GROUP|separator"
+
+#: ../../src/app-develop/ui-components/advanced.md:3
+msgid ""
+"Группа \"Advanced UI Components\" включает в себя набор более сложных "
+"элементов управления, которые предоставляют расширенные функции для "
+"интерактивных и динамических пользовательских интерфейсов. Эти компоненты"
+" позволяют реализовывать сложную логику обработки данных, графические "
+"представления и пользовательские взаимодействия, требующие более глубокой"
+" настройки и интеграции. Используя \"Advanced UI Components\", "
+"разработчики могут создавать интуитивно понятные и функционально "
+"насыщенные интерфейсы, отвечающие специфическим требованиям "
+"бизнес-процессов и пользовательского опыта."
+msgstr "The “Advanced UI Components” group includes a set of more complex controls that provide advanced functionality for interactive and dynamic user interfaces. These components enable complex data logic, graphical representations, and user interactions that require deeper customization and integration. Using “Advanced UI Components”, developers can create intuitive and feature-rich interfaces that meet the specific requirements of business processes and user experience."
+
+#: ../../src/app-develop/ui-components/advanced.md:5
+msgid "[Date time](date-time.md)"
+msgstr "[Date time](date-time.md)"
+
+#: ../../src/app-develop/ui-components/advanced.md:6
+msgid "[Day](day.md)"
+msgstr "[Day](day.md)"
+
+#: ../../src/app-develop/ui-components/advanced.md:7
+msgid "[Time](time.md)"
+msgstr "[Time](time.md)"
+
+#: ../../src/app-develop/ui-components/advanced.md:8
+msgid "[Data grid (таблица данных)](data-grid.md)"
+msgstr "[Data grid](data-grid.md)"
+
+#: ../../src/app-develop/ui-components/advanced.md:9
+msgid "[Confirmation state](confirmation-state.md)"
+msgstr "[Confirmation state](confirmation-state.md)"
+
+#: ../../src/app-develop/ui-components/advanced.md:10
+msgid "[Tab control](tab-control.md)"
+msgstr "[Tab control](tab-control.md)"
+
+#: ../../src/app-develop/ui-components/advanced.md:11
+msgid "[List view](list-view.md)"
+msgstr "[List view](list-view.md)"
+
+#: ../../src/app-develop/ui-components/advanced.md:12
+msgid "[Tree view](tree-view.md)"
+msgstr "[Tree view](tree-view.md)"
+
+#: ../../src/app-develop/ui-components/advanced.md:13
+msgid "[Slider](slider.md)"
+msgstr "[Slider](slider.md)"
+
+#: ../../src/app-develop/ui-components/advanced.md:14
+msgid "[Signature](signature.md)"
+msgstr "[Signature](signature.md)"
+
+#: ../../src/app-develop/ui-components/advanced.md:15
+msgid "[Charts](charts.md)"
+msgstr "[Charts](charts.md)"
+
+#: ../../src/app-develop/ui-components/advanced.md:16
+msgid "[Progres bar](progress-bar.md)"
+msgstr "[Progres bar](progress-bar.md)"
+

@@ -1,0 +1,204 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:1
+msgid "Import file"
+msgstr "Import file"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:12
+msgid ""
+"Шаг \"Import File\" предназначен для импорта данных из файлов в форматах "
+".csv, Excel или JSON. Данные импортируются построчно, сопоставляясь с "
+"форматом, описанным в \"Fields Mapping\". Чтобы импортировать файл, его "
+"следует загрузить в поле типа File и указать это поле в параметре \"File "
+"Info Field\". <br>"
+msgstr ""
+"The “Import File” step is used to import data from .csv, Excel or JSON "
+"files. The data is imported line by line, mapping to the format described"
+" in “Fields Mapping”. To import a file, you should load the file into the"
+" File type field and specify this field in the \"File Info Field\" "
+"parameter. <br>"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:15
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:16
+msgid "**Настройки Шага:**"
+msgstr "**Step Settings:**"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:4
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:4
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:4
+msgid "Step name"
+msgstr "Step name"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:4
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:4
+msgid "Наименование шага"
+msgstr "Name of the step"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:4
+msgid "Source step"
+msgstr "Source step"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:4
+msgid "Выбор предыдущего шага"
+msgstr "Selecting the previous step"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:4
+msgid "File info field"
+msgstr "File info field"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:4
+msgid "Поле, содержащее файл для импорта"
+msgstr "Field containing the file to import"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:4
+msgid "Input file type"
+msgstr "Input file type"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:4
+msgid ".csv, .xlsx, .json"
+msgstr ".csv, .xlsx, .json"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:4
+msgid "Формат файла для импорта"
+msgstr "File format for import"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:4
+msgid "Column separator"
+msgstr "Column separator"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:4
+msgid ";"
+msgstr ";"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:4
+msgid "Разделитель колонок для CSV файла"
+msgstr "Column separator for CSV file"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:4
+msgid "First lines to ignore"
+msgstr "First lines to ignore"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:4
+msgid "0"
+msgstr "0"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:4
+msgid "Количество первых строк для игнорирования в файле"
+msgstr "Number of first lines to ignore in the file"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:4
+msgid "Fields mapping"
+msgstr "Fields mapping"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:4
+msgid "Сопоставление полей компонента с колонками файла"
+msgstr "Mapping component fields to file columns"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:30
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:31
+msgid ""
+"**Импорт табличных данных**: Используется для загрузки данных из файлов "
+"CSV или Excel, настраивая сопоставление между колонками файла и полями "
+"компонента."
+msgstr ""
+"**Import Tabular Data**: Used to load data from CSV or Excel files, "
+"customizing the mapping between file columns and component fields."
+
+#: ../../src/app-develop/data-flow-components/import-file.md:32
+msgid ""
+"**Импорт структурированных данных**: Подходит для импорта JSON файлов, "
+"содержащих структурированные данные. <br>"
+msgstr ""
+"**Import Structured Data**: Suitable for importing JSON files containing "
+"structured data. <br>"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:35
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:36
+msgid ""
+"**Неправильное сопоставление полей**: Ошибки в настройке \"Fields "
+"Mapping\" могут привести к некорректному импорту данных."
+msgstr ""
+"**Incorrect Fields Mapping**: Errors in the “Fields Mapping” setting may "
+"result in incorrect data import."
+
+#: ../../src/app-develop/data-flow-components/import-file.md:37
+msgid ""
+"**Игнорирование неинформативных строк**: Необходимо точно указать "
+"количество строк, которые следует игнорировать перед началом импорта "
+"данных. <br>"
+msgstr ""
+"**Ignore Uninformative Rows**: You must specify exactly the number of "
+"rows to ignore before you start importing data."
+
+#: ../../src/app-develop/data-flow-components/import-file.md:40
+msgid "Вариант применения"
+msgstr "Application scenario"
+
+#: ../../src/app-develop/data-flow-components/import-file.md:42
+msgid ""
+"Этот компонент представляет собой интерфейс для загрузки файлов в "
+"форматах **CSV** и **XLSX**. Он содержит поля для трех полей датамодели "
+"**CSV** и трех полей датамодели **XLSX**, а также одно поле для загрузки "
+"файла. Два датафлоу используются для импорта файла, выполнения скрипта и "
+"сохранения данных в хранилище."
+msgstr ""
+"This component is an interface for uploading files in **CSV** and **XLSX** formats. "
+"It includes fields for three **CSV** data model fields and three **XLSX** data model "
+"fields, as well as one field for file upload. Two data flows are used for file "
+"import, script execution, and data storage."
+
+#: ../../src/app-develop/data-flow-components/import-file.md:44
+msgid ""
+"Вы можете скачать конфигурацию компонента "
+"[здесь](https://drive.google.com/file/d/10P0-XqSZOKV7wZzg8uH6NR1VnxZ0-8RB/view?usp=sharing)"
+msgstr ""
+"You can download the component configuration [here](https://drive.google.com/file/d/10P0-XqSZOKV7wZzg8uH6NR1VnxZ0-8RB/view?usp=sharing)"
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

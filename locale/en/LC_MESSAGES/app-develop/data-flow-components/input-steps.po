@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-15 06:42+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/data-flow-components/input-steps.md:1
+msgid "ГРУППА \"INPUT\"|separator"
+msgstr "INPUT GROUP|separator"
+
+#: ../../src/app-develop/data-flow-components/input-steps.md:3
+msgid "[Get values from connector](get-values-from-connector.md)"
+msgstr "[Get values from connector](get-values-from-connector.md)"
+
+#: ../../src/app-develop/data-flow-components/input-steps.md:4
+msgid "[Subscribe to connector](subscribe-to-connector.md)"
+msgstr "[Subscribe to connector](subscribe-to-connector.md)"
+
+#: ../../src/app-develop/data-flow-components/input-steps.md:5
+msgid "[Get action model](get-action-model.md)"
+msgstr "[Get action model](get-action-model.md)"
+
+#: ../../src/app-develop/data-flow-components/input-steps.md:6
+msgid "[Get workflow model](get-workflow-model.md)"
+msgstr "[Get workflow model](get-workflow-model.md)"
+
+#: ../../src/app-develop/data-flow-components/input-steps.md:7
+msgid "[Get empty model](get-empty-model.md)"
+msgstr "[Get empty model](get-empty-model.md)"
+
+#: ../../src/app-develop/data-flow-components/input-steps.md:8
+msgid "[Proxy get entry](proxy-get-entry.md)"
+msgstr "[Proxy get entry](proxy-get-entry.md)"
+
+#: ../../src/app-develop/data-flow-components/input-steps.md:9
+msgid "[Proxy query entry](proxy-query-entry.md)"
+msgstr "[Proxy query entry](proxy-query-entry.md)"
+
+#: ../../src/app-develop/data-flow-components/input-steps.md:10
+msgid "[Get raw model](get-raw-model.md)"
+msgstr "[Get raw model](get-raw-model.md)"
+
+#: ../../src/app-develop/data-flow-components/input-steps.md:11
+msgid "[Import file](import-file.md)"
+msgstr "[Import file](import-file.md)"
+

@@ -1,0 +1,452 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 08:10+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/component.md:1
+msgid "Компонент"
+msgstr ""
+
+#: ../../src/app-develop/component.md:4
+msgid ""
+"Компоненты являются ключевыми строительными блоками в платформе, "
+"обеспечивая основу для создания приложений. Они представляют собой "
+"инкапсулированные единицы функциональности, которые могут включать в себя"
+" данные, пользовательский интерфейс, бизнес-логику и автоматизацию "
+"процессов. <br>"
+msgstr ""
+
+#: ../../src/app-develop/component.md:7
+msgid "Типы компонентов"
+msgstr ""
+
+#: ../../src/app-develop/component.md:9
+msgid "**Компонент (Single Component)**:"
+msgstr ""
+
+#: ../../src/app-develop/component.md:10
+msgid "Содержит базовую объектную модель для хранения данных."
+msgstr ""
+
+#: ../../src/app-develop/component.md:11
+msgid ""
+"Включает модель пользовательского интерфейса с формами и элементами "
+"управления."
+msgstr ""
+
+#: ../../src/app-develop/component.md:12
+msgid ""
+"Обладает моделью автоматизации с потоками данных (dataflows) и рабочими "
+"процессами (workflows)."
+msgstr ""
+
+#: ../../src/app-develop/component.md:13
+msgid "Поддерживает скрипты на Python для дополнительной настройки поведения."
+msgstr ""
+
+#: ../../src/app-develop/component.md:14
+msgid "Имеет уникальные параметры безопасности."
+msgstr ""
+
+#: ../../src/app-develop/component.md:16
+msgid "**Мультикомпонент (Multi-Component)**:"
+msgstr ""
+
+#: ../../src/app-develop/component.md:17
+msgid "Объединяет несколько Компонентов для создания сложных приложений."
+msgstr ""
+
+#: ../../src/app-develop/component.md:18
+msgid ""
+"Используется для построения единого пользовательского интерфейса, "
+"например, в мобильных приложениях. <br>"
+msgstr ""
+
+#: ../../src/app-develop/component.md:21
+msgid "Создание нового компонента"
+msgstr ""
+
+#: ../../src/app-develop/component.md:23
+msgid "Открыть Studio (`https://<ваш-хостинг-имя>/studio`)."
+msgstr ""
+
+#: ../../src/app-develop/component.md:24
+msgid "Перейти в меню Applications/Components."
+msgstr ""
+
+#: ../../src/app-develop/component.md:25
+msgid ""
+"Нажать кнопку Add для создания нового компонента или мультикомпонента. "
+"<br>"
+msgstr ""
+
+#: ../../src/app-develop/component.md:28
+msgid "Базовые настройки компонента"
+msgstr ""
+
+#: ../../src/app-develop/component.md
+msgid "Параметр"
+msgstr ""
+
+#: ../../src/app-develop/component.md
+msgid "Описание"
+msgstr ""
+
+#: ../../src/app-develop/component.md
+msgid "`Title`"
+msgstr ""
+
+#: ../../src/app-develop/component.md
+msgid "Название компонента, отображаемое пользователям."
+msgstr ""
+
+#: ../../src/app-develop/component.md
+msgid "`Proxy Mode`"
+msgstr ""
+
+#: ../../src/app-develop/component.md
+msgid "Определяет, будет ли компонент действовать как прокси."
+msgstr ""
+
+#: ../../src/app-develop/component.md
+msgid "`Restrict Access`"
+msgstr ""
+
+#: ../../src/app-develop/component.md
+msgid "Ограничивает доступ к компоненту."
+msgstr ""
+
+#: ../../src/app-develop/component.md
+msgid "`Maker`"
+msgstr ""
+
+#: ../../src/app-develop/component.md
+msgid "Указывает на создателя или владельца компонента."
+msgstr ""
+
+#: ../../src/app-develop/component.md
+msgid "`Cron`"
+msgstr ""
+
+#: ../../src/app-develop/component.md
+msgid "Настройка времени запуска компонента с использованием Cron."
+msgstr ""
+
+#: ../../src/app-develop/component.md
+msgid "`Run as User`"
+msgstr ""
+
+#: ../../src/app-develop/component.md
+msgid "Определяет пользователя, от чьего имени будет выполняться."
+msgstr ""
+
+#: ../../src/app-develop/component.md
+msgid "`Access Mode`"
+msgstr ""
+
+#: ../../src/app-develop/component.md
+msgid "Определяет режим доступа к компоненту."
+msgstr ""
+
+#: ../../src/app-develop/component.md
+msgid "`Description`"
+msgstr ""
+
+#: ../../src/app-develop/component.md
+msgid "Подробное описание компонента, его назначения и функций."
+msgstr ""
+
+#: ../../src/app-develop/component.md
+msgid "`Domains`"
+msgstr ""
+
+#: ../../src/app-develop/component.md
+msgid "Домены или категории, к которым относится компонент."
+msgstr ""
+
+#: ../../src/app-develop/component.md:44
+msgid "Объектная модель компонента в платформе"
+msgstr ""
+
+#: ../../src/app-develop/component.md:46
+msgid "Каждый компонент в платформе автоматически включает в себя следующие поля:"
+msgstr ""
+
+#: ../../src/app-develop/component.md:48
+msgid "`Id`: Уникальный идентификатор компонента."
+msgstr ""
+
+#: ../../src/app-develop/component.md:49
+msgid "`creatorSubject`: Субъект, создавший объект."
+msgstr ""
+
+#: ../../src/app-develop/component.md:50
+msgid "`updateSubject`: Субъект, обновивший объект."
+msgstr ""
+
+#: ../../src/app-develop/component.md:51
+msgid "`createdDate`: Дата создания объекта."
+msgstr ""
+
+#: ../../src/app-develop/component.md:52
+msgid "`updateDate`: Дата последнего обновления объекта."
+msgstr ""
+
+#: ../../src/app-develop/component.md:54
+msgid ""
+"Компоненты могут включать дополнительные элементы, которые могут быть "
+"одного из одиннадцати типов: `string`, `datetime`, `catalog`, `number`, "
+"`integer`, `array`, `file`, `boolean`, `time`, `date`, `uri`. Каждый из "
+"этих элементов имеет свои настройки."
+msgstr ""
+
+#: ../../src/app-develop/component.md:56
+msgid "Общие настройки для всех типов:"
+msgstr ""
+
+#: ../../src/app-develop/component.md:58
+msgid "`Name`: Системное имя свойства."
+msgstr ""
+
+#: ../../src/app-develop/component.md:59
+msgid "`Title`: Отображаемое имя свойства для интерфейса."
+msgstr ""
+
+#: ../../src/app-develop/component.md:60
+msgid "`Required`: Указывает, обязательно ли поле для заполнения."
+msgstr ""
+
+#: ../../src/app-develop/component.md:61
+msgid "`Primary Key`: Определяет, является ли поле уникальным идентификатором."
+msgstr ""
+
+#: ../../src/app-develop/component.md:62
+msgid "`Query`: Определяет, может ли поле быть использовано в запросах."
+msgstr ""
+
+#: ../../src/app-develop/component.md:63
+msgid "`Virtual property`: Исключение поля из процессов синхронизации."
+msgstr ""
+
+#: ../../src/app-develop/component.md:68
+msgid "Interface Builder"
+msgstr ""
+
+#: ../../src/app-develop/component.md:70
+msgid ""
+"Платформа предлагает мощный инструмент для настройки пользовательского "
+"интерфейса для каждого компонента - Interface Builder. Это визуальный "
+"редактор, позволяющий создавать и настраивать многокомпонентные "
+"пользовательские интерфейсы с помощью функций перетаскивания(drag-and-"
+"drop). Interface Builder представляет собой рабочую область раздела "
+"Definition в интерфейсе создания компонента."
+msgstr ""
+
+#: ../../src/app-develop/component.md:72
+msgid "В этом разделе можно:"
+msgstr ""
+
+#: ../../src/app-develop/component.md:74
+msgid ""
+"Создавать мультиэкранный интерфейс приложения, используя интуитивно "
+"понятный редактор drag-and-drop."
+msgstr ""
+
+#: ../../src/app-develop/component.md:75
+msgid ""
+"Добавлять элементы пользовательского интерфейса из категорий Basic, "
+"Advanced и Layout."
+msgstr ""
+
+#: ../../src/app-develop/component.md:76
+msgid "Настраивать объектную модель для Workflow и Dataflow приложения."
+msgstr ""
+
+#: ../../src/app-develop/component.md:77
+msgid ""
+"Настраивать индивидуальные CSS-стили для всех элементов пользовательского"
+" интерфейса."
+msgstr ""
+
+#: ../../src/app-develop/component.md:79
+msgid ""
+"После добавление элементов интерфейса в макет страницы приложения можно "
+"выполнять следующие операции:"
+msgstr ""
+
+#: ../../src/app-develop/component.md:80
+msgid "**Копировать:** Копирует текущий элемент в буфер обмена."
+msgstr ""
+
+#: ../../src/app-develop/component.md:81
+msgid "**Вставить:** Вставляет скопированный элемент в новое место."
+msgstr ""
+
+#: ../../src/app-develop/component.md:82
+msgid "**Переместить:** Изменяет позицию элемента."
+msgstr ""
+
+#: ../../src/app-develop/component.md:83
+msgid "**Свойства:** Открывает панель свойств для настройки элемента."
+msgstr ""
+
+#: ../../src/app-develop/component.md:84
+msgid ""
+"**Предпросмотр:** Показывает макет в формате, близком к пользовательскому"
+" приложению."
+msgstr ""
+
+#: ../../src/app-develop/component.md:85
+msgid "**Просмотр Разметки:** Отображает текстовую веб-разметку страницы."
+msgstr ""
+
+#: ../../src/app-develop/component.md:86
+msgid "**Удалить:** Удаляет выбранный элемент."
+msgstr ""
+
+#: ../../src/app-develop/component.md:87
+msgid ""
+"**Поле данных:** Позволяет привязать элемент к полю данных (связь с базой"
+" данных). <br>"
+msgstr ""
+
+#: ../../src/app-develop/component.md:91
+msgid "Модуль Web parts: \"Styles\" и \"JavaScript\""
+msgstr ""
+
+#: ../../src/app-develop/component.md:93
+msgid ""
+"Блок `\"Styles\"` предназначен для описания `CSS` стилей, которые "
+"применяются к компоненту, а блок `\"JavaScript\"` позволяет создавать "
+"взаимодействие с пользовательским интерфейсом и обеспечивать "
+"дополнительную функциональность с использованием языка `JavaScript`."
+msgstr ""
+
+#: ../../src/app-develop/component.md:95
+msgid ""
+"Таким образом, модуль `\"Web Parts\"` предоставляет возможность "
+"разработчикам создавать более сложные и интерактивные компоненты, "
+"используя различные языки программирования для описания стилей и "
+"функциональности."
+msgstr ""
+
+#: ../../src/app-develop/component.md:97
+msgid "Использование \"JavaScript\""
+msgstr ""
+
+#: ../../src/app-develop/component.md:99
+msgid ""
+"Пример использования `JavaScript` для реализации функционала создания "
+"кнопки, нажатие на которую производит скриншот:"
+msgstr ""
+
+#: ../../src/app-develop/component.md:101
+msgid ""
+"Чтобы вызывать функции `JavaScript` из блока `Web parts` необходимо "
+"использовать метод `context InvokeInterop(methodName, objects)` в рамках "
+"Component script:"
+msgstr ""
+
+#: ../../src/app-develop/component.md:106
+msgid ""
+"Далее переходим раздел `JavaScript` блока `Web parts` и подготавливаем "
+"функцию:"
+msgstr ""
+
+#: ../../src/app-develop/component.md:134
+msgid ""
+"Этот код создает элемент `<script>`, который загружает библиотеку "
+"html2canvas из CDN (Content Delivery Network). После загрузки библиотеки,"
+" определена функция takeScreenshot(), которая захватывает скриншот "
+"текущей страницы с помощью html2canvas."
+msgstr ""
+
+#: ../../src/app-develop/component.md:136
+msgid ""
+"После создания скриншота, код создает элемент `<a>`, чтобы сделать его "
+"возможным для скачивания, устанавливает его href в URL изображения в "
+"формате PNG и `download` в \"screenshot.png\". Затем он добавляет эту "
+"ссылку в тело документа, эмулирует клик по этой ссылке для скачивания "
+"скриншота и наконец, удаляет ссылку из документа. <br>"
+msgstr ""
+
+#: ../../src/app-develop/component.md:139
+msgid "Использование \"Styles\""
+msgstr ""
+
+#: ../../src/app-develop/component.md:141
+msgid ""
+"Пример CSS кода, который устанавливает фоновый цвет всей вашей рабочей "
+"области:"
+msgstr ""
+
+#: ../../src/app-develop/component.md:150
+msgid "Построение Dataflow и Workflow"
+msgstr ""
+
+#: ../../src/app-develop/component.md:152
+msgid ""
+"Объектная модель каждого компонента содержит данные, которые используются"
+" как в рамках самого Компонента, так и в процессах его интеграции с "
+"другими элементами системы. Эти данные служат основой для настройки и "
+"исполнения потоков данных (dataflow) и рабочих процессов (workflow)."
+msgstr ""
+
+#: ../../src/app-develop/component.md:154
+msgid ""
+"Чтобы начать построение Dataflow или Workflow, нужно перетащить из "
+"\"Flows\" один из элементов в область interface builder, после чего "
+"появится возможность настройки визуального редактора dataflow и workflow."
+msgstr ""
+
+#: ../../src/app-develop/component.md:156
+msgid "Больше о dataflow [тут](#dataflow). О workflow [тут](#workflow) <br>"
+msgstr ""
+
+#: ../../src/app-develop/component.md:159
+msgid "Публикация компонента и его перенос на web интерфейс"
+msgstr ""
+
+#: ../../src/app-develop/component.md:161
+msgid ""
+"После завершения настройки компонента необходимо опубликовать его в "
+"рамках новой публикации."
+msgstr ""
+
+#: ../../src/app-develop/component.md:162
+msgid "Управление публикациями описано в разделе [публикации](#publication)."
+msgstr ""
+
+#: ../../src/app-develop/component.md:163
+msgid ""
+"Далее необходимо вернуться в меню `Home` и перейти в `Navigation menu` "
+"нужного `application domain`, нажать `Add menu item`, выбрать нужный "
+"компонент, заполнить параметры и нажать `Save`. <br>"
+msgstr ""
+
+#: ../../src/app-develop/component.md:166
+msgid "![Navigation menu](navigation-menu.png)"
+msgstr ""
+
+#: ../../src/app-develop/component.md:166
+msgid "Navigation menu"
+msgstr ""
+

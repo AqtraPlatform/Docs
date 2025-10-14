@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 08:10+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:1
+msgid "Send templated notification"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:11
+msgid "Основные сведения"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:12
+msgid ""
+"Шаг \"Send Templated Notification\" в рамках workflow используется для "
+"отправки уведомлений пользователям или группам пользователей с "
+"использованием предварительно настроенных шаблонов. Это позволяет "
+"создавать стандартизированные, но персонализированные сообщения, что "
+"улучшает коммуникацию и обеспечивает единообразие сообщений. <br>"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:15
+msgid "Параметры"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:16
+msgid "**Настройки Шага:**"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:4
+msgid "Поле настройки"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:4
+msgid "Варианты значений"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:4
+msgid "Назначение"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:4
+msgid "Step name"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:4
+msgid "-"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:4
+msgid "Наименование шага"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:4
+msgid "Notification type"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:4
+msgid "Smtp, Mail, SignalR"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:4
+msgid "Тип канала доставки уведомления"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:4
+msgid "User info field"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:4
+msgid "Множественный выбор Catalog"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:4
+msgid "Поле с информацией о пользователе или группе пользователей"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:4
+msgid "User group"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:4
+msgid "(Устаревший параметр, не используется)"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:4
+msgid "User routing"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:4
+msgid "Настройка маршрутизации уведомления"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:4
+msgid "User name"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:4
+msgid "Конкретный пользователь для уведомления"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:4
+msgid "Template"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:4
+msgid "Выбор шаблона уведомления"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:4
+msgid "Render type"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:4
+msgid "Text, Html, Docx, Xlsx"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:4
+msgid "Формат рендеринга шаблона"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:31
+msgid "Кейсы"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:32
+msgid ""
+"**Автоматизированные уведомления**: Используется для отправки "
+"стандартизированных уведомлений, таких как напоминания, подтверждения "
+"действий или информационные сообщения."
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:33
+msgid ""
+"**Эффективная коммуникация**: Подходит для создания профессионально "
+"оформленных сообщений для внешних или внутренних коммуникаций. <br>"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:36
+msgid "Исключения"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:37
+msgid ""
+"**Требования к настройке шаблонов**: Необходимо заранее подготовить и "
+"настроить шаблоны уведомлений для обеспечения соответствия сообщений "
+"целям коммуникации."
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/send-templated-notification.md:38
+msgid ""
+"**Управление получателями уведомлений**: Важно точно определить "
+"получателей сообщений, используя поля User info field и User name, чтобы "
+"уведомления достигли нужных адресатов."
+msgstr ""
+

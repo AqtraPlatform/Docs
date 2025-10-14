@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 11:37+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/workflow-components/switch-case.md:1
+msgid "Switch case"
+msgstr "Switch case"
+
+#: ../../src/app-develop/workflow-components/switch-case.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/workflow-components/switch-case.md:12
+msgid ""
+"Шаг \"Switch Case\" в рамках workflow используется как оператор "
+"безусловного перехода, который позволяет выбирать между различными "
+"вариантами сценария. Этот шаг идеально подходит для управления логикой "
+"процесса на основе определенных условий, обычно заданных полями Boolean "
+"или Enum. При его использовании основной сценарий всегда отключается, и "
+"процесс переходит к одной из альтернативных ветвей. <br>"
+msgstr ""
+"The “Switch Case” step within a workflow is used as an unconditional "
+"switch operator that allows you to choose between different script "
+"options. This step is ideal for controlling process logic based on "
+"certain conditions, usually specified by Boolean or Enum fields. When "
+"used, the main script is always disabled and the process goes to one of "
+"the alternative branches. <br>"
+
+#: ../../src/app-develop/workflow-components/switch-case.md:20
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/workflow-components/switch-case.md:21
+msgid "**Настройки Шага:**"
+msgstr "**Step Settings:**"
+
+#: ../../src/app-develop/workflow-components/switch-case.md:14
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/workflow-components/switch-case.md:14
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/workflow-components/switch-case.md:14
+msgid "Step name"
+msgstr "Step name"
+
+#: ../../src/app-develop/workflow-components/switch-case.md:14
+msgid "Наименование шага \"Switch Case\""
+msgstr "“Switch Case” step name"
+
+#: ../../src/app-develop/workflow-components/switch-case.md:14
+msgid "Switch source field"
+msgstr "Switch source field"
+
+#: ../../src/app-develop/workflow-components/switch-case.md:14
+msgid "Поле, на основании значения которого происходит выбор сценария"
+msgstr "Field based on the value of which the script is selected"
+
+#: ../../src/app-develop/workflow-components/switch-case.md:30
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/workflow-components/switch-case.md:31
+msgid ""
+"**Разветвление логики процесса**: Используется для создания условных "
+"путей в workflow, где дальнейшее направление определяется на основе "
+"определенного условия или значения."
+msgstr ""
+"**Process Logic Branching**: Used to create conditional paths in a "
+"workflow where the next direction is determined based on a certain "
+"condition or value."
+
+#: ../../src/app-develop/workflow-components/switch-case.md:32
+msgid ""
+"**Управление различными сценариями выполнения**: Подходит для сценариев, "
+"где требуется различное выполнение процесса в зависимости от "
+"предварительно определенных условий или выбора пользователя. <br>"
+msgstr ""
+"**Management of Different Execution Scripts**: Suitable for scripts where"
+" a process requires different execution depending on predefined "
+"conditions or user selection. <br>"
+
+#: ../../src/app-develop/workflow-components/switch-case.md:35
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/workflow-components/switch-case.md:36
+msgid ""
+"**Точность условий перехода**: Необходимо точно определить условия "
+"перехода для каждого случая, чтобы гарантировать правильный выбор пути "
+"выполнения."
+msgstr ""
+"**Accuracy of Transition Conditions**: It is necessary to accurately "
+"define the switch conditions for each case to ensure that the correct "
+"execution path is selected."
+
+#: ../../src/app-develop/workflow-components/switch-case.md:37
+msgid ""
+"**Комплексность управления множественными путями**: В сложных workflow с "
+"множеством возможных путей требуется четкое понимание и управление каждым"
+" из них, чтобы избежать ошибок в логике процесса."
+msgstr ""
+"**Complexity of Multiple Path Management**: Complex workflows with many "
+"possible paths require clear understanding and management of each of them"
+" to avoid errors in the process logic."
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

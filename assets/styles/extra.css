@@ -1,0 +1,276 @@
+/* Aqtra Docs - Custom Styles */
+
+/* Типографика */
+:root {
+  --md-text-font: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial,
+    sans-serif;
+  --md-code-font: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco,
+    Consolas, "Liberation Mono", monospace;
+}
+
+/* Умеренно увеличим межстрочку и ширину контента */
+.md-typeset {
+  line-height: 1.65;
+}
+
+.md-grid {
+  max-width: 1200px; /* шире контейнер */
+}
+
+/* Лид-абзацы */
+.md-typeset .lead {
+  font-size: 1.05rem;
+  opacity: 0.95;
+  margin-top: 0.2rem;
+  font-weight: 400;
+  color: var(--md-default-fg-color--light);
+}
+
+/* Таблицы: зебра + горизонтальный скролл на мобильных */
+.md-typeset table:not([class]) {
+  font-size: 0.95rem;
+}
+
+.md-typeset table:not([class]) tbody tr:nth-child(odd) {
+  background: var(--md-default-bg-color--lighter, rgba(0, 0, 0, 0.025));
+}
+
+.md-typeset table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+/* Картинки в тексте — чуть скруглить и тень */
+.md-typeset img {
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.2s ease;
+}
+
+.md-typeset img:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+}
+
+/* Admonitions — компактнее и читабельнее */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 10px;
+  border-left-width: 4px;
+}
+
+.md-typeset .admonition-title {
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  border-radius: 6px 6px 0 0;
+}
+
+/* Код: выделение строк */
+.md-typeset pre > code {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.md-typeset .highlight .hll {
+  background: rgba(255, 235, 59, 0.15); /* мягкий подсвет */
+}
+
+/* Бейджики (утилита): { .badge } */
+.md-typeset .badge {
+  display: inline-block;
+  padding: 0.15rem 0.45rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border-radius: 999px;
+  background: var(--md-default-fg-color--light);
+  color: var(--md-default-bg-color);
+  vertical-align: middle;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.md-typeset .badge:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Кнопки-ссылки (утилита): { .btn } */
+.md-typeset .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.75rem;
+  border-radius: 10px;
+  border: 1px solid var(--md-default-fg-color--light);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+
+.md-typeset .btn:hover {
+  filter: brightness(1.05);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Улучшенные блоки кода */
+.md-typeset .highlight {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.md-typeset .highlight pre {
+  margin: 0;
+  padding: 1rem;
+}
+
+/* Улучшенная навигация */
+.md-nav__item--active > .md-nav__link {
+  font-weight: 600;
+}
+
+/* Улучшенные заголовки */
+.md-typeset h1 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.md-typeset h2 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+/* Улучшенные ссылки */
+.md-typeset a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  transition: all 0.2s ease;
+}
+
+.md-typeset a:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* Улучшенные списки */
+.md-typeset ul li,
+.md-typeset ol li {
+  margin-bottom: 0.25rem;
+}
+
+/* Улучшенные цитаты */
+.md-typeset blockquote {
+  border-left: 4px solid var(--md-primary-fg-color);
+  padding-left: 1rem;
+  margin-left: 0;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+/* Тёмная тема: слегка уменьшаем контраст зебры и теней */
+[data-md-color-scheme="slate"] .md-typeset .highlight .hll {
+  background: rgba(255, 214, 10, 0.15);
+}
+
+[data-md-color-scheme="slate"] .md-typeset tbody tr:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+[data-md-color-scheme="slate"] .md-typeset img {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+[data-md-color-scheme="slate"] .md-typeset img:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Улучшенные табы */
+.md-typeset .tabbed-set {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.md-typeset .tabbed-set > input:checked + label {
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+}
+
+/* Улучшенные детали/сворачиваемые блоки */
+.md-typeset details {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 0.5rem;
+  margin: 1rem 0;
+}
+
+.md-typeset details[open] {
+  border-color: var(--md-primary-fg-color);
+}
+
+.md-typeset details > summary {
+  cursor: pointer;
+  font-weight: 500;
+  padding: 0.5rem;
+  margin: -0.5rem;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.md-typeset details > summary:hover {
+  background: var(--md-default-bg-color--lightest);
+}
+
+/* Улучшенные чекбоксы в задачах */
+.md-typeset .task-list-item {
+  list-style-type: none;
+}
+
+.md-typeset .task-list-item input[type="checkbox"] {
+  margin-right: 0.5rem;
+  transform: scale(1.1);
+}
+
+/* Улучшенные сноски */
+.md-typeset .footnote {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+/* Адаптивность для мобильных */
+@media screen and (max-width: 76.1875em) {
+  .md-typeset .lead {
+    font-size: 1rem;
+  }
+
+  .md-typeset table {
+    font-size: 0.9rem;
+  }
+
+  .md-typeset .btn {
+    padding: 0.35rem 0.65rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Улучшенные иконки в admonitions */
+.md-typeset .admonition.note .admonition-title::before {
+  content: "ℹ️";
+  margin-right: 0.5rem;
+}
+
+.md-typeset .admonition.tip .admonition-title::before {
+  content: "💡";
+  margin-right: 0.5rem;
+}
+
+.md-typeset .admonition.warning .admonition-title::before {
+  content: "⚠️";
+  margin-right: 0.5rem;
+}
+
+.md-typeset .admonition.danger .admonition-title::before {
+  content: "🚨";
+  margin-right: 0.5rem;
+}

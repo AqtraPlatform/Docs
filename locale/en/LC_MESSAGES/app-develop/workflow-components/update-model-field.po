@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 11:37+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/workflow-components/update-model-field.md:1
+msgid "Update model field"
+msgstr "Update model field"
+
+#: ../../src/app-develop/workflow-components/update-model-field.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/workflow-components/update-model-field.md:12
+msgid ""
+"Шаг \"Update Model Field\" в рамках workflow используется для обновления "
+"конкретного поля в модели. Этот шаг позволяет изменять значения отдельных"
+" полей в модели данных, что особенно полезно для динамического управления"
+" данными в процессе выполнения workflow. <br>"
+msgstr ""
+"The “Update Model Field” step within workflow is used to update a "
+"specific field in the model. This step allows you to change the values of"
+" individual fields in the data model, which is particularly useful for "
+"dynamic data management during workflow execution. <br>"
+
+#: ../../src/app-develop/workflow-components/update-model-field.md:15
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/workflow-components/update-model-field.md:16
+msgid "**Настройки Шага:**"
+msgstr "**Step Settings:**"
+
+#: ../../src/app-develop/workflow-components/update-model-field.md:4
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/workflow-components/update-model-field.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/workflow-components/update-model-field.md:4
+msgid "Step name"
+msgstr "Step name"
+
+#: ../../src/app-develop/workflow-components/update-model-field.md:4
+msgid "Наименование шага \"Update Model Field\""
+msgstr "“Update Model Field” step name "
+
+#: ../../src/app-develop/workflow-components/update-model-field.md:4
+msgid "Model field"
+msgstr "Model field"
+
+#: ../../src/app-develop/workflow-components/update-model-field.md:4
+msgid "Поле модели, которое требуется обновить"
+msgstr "Model field you want to update"
+
+#: ../../src/app-develop/workflow-components/update-model-field.md:4
+msgid "Value"
+msgstr "Value"
+
+#: ../../src/app-develop/workflow-components/update-model-field.md:4
+msgid "Значение, на которое будет обновлено поле"
+msgstr "Value to which the field will be updated"
+
+#: ../../src/app-develop/workflow-components/update-model-field.md:4
+msgid "Source field"
+msgstr "Source field"
+
+#: ../../src/app-develop/workflow-components/update-model-field.md:4
+msgid "Исходное поле, значение которого будет использовано для обновления"
+msgstr "Source field whose value will be used for updating"
+
+#: ../../src/app-develop/workflow-components/update-model-field.md:27
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/workflow-components/update-model-field.md:28
+msgid ""
+"**Динамическое обновление данных**: Используется для изменения значений в"
+" модели на основе данных, полученных в ходе выполнения workflow, "
+"например, обновление статуса задачи или изменение параметров настройки. "
+"<br>"
+msgstr ""
+"**Dynamic Data Updating**: Used to change values in the model based on "
+"data generated during workflow, such as updating the status of a task or "
+"changing configuration options. <br>"
+
+#: ../../src/app-develop/workflow-components/update-model-field.md:31
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/workflow-components/update-model-field.md:32
+msgid ""
+"**Точность и актуальность данных**: Необходимо обеспечить, чтобы "
+"обновляемые данные были точными и актуальными, чтобы избежать "
+"нежелательных последствий."
+msgstr ""
+"**Accuracy and Relevance of Data**: Ensure that updated data are accurate"
+" and up-to-date to avoid undesirable consequences."
+
+#: ../../src/app-develop/workflow-components/update-model-field.md:33
+msgid ""
+"**Понимание влияния изменений**: Важно понимать влияние обновления поля "
+"на общую модель и логику workflow, особенно в сложных системах с "
+"переплетающимися зависимостями."
+msgstr ""
+"**Understanding the Impact of Changes**: It is important to understand "
+"the impact of updating a field on the overall workflow model and logic, "
+"especially in complex systems with interlocking dependencies."
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

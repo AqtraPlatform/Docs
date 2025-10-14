@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 11:37+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/workflow-components/if-condition.md:1
+msgid "If сondition"
+msgstr "If сondition"
+
+#: ../../src/app-develop/workflow-components/if-condition.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/workflow-components/if-condition.md:12
+msgid ""
+"Шаг \"If Condition\" в рамках workflow используется для проверки значения"
+" поля на соответствие указанному условию. Этот шаг позволяет реализовать "
+"условное ветвление в процессе, где выполнение определенных действий или "
+"переход к альтернативному сценарию зависит от результата проверки "
+"условия. Альтернативный сценарий обязательно должен содержать в себе шаг "
+"\"Finish\". <br>"
+msgstr ""
+"The “If Condition” step within the workflow is used to check the value of"
+" a field against the specified condition. This step allows you to "
+"implement conditional branching in a process where performing certain "
+"actions or moving to an alternative script depends on the result of a "
+"condition check. An alternative script must contain the “Finish” step. "
+"<br>"
+
+#: ../../src/app-develop/workflow-components/if-condition.md:15
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/workflow-components/if-condition.md:16
+msgid "**Настройки Шага:**"
+msgstr "**Step Settings:**"
+
+#: ../../src/app-develop/workflow-components/if-condition.md:4
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/workflow-components/if-condition.md:4
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/workflow-components/if-condition.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/workflow-components/if-condition.md:4
+msgid "Step name"
+msgstr "Step name"
+
+#: ../../src/app-develop/workflow-components/if-condition.md:4
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/workflow-components/if-condition.md:4
+msgid "Наименование шага \"If Condition\""
+msgstr "“If Condition” step name"
+
+#: ../../src/app-develop/workflow-components/if-condition.md:4
+msgid "Condition field"
+msgstr "Condition field"
+
+#: ../../src/app-develop/workflow-components/if-condition.md:4
+msgid "Множественный выбор Catalog"
+msgstr "Multiselect of Catalog"
+
+#: ../../src/app-develop/workflow-components/if-condition.md:4
+msgid "Поле для проверки на соответствие условию"
+msgstr "Condition validation field"
+
+#: ../../src/app-develop/workflow-components/if-condition.md:4
+msgid "Operator"
+msgstr "Operator"
+
+#: ../../src/app-develop/workflow-components/if-condition.md:4
+msgid "Equal, Not equal, Great, Less"
+msgstr "Equal, Not equal, Great, Less"
+
+#: ../../src/app-develop/workflow-components/if-condition.md:4
+msgid "Тип оператора для проверки условия"
+msgstr "Type of operator to check the condition"
+
+#: ../../src/app-develop/workflow-components/if-condition.md:4
+msgid "Compare with null"
+msgstr "Compare with null"
+
+#: ../../src/app-develop/workflow-components/if-condition.md:4
+msgid "true, false"
+msgstr "true, false"
+
+#: ../../src/app-develop/workflow-components/if-condition.md:4
+msgid "Проверка на сравнение с нулем (null)"
+msgstr "Checking for comparison with null"
+
+#: ../../src/app-develop/workflow-components/if-condition.md:4
+msgid "Value"
+msgstr "Value"
+
+#: ../../src/app-develop/workflow-components/if-condition.md:4
+msgid "Значение для сравнения с полем"
+msgstr "Value to compare with the field"
+
+#: ../../src/app-develop/workflow-components/if-condition.md:28
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/workflow-components/if-condition.md:29
+msgid ""
+"**Условное выполнение действий**: Используется для активации различных "
+"частей workflow в зависимости от значений определенных полей, например, "
+"для запуска разных процессов в зависимости от статуса заявки."
+msgstr ""
+"**Conditional Execution of Actions**: Used to activate different parts of"
+" the workflow based on the values of certain fields, for example, to "
+"start different processes based on the status of the request."
+
+#: ../../src/app-develop/workflow-components/if-condition.md:30
+msgid ""
+"**Логическое ветвление в процессах**: Подходит для создания сложных "
+"логических цепочек, где разные этапы выполнения зависят от удовлетворения"
+" конкретных условий. <br>"
+msgstr ""
+"**Logical Branching in Processes**: Suitable for creating complex logical"
+" chains where different execution steps depend on the satisfaction of "
+"specific conditions. <br>"
+
+#: ../../src/app-develop/workflow-components/if-condition.md:33
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/workflow-components/if-condition.md:34
+msgid ""
+"**Точность определения условий**: Важно точно определить условия и "
+"правильно настроить поля для их проверки, чтобы избежать неверного "
+"ветвления или ошибок в логике workflow."
+msgstr ""
+"**Condition Definition Accuracy**: It is important to accurately define "
+"conditions and properly configure the fields to validate them to avoid "
+"incorrect branching or errors in the workflow logic."
+
+#: ../../src/app-develop/workflow-components/if-condition.md:35
+msgid ""
+"**Обработка различных сценариев**: Необходимо четко планировать, как "
+"будут обрабатываться различные сценарии в зависимости от результата "
+"проверки условий, особенно в многошаговых или сложных workflow."
+msgstr ""
+"**Handling Different Scripts**: You need to plan clearly how different "
+"scripts will be handled depending on the result of the condition check, "
+"especially in multi-step or complex workflows."
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

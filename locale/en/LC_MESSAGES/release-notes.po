@@ -1,0 +1,1018 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/release-notes.md:1
+msgid "Описание релизов"
+msgstr "Release descriptions"
+
+#: ../../src/release-notes.md:3
+msgid "Платформа *Scalaxi* постоянно развивается!"
+msgstr "The platform is constantly evolving!"
+
+#: ../../src/release-notes.md:6
+msgid "Новые версии выходят обычно раз в месяц для:"
+msgstr "New versions are normally released once a month for:"
+
+#: ../../src/release-notes.md:7
+msgid "Kubernetes cluster"
+msgstr "Kubernetes cluster"
+
+#: ../../src/release-notes.md:8
+msgid "Docker mini-image"
+msgstr "Docker mini-image"
+
+#: ../../src/release-notes.md:12
+msgid "Версия 0.13.x"
+msgstr "Version 0.13.x"
+
+#: ../../src/release-notes.md:14 ../../src/release-notes.md:31
+#: ../../src/release-notes.md:58
+msgid "**Добавлен функционал**"
+msgstr "**Functionality Added**"
+
+#: ../../src/release-notes.md:16
+msgid ""
+"**Новый модуль компонента**: В рамках компонента добавлен модуль [Web "
+"parts](#web-parts), который состоит из двух блоков: \"Styles\" и "
+"\"JavaScript\". Этот модуль аналогичен модулю \"Component Script\", "
+"однако вместо взаимодействия с языком Python здесь можно описывать стили "
+"CSS в блоке \"Styles\" и взаимодействие на языке JavaScript в блоке "
+"\"JavaScript\";"
+msgstr ""
+"**New Component Module**: Within the component, the [Web parts](#web-"
+"parts) module has been added, which consists of two blocks: “Styles” and "
+"“JavaScript”. This module is similar to the “Component Script” module, "
+"but instead of interacting with Python, you can describe CSS styles in "
+"the “Styles” block and interact in JavaScript in the “JavaScript” block;"
+
+#: ../../src/release-notes.md:17
+msgid ""
+"**Настройка глобальных модулей в Aplication domain**: Добавлена настройка"
+" глобальных модулей CSS и JavaScript в [Main settings](#application-"
+"domains-main-settings) у [Application domain](#application-domain). "
+"Подробнее [тут](#global-modules);"
+msgstr ""
+"**Setting up Global Modules in the Aplication domain**: Setting up global"
+" CSS and JavaScript modules have been added in the [Main settings"
+"](#application-domains-main-settings) of [Application domain"
+"](#application-domain). More details [here](#global-modules);"
+
+#: ../../src/release-notes.md:18
+msgid ""
+"**Новый инструментарий в меню Maintenance**: Добавлена настройка для "
+"раздела [File storage](#file-storage). Подробнее [тут](#file-storage-"
+"maintenance);"
+msgstr ""
+"**New Tools in the Maintenance Menu**: A setting has been added for the "
+"[File storage](#file-storage) section. More details [here](#file-storage-"
+"maintenance);"
+
+#: ../../src/release-notes.md:19
+msgid ""
+"**Новые настройки объектной модели для данных типа File**: Теперь можно "
+"выставить валидацию по типу файла и ограничение для размера файла в "
+"байтах;"
+msgstr ""
+"**New Object Model Settings for File Type Data**: Now you can set "
+"validation by file type and limit on file size in bytes;"
+
+#: ../../src/release-notes.md:20
+msgid ""
+"**Поддержка XSRF/CSRF**: Теперь компонент загрузки файлов исключает "
+"передачу бинарных данных через JS и добавляет отправку XSRF. Запросы на "
+"загрузку файлов теперь адресные и прямое обращение к file-storage "
+"исключено. Также были внесены доработки в work-place для получения XSRF "
+"токена при загрузке страницы, а контроллер OData был доработан для "
+"загрузки файлов. Отправка запросов из work-place на загрузку файлов "
+"теперь также адресная, и прямое обращение к file-storage невозможно. <br>"
+msgstr ""
+"**XSRF/CSRF Support**: The file upload component now eliminates binary "
+"data transfer via JS and adds XSRF sending. Requests for downloading "
+"files are now targeted and direct access to file-storage is excluded. "
+"Improvements have also been made to the work-place to receive an XSRF "
+"token when loading a page, and the OData controller has been improved to "
+"load files. Sending requests from work-place to download files is now "
+"also targeted, and direct access to file-storage is impossible. <br>"
+
+#: ../../src/release-notes.md:23
+msgid "**Обновлен дизайн**"
+msgstr "**Design Updated**"
+
+#: ../../src/release-notes.md:25
+msgid ""
+"**Раздел export/import**: Обновлен дизайн раздела export/import меню "
+"[Applications](#export-import). <br>"
+msgstr ""
+"**Export/Import Section**: The design of the export/import section of the"
+" [Applications](#export-import) menu has been updated. <br>"
+
+#: ../../src/release-notes.md:29
+msgid "Версия 0.12.х"
+msgstr "Version 0.12.x"
+
+#: ../../src/release-notes.md:33
+msgid ""
+"**Send notification**: Добавлен новый шаг в Dataflow - \"Send "
+"notification\". Этот шаг позволяет отправлять пользователю простые "
+"уведомления, что расширяет способы взаимодействия с пользователем через "
+"систему уведомлений. Подробнее в документации: [Send notification"
+"](#dataflow-send-notification)"
+msgstr ""
+"**Send Notification**: A new step in Dataflow “Send notification” has "
+"been added. This step allows you to send simple notifications to the "
+"user, which enhances the way you interact with the user via the "
+"notification system. More details here: [Send notification](#dataflow-"
+"send-notification)"
+
+#: ../../src/release-notes.md:34
+msgid ""
+"**Pivot grid**: Добавлен новый UI элемент \"Pivot Grid\" для анализа и "
+"визуализации данных. Подробнее в документации: [Pivot grid](#pivot-grid)"
+msgstr ""
+"**Pivot Grid**: A new UI element “Pivot Grid” has been added for data "
+"analysis and visualization. More details here: [Pivot grid](#pivot-grid)"
+
+#: ../../src/release-notes.md:35
+msgid "**Изменения в [List view](#list-view)**:"
+msgstr "**Changes to [List view](#list-view)**:"
+
+#: ../../src/release-notes.md:36
+msgid "Возможность развертывания компонента по горизонтали или вертикали."
+msgstr "Ability to expand the component horizontally or vertically."
+
+#: ../../src/release-notes.md:37
+msgid ""
+"Добавлена возможность включить Drag & Drop на все группы компонента или "
+"по выбору."
+msgstr ""
+"The ability to enable Drag & Drop has been added for all groups of a "
+"component or by choice."
+
+#: ../../src/release-notes.md:38
+msgid "В Events добавлена функция активации после использования Drag & Drop."
+msgstr "Enabling function has been added to Events after using Drag & Drop."
+
+#: ../../src/release-notes.md:39
+msgid "**Изменения в [Data grid](#data-grid)**:"
+msgstr "**Changes to [Data grid](#data-grid)**:"
+
+#: ../../src/release-notes.md:40
+msgid ""
+"Изменен механизм мультиселекта. В настройках Data grid теперь есть опция "
+"“Selection Mode” с выбором: `None`, `Single`, `Multiple`, `Checkbox`."
+msgstr ""
+"The multiselect mechanism has been changed. In the Data grid settings "
+"there is now a “Selection Mode” option with a choice: `None`, `Single`, "
+"`Multiple`, `Checkbox`."
+
+#: ../../src/release-notes.md:41
+msgid ""
+"Новые events: `On Table Changed`, `On Header Changed`, `On Row Changed`, "
+"`On Cell Changed`."
+msgstr ""
+"New events: `On Table Changed`, `On Header Changed`, `On Row Changed`, "
+"`On Cell Changed`."
+
+#: ../../src/release-notes.md:42
+msgid "Возможность выбора количества строк в пагинаторе на фронте."
+msgstr "Ability to select the number of lines in the paginator at the front."
+
+#: ../../src/release-notes.md:43
+msgid "**Изменения в [Chart View](#charts)**:"
+msgstr "**Changes in [Chart View](#charts)**:"
+
+#: ../../src/release-notes.md:44
+msgid "Удалена настройка Color Scheme."
+msgstr "Color Scheme setting has been removed."
+
+#: ../../src/release-notes.md:45
+msgid "Добавлены настройки Min/Max."
+msgstr "Min/Max settings have been added."
+
+#: ../../src/release-notes.md:46
+msgid "**Интеграция SIP клиента**:"
+msgstr "**SIP Client Integration**:"
+
+#: ../../src/release-notes.md:47
+msgid ""
+"Возможность совершать звонки из Workplace благодаря интеграции SIP "
+"клиента. Подробнее [тут](#sip)."
+msgstr ""
+"Ability to make calls from Workplace thanks to SIP client integration. "
+"More details [here](#sip)."
+
+#: ../../src/release-notes.md:48
+msgid ""
+"**Изображения-заглушки для отсутствующих изображений в настройках доменов"
+" приложений и UI элемента \"Image\"**: Подробнее в документации: "
+"[Application domains main settings](#application-domains-main-settings) и"
+" [Image](#image)."
+msgstr ""
+"**Placeholder images for missing images in the settings of application "
+"domains and the UI “Image” element**: More details here: [Application "
+"domains main settings](#application-domains-main-settings) and "
+"[Image](#image)."
+
+#: ../../src/release-notes.md:49
+msgid ""
+"**Новые методы для управления состоянием UI элементов**. Подробнее в "
+"[документации](#12-release)."
+msgstr ""
+"**New methods for managing the state of UI elements**. More details in "
+"[documentation](#12-release)."
+
+#: ../../src/release-notes.md:50
+msgid ""
+"**Массовая загрузка картинок через http.client и file storage в скриптах "
+"Dataflow**: Добавлена функция для массовой загрузки изображений. "
+"Подробнее в [документации](#import-image-threw-http-and-file-storage)."
+msgstr ""
+"**Bulk Upload of Images Via http.client and File Storage in Dataflow "
+"scripts**: A function for bulk upload of images has been added. More "
+"details in [documentation](#import-image-threw-http-and-file-storage)."
+
+#: ../../src/release-notes.md:51
+msgid ""
+"**Оптимизация механизма публикаций**: Механизм публикации был доработан с"
+" использованием машины состояний, обеспечивая стабильный процесс с "
+"возможностью отката при ошибках. Подробнее в "
+"[документации](#publication)."
+msgstr ""
+"**Optimization of the Publishing Mechanism**: The publishing mechanism "
+"has been improved using a state machine, providing a stable process with "
+"the ability to roll back in case of errors. More details in "
+"[documentation](#publication)."
+
+#: ../../src/release-notes.md:56
+msgid "Версия 0.10.x"
+msgstr "Version 0.10.x"
+
+#: ../../src/release-notes.md:59
+msgid ""
+"Создан новый шаг dataflow \"Get file info\", позволяющий получить "
+"информацию о файле по его идентификатору. Подробнее в документации: [Get "
+"file info](#dataflow-step-get-file-info)"
+msgstr ""
+"A new dataflow step “Get file info” has been created, allowing you to "
+"obtain information about a file by its identifier. More details in the "
+"documentation: [Get file info](#dataflow-step-get-file-info)"
+
+#: ../../src/release-notes.md:60
+msgid ""
+"Добавлен фильтр для поля \"Component\" внутри шага dataflow \"Get entity "
+"by id\". Подробнее в документации: [Get entity by id](#dataflow-step-get-"
+"entity-by-id)   <br>"
+msgstr ""
+"Added a filter for the “Component” field inside the “Get entity by id” "
+"dataflow step. More details here: [Get entity by id](#dataflow-step-get-"
+"entity-by-id) <br>"
+
+#: ../../src/release-notes.md:63
+msgid "**Обновление дизайна**"
+msgstr "**Design Update**"
+
+#: ../../src/release-notes.md:64
+msgid ""
+"Главная страница \"Dashboard\". Подробнее в документации: "
+"[Dashboard](#home)"
+msgstr "“Dashboard” main page. More details here: [Dashboard](#home)"
+
+#: ../../src/release-notes.md:65
+msgid ""
+"\"Navigation menu\" вынесен из меню \"Applications\" и располагается на "
+"главной странице. Подробнее в документации: [Navigation menu](#home)"
+msgstr ""
+"“Navigation menu” has been removed from the “Applications” menu and is "
+"now located on the main page. More details here: [Navigation menu](#home)"
+
+#: ../../src/release-notes.md:66
+msgid ""
+"Обновлен дизайн шагов dataflow. Подробнее в документации: [Доступные шаги"
+" Dataflow](#dataflow)"
+msgstr ""
+"Dataflow steps design has been updated. More details here: [Available "
+"Dataflow steps](#dataflow)"
+
+#: ../../src/release-notes.md:67
+msgid ""
+"Обновлен дизайн \"File storage\". Подробнее в документации: [File storage"
+"](#file-storage)"
+msgstr ""
+"“File storage” design has been updated. More details here: [File storage"
+"](#file-storage)"
+
+#: ../../src/release-notes.md:68
+msgid ""
+"Обновлен дизайн \"System maintenance\". Подробнее в документации: [System"
+" maintenance](#system-maintenance) <br>"
+msgstr ""
+"The “System maintenance” design has been updated. More details here: "
+"[System maintenance](#system-maintenance) <br>"
+
+#: ../../src/release-notes.md:72
+msgid "Версия 0.9.x"
+msgstr "Version 0.9.x"
+
+#: ../../src/release-notes.md:74
+msgid "**Добавлена функциональность**"
+msgstr "**Functionality Added**"
+
+#: ../../src/release-notes.md:75
+msgid "Системная (Платформа)"
+msgstr "System-specific (Platform-specific) features"
+
+#: ../../src/release-notes.md:76
+msgid ""
+"Загрузка пользовательского интерфейса: оптимизация компиляции UI "
+"компонента."
+msgstr "User interface uploading: optimization of UI component compilation."
+
+#: ../../src/release-notes.md:77
+msgid ""
+"Рефакторинг меню [\"Обслуживание\" (Maintenance)](#maintenance). Перенос "
+"кнопок управления во вкладку \"Системное обслуживание\" (System "
+"maintenance), и выведение логов с их настройками во вкладке \"Логи "
+"системы\" (System logs)."
+msgstr ""
+"Refactoring of the [Maintenance menu](#maintenance). Moving control "
+"buttons to the “System maintenance” tab, and displaying logs with their "
+"settings in the “System logs” tab."
+
+#: ../../src/release-notes.md:78
+msgid "Генератор хранения очередей в Redis."
+msgstr "Job queue storage generator in Redis."
+
+#: ../../src/release-notes.md:79
+msgid "IronPython обновлен с версии 2.7.12 до 3.4.1 на Ворклейсе."
+msgstr "IronPython has been updated from version 2.7.12 to 3.4.1 on Workplace."
+
+#: ../../src/release-notes.md:80
+msgid "Пользовательская (Студия)"
+msgstr "User-specific (Studio-specific) features"
+
+#: ../../src/release-notes.md:81
+msgid ""
+"Копирование/вставка элементов в [конструкторе интерфейса](#interface-"
+"builder) на странице компонента."
+msgstr ""
+"Copy/paste elements in [interface builder](#interface-builder) on the "
+"component page."
+
+#: ../../src/release-notes.md:82
+msgid "Добавление файлов в корень [файлового хранилища](#file-storage)."
+msgstr "Adding files to the root of the [file storage](#file-storage)."
+
+#: ../../src/release-notes.md:83
+msgid ""
+"Возможность использовать `модель данных (DataModel)` ссылочных "
+"Компонентов (Catalog) в панели элементов компонента для: `DataGrid`, "
+"`ListView`, `TreeView`. <br>"
+msgstr ""
+"Ability to use the Data Model of the reference components (Catalog) in "
+"the component element ribbon bar for: `DataGrid`, `ListView`, `TreeView`."
+" <br>"
+
+#: ../../src/release-notes.md:86
+msgid "**Изменения интерфейса**"
+msgstr "**Interface Changes**"
+
+#: ../../src/release-notes.md:87
+msgid "Рефакторинг главного меню студии:"
+msgstr "Refactoring of the studio main menu:"
+
+#: ../../src/release-notes.md:88
+msgid ""
+"перенос в правый угол верхней панели: переключатель локализации и кнопка "
+"выхода из текущего аккаунта (logout),"
+msgstr ""
+"moving the following elements to the right corner of the top ribbon bar: "
+"localization switch and button to log out of the current account "
+"(logout),"
+
+#: ../../src/release-notes.md:89
+msgid "удален пункт главного меню `Профиль`."
+msgstr "the Profile item of the main menu has been removed."
+
+#: ../../src/release-notes.md:90
+msgid "Изменена иконка пункта меню `Модули Питона`."
+msgstr "The icon for the Python Modulesmenu item has been redesigned."
+
+#: ../../src/release-notes.md:91
+msgid ""
+"Добавлены иконки онлайн справки во многих разделах Студии: добавление "
+"шагов `потока данных (dataflow)`, кнопки элементов пользовательского "
+"интерфейса (Toolbox UI), основные параметры приложения, и во многих "
+"других местах студии для более быстрого перехода к онлайн справке на сайт"
+" документации.   <br>"
+msgstr ""
+"Online help icons have been added in many sections of the Studio: "
+"dataflow steps, buttons for user interface elements (Toolbox UI), main "
+"application parameters, as well as in many other locations in the studio "
+"to ensure a faster access to online help on the documentation site.   "
+"<br>"
+
+#: ../../src/release-notes.md:94
+msgid "**Исправленные ключевые ошибки**"
+msgstr "**Key bugs fixed**"
+
+#: ../../src/release-notes.md:95
+msgid ""
+"Корректировка работы планировщика задач ``Cron`` при импорте/экспорте "
+"компонентов."
+msgstr ""
+"Correction of the “Cron” job scheduler operation when importing/exporting"
+" components."
+
+#: ../../src/release-notes.md:96
+msgid "Устранение дубликата ``changeAuthor`` из модели данных компонента."
+msgstr ""
+"Eliminating the ``changeAuthor`` duplicate from the component’s data "
+"model."
+
+#: ../../src/release-notes.md:97
+msgid "Стабилизация выбора шагов ``потока работа (workflow)``."
+msgstr "Stabilization of the workflow steps selection."
+
+#: ../../src/release-notes.md:98
+msgid "Корретировка UI элемента ``Number`` из панели элементов компонента."
+msgstr "Adjusting the UI Number element from the component element ribbon bar."
+
+#: ../../src/release-notes.md:99
+msgid ""
+"Исправление отработки события `On focus` для некоторых элементов UI: Day,"
+" Time, Signature. <br>"
+msgstr ""
+"Fixing the operation of the On focusevent for some of the UI elements: "
+"Day, Time, Signature. <br>"
+
+#: ../../src/release-notes.md:103
+msgid "Версия 0.8.x"
+msgstr "Version 0.8.x"
+
+#: ../../src/release-notes.md:105 ../../src/release-notes.md:127
+#: ../../src/release-notes.md:155 ../../src/release-notes.md:172
+#: ../../src/release-notes.md:183 ../../src/release-notes.md:199
+msgid "**Важная добавленная и улучшенная функциональность**"
+msgstr "**Important and Improved Functionality Added**"
+
+#: ../../src/release-notes.md:106
+msgid ""
+"В dataflow шаг Form Action добавлены параметры Open Sidebar и Open Modal,"
+" которые позволяют открыть соответственно sidebar & modal window, "
+"аналогично тому как это можно сделать через Python script."
+msgstr ""
+"In the dataflow Form Action step, the Open Sidebar and Open Modal "
+"parameters have been added, which allow you to open a sidebar & modal "
+"window, respectively, similar to how this can be done via Python script."
+
+#: ../../src/release-notes.md:107
+msgid ""
+"Передача признаков required для параметров передаваемых в шаге Get Action"
+" Model."
+msgstr ""
+"Transferring the required attributes for parameters transferred in the "
+"Get Action Model step."
+
+#: ../../src/release-notes.md:108
+msgid ""
+"Добавлен шаг dataflow Remove assigned roles for user, который удаляет все"
+" текущие роли, которые есть у пользователя, позволяя сформировать новый "
+"набор ролей с нуля."
+msgstr ""
+"“Remove assigned roles for user” dataflow step has been added, which "
+"removes all current roles assigned to the user, allowing you to create a "
+"new set of roles from scratch."
+
+#: ../../src/release-notes.md:109
+msgid ""
+"Добавлено меню [Python modules](#python-modules) для управления общей "
+"библиотекой модулей Python."
+msgstr ""
+"[Python modules](#python-modules) menu has been added to manage the "
+"shared library of Python modules."
+
+#: ../../src/release-notes.md:110
+msgid ""
+"Добавлена настройка Background для UI контролей, которая позволяет "
+"выставить изображение в стандартных форматах (например png, svg, jpeg и "
+"т.п.) в качестве фона для всех контролей у которых есть раздел настроек "
+"Brush (Кисть)."
+msgstr ""
+"Background setting for UI controls has been added, which allows you to "
+"set an image in standard formats (for example, png, svg, jpeg, etc.) as a"
+" background for all controls that have a Brush settings section."
+
+#: ../../src/release-notes.md:111
+msgid "Изменена иконка просмотра модели данных на шаге dataflow на иконку eye."
+msgstr ""
+"Data model view icon on the dataflow step has been changed to the eye "
+"icon."
+
+#: ../../src/release-notes.md:112
+msgid ""
+"Параметр Skip from Synchronize заменен на Virtual Property. Поля, "
+"помеченные Virtual Property, не сохраняются в базе данных при записи "
+"компонента."
+msgstr ""
+"“Skip from Synchronize” parameter has been replaced with Virtual "
+"Property. Fields marked “Virtual Property” are not saved to the database "
+"when the component is recorded."
+
+#: ../../src/release-notes.md:113
+msgid ""
+"Добавлены настройки для Power Web Application (PWA) в разделе Edit "
+"manifest."
+msgstr ""
+"Settings for Power Web Application (PWA) in the Edit manifest section "
+"have been added."
+
+#: ../../src/release-notes.md:114
+#, python-format
+msgid ""
+"Добавлены дополнительные [настройки Application "
+"Domain](%D0%9C%D0%B5%D0%BD%D1%8E%20Home%20Domain%20Main%20Settings%20f17820dcc1e64fa9be2c228dd67ba89a.md)"
+" - show breadcrumps, login, locale. <br>"
+msgstr ""
+"Additional [Application Domain "
+"settings](%D0%9C%D0%B5%D0%BD%D1%8E%20Home%20Domain%20Main%20Settings%20f17820dcc1e64fa9be2c228dd67ba89a.md)"
+" have been added - show breadcrumps, login, locale. <br>"
+
+#: ../../src/release-notes.md:117 ../../src/release-notes.md:141
+msgid "**Важные исправленные ошибки**"
+msgstr "**Important Fixed Errors**"
+
+#: ../../src/release-notes.md:118 ../../src/release-notes.md:142
+msgid "Исправлена работа динамических фильтров для контроля Data Grid."
+msgstr "The work of dynamic filters for Data Grid control has been fixed."
+
+#: ../../src/release-notes.md:119
+msgid ""
+"Значение поля First line to ignore в шаге Import File не сбрасывается в 0"
+" после сохранения."
+msgstr ""
+"The “First line to ignore field” in the Import File step is not reset to "
+"0 after saving."
+
+#: ../../src/release-notes.md:120
+msgid ""
+"Цвет, установленный по умолчанию для application domain, распространяется"
+" на контроли типа button, в которых не выставлен цвет по умолчанию."
+msgstr ""
+"The default color for the application domain applies to controls of the "
+"button type that do not have a default color set."
+
+#: ../../src/release-notes.md:121
+msgid "Не устанавливаются права на мультикомпонент в режиме restrict access. <br>"
+msgstr "Permissions for a multicomponent are not set in restrict access mode. <br>"
+
+#: ../../src/release-notes.md:125
+msgid "Версия 0.7.0"
+msgstr "Version 0.7.0"
+
+#: ../../src/release-notes.md:128
+msgid ""
+"При выборе Default component для application domain в разделе [Main "
+"Settings](#main-dashboard), для выбранного компонента можно выбрать окно,"
+" которое будет открыто для этого компонента в поле Default page. Если "
+"окно не будет выбрано, будет по умолчанию открыто первое окно компонента "
+"(main page)."
+msgstr ""
+"When you select “Default component” for application domain in the [Main "
+"Settings](#main-dashboard) section, for the selected component you can "
+"select the window that will be opened for this component in the Default "
+"page field. If no window is selected, the component's first window (main "
+"page) will be opened by default."
+
+#: ../../src/release-notes.md:129
+msgid ""
+"В dataflow добавлен новый шаг Execute Dataflow, который позволяет "
+"запускать новые dataflow, включая dataflow из других компонент, в рамках "
+"текущего dataflow."
+msgstr ""
+"A new “Execute Dataflow” step has been added to dataflow, which allows "
+"you to launch new dataflows, including dataflows from other components, "
+"within the current dataflow."
+
+#: ../../src/release-notes.md:130
+msgid ""
+"Удален устаревший dataflow шаг Get Audience, и шаг Form Action перенесен "
+"в группу Model Transformation. Группа Other удалена полностью."
+msgstr ""
+"The outdated “Get Audience” dataflow step has been removed, and the “Form"
+" Action” step has been moved to the “Model Transformation” group. The "
+"“Other” group has been removed completely."
+
+#: ../../src/release-notes.md:131
+msgid ""
+"Добавлен поиск для настройки Field mapping для шага Apply Deferred update"
+" operations."
+msgstr ""
+"Search for configuring “Field mapping” has been added for the “Apply "
+"Deferred update operations” step."
+
+#: ../../src/release-notes.md:132
+msgid ""
+"Для UI контроля [Text Area](#text-area) добавлена опция Auto-size, "
+"которая позволяет расширять размер поля, если нужно вводить больший объём"
+" текста."
+msgstr ""
+"For the UI control [Text Area](#text-area), an Auto-size option has been "
+"added, which allows you to expand the size of the field if you need to "
+"enter a larger amount of text."
+
+#: ../../src/release-notes.md:133
+msgid ""
+"Оптимизирован dataflow шаг Query Entity by Filter через автоматическое "
+"создание индексов и нормализации базы данных."
+msgstr ""
+"The “Query Entity by Filter” dataflow step has been optimized via "
+"automatic creation of indexes and database normalization."
+
+#: ../../src/release-notes.md:134
+msgid ""
+"Добавлено сообщение о скором истечении лицензии. Сообщение появляется за "
+"10 дней до даты истечения текущей лицензии."
+msgstr ""
+"Notice of imminent license expiration has been added. The message appears"
+" 10 days before the expiration date of the current license."
+
+#: ../../src/release-notes.md:135
+msgid ""
+"Сгенерированные в Swagger API для Dataflow теперь показывают имя Dataflow"
+" как название API."
+msgstr ""
+"Swagger APIs generated for Dataflow now show the Dataflow name as the API"
+" name."
+
+#: ../../src/release-notes.md:136
+msgid ""
+"Добавлена возможность запроса геолокации пользователя из Component Script"
+" через функцию context.PlatformServices.GeolocationPosition()."
+msgstr ""
+"The ability to request user geolocation from Component Script via the "
+"context.PlatformServices.GeolocationPosition function has been added."
+
+#: ../../src/release-notes.md:137
+msgid ""
+"Добавлена возможность установки настройки locale по умолчанию для "
+"application domain, в разделе Main Settings"
+msgstr ""
+"The ability to set the default locale setting for application domain has "
+"been added in the Main Settings section."
+
+#: ../../src/release-notes.md:138
+msgid ""
+"Добавлена возможность поставить favicon для application domain в "
+"настройках Меню Home: Domain: Main Settings. <br>"
+msgstr ""
+"The ability to set a favicon for the application domain has been added in"
+" the settings of the Home Menu: Domain: Main Settings. <br>"
+
+#: ../../src/release-notes.md:143
+msgid ""
+"Исправлена проблема, когда при сортировке полей, вытащенных из ссылок "
+"типа Catalog, выдается ошибка."
+msgstr ""
+"An issue where an error occurred when sorting fields retrieved from "
+"Catalog type links has been fixed."
+
+#: ../../src/release-notes.md:144
+msgid ""
+"Улучшена стабильность работы Data grid, включая фантомные ошибки при "
+"навигации по Data grid."
+msgstr ""
+"Data grid stability, including phantom errors when navigating through the"
+" Data grid, has been improved."
+
+#: ../../src/release-notes.md:145
+msgid ""
+"Исправлена проблема с обрезанием формы поиска в Data Grid при нажатии на "
+"фильтр."
+msgstr ""
+"An issue with the search form being cut off in the Data Grid when "
+"clicking on a filter has been fixed."
+
+#: ../../src/release-notes.md:146
+msgid "Добавлен вывод строковых значений для Enum."
+msgstr "Output of string values ​​for Enum has been added."
+
+#: ../../src/release-notes.md:147
+msgid "Исправлена некорректная работа системы при remote logout."
+msgstr "Incorrect system operation with remote logout has been fixed."
+
+#: ../../src/release-notes.md:148
+msgid ""
+"Исправлена некорректная работа таймера в шаге Apply deferred update "
+"operations."
+msgstr ""
+"Incorrect operation of the timer in the “Apply deferred update "
+"operations” step has been fixed."
+
+#: ../../src/release-notes.md:149
+msgid ""
+"Для UI контролей типа Label, привязанных к полю типа Catalog, корректно "
+"отрабатывается настройка Color. <br>"
+msgstr ""
+"For UI controls of the Label type, bound to a field of the Catalog type, "
+"the Color setting is now processed correctly. <br>"
+
+#: ../../src/release-notes.md:153
+msgid "Версия 0.6.x"
+msgstr "Version 0.6.x"
+
+#: ../../src/release-notes.md:156
+msgid ""
+"Расширенные возможности для управления главным меню приложения - "
+"построение иерархических меню и задание иконок меню."
+msgstr ""
+"Advanced features for managing the main application menu - building "
+"hierarchical menus and setting menu icons."
+
+#: ../../src/release-notes.md:157
+msgid ""
+"Улучшенная работа со скриптами Python - добавлен highlight для синтаксиса"
+" Python, auto-complete для системных методов Python, а также auto-"
+"complete и подсказки для методов встроенных библиотек платформы (доступно"
+" по Ctrl-Space под Win10/11, и по Option-Space под MacOS)."
+msgstr ""
+"Improved work with Python scripts - highlight for Python syntax, auto-"
+"complete for Python system methods, as well as auto-complete and tips for"
+" methods of built-in platform libraries have been added (available via "
+"Ctrl-Space under Win10/11, and Option-Space under MacOS)."
+
+#: ../../src/release-notes.md:158
+msgid ""
+"Добавление возможности построения дополнительных окон типа sidebar через "
+"Component Script."
+msgstr ""
+"The ability to build additional sidebar windows via Component Script has "
+"been added."
+
+#: ../../src/release-notes.md:159
+msgid ""
+"Добавление возможности построения через Component Script сложных "
+"модальных окон с передачей данных из модальных окон в вызывающий скрипт."
+msgstr ""
+"The ability to build complex modal windows via Component Script with data"
+" transfer from modal windows to the calling script has been added."
+
+#: ../../src/release-notes.md:160
+msgid "Вызов Component Script перенесен в главное меню."
+msgstr "The Component Script call has been moved to the main menu."
+
+#: ../../src/release-notes.md:161
+msgid "Завершена локализация Studio на русский язык."
+msgstr "Localization of Studio into Russian has been completed."
+
+#: ../../src/release-notes.md:162
+msgid ""
+"В контроле DataGrid появилась возможность выбирать произвольные поля "
+"внешней компоненты при показе ссылочных полей типа Catalog."
+msgstr ""
+"In the DataGrid control, it is now possible to select arbitrary fields of"
+" an external component when displaying reference fields of the Catalog "
+"type."
+
+#: ../../src/release-notes.md:163
+msgid ""
+"Импорт-экспорт теперь включает в себя экспорт и последующий импорт прав и"
+" ролей (экспорт файлы, сделанные с использованием версии 0.6.x в "
+"предыдущие версии, будет работать, но не будет импортировать включенные "
+"роли и права)."
+msgstr ""
+"Import-export now includes export and subsequent import of permissions "
+"and roles (exporting files created using version 0.6.x to previous "
+"versions will work, but will not import included roles and permissions)."
+
+#: ../../src/release-notes.md:164
+msgid ""
+"Импорт-экспорт теперь проверяет наличие связанных компонент и "
+"предупреждает пользователя, если какие-то из связанных компонент не были "
+"включены в список экспорта."
+msgstr ""
+"Import-export now checks for related components and warns the user if any"
+" related components were not included in the export list."
+
+#: ../../src/release-notes.md:165
+msgid ""
+"На уровне платформы добавлена возможность пометки записей (инстансов "
+"компонент) как доступных для физического удаления, через флаг в dataflow "
+"шаге Update Entry."
+msgstr ""
+"At the platform level, the ability to mark entries (component instances) "
+"as available for physical deletion has been added via a flag in the "
+"dataflow “Update Entry” step."
+
+#: ../../src/release-notes.md:166
+msgid ""
+"Добавлена возможность для администратора Studio получить список записей, "
+"помеченных для удаления, и удалить тех из них, у которых нет ссылок на "
+"записи, которые не помечены как готовые для удаления. <br>"
+msgstr ""
+"The ability for the Studio admin to get a list of entries marked for "
+"deletion and remove those that do not have links to entries that are not "
+"marked ready for deletion has been added. <br>"
+
+#: ../../src/release-notes.md:170
+msgid "Версия 0.5.24"
+msgstr "Version 0.5.24"
+
+#: ../../src/release-notes.md:173
+msgid ""
+"Расширенные возможности для динамических (Dynamic) и статических (Static)"
+" фильтров в расширенных контролях типа Data Grid, List View, Tree View, "
+"позволяющие на лету фильтровать данные перед показом пользователю "
+"(добавились параметры для фильтров типа contains и т.п.)."
+msgstr ""
+"Advanced capabilities for dynamic and static filters in advanced controls"
+" such as Data Grid, List View, Tree View, allowing on-the-fly filtering "
+"of data before display to the user (parameters have been added for "
+"filters of the contains type, etc.)."
+
+#: ../../src/release-notes.md:174
+msgid ""
+"Расширение концепции использования Dataflow & Workflow - теперь и те, и "
+"другие могут быть созданы и использованы отдельно от UI контролей типа "
+"кнопок, что позволяет более гибкую структуру приложений и упрощает "
+"разработку."
+msgstr ""
+"Expanding the concept of utilizing Dataflow & Workflow - now both can be "
+"created and used separately from UI controls such as buttons, which "
+"allows for a more flexible application structure and simplifies "
+"development."
+
+#: ../../src/release-notes.md:175
+msgid ""
+"Добавление множества новых методов, доступных через [Python](#using-"
+"python) в Component Script - например, вызов модальных окон, проверка "
+"разрешения экрана и типа устройства для создания адаптивной верстки UI."
+msgstr ""
+"Many new methods available via [Python](#using-python) in Component "
+"Script have been added, such as calling modal windows, checking screen "
+"resolution and device type to create a responsive UI layout."
+
+#: ../../src/release-notes.md:176
+msgid ""
+"Добавление возможности работы с message queue системами (например, с "
+"RabbitMQ) из dataflow с новым шагом [Subscribe to Connector](#subscribe-"
+"to-connector)."
+msgstr ""
+"The ability to work with message queue systems (for example, RabbitMQ) "
+"from dataflow with a new step [Subscribe to Connector](#subscribe-to-"
+"connector) has been added."
+
+#: ../../src/release-notes.md:177
+msgid ""
+"Добавление возможности пакетной (bulk) обработки данных в Dataflow через "
+"новые шаги [Deferred Update Entry](#deferred-update-entry) & [Apply "
+"Deferred Update Entry](#apply-deferred-update-entry). <br>"
+msgstr ""
+"The ability to batch data processing in Dataflow via new steps [Deferred "
+"Update Entry](#deferred-update-entry) & [Apply Deferred Update Entry"
+"](#apply-deferred-update-entry) has been added. <br>"
+
+#: ../../src/release-notes.md:181
+msgid "Версия 0.4.4"
+msgstr "Version 0.4.4"
+
+#: ../../src/release-notes.md:184
+msgid ""
+"Новое системное поле хранения Name, используемое для показа элементов из "
+"Catalogs."
+msgstr ""
+"New system storage field “Name” has been added, used to display items "
+"from Catalogs."
+
+#: ../../src/release-notes.md:185
+msgid ""
+"При показе одного элемента из Catalog (например, при использовании UI "
+"control Select, который ссылается на Catalog) теперь будет всегда "
+"показываться содержимое поля Name. Если поле Name пустое, будет "
+"показываться системное имя Catalog/порядковый номер записи в Catalog."
+msgstr ""
+"When showing a single element from Catalog (for example, using a UI "
+"control Select that references Catalog), the contents of the Name field "
+"will now always be shown. If the Name field is empty, the system Catalog "
+"name/sequence number of the Catalog entry will be shown."
+
+#: ../../src/release-notes.md:186
+msgid "Добавлены настройки задания сортировки Datagrid и Listview по умолчанию."
+msgstr "Default sorting settings for Datagrid and Listview have been added."
+
+#: ../../src/release-notes.md:187
+msgid ""
+"Добавлена автоматическая замена специальных символов Unicode в Component "
+"Script для формирования ссылок. <br>"
+msgstr ""
+"Automatic replacement of Unicode special characters in Component Script "
+"for link generation has been added. <br>"
+
+#: ../../src/release-notes.md:190 ../../src/release-notes.md:207
+msgid "**Исправленные ошибки**"
+msgstr "**Mistakes Corrected**"
+
+#: ../../src/release-notes.md:191
+msgid ""
+"Исправлена неправильная работа пагинатора, связанная с переключением "
+"нескольких таблиц на одной странице."
+msgstr ""
+"Incorrect operation of the paginator concerning switching several tables "
+"on one page has been fixed."
+
+#: ../../src/release-notes.md:192
+msgid "Исправлен неработающий скролл в некоторых частях Студии. <br>"
+msgstr ""
+"Not working Scrolling function in some parts of the Studio has been "
+"fixed. <br>"
+
+#: ../../src/release-notes.md:196
+msgid "Версия 0.3.223"
+msgstr "Version 0.3.223"
+
+#: ../../src/release-notes.md:197
+msgid "*Kubernetes cluster 0.3.223 | Docker mini-image 0.2.118*"
+msgstr "*Kubernetes cluster 0.3.223 | Docker mini-image 0.2.118*"
+
+#: ../../src/release-notes.md:200
+msgid ""
+"Новый шаг data-flow \"Send templated notification\", позволяющий "
+"отправить уведомление на почту по заданному шаблону."
+msgstr ""
+"New data-flow step “Send templated notification” has been added, which "
+"allows you to send a notification by email using a specified template."
+
+#: ../../src/release-notes.md:201
+msgid "Свойство прозрачности для UI компонент."
+msgstr "Transparency property for UI components."
+
+#: ../../src/release-notes.md:202
+msgid ""
+"Поддержка авторизации OAuth2 для HTTP запросов. Теперь можно настроить "
+"автоматическую генерацию токена через OAuth для подключения к API."
+msgstr ""
+"Support for OAuth2 authorization for HTTP requests has been added. You "
+"can now configure automatic token generation via OAuth to connect to the "
+"API."
+
+#: ../../src/release-notes.md:203
+msgid ""
+"Добавлен параметр \"Store response as file\" в шаге \"Execute API call\" "
+"для возможности скачивания файла через API по запросу."
+msgstr ""
+"The “Store response as file” parameter has been added in the “Execute API"
+" call” step to allow you to download a file via the API upon request."
+
+#: ../../src/release-notes.md:204
+msgid ""
+"Шаги больше не формируют рассылку, теперь они формируют поле в модели для"
+" последующего использования, например \"Send templated notification\". "
+"<br>"
+msgstr ""
+"The steps no longer generate a newsletter, they now generate a field in "
+"the model for later use, such as “Send templated notification”. <br>"
+
+#: ../../src/release-notes.md:208
+msgid "Исправление ошибок при работе с типом Datetime в календаре."
+msgstr ""
+"Errors when working with the Datetime type in the calendar have been "
+"fixed."
+
+#: ../../src/release-notes.md:209
+msgid "Исправление пользовательского интерфейса в Студии и Workplace."
+msgstr "UI in the Studio and Workplace has been fixed."
+
+#: ../../src/release-notes.md:210
+msgid "Исправлено состояние Disabled для UI компонента Radiobutton."
+msgstr "The Disabled state for the Radiobutton UI component has been fixed."
+
+#: ../../src/release-notes.md:211
+msgid "Исправление ошибок в локализации."
+msgstr "Localization errors have been fixed."
+
+#: ../../src/release-notes.md:212
+msgid "Поиск в Dropdown теперь не зависит от регистра."
+msgstr "Search in Dropdown is now case insensitive."
+
+#: ../../src/release-notes.md:213
+#, fuzzy
+msgid "Исправления в работе авторизации, включая проблемы с log-out."
+msgstr "Authorization operation including log-out issues has been fixed. <br>"
+

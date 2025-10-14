@@ -1,0 +1,1779 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi platform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi platform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/help-center/tutorial2.md:2
+msgid "Tutorial №2"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:3
+msgid "Расширенный Портал Счетов"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:6
+msgid ""
+"Описание приложения: расширенный портал счетов и приложение для "
+"утверждения счетов"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:8
+msgid ""
+"Мы собираемся расширить приложение Invoice Inventory, которое мы создали "
+"здесь, добавив возможности для пользователей, которые создают счета, "
+"чтобы сделать это для разных отделов, добавив важные данные счета, такие "
+"как данные поставщика и внутреннее кодирование счета, а также предоставив"
+" пользователям инвентаризации счета возможность отправлять свои счета на "
+"рассмотрение и утверждение."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:10
+msgid ""
+"Мы также добавим новое приложение Bill Approvals. Приложение для "
+"утверждения счетов автоматически преобразует любой счет, отправленный на "
+"проверку и утверждение, в счет, затем выполняет автоматизированный "
+"рабочий процесс проверки и утверждения и, наконец, обновляет исходный "
+"счет, присваивая ему надлежащий статус."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:12
+msgid "Разные пользователи, роли пользователей и отделы"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:14
+msgid ""
+"У нас будет три основных группы пользователей, определяющих, что они "
+"делают в приложении:"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:16
+msgid "Одна команда сможет вводить новые счета и отправлять их на утверждение."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:17
+msgid ""
+"Другая группа будет отвечать за рассмотрение отправленных счетов и их "
+"утверждение на основе отдела, назначенного специальным кодом расходов "
+"(например, IT.HARDWARE ) ."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:18
+msgid ""
+"И последняя группа будет отвечать за утверждение руководством счетов с "
+"общей стоимостью выше определенного порога (> 10 000 в нашем примере)."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:20
+msgid ""
+"Кроме того, пользователи будут определяться отделами, к которым они "
+"принадлежат. В частности, пользователи могут принадлежать к следующим "
+"отделам:"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:22
+msgid "Маркетинг"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:23
+msgid "IT"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:24
+msgid "Управление"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:26
+msgid ""
+"Пользователи из отделов маркетинга и IT смогут создавать и просматривать "
+"только счета, относящиеся к их соответствующим отделам. Пользователь из "
+"отдела управления сможет просматривать и утверждать счета, созданные на "
+"основе счетов из любого отдела."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:28
+msgid "Дополнительные данные счета"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:30
+msgid ""
+"В дополнение к исходным данным заявки на выставление счета, перечисленным"
+" [здесь](https://www.notion.so/1-Invoice-Inventory-"
+"a44a0ebd26f04121b246694e5e1d6fb3?pvs=21) , следующие данные будут частью "
+"счета:"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:32
+msgid ""
+"Поставщик (Supplier) — ссылка на запись в Каталоге поставщиков, в которой"
+" перечислены все предварительно зарегистрированные поставщики."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:33
+msgid ""
+"Код расходов (Spend Code) — ссылка на запись в каталоге кодов расходов, в"
+" которой перечислены все существующие коды расходов. Коды будут "
+"специфичны для одного из отделов — IT или маркетинга (например, "
+"«MKTG.Supplies»)."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:34
+msgid ""
+"Комментарии (Comments) — поле с комментариями (например, комментарии от "
+"утверждающих)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:36
+msgid ""
+"Кроме того, мы создадим отдельный общий компонент — Каталог, в котором "
+"будет храниться вся соответствующая информация о жизненном цикле счета "
+"(например, Draft, Under Review, Approved, etc.), и который будет "
+"использоваться в качестве ориентира для всех других компонентов, которые "
+"могут понадобиться. для отображения статуса"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:38
+msgid "Каталог Поставщиков (Supplier Catalog)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:40
+msgid ""
+"Supplier Catalog это список всех предварительно зарегистрированных "
+"поставщиков, которых можно выбрать при выставлении счета."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:42
+msgid "Информация о каждом поставщике будет включать:"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:44
+msgid "Supplier Name - название поставщика в произвольной форме"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:45
+msgid ""
+"Supplier Contact Name - имя лица, которое является вашим контактным лицом"
+" на стороне поставщика"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:46
+msgid ""
+"Supplier Contact Email - адрес электронной почты лица, которое является "
+"вашим контактным лицом на стороне поставщика"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:47
+msgid ""
+"Supplier Legal Address - юридический почтовый адрес поставщика, строка "
+"произвольной формы"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:48
+msgid "Supplier Payment Account # - Платежный счет поставщика"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:50
+msgid ""
+"( **необязательный/будущий** ) Кроме того, во время отправки "
+"счета-фактуры пользователю, выполняющему ввод счета-фактуры, должна быть "
+"доступна возможность добавления нового поставщика."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:52
+msgid "Spend Type Codes Catalog - Каталог Кодов Счетов"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:54
+msgid ""
+"Каталог кодов счетов — это список внутренних кодов, которые позволяют "
+"правильно распределять расходы внутри компании. Список кодов будет "
+"специфичен для одного из отделов — например, информационных технологий "
+"или маркетинга."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:56
+msgid "Структура Каталога кодов типов расходов будет состоять из следующего:"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:58
+msgid "Название кода расходов (например, MKTG.Supplier или IT.Services)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:59
+msgid "Отдел, которому принадлежит код (например, IT или маркетинг)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:61
+msgid "Shared Status Catalog - Общий каталог статусов"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:63
+msgid ""
+"Каталог статусов будет содержать всю соответствующую информацию о "
+"жизненном цикле счета (например, Draft, Under Review, Approved, и т. д.) "
+"и будет использоваться в качестве ориентира для всех других компонентов, "
+"которым необходимо отображать Статус."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:65
+msgid ""
+"Status Catalog будет содержать 2 поля - Status ID and Status UI Name, и "
+"будет содержать следующие записи:"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md
+msgid "Статус"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md
+msgid "Обозначение"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md
+msgid "STATUS_DRAFT"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md
+msgid "Draft"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md
+msgid "STATUS_DEPARTMENT_REVIEW"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md
+msgid "Department Review"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md
+msgid "STATUS_MANAGEMENT_REVIEW"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md
+msgid "Management Review"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md
+msgid "STATUS_APPROVED"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md
+msgid "Approved"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md
+msgid "STATUS_REJECTED"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md
+msgid "Rejected"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:77
+msgid "Расширение возможностей Invoice Inventory"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:79
+msgid ""
+"Для пользователей из группы ввода счетов (invoice entry team) будут "
+"предоставлены следующие возможности:"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:81
+msgid ""
+"Возможность видеть свои существующие отправленные счета (invoices) для "
+"своего отдела и статус этих счетов"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:82
+msgid ""
+"Возможность добавить новый счет (invoice), установить код расходов, "
+"который будет показывать, на какой бюджет пользователь отправляет счет, и"
+" сохранить счет как черновик"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:83
+msgid "Редактировать счета, которые находятся в статусе «Draft»"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:84
+msgid ""
+"Возможность отправить счет в статусе «Draft» для рассмотрения и "
+"утверждения, получить уведомление о результате (утвержден или отклонен) и"
+" увидеть скорректированный статус счета по мере его прохождения через "
+"процесс утверждения"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:85
+msgid ""
+"Как только счет находится в любом статусе, кроме «Draft», он больше не "
+"будет редактируемым (все поля формы пользовательского интерфейса будут "
+"установлены на «Disabled»)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:87
+msgid ""
+"Приложение для рассмотрения и утверждения счетов (Bill Approval "
+"Application)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:89
+msgid ""
+"В приложении для рассмотрения и утверждения счетов будут показаны все "
+"счета, отправленные на утверждение, и текущий статус каждого счета (на "
+"основе Каталога Статусов). Все поля счета будут равны исходным полям "
+"счета. Информация о счете не будет доступна для непосредственного "
+"редактирования пользователями Bill Portal."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:91
+msgid ""
+"Все счета будут автоматически созданы из черновиков счетов (Draft "
+"invoice), отправленных на утверждение пользователем Invoice Inventory. "
+"Каждому вновь созданному счету будет присвоен статус STATUS_UNDER_REVIEW,"
+" а исходный статус счета также будет обновлен до статуса "
+"STATUS_UNDER_REVIEW."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:93
+msgid ""
+"После создания каждый счет будет виден только соответствующей группе "
+"утверждения счетов на основе кода расходов, назначенного счету (либо IT, "
+"либо MKTG). Все поля счета, кроме комментариев, будут недоступны для "
+"редактирования (установите значение «Disabled»)."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:95
+msgid ""
+"Если пользователь открывает счет со статусом STATUS_UNDER_REVIEW, этот "
+"пользователь увидит две кнопки: «Утвердить» (Approve) и «Отклонить» "
+"(Reject)."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:97
+msgid ""
+"Нажатие кнопки «Отклонить» приведет к тому, что счету будет присвоен "
+"статус STATUS_REJECTED, соответствующий статус счета будет обновлен. "
+"Никакие другие изменения в этом счете или счете-фактуре не допускаются."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:98
+msgid "Нажатие кнопки «Подтвердить» приведет к одному из следующих действий:"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:99
+msgid ""
+"Если общая стоимость меньше 10 000, то статус счета будет установлен на "
+"STATUS_APPROVED, соответствующий статус счета будет установлен на "
+"STATUS_APPROVED, поле «Комментарии» будет синхронизировано. Также не "
+"допускается внесение каких-либо других изменений в этот счет."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:100
+msgid ""
+"Если общая стоимость превышает 10 000, статус счета будет установлен на "
+"MANAGEMENT_REVIEW. Соответствующий статус счета также будет установлен на"
+" MANAGEMENT_REVIEW."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:102
+msgid ""
+"Если пользователь Management открывает счет со статусом "
+"MANAGEMENT_REVIEW, этот пользователь увидит две кнопки — Approve и "
+"Reject."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:104
+msgid ""
+"Нажатие кнопки «Reject» приведет к тому, что для счета будет установлено "
+"значение STATUS_REJECTED, а статус соответствующего счета будет изменен "
+"на STATUS_APPROVED. Никакие другие изменения в этом счете не допускаются."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:105
+msgid ""
+"Нажатие кнопки «Approve» приведет к тому, что для счета будет установлено"
+" значение STATUS_APPROVED, а статус соответствующего счета будет изменен "
+"на STATUS_APPROVED. Никакие другие изменения в этом счете не допускаются."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:107
+msgid "Архитектура Расширенного Портала Счетов"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:109
+msgid ""
+"Новое приложение будет состоять из нескольких компонентов, некоторые из "
+"которых являются расширенными старыми версиями, а некоторые — совершенно "
+"новыми версиями. В учебных целях мы создадим каждый компонент с нуля, "
+"однако в реальной жизни вполне возможно просто расширить существующий "
+"компонент, чтобы он соответствовал новой архитектуре дизайна."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:111
+msgid "Будут следующие компоненты:"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:113
+msgid ""
+"Supplier Catalog - новый компонент, в котором будут перечислены все "
+"поставщики и их ключевые параметры, такие как контактная информация, "
+"номер счета и т. д."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:114
+msgid ""
+"Shared Status Catalog - новый компонент, в котором будут перечислены все "
+"доступные значения статусов для всех счетов."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:115
+msgid ""
+"Spend Type Codes Catalog - новый компонент, в котором будут перечислены "
+"все доступные коды типа расходов и сопоставлены с обязанностями группы IT"
+" или отдела маркетинга"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:116
+msgid ""
+"Invoice Inventory Portal - расширенная версия исходного компонента "
+"Inventory, включающая:"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:117
+msgid "Новая ссылка на внешний каталог Shared Status вместо старого поля Enum"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:118
+msgid "Ссылка на новый Supplier catalog"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:119
+msgid "Ссылка на новый Spend Type Codes catalog"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:120
+msgid ""
+"A Dataflow который копирует конкретный счет-фактуру в компонент портала "
+"инвентаризации счетов и устанавливает статус Under_Review"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:121
+msgid ""
+"Настройка правил безопасности, которая позволит только людям из "
+"IT-команды добавлять, просматривать и отправлять на утверждение счета, "
+"принадлежащие IT-команде (на основе кода расходов), а также людям из "
+"отдела маркетинга добавлять, просматривать и отправлять на утверждение "
+"только счета, принадлежащие в отдел маркетинга"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:122
+msgid "Учетные записи для пользователей отдела IT и маркетинга"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:124
+msgid "Bill Inventory Portal - новый компонент, который:"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:125
+msgid ""
+"Содержит все счета, отправленные IT- и маркетинговыми командами на "
+"утверждение"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:126
+msgid ""
+"Разрешить просмотр счетов в статусе «Under Review» и их утверждение или "
+"отклонение соответствующими утверждающими лицами отдела с использованием "
+"встроенного рабочего процесса"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:127
+msgid ""
+"Разрешить дополнительное утверждение счетов выше заранее определенной "
+"суммы (10 000) руководством с использованием встроенного workflow"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:128
+msgid ""
+"Автоматически устанавливать статус полностью утвержденных или отклоненных"
+" счетов на «Approved» или «Rejected» соответственно, а затем "
+"автоматически обновлять исходный статус счета с помощью встроенного "
+"потока данных и передавать комментарии, если он был добавлен утверждающим"
+" лицом"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:129
+msgid ""
+"Иметь настройку безопасности, которая позволит только членам групп "
+"утверждения IT и маркетинга видеть только счета для IT и маркетинга, "
+"соответственно, на основе кода расходов, установленного в счете"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:131
+msgid "Настройка общих каталогов (Shared Catalogs )"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:133
+msgid "Настройка компонентов Supplier Catalog, Spend Type Codes & Shared Status"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:135
+msgid ""
+"Настройка всех трех компонентов идентична настройке исходного приложения "
+"Invoice Inventory, как описано в нашем [первом "
+"уроке](https://www.notion.so/1-Invoice-Inventory-"
+"a44a0ebd26f04121b246694e5e1d6fb3?pvs=21).  Напомина, для проектирования "
+"каждого из ваших новых компонентов вам потребуется сделать следующие "
+"действия:"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:137
+msgid "Войдите в Studio и перейдите в раздел Компоненты."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:138
+msgid ""
+"Нажмите кнопку «Add», чтобы добавить новый компонент, и введите имя "
+"нового компонента."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:139
+msgid "Добавьте соответствующие поля компонента"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:140
+msgid "Настройка формы добавления/просмотра для нового компонента"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:141
+msgid "Настройте представление таблицы (сетки данных) для нового компонента"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:142
+msgid "Сохраните и опубликуйте новый компонент"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:144
+msgid ""
+"Кроме того, поскольку на каждый из этих новых компонентов будут ссылаться"
+" другие компоненты как на Каталог, вам потребуется заполнить каждый из "
+"них соответствующими данными. Для этого, для каждого компонента:"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:146
+msgid "Используйте кнопку View App, чтобы открыть новый компонент"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:147
+msgid ""
+"Используйте кнопку Add в новом компоненте, чтобы добавить необходимые "
+"данные."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:148
+msgid "Используйте кнопку Save, чтобы сохранить данные"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:149
+msgid ""
+"Используйте кнопку Back to all, чтобы перейти к сетке данных вашего "
+"компонента."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:150
+msgid "Повторяйте шаги 2-4, пока не заполните все необходимые данные."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:152
+msgid "Ниже приведены подробные сведения о каждом компоненте."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:154
+msgid "Supplier Catalog"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:156
+#: ../../src/help-center/tutorial2.md:187
+#: ../../src/help-center/tutorial2.md:251
+#: ../../src/help-center/tutorial2.md:349
+msgid "Настройка компонента"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:158
+msgid "Имя должно быть Tutorial #2: Supplier Catalog"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:159
+msgid ""
+"Следующие поля должны быть добавлены со следующими параметрами (для "
+"деталей, посмотрите [Appendix "
+"I](https://www.notion.so/2-94b8e938e3f44c6c87938a1150af6cf8?pvs=21) со "
+"снимками экрана, показывающими, как каждое поле должно быть настроено):"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:160
+msgid "Supplier Name (String, Required, Primary Key, Query)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:161
+msgid "Contact Name (String)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:162
+msgid "Contact Email (String)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:163
+msgid "Legal Address (String)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:164
+msgid "Account (String, Required, Minimum Length: 5)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:165
+msgid ""
+"Должна быть добавлена форма Add/View Supplier, все поля из шага 2 выше "
+"будут редактируемыми, а также должны быть добавлены кнопки Save и Back to"
+" all Suppliers"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:166
+msgid ""
+"Должна быть добавлена страница с формой All Suppliers, с контролем "
+"DataGrid  показывающим все поля из шага 2, с включенной кнопкой Add , и "
+"полем Action выставленом в значение Edit Record"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:167
+#: ../../src/help-center/tutorial2.md:195
+#: ../../src/help-center/tutorial2.md:223
+#: ../../src/help-center/tutorial2.md:268
+#: ../../src/help-center/tutorial2.md:366
+msgid ""
+"Кнопка Save должна быть выставлена в Action: Execute Workflow, и новое "
+"workflow Save  должно быть добавлено с единственным шагом Update Model"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:168
+msgid ""
+"Кнопка Back to All Suppliers должна иметь Action:Command Type "
+"выставленным в значение Navigation Back"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:169
+#: ../../src/help-center/tutorial2.md:197
+#: ../../src/help-center/tutorial2.md:225
+#: ../../src/help-center/tutorial2.md:270
+#: ../../src/help-center/tutorial2.md:368
+msgid ""
+"Настройки Settings/Menu должны быть выставлены на Show Component in Main "
+"Menu в положении On (выбрано)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:170
+#: ../../src/help-center/tutorial2.md:198
+#: ../../src/help-center/tutorial2.md:226
+#: ../../src/help-center/tutorial2.md:271
+#: ../../src/help-center/tutorial2.md:369
+msgid "Компонент должен быть сохранен и помечен готовым к публикации."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:172
+msgid "Ввод данных для Supplier Catalog Component"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:174
+msgid ""
+"После того, как Supplier Catalog настроен, опубликован и запущен, он "
+"должен выглядеть следующим образом после заполнения. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:177
+msgid "![Tutorial 2.1](tut2.1.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:177
+msgid "Tutorial 2.1"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:181
+msgid ""
+"Используйте кнопку «Add », чтобы открыть форму «Add/View» и добавить "
+"столько поставщиков, сколько пожелаете. Мы рекомендуем иметь как минимум "
+"2 или 3 поставщиков для целей этого урока, как показано на снимке экрана "
+"выше."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:183
+msgid ""
+"Как только все поставщики будут добавлены, работа с компонентом «Supplier"
+" Catalog» завершена."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:185
+msgid "Компонент Spend Type Codes Catalog"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:189
+msgid "Имя нового компонента должно быть Tutorial #2: Spend Type Codes Catalog"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:190
+msgid ""
+"Следующие поля должны быть добавлены со следующими параметрами (для "
+"деталей, посмотрите  [Appendix "
+"II](https://www.notion.so/2-94b8e938e3f44c6c87938a1150af6cf8?pvs=21) со "
+"снимками экрана, показывающими, как каждое поле должно быть настроено):"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:191
+#: ../../src/help-center/tutorial2.md:219
+msgid "Code Name (String, Required, Primary Key)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:192
+#: ../../src/help-center/tutorial2.md:220
+msgid "Type (String, Enum: 0|IT, 1|Marketing)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:193
+msgid ""
+"Должна быть добавлена форма Add/View Spend Type, все поля из шага 2 выше "
+"будут редактируемыми, а также должна быть добавлена кнопка Save и Back to"
+" all Spend Codes"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:194
+msgid ""
+"Должна быть добавлена страница с формой All Spend Codes, с контролем "
+"DataGrid  показывающим все поля из шага 2, с включенной кнопкой Add , и "
+"полем Action выставленом в значение Edit Record"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:196
+msgid ""
+"Кнопка Back to All Spend Codesдолжна иметь Action:Command Type "
+"выставленным в значение Navigation Back"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:200
+msgid "Ввод данных для Spend Type Codes Catalog"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:202
+msgid ""
+"После того, как Spend Type Codes Catalog настроен, опубликован и запущен,"
+" он должен выглядеть следующим образом после заполнения. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:205
+msgid "![Tutorial 2.2](tut.2.2.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:205
+msgid "Tutorial 2.2"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:209
+msgid ""
+"Используйте кнопку «Add », чтобы открыть форму «Add/View» и добавить "
+"столько Spend Codes, сколько пожелаете. Мы рекомендуем иметь как минимум "
+"5 или 6 Spend Codes для целей этого урока, как показано на снимке экрана "
+"выше."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:211
+msgid ""
+"Как только все поставщики будут добавлены, работа с компонентом «Spend "
+"Code Types Catalog» завершена."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:213
+msgid "Компонент Shared Status Catalog"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:215
+msgid "Component design setup"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:217
+msgid "Имя нового компонента должно быть Tutorial #2: Shared Status Catalog"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:218
+msgid ""
+"Следующие поля должны быть добавлены со следующими параметрами (для "
+"деталей, посмотрите  [Appendix "
+"III](https://www.notion.so/2-94b8e938e3f44c6c87938a1150af6cf8?pvs=21) со "
+"снимками экрана, показывающими, как каждое поле должно быть настроено):"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:221
+msgid ""
+"Должна быть добавлена форма Add/View Status, все поля из шага 2 выше "
+"будут редактируемыми, а также должна быть добавлена кнопка Save и Back to"
+" all Statuses"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:222
+msgid ""
+"Должна быть добавлена страница с формой All Statuses, с контролем "
+"DataGrid  показывающим все поля из шага 2, с включенной кнопкой Add , и "
+"полем Action выставленом в значение Edit Record"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:224
+msgid ""
+"Кнопка Back to All Statuses должна иметь Action:Command Type выставленным"
+" в значение Navigation Back"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:228
+msgid "Ввод данных для Shared Statuses Catalog"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:230
+msgid ""
+"Используйте кнопку «Add», чтобы открыть форму «Add/View» и добавить "
+"идентификатор состояния и имя пользовательского интерфейса состояния из "
+"списка дизайнов "
+"[здесь](https://www.notion.so/2-94b8e938e3f44c6c87938a1150af6cf8?pvs=21)."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:232
+msgid ""
+"После настройки, публикации и открытия Shared Status Catalog он должен "
+"выглядеть следующим образом после заполнения. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:235
+msgid "![Tutorial 2.3](tut2.3.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:235
+msgid "Tutorial 2.3"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:239
+msgid ""
+"После того, как все общие коды состояния будут добавлены, вы закончите "
+"работу с компонентом Spend Type Codes Catalog."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:241
+msgid "Настройка Компоненты Invoice Portal , Часть №1"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:243
+msgid ""
+"Настройка Invoice Portal пкомпоненты должна выполняться в несколько "
+"этапов."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:245
+msgid ""
+"Во-первых, мы настроим основные компоненты, которые будут включать "
+"настройку полей данных, форм добавления/просмотра и формы всех счетов."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:247
+msgid ""
+"Во-вторых, мы настроим возможность отправки счетов в статусе «Draft» на "
+"утверждение, используя комбинацию возможностей Workflow и Dataflow "
+"платформы."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:249
+msgid ""
+"Наконец, мы настроим роли, права и группы безопасности, предоставив "
+"надлежащий доступ к данным счетов на основе прав пользователя."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:253
+msgid ""
+"Как и общие каталоги, основной портал счетов (Invoice Portal) "
+"представляет собой простое приложение, описанное в первом уроке "
+"[здесь](https://www.notion.so/1-Invoice-Inventory-"
+"a44a0ebd26f04121b246694e5e1d6fb3?pvs=21) , которое состоит из модели "
+"данных, формы добавления/просмотра и формы для всех счетов. Основные "
+"шаги, необходимые для настройки основного портала счетов-фактур, описаны "
+"ниже и предполагают знакомство с первым [уроком](#tutorial1)."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:255
+msgid "Имя нового компонента должно быть Tutorial #2: Invoice Portal"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:256
+msgid ""
+"Следующие поля должны быть добавлены со следующими параметрами (для "
+"деталей, посмотрите  [Appendix "
+"IV](https://www.notion.so/2-94b8e938e3f44c6c87938a1150af6cf8?pvs=21) со "
+"снимками экрана, показывающими, как каждое поле должно быть настроено):"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:257
+msgid "InvoiceID (String, Primary Key)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:258
+msgid "Invoice Name (String)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:259
+#: ../../src/help-center/tutorial2.md:357
+msgid "Total Value (Number)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:260
+#: ../../src/help-center/tutorial2.md:358
+msgid "Due Date (Date)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:261
+#: ../../src/help-center/tutorial2.md:359
+msgid "Comment (String)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:262
+msgid ""
+"Затем необходимо установить ссылки на вновь добавленные каталоги "
+"следующим образом (см. экраны настройки в [Appendix "
+"IV](https://www.notion.so/2-94b8e938e3f44c6c87938a1150af6cf8?pvs=21)):"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:263
+#: ../../src/help-center/tutorial2.md:361
+msgid "Supplier (Property Type:Catalog, Component: Tutorial #2 Supplier Catalog)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:264
+#: ../../src/help-center/tutorial2.md:362
+msgid "SpendType (Property Type:Catalog, Component: Tutorial #2 Spend Type Codes)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:265
+#: ../../src/help-center/tutorial2.md:363
+msgid "StatusID (Property Type:Catalog, Component: Tutorial #2 Shared Status)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:266
+msgid ""
+"Должна быть добавлена форма Add/View Invoice, где должны быть сделаны "
+"редактируемыми все поля из шага 2 выше, кроме поля «Status», и с кнопками"
+" «Save» и «Back to all invoices»"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:267
+msgid ""
+"Должна быть добавлена страница «All invoices» используюя контроль "
+"DataGrid, показывающей все поля из шага 2, с включенной кнопкой «Add» и с"
+" настройкой «Action:Edit Record»."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:269
+msgid ""
+"Кнопка Back to All Invoices должна иметь Action:Command Type выставленным"
+" в значение Navigation Back"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:273
+msgid "Настройка Автоматизации формы Add/View Invoice"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:275
+msgid ""
+"Как описано в расширенном дизайне приложения здесь, нам потребуется "
+"некоторая автоматизация форм для нашего расширенного приложения Invoice "
+"Portal."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:277
+msgid ""
+"Во-первых, нам нужно убедиться, что поле «Статус» не может быть изменено "
+"пользователем."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:279
+msgid ""
+"Во-вторых, нам нужно убедиться, что для всех новых счетов-фактур "
+"установлен статус STATUS_DRAFT."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:281
+msgid ""
+"Наконец, нам нужно убедиться, что все счета, которые *НЕ находятся* в "
+"статусе STATUS_DRAFT, не могут быть изменены кем-либо, то есть все поля "
+"будут отключены."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:283
+msgid ""
+"Это делается с помощью встроенных возможностей скрипта Python. "
+"Показываем, как их использовать."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:285
+msgid ""
+"Сначала перейдите к компоненту «Tutorial #2: Invoice Portal» и выберите "
+"«Settings», а затем вкладку «Component Script», как показано на снимке "
+"экрана ниже. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:288
+msgid "![Tutorial 2.4](tut2.4.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:288
+msgid "Tutorial 2.4"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:292
+msgid ""
+"Здесь у нас есть место для размещения скрипта Python (версия IRON "
+"PYTHON). Нужный нам скрипт будет выглядеть так, с комментариями для "
+"уточнения деталей."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:345
+msgid ""
+"На этом первая часть настройки компонента Invoice Portal будет завершена."
+" Чтобы сделать вторую часть, сначала нам нужно будет настроить основной "
+"компонент Bill Portal. Если вы хотите сразу перейти ко второй части "
+"настройки компонента Invoice Portal, перейдите "
+"[сюда](https://www.notion.so/2-94b8e938e3f44c6c87938a1150af6cf8?pvs=21)."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:347
+msgid "Настройка Bill Portal, Часть №1"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:351
+msgid ""
+"Как и Invoice Portal, Bill Portal по своей сути представляет собой "
+"простое приложение для работы с данными, как описано в первом учебнике "
+"[здесь](https://www.notion.so/1-Invoice-Inventory-"
+"a44a0ebd26f04121b246694e5e1d6fb3?pvs=21). Он состоит из модели данных, "
+"формы добавления/просмотра счета и формы просмотра всех счетов. Основные "
+"шаги, необходимые для настройки основного портала рассмотрения и "
+"утверждения счетов, описаны ниже и предполагают знакомство с первым "
+"уроком."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:353
+msgid "Имя нового компонента должно быть Tutorial #2: Bill Portal"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:354
+msgid ""
+"Следующие поля должны быть добавлены со следующими параметрами (для "
+"деталей, посмотрите  [Appendix "
+"V](https://www.notion.so/2-94b8e938e3f44c6c87938a1150af6cf8?pvs=21) со "
+"снимками экрана, показывающими, как каждое поле должно быть настроено):"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:355
+msgid "BillID (String, Primary Key)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:356
+msgid "Bill Name (String)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:360
+msgid ""
+"Затем необходимо установить ссылки на вновь добавленные каталоги "
+"следующим образом (см. экраны настройки в [Appendix "
+"V](https://www.notion.so/2-94b8e938e3f44c6c87938a1150af6cf8?pvs=21)):"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:364
+msgid ""
+"Должна быть добавлена форма View Bill, где должны быть добавлены все поля"
+" из шагов 2 и 3 выше, и с кнопками «Save» и «Back to all invoices»"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:365
+msgid ""
+"Должна быть добавлена страница «All bills» используя контроль DataGrid, "
+"показывающий все поля из шага 2 и 3, с **вЫключенной** кнопкой «Add» и с "
+"настройкой «Action:Edit Record»."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:367
+msgid ""
+"Кнопка Back to All Bills должна иметь Action:Command Type выставленным в "
+"значение Navigation Back"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:370
+msgid ""
+"Дополнительные кнопки будут добавлены в Части 2 настройки компоненты Bill"
+" Portal"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:372
+msgid "Настройка Invoice Portal, Часть №2"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:374
+msgid "Настройка Dataflow & Workflow"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:376
+msgid "Quick introduction to Dataflows and Workflows"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:378
+msgid ""
+"Platform включает в себя два важных компонента, отвечающих за "
+"автоматизацию операций — Dataflow и Workflow."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:380
+msgid ""
+"Dataflow — это набор автоматизированных операций, направленных на "
+"управление данными, которые могут быть получены из форм, компонентов, "
+"через внешние интерфейсы или другими способами. Данные можно "
+"автоматически запрашивать, преобразовывать и передавать как внутри "
+"компонентов, так и извне через интеграционные API. Кроме того, Dataflow "
+"могут выполнять рабочие процессы и даже манипулировать пользовательским "
+"интерфейсом, например открывать определенные формы или компоненты."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:382
+msgid ""
+"Workflow это последовательности действий на основе конечного автомата , "
+"которые могут быть как автоматизированными действиями, такими как "
+"выполнение потоков данных, обновление данных, так и взаимодействиями с "
+"пользователями-людьми, такими как получение подтверждения пользователя "
+"или отправка пользователю уведомления различными способами и форматами. "
+"Workflow также включают возможность проверки таких условий, как «если/то»"
+" или несколько сценариев переключения (кейса)."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:384
+msgid ""
+"Как Dataflow, так и Workflow состоят из нескольких настраиваемых "
+"неограниченных этапов, каждый из которых содержит один или несколько "
+"шагов, а также зависимости между этапами."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:386
+msgid ""
+"Как Dataflow, так и Workflow настроены на вызов (выполнение) при действии"
+" пользователя из пользовательского интерфейса (например, с помощью "
+"элемента управления пользовательского интерфейса «Button»)."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:388
+msgid "Настройка Dataflow для Invoice Portal"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:390
+msgid ""
+"Для Invoice Portal мы будем использовать Dataflow для сбора данных из "
+"счетов со статусом STATUS_DRAFT, а затем для автоматического создания "
+"соответствующего счета в компоненте Bill Portal, а также для установки "
+"статуса счета в UNDER_REVIEW в обоих компонентах."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:392
+msgid ""
+"Чтобы создать новый Dataflow, сначала нам нужно добавить кнопку «Save & "
+"Submit for Approval» и установить для ее действия значение "
+"Actions→Command Type на «Execute Workflow», как показано ниже. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:395
+msgid "![Tutorial 2.5](tut2.5.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:395
+msgid "Tutorial 2.5"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:399
+msgid ""
+"Это создаст новый workflow  под названием «Save & Submit for Approval», "
+"как показано выше."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:401
+msgid ""
+"В этом workflow мы должны добавить один этап без имени со следующими "
+"двумя шагами:"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:403
+msgid ""
+"Стандартный шаг Update Model, чтобы убедиться, что мы обновили все "
+"свойства до актуальных данных из формы"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:404
+msgid ""
+"Шаг с типом Integrations->Execute Data Flow.. Затем мы перейдем к этому "
+"шагу и отредактируем имя Dataflow на «Create Bill». Это создаст dataflow "
+"с именем Create Bill, как показано выше."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:406
+msgid "Далее мы настроим dataflow для выполнения следующих действий:"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:408
+msgid ""
+"Получить обновленный набор свойств (модель данных) из Workflow. Это "
+"делается с помощью типа действия «Get Workflow Model» из группы действий "
+"«Input»."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:409
+msgid ""
+"Настройте переменную для Dataflow с правильным кодом для статуса "
+"DEPARTMENT_REVIEW, используя действие «Execute Script» из группы действий"
+" «Transformation», используя шаг «Lookup Reference» и наш каталог "
+"Tutorial #2: Shared Status."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:410
+msgid ""
+"Создайте новый счет с обновленным статусом, используя действие «Update "
+"Entry» и установив в поле BillStatus наш новый статус используя "
+"переменную из шага 2."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:411
+msgid ""
+"После этого нам нужно будет найти и обновить наш исходный счет с новым "
+"статусом."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:412
+msgid ""
+"Для этого мы сохраним наш InvoiceNumber как временную переменную, а затем"
+" обновим наш Invoice, используя эту переменную и наш новый статус."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:413
+msgid ""
+"Затем мы запустим рабочие процессы утверждения счетов (которые необходимо"
+" добавить на портал счетов до этого)."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:414
+msgid ""
+"Наконец, мы перейдем на нашу страницу «All bills» и завершим dataflow, "
+"используя действие «Write Response»."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:416
+msgid ""
+"Результирующий dataflow должен выглядеть так, как показано ниже. "
+"Подробные скриншоты для настройки каждого шага потока данных можно найти "
+"в Приложении IV. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:419
+msgid "![Tutorial 2.6](tut2.6.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:419
+msgid "Tutorial 2.6"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:423
+msgid "Настройка ролей для Invoice Portal"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:425
+msgid "Краткое введение в систему безопасности (security)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:427
+msgid "Система безопасности в Platform состоит из следующих основных элементов."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:429
+msgid ""
+"Аутентифицированные пользователи (authenticated users) — пользователи, у "
+"которых есть профиль в системе плюс логин и пароль (или другие средства "
+"аутентификации, такие как единый вход OAuth 2.0 SSO), которые должны быть"
+" аутентифицированы перед доступом к приложениям, созданным с помощью "
+"платформы"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:430
+msgid ""
+"Контексты безопасности (Security Contexts) — элементы приложений, "
+"созданных с использованием платформы, которые можно использовать для "
+"управления доступом пользователя к данным и действиям в приложении. "
+"Существуют следующие типы контекстов безопасности:"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:431
+msgid ""
+"Компоненты: общий каталог, для которого установлен флаг ограничения "
+"доступа (Restrict Access) в значение True."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:432
+msgid ""
+"Каждый элемент контекста безопасности компонентов может иметь параметры "
+"разрешений на чтение, обновление и/или удаление."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:433
+msgid ""
+"Cases: компонент с workflow, в который включен шаг типа «Get User "
+"Confirmation»."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:434
+msgid ""
+"Каждый Case может разрешить или запретить доступ к определенному шагу "
+"получения подтверждения пользователя."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:435
+msgid ""
+"Кнопки (Buttons) с параметром «Restrict Access» также создают контекст "
+"безопасности и могут использоваться для создания наборов разрешений и "
+"ролей."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:436
+msgid ""
+"Наборы разрешений (Permission Sets) — объект безопасности с уникальным "
+"именем, который объединяет одно или несколько разрешений для одного или "
+"нескольких элементов контекста безопасности"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:437
+msgid ""
+"Роли — комбинация Permission Sets, которые используются для определения "
+"конкретной комбинации разрешений для пользователей, играющих определенную"
+" роль в приложении (например, предоставление людям с ролью IT_Approver "
+"доступа ко всем IT-запросам, а также утверждение конкретных IT-запросов)."
+" Пользователям назначается одна или несколько ролей через форму настроек "
+"Studio -> Access -> Users -> User Name"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:439
+msgid "Настройка Системы Безопасности для Invoice Portal"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:441
+msgid ""
+"Для Invoice Portal мы будем использовать Spend Types Catalog в качестве "
+"контекста безопасности (установите для параметра «Restrict Access» "
+"значение «True» в настройках компонента). Затем мы создадим два "
+"разрешения — UserITRead и UserMKTGRead и разрешим разрешение UserITRead "
+"на чтение всех статусов, связанных с IT-кодами, и разрешение UserMKTGRead"
+" на чтение всех статусов, связанных с маркетинговыми кодами. Результат "
+"должен выглядеть следующим образом: <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:445
+msgid "![Tutorial 2.7](tut2.7.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:445
+msgid "Tutorial 2.7"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:449
+msgid "![Tutorial 2.8](tut2.8.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:449
+msgid "Tutorial 2.8"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:453
+msgid ""
+"Получив эти два разрешения, мы теперь создадим две роли: одну для IT и "
+"одну для маркетинга. Затем мы перейдем к выбору контекста для каждой "
+"роли. Например, для роли IT мы назначим UserITRead всем кодам, связанным "
+"с IT (IT.*). На скриншоте ниже показано, как это делается для кода IT.HW."
+" <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:456
+msgid "![Tutorial 2.9](tut2.9.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:456
+msgid "Tutorial 2.9"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:460
+msgid ""
+"Затем мы сделаем то же самое для MKTGUser_Read для кодов MKTG.*, "
+"предоставив им разрешение UserMKTG_Read. Наконец, мы создадим двух "
+"пользователей — UserIT и UserMKTG и назначим им соответствующее "
+"разрешение ( ITUser_Read или MKTGUser_Read )."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:463
+msgid ""
+"Теперь, после того как мы сохраним и опубликуем наше обновленное "
+"приложение Invoice Portal, любой из этих двух пользователей сможет войти "
+"в приложение Invoice Portal, но будет видеть только существующие счета с "
+"кодами IT.* или MKTG.*, а также использовать только эти типы кодов при "
+"создании новых счетов. В то же время администратор (или любой другой "
+"пользователь, которого мы захотим), у которого есть права на чтение, "
+"сможет просматривать все счета и отправлять счета, используя любой "
+"доступный код."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:465
+msgid "Настройка Bill Portal, Часть №2"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:467
+msgid "Настройка формы View"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:469
+msgid ""
+"Как было описано в расширенном дизайне приложения вверху, нам потребуется"
+" некоторая автоматизация форм для нашего приложения Bill Portal."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:471
+msgid ""
+"Во-первых ****, нам нужно сделать так чтобы никакие поля, кроме "
+"комментариев, не могли быть изменены любым пользователем."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:473
+msgid ""
+"Для этого нам нужно перейти к каждому из элементов управления формой, "
+"перейти к свойствам элемента управления формы (используя значок "
+"«Settings») и выставить флажок «Disabled». Ниже приведен пример элемента "
+"управления Bill Name: <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:476
+msgid "![Tutorial 2.10](tut2.10.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:476
+msgid "Tutorial 2.10"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:480
+msgid ""
+"Во-вторых, нам нужно будет создать несколько кнопок для утверждения и "
+"соответствующие рабочие процессы для их поддержки. Получившееся нижняя "
+"часть формы должна выглядеть как показано внизу. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:483
+msgid "![Tutorial 2.11](tut2.11.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:483
+msgid "Tutorial 2.11"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:487
+msgid ""
+"Кнопка Back to All Bills должна быть настроена на Command Type "
+"NavigateBack или Open Page/All Bills."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:489
+msgid ""
+"Кнопка Send to Approve должна быть выставлена на Action→Command Type: "
+"Execute Workflow, что создаст Send to Approve workflow как показано выше."
+" Мы настроим его чуть позже."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:491
+msgid ""
+"В третьих, нам понадобится Component script на Python который будет "
+"показывать эти кнопки только в правильных случаях."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:514
+msgid "Настройка Approval Workflows & Dataflows"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:516
+msgid ""
+"Поскольку у нас будут довольно сложные, многоуровневые рабочие процессы "
+"утверждения счетов с автоматическим обновлением статусов, настройка "
+"workflow и dataflow у нас будет намного больше сложной, чем у нас была "
+"для портала отправки счетов."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:518
+msgid ""
+"Основной workflow для утверждения организует все остальные рабочие "
+"процессы и потоки данных и будет выглядеть так, как показано ниже. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:521
+msgid "![Tutorial 2.12](tut2.12.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:521
+msgid "Tutorial 2.12"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:525
+msgid "Вкратце, мы:"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:527
+msgid ""
+"Использовать Get User Confirmation ативность в workflow чтобы получить "
+"ответ от авторизованного пользователя. Так будет сделан Departmental "
+"level approval."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:528
+msgid ""
+"Как только мы получим ответ от пользователя, мы проверим его на "
+"соответствие Reject или Approve"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:529
+msgid ""
+"Если это Reject, мы вызовем Reject/Department dataflow которое обновит и "
+"bill и исходный invoice статус на STATUS_REJECT, и закончит workflow"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:530
+msgid "Если это Accept, мы продолжим наш workflow"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:531
+msgid ""
+"В продолжении workflow, мы проверим необходимость в Management Level "
+"approval используя dataflow Check if 2nd Approval Needed. Результат "
+"проверки будет записан в NeedManagementApproval  поле как True или False"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:532
+msgid ""
+"Если NeedManagementApproval будет false, мы запустим dataflow "
+"FinalAccept/Department которое обновит статус на STATUS_APPROVED, и потом"
+" закончит workflow"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:533
+msgid ""
+"Если NeedManagementApproval будет true, мы опять используем ативность Get"
+" User Confirmation в нашем workflow чтобы получить ответ от пользователя "
+"с правами management"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:534
+msgid ""
+"Как только мы получили ответ от management пользователя, мы проверим его "
+"опять на Approver или Reject, запустим соответствующий dataflow для "
+"обновления статуса, и завершим наш workflow"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:536
+msgid "Настройка “Check If 2nd Approval Needed” workflow"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:538
+msgid ""
+"Наше workflow “Check If 2nd Approval Needed” будет выглядеть следующим "
+"образом. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:541
+msgid "![Tutorial 2.13](tut2.13.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:541
+msgid "Tutorial 2.13"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:545
+msgid ""
+"Тут мы получим значение поля TotalValue, сравним его с порогом в 10000 и "
+"если TotalValue больше порога, выставим поле NeedManagementApproval в "
+"True, а иначе в False."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:547
+msgid ""
+"Финально, как пример dataflow для обновления статусов Accept/Reject, "
+"внизу показан пример настроенного FinalAccept/Management dataflow: <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:550
+msgid "![Tutorial 2.14](tut2.14.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:550
+msgid "Tutorial 2.14"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:554
+msgid ""
+"В этом dataflow, мы сначала находим наш bill используя его BillNumber, и "
+"ставим статус APPROVED. Мы потом находим оригинальный invoice используя "
+"тот же BillNumber, и также выставляем ему статус APPROVED."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:556
+msgid ""
+"Аналогично работают все другие dataflow для обновления статусов на "
+"Approved/Rejected."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:558
+msgid "Роли для компонента Bill Portal"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:560
+msgid ""
+"В дополнение к настройке доступа к экземплярам компонента с "
+"использованием контекста безопасности данных Spend Codes, как описано "
+"выше для безопасности портала счетов, нам также потребуется настроить "
+"роли действия утверждения как для утверждения уровня отдела, так и для "
+"уровня управления. Для простоты мы позволим тем же пользователям UserIT и"
+" UserMKTG, которые могут отправлять счета, утверждать их на уровне "
+"отдела. Затем мы настроим учетную запись системного администратора по "
+"умолчанию для утверждения руководством."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:563
+msgid ""
+"Чтобы настроить все вышеперечисленное, мы создадим разрешение под "
+"названием DepartmentApprovers , которое сможет получить доступ к шагу "
+"«Get Department Approval» рабочего процесса «Send to approve» нашего "
+"компонента Tutorial #2: Internal Bills Portal. Кроме того, эта роль будет"
+" иметь доступ не только к чтению, но и к обновлению каталога Spend Type "
+"Code, так как именно они будут обновлять его. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:566
+msgid "![Tutorial 2.15](tut2.15.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:566
+msgid "Tutorial 2.15"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:570
+msgid ""
+"Далее мы создадим две новые роли — утверждающий для IT (IT Approver) и "
+"утверждающий для маркетинга (Marketing Approver), которые будут "
+"устанавливать доступ к кодам контроля расходов для пользователей IT и "
+"маркетинга соответственно, как показано ниже в примере для кода IT.HW. "
+"<br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:573
+msgid "![Tutorial 2.16](tut2.16.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:573
+msgid "Tutorial 2.16"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:577
+msgid ""
+"То же самое должно быть установлено для IT.SW и IT.Services . Для MKTG.* "
+"следует выбрать два набора разрешений — DepartmentApprovers и "
+"UserMKTG_Read ."
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:579
+msgid ""
+"Наконец, у каждого из наших обучающих пользователей — userIT и userMKTG —"
+" должны быть добавлены роли IT-утверждающего и маркетингового "
+"утверждающего соответственно. Пример для userIT показан ниже. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:582
+msgid "![Tutorial 2.17](tut2.17.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:582
+msgid "Tutorial 2.17"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:586
+msgid ""
+"Чтобы завершить настройку безопасности, нам нужно добавить утверждающее "
+"руководство. Для простоты у нас будет один утверждающий менеджер, который"
+" может утверждать счета как за IT, так и за маркетинг. Для этого мы "
+"создадим набор разрешений ManagementApprovers , который предоставит "
+"доступ к этапу «Get Management Approval Step» нашего рабочего процесса "
+"«Send to Approve», а также полный доступ к каталогу «Spend Type Codes», "
+"как показано ниже. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:590
+msgid "![Tutorial 2.18](tut2.18.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:590
+msgid "Tutorial 2.18"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:594
+msgid ""
+"Затем мы создадим роль ManagementApproval , в которой будет включена роль"
+" ManagementApprovers для всех кодов расходов в каталоге кодировщиков "
+"типов расходов, как показано ниже для примера IT.HW.  <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:597
+msgid "![Tutorial 2.19](tut2.19.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:597
+msgid "Tutorial 2.19"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:601
+msgid ""
+"Наконец, мы создаем нового пользователя с именем user_management и "
+"назначаем ему новую роль ManagementApproval , как показано ниже <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:604
+msgid "![Tutorial 2.20](tut2.20.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:604
+msgid "Tutorial 2.20"
+msgstr ""
+
+#: ../../src/help-center/tutorial2.md:608
+msgid ""
+"Теперь второе учебное приложение полностью настроено, и вы можете "
+"использовать созданных вами пользователей для его тестирования."
+msgstr ""
+

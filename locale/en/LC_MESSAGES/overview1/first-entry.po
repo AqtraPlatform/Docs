@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-15 06:42+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/overview1/first-entry.md:1
+msgid "Первый вход в систему"
+msgstr "First Time Login"
+
+#: ../../src/overview1/first-entry.md:4
+msgid "Доступ к Studio"
+msgstr "Access to Studio"
+
+#: ../../src/overview1/first-entry.md:7
+msgid "Вход в Studio"
+msgstr "Log in to Studio"
+
+#: ../../src/overview1/first-entry.md:8
+msgid ""
+"Для доступа к Studio используйте ссылку в формате `/studio/`, добавленную"
+" к адресу вашего развернутого экземпляра платформы. Например, если "
+"платформа развернута на `mydomain.io`, для входа в Studio необходимо "
+"перейти по адресу `https://mydomain.io/studio/`."
+msgstr "To access Studio, use the link in the format `/studio/` appended to the address of your deployed platform instance. For example, if the platform is deployed on `mydomain.io`, you need to go to `https://mydomain.io/studio/` to log in to Studio."
+
+#: ../../src/overview1/first-entry.md:10
+msgid ""
+"При этом вы увидите экран входа. Для входа в Studio введите свои учетные "
+"данные — логин и пароль. После авторизации вы будете перенаправлены на "
+"основную страницу. <br>"
+msgstr "When you do this, you will see a login screen. To log in to Studio, enter your credentials — username and password. After logging in, you will be redirected to the main page. <br>"
+
+#: ../../src/overview1/first-entry.md:13
+msgid "Основная страница"
+msgstr "Main Page"
+
+#: ../../src/overview1/first-entry.md:14
+msgid ""
+"На основной странице представлена информация о вашей лицензии и "
+"развернутых доменах приложений. Вы получите доступ к следующим функциям и"
+" информации:"
+msgstr "The main page provides information about your license and the application domains that have been deployed. You’ll get access to the following features and information:"
+
+#: ../../src/overview1/first-entry.md:16
+msgid ""
+"**Тип тарифного плана**: Здесь отображается тип вашего текущего тарифного"
+" плана и дата истечения или обновления подписки."
+msgstr "**Plan Type**: This displays the type of your current plan and the expiration or renewal date of your subscription."
+
+#: ../../src/overview1/first-entry.md:17
+msgid ""
+"**Информация о приложениях (Application Domains)**: Этот раздел позволяет"
+" создавать компоненты приложений, подключать пользователей через "
+"определенные URL и переходить в раздел \"Navigation Menu\"."
+msgstr "**Application Domains**: This section allows you to create application components, connect users via specific URLs, and navigate to the “Navigation Menu” section."
+
+#: ../../src/overview1/first-entry.md:18
+msgid ""
+"**Статистика использования**: Отображается информация о текущем "
+"количестве приложений по сравнению с общим ограничением, а также текущее "
+"и общее количество пользователей, рабочих процессов (workflows) и потоков"
+" данных (dataflows). <br>"
+msgstr "**Usage Statistics**: Displays information about the current number of applications compared to the total limit, as well as the current and total number of users, workflows, and dataflows. <br>"
+
+#: ../../src/overview1/first-entry.md:21
+msgid "![Main dashboard](main-dashboard.png) <br>"
+msgstr "![Main dashboard](main-dashboard.png) <br>"
+
+#: ../../src/overview1/first-entry.md:21
+msgid "Main dashboard"
+msgstr "Main dashboard"
+
+#: ../../src/overview1/first-entry.md:24
+msgid "Слева находится панель, содержащая 7 типов меню:"
+msgstr "On the left, there is a panel containing 7 types of menus:"
+
+#: ../../src/overview1/first-entry.md:25
+msgid "**[Меню Home](#home);**"
+msgstr "**[Home Menu](#home);**"
+
+#: ../../src/overview1/first-entry.md:26
+msgid "**[Меню Applications](#applications);**"
+msgstr "**[Applications Menu](#applications);**"
+
+#: ../../src/overview1/first-entry.md:27
+msgid "**[Меню Maintenance](#maintenance);**"
+msgstr "**[Maintenance Menu](#maintenance);**"
+
+#: ../../src/overview1/first-entry.md:28
+msgid "**[Меню Localizations](#localizations);**"
+msgstr "**[Localizations Menu](#localizations);**"
+
+#: ../../src/overview1/first-entry.md:29
+msgid "**[Меню Extensions](#extensions);**"
+msgstr "**[Extensions Menu](#extensions);**"
+
+#: ../../src/overview1/first-entry.md:30
+msgid "**[Меню Access](#access);**"
+msgstr "**[Access Menu](#access);**"
+
+#: ../../src/overview1/first-entry.md:31
+msgid "**[Меню File storage](#file-storage).** <br>"
+msgstr "**[File Storage Menu](#file-storage).** <br>"
+
+#: ../../src/overview1/first-entry.md:34
+msgid "Управление подпиской"
+msgstr "Managing Your Subscription"
+
+#: ../../src/overview1/first-entry.md:35
+msgid ""
+"**Обновление подписки**: Чтобы продлить текущую подписку, нажмите кнопку "
+"\"Продлить\" (Renew)."
+msgstr "**Upgrading Subscription**: To renew your current subscription, click the “Renew” button."
+
+#: ../../src/overview1/first-entry.md:36
+msgid ""
+"**Смена тарифного плана**: Для выбора другого тарифного плана используйте"
+" кнопку \"Выбрать другой план\" (Choose Other Plan)."
+msgstr "**Changing Plan**: Use the “Choose Other Plan” button to select a different plan."
+
+#: ../../src/overview1/first-entry.md:37
+msgid ""
+"**Уведомления о подписке**: Если до окончания срока действия вашей "
+"подписки осталось менее 10 дней, вы получите соответствующее уведомление "
+"о необходимости ее обновления."
+msgstr "**Subscription Notifications**: If your subscription is less than 10 days away from the end of its term, you will be notified to renew your subscription."
+

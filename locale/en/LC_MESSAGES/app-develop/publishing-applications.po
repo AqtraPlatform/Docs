@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-15 06:42+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/publishing-applications.md:2
+msgid "Публикации"
+msgstr "Publications"
+
+#: ../../src/app-develop/publishing-applications.md:5
+msgid ""
+"Чтобы создать версию компонентов, локализацию, расширение или другую "
+"соответствующую настройку через платформу, ее необходимо опубликовать. А "
+"чтобы версия компонента была опубликована, ее необходимо пометить как "
+"готовую к публикации."
+msgstr "To create a component version, localization, extension, or other appropriate customization via the platform, you must publish it. And in order for a component version to be published, it must be marked as ready to publish."
+
+#: ../../src/app-develop/publishing-applications.md:7
+msgid ""
+"Процесс публикации управляется через машину состояний, что позволяет "
+"эффективно контролировать все этапы и в случае ошибок возвращать систему "
+"к предыдущему состоянию. Введена функция глобальной блокировки для "
+"исключения одновременного запуска нескольких публикаций. Пользователи "
+"видят статус активных публикаций и после завершения каждой из них статусы"
+" объектов, готовых к публикации, обновляются автоматически. <br>"
+msgstr "The publishing process is controlled through the state machine, which allows you to effectively control all stages and, in case of errors, return the system to the previous state. A global lock feature has been introduced to prevent multiple publications from being started at the same time. Users see the status of active publications, and after each publication is completed, the statuses of the objects that are ready to be published are updated automatically. <br>"
+
+#: ../../src/app-develop/publishing-applications.md:10
+msgid "**Шаги для публикацией компонента:**"
+msgstr "**Steps to publish a component:**"
+
+#: ../../src/app-develop/publishing-applications.md:12
+msgid ""
+"**Кнопка \"Save\"**: Используется для сохранения текущих изменений в "
+"компоненте."
+msgstr "**“Save”** button: Used to save the current changes to the component."
+
+#: ../../src/app-develop/publishing-applications.md:13
+msgid ""
+"**\"Ready to Publish\"**: Помечает компонент как готовый к публикации "
+"после сохранения всех изменений. <br>"
+msgstr "**“Ready to Publish”**: Marks a component as ready to publish after all changes have been saved. <br>"
+
+#: ../../src/app-develop/publishing-applications.md:16
+msgid "**Шаги для публикции локализаций и интеграций:**"
+msgstr "**Steps for publishing localizations and integrations:**"
+
+#: ../../src/app-develop/publishing-applications.md:17
+msgid ""
+"Автоматически становятся доступными для публикации после внесения "
+"изменений. <br>"
+msgstr "Automatically become available for publishing after you make changes. <br>"
+
+#: ../../src/app-develop/publishing-applications.md:20
+msgid "**Процесс публикации:**"
+msgstr "**Publishing Process:**"
+
+#: ../../src/app-develop/publishing-applications.md:21
+msgid ""
+"**Переход к публикациям**: Находится в разделе "
+"`Studio→Applications→Publication`."
+msgstr "**Go to Publications**: Located in ‘Studio→Applications→Publication.’"
+
+#: ../../src/app-develop/publishing-applications.md:22
+msgid "**Выбор элементов для публикации**:"
+msgstr "**Selecting Items to Publish**:"
+
+#: ../../src/app-develop/publishing-applications.md:23
+msgid ""
+"Выбираются компоненты, локализации, интеграции, и модули Python, "
+"предназначенные для публикации."
+msgstr "Components, localizations, integrations, and Python modules are selected to be published."
+
+#: ../../src/app-develop/publishing-applications.md:24
+msgid "**Финальная публикация**:"
+msgstr "**Final publication**:"
+
+#: ../../src/app-develop/publishing-applications.md:25
+msgid "Завершается нажатием кнопки публикации."
+msgstr "The procedure is completed by clicking the publish button."
+
+#: ../../src/app-develop/publishing-applications.md:26
+msgid "При успешной публикации появляется уведомление."
+msgstr "A notification appears when the publication is successful."
+
+#: ../../src/app-develop/publishing-applications.md:28
+msgid "![Publications](publication-example.png)"
+msgstr "![Publications](publication-example.png)"
+
+#: ../../src/app-develop/publishing-applications.md:28
+msgid "Publications"
+msgstr "Publications"
+

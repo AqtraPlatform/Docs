@@ -1,0 +1,191 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:1
+msgid "Get values from connector"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:11
+msgid "Основные сведения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:12
+msgid ""
+"Шаг \"Get values from the connector\" позволяет получать данные через "
+"запрос во внешние системы с использованием настроенных коннекторов. Может"
+" вызываться по расписанию или от имени пользователя. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:15
+msgid "Параметры"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:16
+msgid "**Настройки Шага:**"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:4
+msgid "Поле настройки"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:4
+msgid "Варианты значений"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:4
+msgid "Назначение"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:4
+msgid "Step name"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:4
+msgid "-"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:4
+msgid "Наименование шага"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:4
+msgid "System"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:4
+msgid "Множественный выбор Catalog"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:4
+msgid "Содержит преднастроенные интеграционные системы"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:4
+msgid "Connector"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:4
+msgid "Содержит преднастроенные коннекторы в интеграционной системе"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:4
+msgid "Query path"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:4
+msgid "Содержит “EndPoint”, к которому необходимо обратиться"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:4
+msgid "Method name"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:4
+msgid "Get, Post, Put, Delete"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:4
+msgid "Тип запроса, который необходимо выполнить"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:4
+msgid "Parameters mapping"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:4
+msgid ""
+"Динамическая сущность, которая позволяет фильтровать запрос посредством "
+"выбранного API"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:29
+msgid "Кейсы"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:30
+msgid ""
+"**Регулярное обновление данных**: Использование шага для автоматического "
+"обновления данных в Input dataflow по расписанию через cron, обеспечивая "
+"своевременное получение актуальной информации."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:31
+msgid ""
+"**Индивидуальная настройка запросов**: Настройка шага для выполнения "
+"специфических запросов в различные внешние системы, позволяя гибко "
+"интегрировать и обрабатывать данные из множества источников."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:32
+msgid ""
+"**Оптимизация потоков данных**: Эффективное использование шага для "
+"извлечения данных из внешних систем, минимизируя необходимость ручной "
+"обработки и улучшая производительность dataflow. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:35
+msgid "Исключения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:36
+msgid ""
+"**Методы запроса**: Несмотря на поддержку различных методов запроса (Get,"
+" Post, Put, Delete), требуется тщательная настройка для каждого "
+"конкретного случая, учитывая специфику внешней системы и типа данных."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:37
+msgid ""
+"**Автоматизация с ограничениями**: Возможность автоматического вызова "
+"шага по расписанию обеспечивает удобство, но требует точной настройки "
+"параметров и проверки доступности внешних систем. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:40
+msgid "Вариант применения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:42
+msgid ""
+"В рамках данного компонента происходит обработка данных о персонажах. Мы "
+"создаем пять датамоделей для их характеристик: `character_id`, "
+"`character_name`, `character_species`, `character_status` и `gender`. "
+"Затем выбираем интеграцию, например, \"Rick and Morty\", и добавляем шаги"
+" `Get values from connector`, `Extract collection`, `Store entry over "
+"bus` и `Write response`."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/get-values-from-connector.md:44
+msgid ""
+"Вы можете скачать конфигурацию компонента "
+"[здесь](https://drive.google.com/file/d/1zWIWzpqccbocpDCfVUNIkGW2grrWJ5Yn/view?usp=sharing)"
+msgstr ""
+
+#~ msgid ""
+#~ "**Автоматизация с ограничениями**: Возможность "
+#~ "автоматического вызова шага по расписанию "
+#~ "обеспечивает удобство, но требует точной "
+#~ "настройки параметров и проверки доступности"
+#~ " внешних систем."
+#~ msgstr ""
+

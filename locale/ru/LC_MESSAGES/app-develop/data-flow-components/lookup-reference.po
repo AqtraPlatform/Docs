@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:1
+msgid "Lookup reference"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:11
+msgid "Основные сведения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:12
+msgid ""
+"Шаг \"Lookup Reference\" используется для поиска ссылок на экземпляры "
+"(instances) компонента по внешним ключам. Этот процесс требует, чтобы в "
+"компоненте, в которой производится поиск, было настроено как минимум одно"
+" поле (property) с флагом \"Primary key\"."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:14
+msgid ""
+"Поиск осуществляется по этому полю, и результат поиска в виде Id "
+"(integer) найденной записи будет записан в переменную, указанную в поле "
+"\"Field name\". Если экземпляр компонента с таким ключом не найден, "
+"переменная будет иметь значение null. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:17
+msgid "Параметры"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:18
+msgid "**Настройки Шага:**"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:4
+msgid "Поле настройки"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:4
+msgid "Варианты значений"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:4
+msgid "Назначение"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:4
+msgid "Step name"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:4
+msgid "-"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:4
+msgid "Наименование шага"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:4
+msgid "Source step"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:4
+msgid "Выбор предыдущего шага"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:4
+msgid "Component"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:4
+msgid "Компонент, в котором осуществляется поиск"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:4
+msgid "Field name"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:4
+msgid "Имя поля, куда будет записан результат поиска"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:29
+msgid "Кейсы"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:30
+msgid ""
+"**Поиск по первичным ключам**: Используется для определения наличия и "
+"идентификации экземпляров компонент по уникальным идентификаторам."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:31
+msgid ""
+"**Связывание данных компонентов**: Подходит для сценариев, где требуется "
+"связать данные из разных компонентов на основе уникальных ключей. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:34
+msgid "Исключения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:35
+msgid ""
+"**Требование наличия первичного ключа**: Необходимо, чтобы в компоненте "
+"был настроен первичный ключ для успешного поиска."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:36
+msgid ""
+"**Обработка отсутствующих записей**: В случае отсутствия экземпляра с "
+"указанным ключом, значение переменной будет null, что может потребовать "
+"дополнительной обработки. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:39
+msgid "Вариант применения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:41
+msgid ""
+"Этот компонент использует шаг Lookup Reference для поиска идентификатора "
+"записи в таблице \"Задание на сортировку\" по введенному номеру "
+"сортировки. После ввода номера сортировки и выполнения датафлоу, на "
+"фронт-энде отображается соответствующий идентификатор записи."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/lookup-reference.md:43
+msgid ""
+"Вы можете скачать конфигурацию компонента "
+"[здесь](https://drive.google.com/file/d/1LZzqHGc7I5IdAVLmK6H1_ItODiiruSAJ/view?usp=sharing)"
+msgstr ""
+
+#~ msgid ""
+#~ "**Обработка отсутствующих записей**: В случае"
+#~ " отсутствия экземпляра с указанным ключом,"
+#~ " значение переменной будет null, что "
+#~ "может потребовать дополнительной обработки."
+#~ msgstr ""
+

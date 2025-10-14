@@ -1,0 +1,596 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024
+# This file is distributed under the same license as the Low-Code platform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Low-Code platform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-24 15:27+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../src/help-center/tutor3.md:2
+msgid "Туториал №3"
+msgstr "Tutorial №3"
+
+#: ../../src/help-center/tutor3.md:5
+msgid "Используем Python"
+msgstr "Using Python"
+
+#: ../../src/help-center/tutor3.md:7
+msgid "Введение"
+msgstr "Introduction"
+
+#: ../../src/help-center/tutor3.md:11
+msgid ""
+"Платформа предоставляет возможность использовать Python для различных "
+"целей в качестве удобного широко известного языка "
+"сценариев/программирования."
+msgstr ""
+"The platform provides the ability to use Python for various purposes as a convenient and widely known scripting/programming language."
+
+#: ../../src/help-center/tutor3.md:13
+msgid ""
+"Сценарии Python, поддерживаемые платформой, должны использовать Python "
+"версии 3.0, как описано здесь: https://docs.python.org/3/. Полное "
+"руководство разработчика можно найти в разделе \"Использование Python\"."
+msgstr ""
+"Python scripts supported by the platform must use Python version 3.0, as described here: https://docs.python.org/3/. The full developer guide can be found in the \"Using Python\" section."
+
+#: ../../src/help-center/tutor3.md:15
+msgid ""
+"Версия Python, которую использует платформа, называется Iron Python, "
+"которая предоставляет интерфейс для кода C#. Он предоставляет две важные "
+"библиотеки, которые необходимо импортировать в начале скрипта — `clr` и "
+"`system`. Эти библиотеки предоставляют доступ к сущностям платформы, "
+"которые можно запрашивать и контролировать из скрипта. <br>"
+msgstr ""
+"The version of Python used by the platform is called Iron Python, which provides an interface to C# code. It provides two important libraries that need to be imported at the beginning of the script — `clr` and `system`. These libraries provide access to platform entities that can be queried and controlled from the script. <br>"
+
+#: ../../src/help-center/tutor3.md:18
+msgid "Способы использования скриптов Python на платформе"
+msgstr "Ways to Use Python Scripts on the Platform"
+
+#: ../../src/help-center/tutor3.md:22
+msgid "Существует несколько способов использования Python на платформе:"
+msgstr "There are several ways to use Python on the platform:"
+
+#: ../../src/help-center/tutor3.md:24
+msgid ""
+"Он позволяет контролировать формы приложений, разработанные и выполняемые"
+" с помощью платформы, а также предоставлять настраиваемые индексы, "
+"которые можно запускать в качестве реакции на какое-либо событие, "
+"например нажатие кнопки клиентом. <br>"
+msgstr ""
+"It allows controlling application forms designed and executed using the platform, as well as providing custom indices that can be triggered in response to an event, such as a client pressing a button. <br>"
+
+#: ../../src/help-center/tutor3.md:27
+msgid "Вызов функции внутри \"Component script\", например, при нажатии кнопки:"
+msgstr "Calling a Function Inside a \"Component Script\", for Example, When a Button Is Pressed:"
+
+#: ../../src/help-center/tutor3.md:28
+msgid ""
+"Для этого вам нужно определить функцию внутри Component Script, а затем "
+"перейти к элементу управления пользовательского интерфейса, такому как "
+"Button, перейти в раздел «Actions» и установить для параметра «Command "
+"Type» значение «Execute Script». Затем вам нужно ввести имя и параметры "
+"вызова (если есть) вашего скрипта в предоставленные поля. <br>"
+msgstr ""
+"To do this, you need to define a function inside the Component Script, then go to a UI control element such as a Button, go to the \"Actions\" section and set the \"Command Type\" parameter to \"Execute Script\". Then you need to enter the name and call parameters (if any) of your script in the provided fields. <br>"
+
+#: ../../src/help-center/tutor3.md:31
+msgid ""
+"Использование функции внутри Component Script для событий изменения "
+"значения:"
+msgstr "Using a Function Inside a Component Script for Value Change Events:"
+
+#: ../../src/help-center/tutor3.md:32
+msgid ""
+"Для этого вам нужно определить функцию внутри скрипта компонента, а затем"
+" перейти к элементу управления пользовательского интерфейса, такому как "
+"текстовое поле и т. д., затем перейти в раздел «Events» и ввести имя "
+"вашего скрипта в поле «On value change»."
+msgstr ""
+"To do this, you need to define a function inside the component script, then go to a UI control element such as a text box, etc., then go to the \"Events\" section and enter the name of your script in the \"On value change\" field."
+
+#: ../../src/help-center/tutor3.md:33
+msgid ""
+"Обратите внимание, что эта функция будет вызываться только в том случае, "
+"если данные поля изменились, и фокус элемента управления "
+"пользовательского интерфейса в форме уйдет от этого элемента управления "
+"пользовательского интерфейса."
+msgstr ""
+"Note that this function will only be called if the data in the field has changed and the focus of the UI control element in the form leaves this UI control element."
+
+#: ../../src/help-center/tutor3.md:37
+msgid ""
+"Подписавшись на изменения данных с помощью метода "
+"`context.DataModel.Model.Subscribe()`:"
+msgstr ""
+"By Subscribing to Data Changes Using the `context.DataModel.Model.Subscribe()` Method:"
+
+#: ../../src/help-center/tutor3.md:38
+msgid ""
+"Самый простой способ сделать это — определить функцию перехвата всех "
+"изменений (например, `def check_all_changes()`) в вашем компонентном "
+"скрипте, а затем подписаться на нее."
+msgstr ""
+"The easiest way to do this is to define a function to intercept all changes (e.g., `def check_all_changes()`) in your component script, and then subscribe to it."
+
+#: ../../src/help-center/tutor3.md:39
+msgid ""
+"Ваша функция будет вызываться каждый раз, когда происходит изменение "
+"текущих данных элемента управления пользовательского интерфейса, в тот "
+"момент, когда этот элемент управления пользовательского интерфейса теряет"
+" фокус (например, пользователь переключается на другой элемент управления"
+" пользовательского интерфейса или другое приложение)."
+msgstr ""
+"Your function will be called every time there is a change in the current data of the UI control element, at the moment when this UI control element loses focus (for example, when the user switches to another UI control element or another application)."
+
+#: ../../src/help-center/tutor3.md:43
+msgid ""
+"В рамках действия DataFlow выполните скрипт для определения логики "
+"принятия решений и преобразования данных и установки внутренних "
+"переменных, которые будут использоваться как часть сценариев DataFlow. Вы"
+" можете увидеть примеры использования скрипта Python для DataFlow в "
+"разделе \"Использование Python\"."
+msgstr ""
+"As part of a DataFlow action, execute a script to define decision-making logic, transform data, and set internal variables that will be used as part of DataFlow scripts. You can see examples of using Python scripts for DataFlow in the \"Using Python\" section."
+
+#: ../../src/help-center/tutor3.md:47
+msgid "Использование Python для доступа к компонентам платформы"
+msgstr "Using Python to Access Platform Components"
+
+#: ../../src/help-center/tutor3.md:51
+msgid ""
+"Чтобы получить доступ к компонентам платформы, сначала необходимо "
+"импортировать clr библиотеки IronPython, как показано ниже."
+msgstr ""
+"To access platform components, you first need to import the clr libraries of IronPython, as shown below."
+
+#: ../../src/help-center/tutor3.md:58
+msgid ""
+"После импорта к нескольким объектам можно получить доступ изнутри скрипта"
+" Python через системную переменную «context»."
+msgstr ""
+"After importing, several objects can be accessed from within the Python script via the system variable `context`."
+
+#: ../../src/help-center/tutor3.md:62
+msgid "Использование context.Model & context.DataModel"
+msgstr "Using context.Model & context.DataModel"
+
+#: ../../src/help-center/tutor3.md:66
+msgid ""
+"`context.Model` & `context.DataModel` обеспечивают доступ к различным "
+"полям данных модели платформы."
+msgstr ""
+"`context.Model` & `context.DataModel` provide access to various data fields of the platform model."
+
+#: ../../src/help-center/tutor3.md:68
+msgid ""
+"Для context.Model поля данных включают как поля компонента по умолчанию, "
+"предоставляемые платформой, так и настраиваемые поля, добавленные "
+"разработчиком компонента."
+msgstr ""
+"For context.Model, data fields include both the default component fields provided by the platform and custom fields added by the component developer."
+
+#: ../../src/help-center/tutor3.md:70
+msgid ""
+"Для context.DataModel доступны только настраиваемые поля, добавленные "
+"разработчиками компонентов."
+msgstr ""
+"For context.DataModel, only custom fields added by component developers are available."
+
+#: ../../src/help-center/tutor3.md:72
+msgid ""
+"Рекомендуется, чтобы context.DataModel использовался для доступа ко всем "
+"настраиваемым полям, а context.Model использовался только для доступа к "
+"внутренним полям компонента по умолчанию."
+msgstr ""
+"It is recommended that context.DataModel be used to access all custom fields, and context.Model be used only to access the internal fields of the default component."
+
+#: ../../src/help-center/tutor3.md:74
+msgid ""
+"Если мы напишем скрипт компонента, обращающийся к этой модели, следующие "
+"переменные системной модели будут доступны в нашем скрипте через "
+"context.Model:"
+msgstr ""
+"If we write a component script that accesses this model, the following system model variables will be available in our script through context.Model:"
+
+#: ../../src/help-center/tutor3.md:76
+msgid ""
+"`Id` - внутренний идентификатор, автоматически сгенерированный платформой"
+" для каждого компонента. Если Id == 0, это означает, что данные "
+"компонента еще не были сохранены, это означает, что мы находимся в режиме"
+" ввода данных для этого конкретного экземпляра данных компонента, "
+"например, добавляем новый счет в наш Туториал №1"
+msgstr ""
+"`Id` - internal identifier, automatically generated by the platform for each component. If Id == 0, it means that the component data has not yet been saved, indicating that we are in the data entry mode for this particular instance of the component data, such as adding a new invoice in our Tutorial #1."
+
+#: ../../src/help-center/tutor3.md:77
+msgid ""
+"`createDate` - внутренне установленная дата, когда экземпляр данных этого"
+" компонента был впервые создан"
+msgstr ""
+"`createDate` - internally set date when the data instance of this component was first created"
+
+#: ../../src/help-center/tutor3.md:78
+msgid ""
+"`name` (String) - системное user-friendly имя которое по умолчанию будет "
+"браться для показа ссылок через поля типа Catalog"
+msgstr ""
+"`name` (String) - system user-friendly name that will be taken by default to display links through Catalog type fields"
+
+#: ../../src/help-center/tutor3.md:79
+msgid ""
+"`updateDate` - внутренне установленная дата последнего обновления "
+"экземпляра данных этого компонента."
+msgstr ""
+"`updateDate` - internally set date of the last update of this component's data instance."
+
+#: ../../src/help-center/tutor3.md:80
+msgid ""
+"`CreatorSubject` - данные, которые показывают, какой пользователь добавил"
+" экземпляр данных этого конкретного компонента."
+msgstr ""
+"`CreatorSubject` - data that shows which user added the data instance of this particular component."
+
+#: ../../src/help-center/tutor3.md:81
+msgid ""
+"`changeAuthor` - данные, которые показывают, какой пользователь последний"
+" раз обновлял данный конкретный компонент"
+msgstr ""
+"`changeAuthor` - data that shows which user last updated this particular component"
+
+#: ../../src/help-center/tutor3.md:83
+msgid ""
+"Кроме того, следующие специфичные для компонента атрибуты будут доступны "
+"для компонента нашего руководства №1 через context.DataModel "
+"(рекомендуется) или context.Model:"
+msgstr ""
+"Additionally, the following component-specific attributes will be available for our Tutorial #1 component via context.DataModel (recommended) or context.Model:"
+
+#: ../../src/help-center/tutor3.md:85
+msgid "`InvoiceName` - уникальное имя для нашего нового счета"
+msgstr ""
+"`InvoiceName` - unique name for our new invoice"
+
+#: ../../src/help-center/tutor3.md:86
+msgid "`InvoiceState` - текущий статус нашего нового инвойса"
+msgstr ""
+"`InvoiceState` - current status of our new invoice"
+
+#: ../../src/help-center/tutor3.md:87
+msgid "`InvoiceNumber` - уникальный идентификатор номера для нашего счета"
+msgstr ""
+"`InvoiceNumber` - unique number identifier for our invoice"
+
+#: ../../src/help-center/tutor3.md:88
+msgid "`InvoiceDueDate` - срок оплаты нашего счета"
+msgstr ""
+"`InvoiceDueDate` - due date of our invoice"
+
+#: ../../src/help-center/tutor3.md:89
+msgid "`InvoiceTotalValue` - общая стоимость нашего счета"
+msgstr ""
+"`InvoiceTotalValue` - total value of our invoice"
+
+#: ../../src/help-center/tutor3.md:91
+msgid ""
+"Давайте теперь напишем пример сценария, который предварительно заполнит "
+"некоторые поля для нового счета."
+msgstr ""
+"Let's now write a sample script that will pre-fill some fields for a new invoice."
+
+#: ../../src/help-center/tutor3.md:117
+msgid ""
+"Теперь, если мы откроем приложение Tutorial #1 и нажмем кнопку "
+"«Добавить», чтобы добавить новый счет, экран будет выглядеть следующим "
+"образом:"
+msgstr ""
+"Now, if we open the Tutorial #1 application and click the \"Add\" button to add a new invoice, the screen will look like this:"
+
+#: ../../src/help-center/tutor3.md:121
+msgid "![Tutorial 3.1](tut3.1.png)"
+msgstr "![Tutorial 3.1](tut3.1.png)"
+
+#: ../../src/help-center/tutor3.md:121
+msgid "Tutorial 3.1"
+msgstr "Tutorial 3.1"
+
+#: ../../src/help-center/tutor3.md:125
+msgid "Использование context.Properties"
+msgstr "Using context.Properties"
+
+#: ../../src/help-center/tutor3.md:129
+msgid ""
+"`context.Properties` позволяет получить доступ ко всем элементам "
+"компонента и использовать, например, функции элементов управления формы "
+"пользовательского интерфейса для управления конкретным элементом "
+"управления пользовательского интерфейса."
+msgstr ""
+"`context.Properties` allows access to all component elements and can be used, for example, to utilize form UI control element functions to manage a specific UI control element."
+
+#: ../../src/help-center/tutor3.md:131
+msgid ""
+"Чтобы получить доступ к элементу управления пользовательского интерфейса,"
+" используйте `context.Properties` следующим образом:"
+msgstr ""
+"To access a UI control element, use `context.Properties` as follows:"
+
+#: ../../src/help-center/tutor3.md:137
+msgid ""
+"Здесь `<Internal_UI_Control_Name>` следует заменить именем вашего "
+"элемента управления пользовательского интерфейса, который вы настроили во"
+" время проектирования. Например, в случае туториала № 1 мы установили "
+"внутреннее имя для элемента управления InvoiceState UI, как показано "
+"ниже:"
+msgstr ""
+"Here, `<Internal_UI_Control_Name>` should be replaced with the name of your UI control element that you configured during design. For example, in the case of Tutorial #1, we set the internal name for the InvoiceState UI control element as shown below:"
+
+#: ../../src/help-center/tutor3.md:141
+msgid "![Tutorial 3.2](tut3.2.png)"
+msgstr "![Tutorial 3.2](tut3.2.png)"
+
+#: ../../src/help-center/tutor3.md:141
+msgid "Tutorial 3.2"
+msgstr "Tutorial 3.2"
+
+#: ../../src/help-center/tutor3.md:145
+msgid ""
+"Теперь мы можем использовать это внутреннее имя, чтобы установить "
+"следующую логику:"
+msgstr ""
+"Now we can use this internal name to set the following logic:"
+
+#: ../../src/help-center/tutor3.md:147
+msgid "При создании нового счета статус устанавливается на «На рассмотрении»."
+msgstr ""
+"When creating a new invoice, the status is set to \"Under Review\"."
+
+#: ../../src/help-center/tutor3.md:148
+msgid ""
+"Изменение поля статуса запрещено, то есть это поле должно быть отключено,"
+" но видно"
+msgstr ""
+"Changing the status field is prohibited, meaning this field should be disabled but visible."
+
+#: ../../src/help-center/tutor3.md:150
+msgid ""
+"Способ сделать это — использовать свойство `Disable` нашего элемента "
+"управления пользовательского интерфейса, чтобы установить его в `True`. "
+"Это приведет к тому, что поле появится, но не может быть изменено "
+"пользователем, который создает новый счет. Это делается путем добавления "
+"строки кода, как показано ниже:"
+msgstr ""
+"The way to do this is to use the `Disable` property of our UI control element to set it to `True`. This will make the field appear but it cannot be changed by the user creating the new invoice. This is done by adding a line of code as shown below:"
+
+#: ../../src/help-center/tutor3.md:156
+msgid ""
+"Добавление этого в скрипт нашего компонента приведет к следующим "
+"изменениям в нашей новой форме добавления счета."
+msgstr ""
+"Adding this to our component script will result in the following changes in our new invoice addition form."
+
+#: ../../src/help-center/tutor3.md:160
+msgid "![Tutorial 3.3](tut3.3.png)"
+msgstr "![Tutorial 3.3](tut3.3.png)"
+
+#: ../../src/help-center/tutor3.md:160
+msgid "Tutorial 3.3"
+msgstr "Tutorial 3.3"
+
+#: ../../src/help-center/tutor3.md:164
+msgid "Как видите, поле «Статус счета» теперь отключено."
+msgstr ""
+"As you can see, the \"Invoice Status\" field is now disabled."
+
+#: ../../src/help-center/tutor3.md:166
+msgid ""
+"Другим часто используемым полем `context.Properties` для управления "
+"элементами управления пользовательского интерфейса является `Visible`. "
+"Если установлено значение `False`, этот конкретный элемент управления "
+"пользовательского интерфейса не будет отображаться в форме. Затем его "
+"можно снова включить, установив для него значение `True`. Это можно "
+"сделать для любого элемента управления пользовательского интерфейса, "
+"включая панели, содержащие несколько различных элементов управления "
+"пользовательского интерфейса."
+msgstr ""
+"Another frequently used `context.Properties` field for managing UI control elements is `Visible`. If set to `False`, this specific UI control element will not appear in the form. It can then be re-enabled by setting it to `True`. This can be done for any UI control element, including panels containing several different UI control elements."
+
+#: ../../src/help-center/tutor3.md:168
+msgid ""
+"Пример того, как его можно использовать в контексте нашего туториала № 1 "
+"для первоначального скрытия поля «Статус счета», показан ниже."
+msgstr ""
+"An example of how it can be used in the context of our Tutorial #1 to initially hide the \"Invoice Status\" field is shown below."
+
+#: ../../src/help-center/tutor3.md:181
+msgid ""
+"Также есть поле `Hidden` которое прячет/показывает элементы интерфейса "
+"пользователя, аналогично полю `Visible`."
+msgstr ""
+"There is also the `Hidden` field, which hides/shows user interface elements, similar to the `Visible` field."
+
+#: ../../src/help-center/tutor3.md:183
+msgid ""
+"Другое часто используемое поле `context.Properties` это `Required`. Если "
+"установлено значение `True`, конкретный элемент управления "
+"пользовательского интерфейса станет обязательным (не может быть пустым), "
+"а если установлено значение `False`, он станет необязательным. Обратите "
+"внимание, что при этом изменяется только состояние элемента управления "
+"пользовательского интерфейса для настраиваемого свойства в текущем "
+"экземпляре формы, а не самого настраиваемого свойства, шаблона формы или "
+"элементов управления пользовательского интерфейса для этого "
+"настраиваемого свойства в других формах."
+msgstr ""
+"Another frequently used `context.Properties` field is `Required`. If set to `True`, the specific UI control element becomes mandatory (cannot be empty), and if set to `False`, it becomes optional. Note that this only changes the state of the UI control element for the custom property in the current form instance, not the custom property itself, the form template, or UI control elements for this custom property in other forms."
+
+#: ../../src/help-center/tutor3.md:187
+msgid "Использование context.Form"
+msgstr "Using context.Form"
+
+#: ../../src/help-center/tutor3.md:191
+msgid ""
+"`context.Form` можно использовать для доступа к данным формы (например, "
+"для целей проверки во время обработки формы, до того, как данные формы "
+"будут сохранены во внутреннем хранилище) или для управления визуальным "
+"представлением формы, например, путем настройки сообщения об ошибке."
+msgstr ""
+"`context.Form` can be used to access form data (e.g., for validation purposes during form processing, before the form data is saved to internal storage) or to manage the visual representation of the form, such as by setting an error message."
+
+#: ../../src/help-center/tutor3.md:193
+msgid ""
+"Для этого следует использовать `context.Form.Get(<CustomFieldName>)` для "
+"получения объекта, представляющего конкретное поле. Затем с этим объектом"
+" можно использовать следующие функции."
+msgstr ""
+"To do this, use `context.Form.Get(<CustomFieldName>)` to get an object representing a specific field. Then you can use the following functions with this object."
+
+#: ../../src/help-center/tutor3.md:195
+msgid ""
+"`context.Form.Get(<CustomFieldName>).SetValue(<Value>)` — устанавливает "
+"значение для определенного элемента управления пользовательского "
+"интерфейса в текущей форме. — "
+"`context.Form.Get(<CustomFieldName>).AddError(<StringValue>)` — "
+"устанавливает сообщение об ошибке, отображаемое под определенным "
+"элементом управления пользовательского интерфейса в текущей форме. — "
+"`context.Form.Get(<CustomFieldName>).ClearError()` — очищает сообщение об"
+" ошибке, показанное под конкретным элементом управления пользовательского"
+" интерфейса в текущей форме."
+msgstr ""
+"`context.Form.Get(<CustomFieldName>).SetValue(<Value>)` — sets the value for a specific UI control element in the current form. — "
+"`context.Form.Get(<CustomFieldName>).AddError(<StringValue>)` — sets an error message displayed under a specific UI control element in the current form. — "
+"`context.Form.Get(<CustomFieldName>).ClearError()` — clears the error message displayed under a specific UI control element in the current form."
+
+#: ../../src/help-center/tutor3.md:199
+msgid ""
+"Следующее расширение скрипта показывает, как проверить ситуацию, в "
+"которой пользователь не изменил имя счета-фактуры по умолчанию, которое "
+"мы установили выше в примерах для туториала №1."
+msgstr ""
+"The following script extension shows how to check the situation where the user did not change the default invoice name that we set above in the examples for Tutorial #1."
+
+#: ../../src/help-center/tutor3.md:212
+msgid ""
+"Результат будет выглядеть как на следующем снимке экрана в случае, если "
+"имя по умолчанию не было изменено:"
+msgstr ""
+"The result will look like the following screenshot if the default name was not changed:"
+
+#: ../../src/help-center/tutor3.md:216
+msgid "![Tutorial 3.4](tut3.4.png)"
+msgstr "![Tutorial 3.4](tut3.4.png)"
+
+#: ../../src/help-center/tutor3.md:216
+msgid "Tutorial 3.4"
+msgstr "Tutorial 3.4"
+
+#: ../../src/help-center/tutor3.md:220
+msgid "Использование context.Commands"
+msgstr "Using context.Commands"
+
+#: ../../src/help-center/tutor3.md:224
+msgid ""
+"`context.Commands` можно использовать для управления пользовательским "
+"интерфейсом исполняемого в данный момент компонента, изменения "
+"содержимого текущей формы, открытия разных страниц, открытия новых "
+"компонентов, возврата на предыдущую страницу или даже запуска новых "
+"Workflows, Dataflows или Scripts."
+msgstr ""
+"`context.Commands` can be used to manage the UI of the currently executing component, change the content of the current form, open different pages, open new components, return to the previous page, or even launch new Workflows, Dataflows, or Scripts."
+
+#: ../../src/help-center/tutor3.md:226
+msgid ""
+"Эти команды обычно используются внутри сценариев, вызываемых действием "
+"ExecuteScript с помощью кнопок, и в подобных случаях. Например, в нашем "
+"туториал № 1 кнопка Back to All Invoices может использовать следующий "
+"скрипт для возвращения на предыдущую страницу:"
+msgstr ""
+"These commands are typically used within scripts called by the ExecuteScript action using buttons, and in similar cases. For example, in our Tutorial #1, the Back to All Invoices button can use the following script to return to the previous page:"
+
+#: ../../src/help-center/tutor3.md:237
+msgid ""
+"Этот скрипт должен быть частью скрипта компонента и быть настроенным для "
+"кнопки Back to All Invoices, в разделе `Actions` -> `Command Type`: "
+"`Execute Script` -> `Method Name`: `navigate back`."
+msgstr ""
+"This script should be part of the component script and be set up for the Back to All Invoices button, in the `Actions` section -> `Command Type`: `Execute Script` -> `Method Name`: `navigate back`."
+
+#: ../../src/help-center/tutor3.md:241
+msgid "Другие доступные функции context.Commands:"
+msgstr ""
+"Other available context.Commands functions:"
+
+#: ../../src/help-center/tutor3.md:243
+msgid ""
+"``context.Commands.AddItem(GUID)`` - добавить элемент управления "
+"пользовательским интерфейсом на страницу с помощью GUID."
+msgstr ""
+"``context.Commands.AddItem(GUID)`` - add a UI control element to the page using the GUID."
+
+#: ../../src/help-center/tutor3.md:244
+msgid ""
+"``context.Commands.ChangePageAsync(GUID)`` - открыть страницу, используя "
+"ее GUID"
+msgstr ""
+"``context.Commands.ChangePageAsync(GUID)`` - open a page using its GUID"
+
+#: ../../src/help-center/tutor3.md:245
+msgid ""
+"``context.Commands.ChangePageByName(«ИмяСтраницы»)`` - измените текущую "
+"страницу компонента на новую страницу, используя внутреннее имя"
+msgstr ""
+"``context.Commands.ChangePageByName(«PageName»)`` - change the current component page to a new page using the internal name"
+
+#: ../../src/help-center/tutor3.md:246
+msgid ""
+"``context.Commands.OpenComponent(GUID ComponentID, GUID PageID)`` - "
+"открыть новый компонент и определенную страницу внутри компонента"
+msgstr ""
+"``context.Commands.OpenComponent(GUID ComponentID, GUID PageID)`` - open a new component and a specific page within the component"
+
+#: ../../src/help-center/tutor3.md:247
+msgid ""
+"``context.Commands.EditItem(GUID UI_ControlID, EntityId)`` - смещение "
+"фокуса пользовательского интерфейса на конкретный элемент управления "
+"пользовательского интерфейса и определенные данные (используя его "
+"внутренний идентификатор)"
+msgstr ""
+"``context.Commands.EditItem(GUID UI_ControlID, EntityId)`` - shift the UI focus to a specific UI control element and specific data (using its internal identifier)"
+
+#: ../../src/help-center/tutor3.md:248
+msgid ""
+"``context.Commands.ExecuteWorkflow(GUID WorkflowID)`` - выполнить "
+"workflow, используя его идентификатор. Кроме того, при необходимости "
+"можно настроить WaitComplete на true или false."
+msgstr ""
+"``context.Commands.ExecuteWorkflow(GUID WorkflowID)`` - execute a workflow using its identifier. Additionally, you can set WaitComplete to true or false if needed."
+
+#: ../../src/help-center/tutor3.md:249
+msgid ""
+"``context.Commands.ExecuteDataflow(идентификатор потока данных GUID, "
+"ContextID)`` - выполнить dataflow, используя его GUID и указанный "
+"контекст данных."
+msgstr ""
+"``context.Commands.ExecuteDataflow(GUID dataflow identifier, ContextID)`` - execute a dataflow using its GUID and the specified data context."
+
+#: ../../src/help-center/tutor3.md:250
+msgid ""
+"``context.Commands.ExecuteScript(String ScriptName, StringParams "
+"Script)`` - выполнить скрипт (функцию) из Component Script с некоторыми "
+"параметрами"
+msgstr ""
+"``context.Commands.ExecuteScript(String ScriptName, StringParams Script)`` - execute a script (function) from the Component Script with some parameters."
+

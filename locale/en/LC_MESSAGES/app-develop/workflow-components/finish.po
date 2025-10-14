@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 11:37+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/workflow-components/finish.md:1
+msgid "Finish"
+msgstr "Finish"
+
+#: ../../src/app-develop/workflow-components/finish.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/workflow-components/finish.md:12
+msgid ""
+"Шаг \"Finish\" в рамках workflow отвечает за завершение выполнения "
+"текущего Workflow. Этот шаг обычно используется для явного указания точки"
+" завершения workflow, особенно в альтернативных сценариях, определенных в"
+" блоке Conditions. <br>"
+msgstr ""
+"The “Finish” step within a workflow is designed for completing the "
+"execution of the current Workflow. This step is typically used to "
+"explicitly specify the completion point of a workflow, especially in the "
+"alternative scripts defined in the Conditions block. <br>"
+
+#: ../../src/app-develop/workflow-components/finish.md:15
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/workflow-components/finish.md:16
+msgid "**Настройки Шага:**"
+msgstr "**Step Settings:**"
+
+#: ../../src/app-develop/workflow-components/finish.md:4
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/workflow-components/finish.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/workflow-components/finish.md:4
+msgid "Step name"
+msgstr "Step name"
+
+#: ../../src/app-develop/workflow-components/finish.md:4
+msgid "Наименование шага \"Finish\""
+msgstr "“Finish” step name"
+
+#: ../../src/app-develop/workflow-components/finish.md:24
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/workflow-components/finish.md:25
+msgid ""
+"**Контролируемое завершение Workflow**: Используется для явного указания "
+"точки завершения workflow, что особенно важно в сложных процессах с "
+"множеством условий и ветвлений."
+msgstr ""
+"**Controlled Workflow Completion**: Used to explicitly specify the "
+"completion point of a workflow, which is especially important in complex "
+"processes with many conditions and branches."
+
+#: ../../src/app-develop/workflow-components/finish.md:26
+msgid ""
+"**Альтернативные пути выполнения**: Подходит для сценариев, где workflow "
+"должен завершиться в определенных условиях, отличающихся от основного "
+"потока выполнения. <br>"
+msgstr ""
+"**Alternative Execution Paths**: Suitable for scripts where a workflow "
+"needs to terminate under certain conditions that differ from the main "
+"flow of execution. <br>"
+
+#: ../../src/app-develop/workflow-components/finish.md:29
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/workflow-components/finish.md:30
+msgid ""
+"**Необходимость правильной конфигурации**: Важно убедиться, что шаг "
+"\"Finish\" правильно встроен в логику workflow, чтобы он не прерывал "
+"процесс преждевременно или не пропускал важные шаги."
+msgstr ""
+"**Need for Proper Configuration**: It's important to make sure that the "
+"“Finish” step is properly embedded in the workflow logic so that it "
+"doesn't interrupt the process prematurely or skip important steps."
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

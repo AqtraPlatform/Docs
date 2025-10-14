@@ -1,0 +1,425 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/user-interface/home.md:2
+msgid "Меню Home"
+msgstr ""
+
+#: ../../src/user-interface/home.md:5
+msgid ""
+"На данной странице представлена информация о вашей лицензии и развернутых"
+" доменах приложений. Вы получите доступ к следующим функциям и "
+"информации:"
+msgstr ""
+
+#: ../../src/user-interface/home.md:7
+msgid ""
+"**Тип тарифного плана**: Здесь отображается тип вашего текущего тарифного"
+" плана и дата истечения или обновления подписки."
+msgstr ""
+
+#: ../../src/user-interface/home.md:8
+msgid ""
+"**Информация о приложениях (Application Domains)**: Этот раздел позволяет"
+" создавать компоненты приложений, подключать пользователей через "
+"определенные URL и переходить в раздел \"Navigation Menu\"."
+msgstr ""
+
+#: ../../src/user-interface/home.md:9
+msgid ""
+"**Статистика использования**: Отображается информация о текущем "
+"количестве приложений по сравнению с общим ограничением, а также текущее "
+"и общее количество пользователей, рабочих процессов (workflows) и потоков"
+" данных (dataflows). <br>"
+msgstr ""
+
+#: ../../src/user-interface/home.md:12
+msgid "![Main dashboard](main-dashboard.png) <br>"
+msgstr ""
+
+#: ../../src/user-interface/home.md:12
+msgid "Main dashboard"
+msgstr ""
+
+#: ../../src/user-interface/home.md:16
+msgid "Подробнее о настройках applications domains"
+msgstr ""
+
+#: ../../src/user-interface/home.md:18
+msgid ""
+"**Домены приложений** - это внешние пространства с конкретным URL "
+"(HTTP/HTTPS://<имя-вашего-домена>), где можно развернуть свои компоненты."
+msgstr ""
+
+#: ../../src/user-interface/home.md:20
+msgid ""
+"**По умолчанию доступно приложение** с именем `digital-workplace`. Можно "
+"добавить дополнительные приложения, используя кнопку `Добавить приложение"
+" (Add application)` в правом верхнем углу панели инструментов. Каждое "
+"добавленное приложение отображается в списке приложений под описанием "
+"вашего плана."
+msgstr ""
+
+#: ../../src/user-interface/home.md:23
+msgid "В домене приложения в `main settings` можно выставить следующие параметры:"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Группа настроек"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Поле настройки"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Варианты значений"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Назначение"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Main settings"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Title"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "-"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Заголовок вкладки браузера"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Hide top bar"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "true, false"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Скрытие верхнего меню для workplace"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Static menu"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Постоянное отображение меню или при наведении мыши"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Hide breadcrumps"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Показ/скрытие иерархической навигации"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Hide user login"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Показ/скрытие логина пользователя"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Hide locale"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Показ/скрытие выбора локации"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Choose logo"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Logo, Small logo, favicon, \"No image\" placeholder"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Выбор логотипа для WorkPlace (разные типы)"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "User Session Storage"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "local/session"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Сохранение параметров авторизации в сессии или локально"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Default Idp provider"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Множественный выбор Catalog"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Выбор способа авторизации"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Default locale"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Локализация по умолчанию"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Default user info app"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Основное приложение для управления данными пользователя"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Default component"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Компонент по умолчанию"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Default page"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Страница для компонента по умолчанию"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Login component"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Компонент для формы авторизации"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Enable SIP"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "True, False"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Выстраивания интеграции с SIP"
+msgstr ""
+
+#: ../../src/user-interface/home.md:46
+msgid ""
+"В этой группе  можно выставить настройки глобальных модулей через "
+"JavaScript и CSS, что позволяет превратить платформу в систему управления"
+" контентом (CMS), а также загружать и использовать любые сторонние "
+"библиотеки."
+msgstr ""
+
+#: ../../src/user-interface/home.md:48
+msgid "Пример JS для глобального JavaScript:"
+msgstr ""
+
+#: ../../src/user-interface/home.md:68
+msgid "Кроме этого, есть группа настроек `style settings`:"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Main font"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Font"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Основной шрифт приложения"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Color scheme"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Default theme"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Цветовая схема по умолчанию"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Primary light color"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Основной светлый цвет"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Primary color"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Основной цвет"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Primary dark color"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Основной темный цвет"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Primary darker color"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Основной более темный цвет"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Primary text color"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Цвет текста по умолчанию"
+msgstr ""
+
+#: ../../src/user-interface/home.md:82
+msgid "Группа настроек `edit manifest`:"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Name"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Наименование приложения в манифесте"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Short name"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Короткое название приложения"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Choose Icon (192x192)"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Выбор иконки приложения размером 192x192 пикселей"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Choose Icon (512x512)"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Выбор иконки приложения размером 512x512 пикселей"
+msgstr ""
+
+#: ../../src/user-interface/home.md:94
+msgid "Интеграция с SIP"
+msgstr ""
+
+#: ../../src/user-interface/home.md:96
+msgid ""
+"Если параметр `Enbale SIP` внутри `Main settings` включен, необходим ряд "
+"последующих настроек для корректной работы звонков из work-place."
+msgstr ""
+
+#: ../../src/user-interface/home.md:98
+msgid "**На стороне студии:**"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "SIP WebSocket server"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid ""
+"Адрес SIP WebSocket сервера (например, `wss://test-"
+"pbx.scalaxi.ru:8089/ws`)"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "SIP realm"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Область действия SIP (realm)"
+msgstr ""
+
+#: ../../src/user-interface/home.md:107
+msgid "**На стороне work-place:**"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "SIP user name"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Имя пользователя SIP"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "SIP user password"
+msgstr ""
+
+#: ../../src/user-interface/home.md
+msgid "Пароль пользователя SIP"
+msgstr ""
+
+#: ../../src/user-interface/home.md:118
+msgid ""
+"Если все параметры выставлены корректно, то появится возможность "
+"совершать звонки из work-place. Про работу с SIP в рамках Component "
+"script вы можете почитать тут: [\"SIP в Component script\"](#sip-"
+"component-script)."
+msgstr ""

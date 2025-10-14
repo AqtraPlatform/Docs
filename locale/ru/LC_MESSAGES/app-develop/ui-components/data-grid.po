@@ -1,0 +1,458 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 08:10+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/ui-components/data-grid.md:2
+msgid "Data Grid"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:12
+msgid "Основные сведения"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:13
+msgid ""
+"Data Grid - это мощный UI-компонент, предназначенный для отображения и "
+"взаимодействия с большими объемами данных в табличном виде. Этот "
+"компонент идеально подходит для представления данных в виде строк и "
+"столбцов, а также обеспечивает функциональность сортировки и фильтрации "
+"данных. <br>"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:16
+msgid "Параметры"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:17
+msgid "**Свойства Компонента:**"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Группа настроек"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Поле настройки"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Варианты значений"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Назначение"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "(Общие)"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Name"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "-"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Наименование компонента в системе"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Columns"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Определение столбцов и их свойств"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Component"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Множественный выбор Catalog"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Содержит список из всех Компонентов"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Static filters"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Button"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Свойство используется для указания статических фильтров"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Dynamic filters"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Свойство используется для указания динамических фильтров"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Page size"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Размер страницы"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Manual reload"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Ручная перезагрузка данных"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Selection mode"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "none, single, multiple, checkbox"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Режим выбора элементов"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Automation id"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Идентификатор для автоматизации"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Events"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "On datasource loaded"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Событие при загрузке источника данных"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "On rows selected"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Событие при выборе строк"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "On loaded"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Событие при загрузке компонента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "On table changed"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Событие при изменении таблицы"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "On header changed"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Событие при изменении заголовка"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "On row changed"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Событие при изменении строки"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "On cell changed"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Событие при изменении ячейки"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:40
+msgid "**CSS Свойства:**"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Layout"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Width"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Ширина компонента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Height"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Высота компонента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Margin"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Внешний отступ"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Padding"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Внутренний отступ"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Visible"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Видимость компонента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Hidden"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Скрытие компонента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Appearance"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "CornerRadius"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Закругление углов"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "BorderThickness"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Толщина рамки"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Brush"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Background"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Цвет фона"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "BorderBrush"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Цвет рамки"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:57
+msgid "**Модель конфигурации DataGrid**"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:59
+msgid ""
+"Для модификации столбцов (колонок) UI компонента DataGrid используются "
+"следующий набор настроек:"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Translation value"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Заголовок колонки"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Show header"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "true, false"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Свойство позволяет настроить отображение заголовка колонки"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Sortable"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid ""
+"Свойство позволяет настроить возможность сортировки таблицы по выбранной "
+"колонке"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Filterable"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid ""
+"Свойство позволяет настроить возможность фильтрации таблицы по выбранной "
+"колонке"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Свойство определяет видимость колонки"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Plain text"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Свойство для отображения колонки как обычного текста"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Ширина колонки в таблице"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Display format"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Формат отображения данных колонки"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Icon"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Доступно только для Edit record, Open application"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Свойство, содержит выбор из доступных иконок"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Command type"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Open application, Edit record"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid ""
+"Свойство, позволяет выбрать действие, которое будет выполнено по нажатию "
+"на колонку"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Add field"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:5
+msgid "Свойство позволяет добавить поля для вывода в колонке"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:78
+msgid "Кейсы"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:79
+msgid ""
+"**Отображение данных**: Идеально подходит для отображения данных в "
+"удобной для восприятия табличной форме."
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:80
+msgid ""
+"**Административные панели**: Широко используется в интерфейсах управления"
+" для просмотра и редактирования данных."
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:81
+msgid ""
+"**Аналитические приложения**: Позволяет анализировать и сортировать "
+"большие объемы информации. <br>"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:84
+msgid "Исключения"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:85
+msgid ""
+"**Ограниченная визуализация**: Data Grid не подходит для комплексной "
+"визуализации данных, такой как графики или диаграммы."
+msgstr ""
+
+#: ../../src/app-develop/ui-components/data-grid.md:86
+msgid ""
+"**Обработка данных**: Компонент предназначен для отображения данных, а не"
+" для их обработки или вычислений."
+msgstr ""
+

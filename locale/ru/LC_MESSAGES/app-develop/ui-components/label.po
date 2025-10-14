@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 08:10+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/ui-components/label.md:1
+msgid "Label"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:11
+msgid "Основные сведения"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:12
+msgid ""
+"Label - это базовый UI-компонент, предназначенный для отображения "
+"текстовых нередактируемых полей на экранных формах приложения. Этот "
+"компонент широко используется для добавления описательного текста, "
+"заголовков или просто для отображения информации, которую пользователь не"
+" может изменять. <br>"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:15
+msgid "Параметры"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:16
+msgid "**Свойства Компонента:**"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Группа настроек"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Поле настройки"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Варианты значений"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Назначение"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "(Общие)"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Name"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "-"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Наименование UI-Компонента в системе"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Text"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Font size"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Размер шрифта"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Color"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Цвет текста (CSS)"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Bold"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "true, false"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Жирный шрифт"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Italic"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Курсивный шрифт"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Text alignment"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Left, Right, Center, Justify"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Выравнивание текста"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Common"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Binding"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Множественный выбор Catalog"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Привязка к данным"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Value"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Статическое значение поля"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Format"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Формат ввода/вывода данных (Для DataTime)"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:30
+msgid "**CSS Свойства:**"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Layout"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Align items"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "None, Center, End, Start, Stretch"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Выравнивание элементов в флекс-контейнере"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Width"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Ширина компонента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Height"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Высота компонента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Grow"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Растягивание компонента в контейнере"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Margin"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Внешний отступ"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Padding"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Внутренний отступ"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Appearance"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "CornerRadius"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Закругление углов"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "BorderThickness"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Толщина рамки"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Brush"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Background"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Цвет фона"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "BorderBrush"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:4
+msgid "Цвет рамки"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:48
+msgid "Кейсы"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:49
+msgid ""
+"**Информационные подсказки**: Использование label для предоставления "
+"вспомогательной информации рядом с другими UI элементами, например, для "
+"пояснения функций кнопок или вводимых данных."
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:50
+msgid ""
+"**Заголовки секций**: Label может служить заголовками для различных "
+"разделов интерфейса, четко разграничивая контент для улучшения "
+"пользовательского опыта."
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:51
+msgid ""
+"**Отображение статуса**: В случаях, когда необходимо отобразить статус "
+"или результат операции, label может использоваться для показа "
+"соответствующих сообщений (например, \"Загрузка...\", \"Успешно "
+"выполнено\"). <br>"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:54
+msgid "Исключения"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:55
+msgid ""
+"**Нередактируемость**: Label не предназначен для ввода или редактирования"
+" текста пользователем. Попытки использовать её для этих целей приведут к "
+"неэффективному дизайну интерфейса."
+msgstr ""
+
+#: ../../src/app-develop/ui-components/label.md:56
+msgid ""
+"**Ограничения по форматированию**: Хотя label позволяет определенный "
+"уровень настройки текста, она не может содержать сложные текстовые "
+"элементы, такие как гиперссылки или встроенные изображения."
+msgstr ""
+

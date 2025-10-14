@@ -1,0 +1,7 @@
+extends: existence
+message: "Добавь понятный alt-текст к изображению."
+level: warning
+scope: raw
+tokens:
+  - '!\[\s*\]\(' # пустой alt
+  - '!\[\s*(image|img|screenshot)\s*\]\(' # неинформативный alt

@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 11:37+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/ui-components/page.md:1
+msgid "Page"
+msgstr "Page"
+
+#: ../../src/app-develop/ui-components/page.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/ui-components/page.md:12
+msgid ""
+"\"Page\" - это UI-компонент для создания и настройки страниц в "
+"приложении, обеспечивающий структуру и организацию контента. <br>"
+msgstr ""
+"“Page” is a UI component for creating and customizing pages in an "
+"application, providing structure and organization of the content. <br>"
+
+#: ../../src/app-develop/ui-components/page.md:15
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/ui-components/page.md:16
+msgid "**Component properties**"
+msgstr "**Component properties**"
+
+#: ../../src/app-develop/ui-components/page.md:4
+msgid "Поле настройки"
+msgstr "Setting field"
+
+#: ../../src/app-develop/ui-components/page.md:4
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/ui-components/page.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/ui-components/page.md:4
+msgid "Name"
+msgstr "Name"
+
+#: ../../src/app-develop/ui-components/page.md:4
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/ui-components/page.md:4
+msgid "Наименование UI Компонента в системе"
+msgstr "Name of the UI Component in the system"
+
+#: ../../src/app-develop/ui-components/page.md:4
+msgid "Title"
+msgstr "Title"
+
+#: ../../src/app-develop/ui-components/page.md:4
+msgid "Наименование страницы"
+msgstr "Page name"
+
+#: ../../src/app-develop/ui-components/page.md:25
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/ui-components/page.md:26
+msgid ""
+"**Организация контента**: Создание отдельных страниц для разделения и "
+"организации контента приложения."
+msgstr ""
+"**Content Organization**: Creation of separate pages for separating and "
+"organizing application content."
+
+#: ../../src/app-develop/ui-components/page.md:27
+msgid ""
+"**Навигация**: Обеспечение четкой и эффективной навигации между "
+"различными разделами приложения. <br>"
+msgstr ""
+"**Navigation**: Providing clear and efficient navigation between "
+"different sections of the application. <br>"
+
+#: ../../src/app-develop/ui-components/page.md:30
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/ui-components/page.md:31
+msgid ""
+"**Специфика применения**: Ограничен использованием в качестве "
+"структурного элемента интерфейса, не подходит для других целей."
+msgstr ""
+"**Application Specifics**: Limited to use as a structural element of an "
+"interface, not suitable for other purposes."
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

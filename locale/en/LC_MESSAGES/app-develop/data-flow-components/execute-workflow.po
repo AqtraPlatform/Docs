@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/execute-workflow.md:1
+msgid "Execute Workflow"
+msgstr "Execute Workflow"
+
+#: ../../src/app-develop/data-flow-components/execute-workflow.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/data-flow-components/execute-workflow.md:12
+msgid ""
+"Шаг \"Execute Workflow\" используется для активации и выполнения "
+"определенного workflow в системе. <br>"
+msgstr ""
+"The “Execute Workflow” step is used to activate and execute a specific "
+"workflow in the system. <br>"
+
+#: ../../src/app-develop/data-flow-components/execute-workflow.md:15
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/data-flow-components/execute-workflow.md:16
+msgid "**Настройки Шага:**"
+msgstr "**Step Settings:**"
+
+#: ../../src/app-develop/data-flow-components/execute-workflow.md:4
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/data-flow-components/execute-workflow.md:4
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/data-flow-components/execute-workflow.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/data-flow-components/execute-workflow.md:4
+msgid "Step name"
+msgstr "Step name"
+
+#: ../../src/app-develop/data-flow-components/execute-workflow.md:4
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/data-flow-components/execute-workflow.md:4
+msgid "Наименование шага"
+msgstr "Name of the step"
+
+#: ../../src/app-develop/data-flow-components/execute-workflow.md:4
+msgid "Source step"
+msgstr "Source step"
+
+#: ../../src/app-develop/data-flow-components/execute-workflow.md:4
+msgid "Выбор предыдущего шага"
+msgstr "Selecting the previous step"
+
+#: ../../src/app-develop/data-flow-components/execute-workflow.md:4
+msgid "Component"
+msgstr "Component"
+
+#: ../../src/app-develop/data-flow-components/execute-workflow.md:4
+msgid "Компонент, в рамках которого выполняется workflow"
+msgstr "The component within which the workflow is performed"
+
+#: ../../src/app-develop/data-flow-components/execute-workflow.md:4
+msgid "Workflow"
+msgstr "Workflow"
+
+#: ../../src/app-develop/data-flow-components/execute-workflow.md:4
+msgid "Название workflow, который необходимо выполнить"
+msgstr "Name of the workflow to be completed"
+
+#: ../../src/app-develop/data-flow-components/execute-workflow.md:4
+msgid "Component entry field"
+msgstr "Component entry field"
+
+#: ../../src/app-develop/data-flow-components/execute-workflow.md:4
+msgid "Поле в компоненте, используемое для передачи данных в workflow"
+msgstr "The field in the component used to transfer data to workflow"
+
+#: ../../src/app-develop/data-flow-components/execute-workflow.md:28
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/data-flow-components/execute-workflow.md:29
+msgid ""
+"**Динамическое управление потоком данных**: Может быть использован для "
+"запуска специфических workflow на основе данных, полученных из предыдущих"
+" шагов Dataflow, что позволяет создавать гибкие и адаптивные системы "
+"управления данными. <br>"
+msgstr ""
+"**Dynamic data flow control**: It can be used to launch specific "
+"workflows based on data obtained from previous Dataflow steps, which "
+"allows you to create flexible and adaptive data management systems. <br>"
+
+#: ../../src/app-develop/data-flow-components/execute-workflow.md:32
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/data-flow-components/execute-workflow.md:33
+msgid ""
+"**Зависимость от корректности данных**: Необходимо гарантировать, что "
+"данные, передаваемые в workflow, точны и полны, чтобы избежать ошибок в "
+"его выполнении."
+msgstr ""
+"**Dependency on data correctness**: To avoid errors in workflow "
+"execution, it is necessary to ensure that the data sent to the workflow "
+"is accurate and complete."
+
+#: ../../src/app-develop/data-flow-components/execute-workflow.md:34
+msgid ""
+"**Согласование между Dataflow и Workflow**: Важно тщательно настроить "
+"взаимодействие между Dataflow и Workflow, чтобы обеспечить плавный и "
+"корректный переход данных и команд между ними. <br>"
+msgstr ""
+"**Coordination between Dataflow and Workflow**: It is important to "
+"carefully configure the interaction between Dataflow and Workflow to "
+"ensure a smooth and correct transfer of data and commands between them."
+
+#: ../../src/app-develop/data-flow-components/execute-workflow.md:37
+msgid "Вариант применения"
+msgstr "Application scenario"
+
+#: ../../src/app-develop/data-flow-components/execute-workflow.md:39
+msgid ""
+"Созданный компонент представляет собой интерфейс для взаимодействия с "
+"моделью данных, содержащей поле \"user_name\" типа string. Этот компонент"
+" включает в себя функциональность обновления модели данных с "
+"использованием шага Update model в рамках WorkFlow. Для взаимодействия с "
+"компонентом пользователь может ввести своё имя, нажать на кнопку, после "
+"чего данные отправятся, и имя будет отображено в датагриде после "
+"обновления страницы."
+msgstr ""
+"The created component serves as an interface for interacting with the data model containing a field "user_name" of type string. This component includes functionality for updating the data model using the Update model step within the Workflow. To interact with the component, the user can input their name, click a button, after which the data will be sent, and the name will be displayed in the data grid after refreshing the page."
+
+#: ../../src/app-develop/data-flow-components/execute-workflow.md:41
+msgid ""
+"Вы можете скачать конфигурацию компонента "
+"[здесь](https://drive.google.com/file/d/1-_NQtaVESITAw7HVODltu70wSGcGPIeo/view?usp=sharing)"
+msgstr ""
+"You can download the component configuration "
+"[here](https://drive.google.com/file/d/1AgjjrOW-z2LPMj7sFWg_PKjHjFfVtxub/view?usp=sharing)."
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

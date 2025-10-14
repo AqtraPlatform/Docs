@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-15 06:42+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/data-flow-components/index.md:1
+msgid "Dataflow"
+msgstr "Dataflow"
+
+#: ../../src/app-develop/data-flow-components/index.md:113
+msgid "Что такое dataflow?"
+msgstr "What is dataflow?"
+
+#: ../../src/app-develop/data-flow-components/index.md:115
+msgid ""
+"Dataflow, или поток данных, в платформе - это ключевой компонент, который"
+" позволяет пользователям обрабатывать и трансформировать данные в рамках "
+"приложения. Это мощный инструмент для интеграции данных, обработки "
+"событий и автоматизации бизнес-процессов."
+msgstr "Dataflow, or data flow, in the platform is a key component that allows users to process and transform data within an application. This is a powerful tool for integrating data, processing events and automating business processes."
+
+#: ../../src/app-develop/data-flow-components/index.md:117
+msgid ""
+"На платформе dataflow выстраивается с помощью `визуального редактора` "
+"потока данных:"
+msgstr "Dataflow is built on the platform using a ‘visual editor’ of the data flow:"
+
+#: ../../src/app-develop/data-flow-components/index.md:119
+msgid ""
+"Визуальный редактор потоков данных является интуитивным конструктором для"
+" создания и управления потоками данных (Dataflow). Этот инструмент "
+"позволяет пользователям последовательно формировать набор Этапов и Шагов "
+"(Stages и Steps) для реализации комплексных сценариев обработки данных."
+msgstr "The visual data flow editor is an intuitive designer for creating and managing data flows. This tool allows users to sequentially create a set of Stages and Steps to implement complex data processing scripts."
+
+#: ../../src/app-develop/data-flow-components/index.md:121
+msgid ""
+"**Добавление Этапов**: Происходит посредством нажатия иконки \"+\" на "
+"панели управления потоком данных. Вы можете добавлять неограниченное "
+"количество этапов в зависимости от нужд вашего сценария. <br>"
+msgstr "**Add Stage**: This is done by pressing the “+” icon on the data flow control panel. You can add an unlimited number of stages depending on the needs of your script. <br>"
+
+#: ../../src/app-develop/data-flow-components/index.md:124
+msgid ""
+"**Удаление Этапов**: Для удаления этапа используйте кнопку \"X\" на блоке"
+" выбранного этапа. <br>"
+msgstr "**Delete Stage**: To delete a stage, use the “X” button on the selected stage block. <br>"
+
+#: ../../src/app-develop/data-flow-components/index.md:126
+msgid ""
+"**Редактирование Этапа (Edit Stage)**: Вы можете редактировать только имя"
+" (name) выбранного этапа. <br>"
+msgstr "**Edit Stage**: You can only edit the name of the selected stage. <br>"
+
+#: ../../src/app-develop/data-flow-components/index.md:129
+msgid ""
+"**Добавление Шагов (Add Step)**: Добавление нового шага осуществляется "
+"через кнопку \"ADD STEP\" в соответствующем этапе. Пользователи могут "
+"выбирать типы шагов из предложенных групп активностей. <br>"
+msgstr "**Add Step**: A new step is added by pressing the “ADD STEP” button at the appropriate stage. Users can choose step types from the proposed activity groups. <br>"
+
+#: ../../src/app-develop/data-flow-components/index.md:132
+msgid ""
+"**Удаление Шагов**: Удаление шага осуществляется нажатием на иконку \"X\""
+" на блоке выбранного шага."
+msgstr "**Delete Step**: To delete a step, click on the “X” icon on the selected step block."
+

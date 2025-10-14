@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-15 06:42+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/user-interface/applications.md:2
+msgid "Меню Applications"
+msgstr "Applications Menu"
+
+#: ../../src/user-interface/applications.md:6
+#: ../../src/user-interface/applications.md:9
+msgid "Components"
+msgstr "Components"
+
+#: ../../src/user-interface/applications.md:7
+msgid ""
+"Этот раздел содержит полный перечень всех существующих компонентов в "
+"системе. Здесь можно просмотреть детали каждого компонента, а также "
+"добавить новые компоненты или мультикомпоненты, расширяя возможности "
+"вашего приложения. Идеально подходит для организации и управления всеми "
+"компонентами вашего проекта."
+msgstr "This section contains a complete list of all components available in the system. From here, you can view the details of each component, as well as add new components or multi-components, expanding the capabilities of your application. Ideal for organizing and managing all the components of your project."
+
+#: ../../src/user-interface/applications.md:9
+msgid "![Components](components.png) <br>"
+msgstr "![Components](components.png) <br>"
+
+#: ../../src/user-interface/applications.md:13
+msgid "Python Modules"
+msgstr "Python Modules"
+
+#: ../../src/user-interface/applications.md:14
+msgid ""
+"В этом разделе представлена возможность добавления и управления общими "
+"модулями Python. Эти модули становятся доступными как на front-end в "
+"Component Script, так и на back-end в Execute Script для dataflow. Это "
+"позволяет централизованно управлять логикой, которая может быть "
+"использована в разных частях приложения. Подробнее тут: [Использование "
+"Python](#python-modules-menu)"
+msgstr "This section offers the ability to add and manage common Python modules. These modules become available both on the front-end in Component Script and on the back-end in Execute Script for dataflow. This allows you to centrally manage the logic that can be used in different parts of the application. Read more here: [Using Python](#python-modules-menu)"
+
+#: ../../src/user-interface/applications.md:16
+msgid "![Pyhon modules](python-mod.png) <br>"
+msgstr "![Pyhon modules](python-mod.png) <br>"
+
+#: ../../src/user-interface/applications.md:16
+msgid "Pyhon modules"
+msgstr "Pyhon modules"
+
+#: ../../src/user-interface/applications.md:20
+msgid "Integrations"
+msgstr "Integrations"
+
+#: ../../src/user-interface/applications.md:21
+msgid ""
+"Раздел \"Integrations\" играет ключевую роль в создании связей между "
+"вашим приложением и внешними сервисами. Здесь вы можете добавлять новые "
+"интеграции, удалять ненужные и изменять настройки текущих интеграций, что"
+" обеспечивает гибкость и расширяемость функционала приложений."
+msgstr "The “Integrations” section plays a key role in creating links between your application and external services. Here you can add new integrations, remove unnecessary ones, and change the settings of current integrations, which provides flexibility and scalability of the application functionality."
+
+#: ../../src/user-interface/applications.md:23
+msgid "![Integrations menu](integrations-menu.png) <br>"
+msgstr "![Integrations menu](integrations-menu.png) <br>"
+
+#: ../../src/user-interface/applications.md:23
+msgid "Integrations menu"
+msgstr "Integrations menu"
+
+#: ../../src/user-interface/applications.md:27
+#: ../../src/user-interface/applications.md:30
+msgid "Publication"
+msgstr "Publication"
+
+#: ../../src/user-interface/applications.md:28
+msgid ""
+"После того как вы завершите настройку и подготовку ваших компонентов, "
+"этот раздел позволяет опубликовать их для дальнейшего использования. Вы "
+"можете выбрать компоненты, локализации, интеграции и даже модули Python "
+"для включения в публикацию, что делает процесс развертывания эффективным "
+"и организованным. Подробнее тут: [Публикация компонентов](#publication)"
+msgstr "Once you’ve finished configuring and preparing your components, this section allows you to publish them for future use. You can choose components, localizations, integrations, and even Python modules to include in your publication, making the deployment process efficient and organized. Read more here: [Publish Components](#publication)"
+
+#: ../../src/user-interface/applications.md:30
+msgid "![Publication](publication.png) <br>"
+msgstr "![Publication](publication.png) <br>"
+
+#: ../../src/user-interface/applications.md:34
+#: ../../src/user-interface/applications.md:37
+msgid "Export/Import"
+msgstr "Export/Import"
+
+#: ../../src/user-interface/applications.md:35
+msgid ""
+"Этот раздел предоставляет инструменты для экспорта и импорта конфигураций"
+" компонентов в формате JSON. Это удобно для перемещения настроек между "
+"различными средами, например, от разработки к тестированию или "
+"продакшену, облегчая процесс миграции и синхронизации изменений между "
+"разными экземплярами Studio."
+msgstr "This section provides tools for exporting and importing component configurations in JSON format. This is useful for moving settings between different environments, such as from development to testing or production, making it easier to migrate and synchronize changes between different Studio instances."
+
+#: ../../src/user-interface/applications.md:37
+msgid "![Export/Import](export-import-new.png)"
+msgstr "![Export/Import](export-import-new.png)"
+

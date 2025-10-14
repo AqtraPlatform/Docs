@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/execute-dataflow.md:1
+msgid "Execute dataflow"
+msgstr "Execute dataflow"
+
+#: ../../src/app-develop/data-flow-components/execute-dataflow.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/data-flow-components/execute-dataflow.md:12
+msgid ""
+"Шаг \"Execute Dataflow\" используется для вызова Dataflow из любого "
+"опубликованного компонента. Этот шаг позволяет запускать дополнительный "
+"Dataflow в контексте текущего процесса обработки данных."
+msgstr ""
+"The Execute Dataflow step is used to call Dataflow from any published "
+"component. This step allows you to run an additional Dataflow in the "
+"context of the current data processing process."
+
+#: ../../src/app-develop/data-flow-components/execute-dataflow.md:14
+msgid ""
+"Когда используется с полем типа array, полученным из внешнего источника "
+"или из поля (property) типа array, шаг разбирает этот массив и запускает "
+"параллельную обработку каждой записи или объекта, содержащегося в "
+"массиве. <br>"
+msgstr ""
+"When used with an array field obtained from an external source or from an"
+" array field (property), the step parses this array and starts parallel "
+"processing of each record or object contained in the array. <br>"
+
+#: ../../src/app-develop/data-flow-components/execute-dataflow.md:17
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/data-flow-components/execute-dataflow.md:18
+msgid "**Настройки Шага:**"
+msgstr "**Step Settings:**"
+
+#: ../../src/app-develop/data-flow-components/execute-dataflow.md:4
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/data-flow-components/execute-dataflow.md:4
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/data-flow-components/execute-dataflow.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/data-flow-components/execute-dataflow.md:4
+msgid "Step name"
+msgstr "Step name"
+
+#: ../../src/app-develop/data-flow-components/execute-dataflow.md:4
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/data-flow-components/execute-dataflow.md:4
+msgid "Наименование шага"
+msgstr "Name of the step"
+
+#: ../../src/app-develop/data-flow-components/execute-dataflow.md:4
+msgid "Source step"
+msgstr "Source step"
+
+#: ../../src/app-develop/data-flow-components/execute-dataflow.md:4
+msgid "Выбор предыдущего шага"
+msgstr "Selecting the previous step"
+
+#: ../../src/app-develop/data-flow-components/execute-dataflow.md:4
+msgid "Component"
+msgstr "Component"
+
+#: ../../src/app-develop/data-flow-components/execute-dataflow.md:4
+msgid "Компонент, из которого вызывается Dataflow"
+msgstr "The component from which Dataflow is called"
+
+#: ../../src/app-develop/data-flow-components/execute-dataflow.md:4
+msgid "Dataflow"
+msgstr "Dataflow"
+
+#: ../../src/app-develop/data-flow-components/execute-dataflow.md:4
+msgid "Название Dataflow, который будет выполнен"
+msgstr "Dataflow name to be executed"
+
+#: ../../src/app-develop/data-flow-components/execute-dataflow.md:4
+msgid "Result store field"
+msgstr "Result store field"
+
+#: ../../src/app-develop/data-flow-components/execute-dataflow.md:4
+msgid "Поле для сохранения результата выполнения Dataflow"
+msgstr "Field for saving the Dataflow execution result"
+
+#: ../../src/app-develop/data-flow-components/execute-dataflow.md:30
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/data-flow-components/execute-dataflow.md:31
+msgid ""
+"**Обновление данных из других dataflow**: Шаг \"Execute Dataflow\" "
+"идеально подходит для ситуаций, когда требуется обновить поля в текущей "
+"модели данными, собранными или обработанными в других dataflow. Это "
+"позволяет эффективно интегрировать и синхронизировать данные между "
+"различными процессами и компонентами."
+msgstr ""
+"**Updating data from other dataflows**: The “Execute Dataflow” step is "
+"ideal for situations where you want to update fields in the current model"
+" with data collected or processed in other dataflows. This makes it "
+"possible to effectively integrate and synchronize data between different "
+"processes and components."
+
+#: ../../src/app-develop/data-flow-components/execute-dataflow.md:32
+msgid ""
+"**Вызов внешних Dataflow**: Применяется для интеграции и запуска "
+"дополнительных Dataflow в рамках текущего процесса обработки данных. <br>"
+msgstr ""
+"**External Dataflow call**: Used to integrate and launch additional "
+"Dataflows as part of the current data processing process. <br>"
+
+#: ../../src/app-develop/data-flow-components/execute-dataflow.md:35
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/data-flow-components/execute-dataflow.md:36
+msgid ""
+"**Зависимость от корректности других dataflow**: Эффективность шага "
+"\"Execute Dataflow\" напрямую зависит от точности и надежности данных, "
+"получаемых из других dataflow. Необходимо тщательно настраивать и "
+"тестировать все связанные dataflow, чтобы обеспечить корректность и "
+"актуальность обновляемых данных. <br>"
+msgstr ""
+"**Dependency on the correctness of other dataflows**: The effectiveness "
+"of the “Execute Dataflow” step directly depends on the accuracy and "
+"reliability of data obtained from other dataflows. All related dataflows "
+"should be carefully configured and tested to ensure that the updated data"
+" is correct and up to date."
+
+#: ../../src/app-develop/data-flow-components/execute-dataflow.md:39
+msgid "Вариант применения"
+msgstr "Application scenario"
+
+#: ../../src/app-develop/data-flow-components/execute-dataflow.md:41
+msgid ""
+"Компонент создает датафлоу для выполнения операций над данными текущего "
+"компонента. Включает в себя шаги Get action model для получения модели "
+"датафлоу и Execute dataflow для выполнения датафлоу с установкой "
+"соответствующих параметров, таких как выбор текущего компонента, выбор "
+"датафлоу для выполнения, настройка полей результата и отображение "
+"дефинишенов из компонента данных. Этот компонент позволяет выполнять "
+"операции над данными компонента прямо из интерфейса приложения."
+msgstr ""
+"This component creates a dataflow to perform operations on the data of the current component. It includes Get action model steps to retrieve the dataflow model and Execute dataflow steps to execute the dataflow with appropriate parameters such as selecting the current component, choosing the dataflow to execute, configuring result fields, and displaying definitions from the data component. This component allows data operations on the component directly from the application interface."
+
+#: ../../src/app-develop/data-flow-components/execute-dataflow.md:43
+msgid ""
+"Вы можете скачать конфигурацию компонента "
+"[здесь](https://drive.google.com/file/d/1ekmRNTRgO30koKm04pyhEZsXG9W5T-O-/view?usp=sharing)"
+msgstr ""
+"You can download the component configuration "
+"[here](https://drive.google.com/file/d/1ekmRNTRgO30koKm04pyhEZsXG9W5T-O-/view?usp=sharing)."
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

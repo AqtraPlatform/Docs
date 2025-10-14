@@ -1,0 +1,228 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 08:10+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/user-interface/extensions.md:2
+msgid "Меню Extensions"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md:5
+msgid "Меню включает в себя 2 блока:"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md:6
+msgid "**Templates**"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md:7
+msgid "**SMTP settings** <br>"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md:10
+msgid "Templates"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md:12
+msgid ""
+"Шаблоны используются для почтовой рассылки и уведомлений пользователей и "
+"могут быть использованы только с шагом (Step) `Send Templated "
+"Notification`. Настройка шаблонов осуществляется в разделе `Application /"
+" Templates`. <br>"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md:15
+msgid "Добавление / Удаление шаблона"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md:17
+msgid "Чтобы **добавить новый шаблон** (Template), нажмите кнопку `ADD`."
+msgstr ""
+
+#: ../../src/user-interface/extensions.md:18
+msgid ""
+"Чтобы **удалить шаблон**, нажмите на крестик в общем списке всех "
+"шаблонов. <br>"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md:21
+msgid "Настройка компонентной модели шаблона"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md:23
+msgid ""
+"При добавлении или редактировании Шаблона (Template) необходимо "
+"определить структуру Объектной модели, которая будет обеспечивать "
+"взаимодействие с Dataflow и/или Workflow. Это выполняется путем установки"
+" набора параметров (properties) для каждой из них, аналогично настройке "
+"любого компонента. <br>"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md:26
+msgid "Настройка разметки и содержимого шаблона"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md:28
+msgid ""
+"Платформа  использует `DevExpress Report Designer` для создания шаблонов."
+" Эти шаблоны могут быть использованы для отправки уведомлений или для "
+"создания документов."
+msgstr ""
+
+#: ../../src/user-interface/extensions.md:30
+msgid ""
+"После создания нового шаблона откроется окно редактирования. Здесь можно "
+"добавить и настроить визуальные элементы вашего шаблона, а также "
+"установить ссылки на свойства вашего шаблона. <br>"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md:33
+msgid "SMTP settings"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md:35
+msgid "Сервис почтовой рассылки используется для отправки уведомлений через SMTP."
+msgstr ""
+
+#: ../../src/user-interface/extensions.md:37
+msgid "Рекомендации по использованию SMTP сервера:"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md:39
+msgid ""
+"**В процессе разработки**: Рекомендуется использовать корпоративный SMTP "
+"сервер или условно-бесплатные сервисы, например, "
+"[sendinblue.com](http://www.sendinblue.com/). Избегайте использования "
+"личного сервера, чтобы не попасть в спам."
+msgstr ""
+
+#: ../../src/user-interface/extensions.md:40
+msgid ""
+"**При промышленной эксплуатации**: Предпочтительно использовать "
+"корпоративный или платный коммерческий SMTP сервис."
+msgstr ""
+
+#: ../../src/user-interface/extensions.md:42
+msgid "Настройте следующие параметры для сервиса почтовой рассылки:"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md
+msgid "Поле настройки"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md
+msgid "Варианты значений"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md
+msgid "Назначение"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md
+msgid "`Sender`"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md
+msgid "-"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md
+msgid "Имя отправителя по умолчанию, например `sender@company.com`"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md
+msgid "`User name`"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md
+msgid "Логин для SMTP сервера, обычно в формате `user@company.com`"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md
+msgid "`Password`"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md
+msgid "Пароль для SMTP сервера"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md
+msgid "`Host`"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md
+msgid "Адрес SMTP сервера, например `http://smtp-relay.sendinblue.com/`"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md
+msgid "`Port`"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md
+msgid ""
+"Порт для SMTP сервера, зависит от провайдера, например 587 для "
+"sendinblue.com"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md
+msgid "`Enable SSL`"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md
+msgid "`true`, `false`"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md
+msgid ""
+"Использование SSL для шифрования данных. Обычно `True` для современных "
+"SMTP серверов"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md:55
+msgid "Пример использования Template и SMTP"
+msgstr ""
+
+#: ../../src/user-interface/extensions.md:57
+msgid "Создайте и настройте шаблон."
+msgstr ""
+
+#: ../../src/user-interface/extensions.md:58
+msgid "Настройте SMTP для отправки e-mail."
+msgstr ""
+
+#: ../../src/user-interface/extensions.md:59
+msgid "В вашем workflow добавьте шаг `Send Templated Notification`."
+msgstr ""
+
+#: ../../src/user-interface/extensions.md:60
+msgid "Выберите тип уведомления SMTP и установите параметры отправки e-mail."
+msgstr ""
+
+#: ../../src/user-interface/extensions.md:61
+msgid "Выберите свой шаблон и установите тип рендера в HTML."
+msgstr ""
+
+#: ../../src/user-interface/extensions.md:63
+msgid ""
+"После выполнения этих действий ваш рабочий процесс отправит электронное "
+"письмо, используя настроенный шаблон."
+msgstr ""
+

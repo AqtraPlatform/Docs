@@ -1,0 +1,187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:1
+msgid "Join models"
+msgstr "Join models"
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:12
+msgid ""
+"Шаг \"Join Models\" предназначен для соединения данных из двух различных "
+"источников. Он добавляет данные из источника, указанного как \"Right "
+"step\", к данным из источника \"Left step\", если соответствующие записи "
+"найдены в обоих источниках."
+msgstr ""
+"The “Join Models” step is designed to merge data from two different "
+"sources. It adds data from the “Right step” source to data from a “Left "
+"step” source if matching entries are found in both sources."
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:14
+msgid ""
+"Шаг создает новую модель данных, объединяя потоки данных, определенные в "
+"параметрах \"Left step\" и \"Right step\". Шаг ожидает завершения "
+"обработки обоих потоков, после чего выполняет сортировку и объединение "
+"данных. <br>"
+msgstr ""
+"The step creates a new data model by merging the data flows defined in "
+"the “Left step” and “Right step” parameters. The step waits for both "
+"flows to finish processing, and then sorts and merges the data. <br>"
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:17
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:18
+msgid "**Настройки Шага:**"
+msgstr "**Step Settings:**"
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Step name"
+msgstr "Step name"
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Наименование шага"
+msgstr "Name of the step"
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Left step"
+msgstr "Left step"
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Источник данных для левой части соединения"
+msgstr "Data source for the left side of the merged flows"
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Right step"
+msgstr "Right step"
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Источник данных для правой части соединения"
+msgstr "Data source for the right side of the merged flows"
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Left key"
+msgstr "Left key"
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Ключ для соединения из левого источника"
+msgstr "Key to merging data from the left source"
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Right key"
+msgstr "Right key"
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Ключ для соединения из правого источника"
+msgstr "Key to merging data from the right source"
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Map"
+msgstr "Map"
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Сопоставление полей между левым и правым источниками"
+msgstr "Mapping fields between left and right sources"
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:31
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:32
+msgid ""
+"**Соединение потоков данных**: Используется для объединения двух "
+"различных потоков данных в одну модель, позволяя анализировать и "
+"обрабатывать объединенные данные."
+msgstr ""
+"**Merging Data Flows**: Used to merge two different data flows into one "
+"model, allowing you to analyze and process the merged data."
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:33
+msgid ""
+"**Обогащение данных**: Применяется для добавления дополнительной "
+"информации из одного набора данных к другому, улучшая тем самым полноту "
+"информации. <br>"
+msgstr ""
+"**Data Enrichment**: It is used to add additional information from one "
+"data set to another, thereby improving the completeness of the "
+"information. <br>"
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:36
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:37
+msgid ""
+"**Необходимость точного ключа соединения**: Ошибки в определении ключей "
+"\"Left key\" и \"Right key\" могут привести к неправильному или "
+"неэффективному соединению данных. <br>"
+msgstr ""
+"**Need for an Exact Merging Key**: Errors in defining the “Left key” and "
+"“Right key” can lead to incorrect or inefficient data merging."
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:40
+msgid "Вариант применения"
+msgstr "Application scenario"
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:42
+msgid ""
+"Этот компонент позволяет **тестировать** и **проверять** функциональность"
+" датафлоу, в котором происходит **объединение** данных из разных "
+"источников. Он обеспечивает **сопоставление** полей и **проверку** "
+"корректности объединения данных на **фронт-энде** и в предварительном "
+"просмотре **HTTP** ответа."
+msgstr ""
+"This component allows **testing** and **verifying** the functionality of a data "
+"flow where data is **merged** from different sources. It provides **field "
+"mapping** and **data merge verification** on the **frontend** and in the "
+"**HTTP** response preview."
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:44
+msgid ""
+"Вы можете скачать конфигурацию компонента "
+"[здесь](https://drive.google.com/file/d/1YRpXJwNSTp_jOPxP-"
+"j0M9SvocZw1W6Tt/view?usp=sharing)."
+msgstr ""
+"You can download the component configuration [here](https://drive.google.com/file/d/1YRpXJwNSTp_jOPxP-j0M9SvocZw1W6Tt/view?usp=sharing)."
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

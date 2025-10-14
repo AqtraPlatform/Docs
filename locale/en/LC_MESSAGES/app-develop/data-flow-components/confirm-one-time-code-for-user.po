@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/confirm-one-time-code-for-user.md:1
+msgid "Confirm one-time code for user"
+msgstr "Confirm one-time code for user"
+
+#: ../../src/app-develop/data-flow-components/confirm-one-time-code-for-user.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/data-flow-components/confirm-one-time-code-for-user.md:12
+msgid ""
+"Шаг \"Confirm One-Time Code for User\" используется для подтверждения "
+"одноразового кода, который был сгенерирован пользователю на предыдущем "
+"шаге \"Get One-Time Code for User\". Этот шаг является ключевым в "
+"процессе двухфакторной аутентификации, позволяя верифицировать "
+"правильность введенного пользователем кода для доступа к системе. <br>"
+msgstr ""
+"The “Confirm One-Time Code for User” step is used to confirm the one-time"
+" code that was generated for the user in the previous “Get One-Time Code "
+"for User” step. This step is the key one in the two-factor authentication"
+" process, allowing you to verify the correctness of the code entered by "
+"the user to access the system. <br>"
+
+#: ../../src/app-develop/data-flow-components/confirm-one-time-code-for-user.md:15
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/data-flow-components/confirm-one-time-code-for-user.md:16
+msgid "**Настройки Шага:**"
+msgstr "**Step Settings:**"
+
+#: ../../src/app-develop/data-flow-components/confirm-one-time-code-for-user.md:4
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/data-flow-components/confirm-one-time-code-for-user.md:4
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/data-flow-components/confirm-one-time-code-for-user.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/data-flow-components/confirm-one-time-code-for-user.md:4
+msgid "Step name"
+msgstr "Step name"
+
+#: ../../src/app-develop/data-flow-components/confirm-one-time-code-for-user.md:4
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/data-flow-components/confirm-one-time-code-for-user.md:4
+msgid "Наименование шага"
+msgstr "Name of the step"
+
+#: ../../src/app-develop/data-flow-components/confirm-one-time-code-for-user.md:4
+msgid "Source step"
+msgstr "Source step"
+
+#: ../../src/app-develop/data-flow-components/confirm-one-time-code-for-user.md:4
+msgid "Выбор предыдущего шага"
+msgstr "Selecting the previous step"
+
+#: ../../src/app-develop/data-flow-components/confirm-one-time-code-for-user.md:4
+msgid "User code field"
+msgstr "User code field"
+
+#: ../../src/app-develop/data-flow-components/confirm-one-time-code-for-user.md:4
+msgid "Поле, в которое пользователь вводит полученный код для подтверждения"
+msgstr "The field in which the user enters the received code for confirmation"
+
+#: ../../src/app-develop/data-flow-components/confirm-one-time-code-for-user.md:26
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/data-flow-components/confirm-one-time-code-for-user.md:27
+msgid ""
+"**Подтверждение двухфакторной аутентификации**: Применяется для "
+"завершения процесса двухфакторной аутентификации, требуя от пользователя "
+"ввести код, который был отправлен ему на предыдущем этапе."
+msgstr ""
+"**Two-Factor Authentication Confirmation**: Applied to complete the two-"
+"factor authentication process by requiring the users to enter the code "
+"that was sent to them in the previous step."
+
+#: ../../src/app-develop/data-flow-components/confirm-one-time-code-for-user.md:28
+msgid ""
+"**Усиление безопасности доступа**: Используется в сценариях, где "
+"необходим усиленный контроль доступа к системе, предотвращая "
+"неавторизованный вход. <br>"
+msgstr ""
+"**Enhancing Access Security**: Used in scenarios where enhanced system "
+"access control is required to prevent unauthorized logins. <br>"
+
+#: ../../src/app-develop/data-flow-components/confirm-one-time-code-for-user.md:31
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/data-flow-components/confirm-one-time-code-for-user.md:32
+msgid ""
+"**Зависимость от правильности введенного кода**: Эффективность шага "
+"зависит от точности ввода кода пользователем."
+msgstr ""
+"**Dependency on the correctness of the code entered**: The effectiveness "
+"of the step depends on the accuracy of entering the code by the user."
+
+#: ../../src/app-develop/data-flow-components/confirm-one-time-code-for-user.md:33
+msgid ""
+"**Ограниченное время действия кода**: В случае превышения времени "
+"действия кода, необходимо повторное его получение, что может привести к "
+"задержкам в аутентификации. <br>"
+msgstr ""
+"**Limited Code Validity**: If the code expires, it must be re-issued, "
+"which may result in delays in authentication."
+
+#: ../../src/app-develop/data-flow-components/confirm-one-time-code-for-user.md:36
+msgid "Вариант применения"
+msgstr "Application scenario"
+
+#: ../../src/app-develop/data-flow-components/confirm-one-time-code-for-user.md:38
+msgid ""
+"В компоненте создается датафлоу для подтверждения одноразового кода "
+"пользователя. Шаг Get action model используется для получения данных "
+"модели. Затем через шаг Execute script код из переменной `ForTestCode` "
+"очищается от лишних символов и сохраняется в переменную `_code`. Шаг "
+"Confirm one time code for user используется для подтверждения "
+"одноразового кода, используя значение `_code` как код пользователя. "
+"Наконец, результат передается через шаг Write response."
+msgstr ""
+"The component creates a dataflow to confirm the user's one-time code. The Get action model step is used to retrieve the model data. Then, the code from the ForTestCode variable is cleaned of unnecessary characters and stored in the _code variable using the Execute script step. The Confirm one-time code for user step is utilized to confirm the one-time code using the _code value as the user's code. Finally, the result is passed through the Write response step."
+
+#: ../../src/app-develop/data-flow-components/confirm-one-time-code-for-user.md:40
+msgid ""
+"Вы можете скачать конфигурацию компонента "
+"[здесь](https://drive.google.com/file/d/1_uPyqNOuOddurvwz-"
+"KteaoIIRQjgEzBH/view?usp=sharing)"
+msgstr ""
+"You can download the component configuration "
+"[here](https://drive.google.com/file/d/1_uPyqNOuOddurvwz-"
+"KteaoIIRQjgEzBH/view?usp=sharing)"
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

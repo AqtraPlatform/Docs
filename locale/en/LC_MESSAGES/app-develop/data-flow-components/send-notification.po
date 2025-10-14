@@ -1,0 +1,191 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 11:37+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:2
+msgid "Send notification"
+msgstr "Send notification"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:12
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:13
+msgid ""
+"Шаг \"Send Notification\" предназначен для отправки индивидуально "
+"настроенных уведомлений пользователям или группам пользователей. Этот шаг"
+" предлагает высокую степень гибкости, позволяя напрямую задавать текст и "
+"тему каждого уведомления, что делает его идеальным для ситуаций, "
+"требующих персонализированных сообщений. <br>"
+msgstr ""
+"The “Send Notification” step is designed to send customized notifications"
+" to users or groups of users. This step offers a high degree of "
+"flexibility, allowing you to directly set the text and subject of each "
+"notification, making it ideal for situations that require personalized "
+"messages. <br>"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:16
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:17
+msgid "**Настройки Шага:**"
+msgstr "**Step Settings:**"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:5
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:5
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:5
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:5
+msgid "Step name"
+msgstr "Step name"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:5
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:5
+msgid "Наименование шага"
+msgstr "Name of the step"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:5
+msgid "Source step"
+msgstr "Source step"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:5
+msgid "Источник данных для отправки уведомления"
+msgstr "Source of the data for sending the notification"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:5
+msgid "User info field"
+msgstr "User info field"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:5
+msgid "Поле, содержащее информацию о получателях уведомления"
+msgstr "Field that contains information about the recipients of the notification"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:5
+msgid "User name"
+msgstr "User name"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:5
+msgid "Имя пользователя, которому будет отправлено уведомление"
+msgstr "Name of the user to whom the notification will be sent"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:5
+msgid "Message body field"
+msgstr "Message body field"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:5
+msgid "Поле для тела сообщения"
+msgstr "Field for the body of the message"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:5
+msgid "Message theme"
+msgstr "Message theme"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:5
+msgid "Text"
+msgstr "Text"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:5
+msgid "Тема уведомления"
+msgstr "Notification subject"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:5
+msgid "Message body"
+msgstr "Message body"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:5
+msgid "Индивидуально задаваемый текст уведомления"
+msgstr "Customizable text of the notification "
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:5
+msgid "Notification type"
+msgstr "Notification type"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:5
+msgid "Smtp, Mail, SignalR"
+msgstr "Smtp, Mail, SignalR"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:5
+msgid "Тип уведомления"
+msgstr "Notification type"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:32
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:33
+msgid ""
+"**Персонализированные уведомления**: Используется для создания уникальных"
+" сообщений для каждого пользователя или ситуации, обеспечивая "
+"максимальную релевантность и вовлеченность получателей."
+msgstr ""
+"**Personalized Notifications**: Used to create unique messages for each "
+"user or situation ensuring maximum relevance and engagement of "
+"recipients."
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:34
+msgid ""
+"**Гибкая коммуникация**: Подходит для сценариев, где требуется подготовка"
+" особенных сообщений, например, для специальных предложений, "
+"индивидуальных напоминаний или персонализированных информационных "
+"рассылок. <br>"
+msgstr ""
+"**Flexible Communication**: Suitable for scripts where special messages "
+"are required, such as special offers, individual reminders or "
+"personalized newsletters. <br>"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:37
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:38
+msgid ""
+"**Требование к детализации сообщений**: Необходимо уделять внимание "
+"деталям и точности при формулировке текста каждого уведомления."
+msgstr ""
+"**Message Detail Requirement: Attention to detail and precision should be"
+" paid when formulating the text of each notification."
+
+#: ../../src/app-develop/data-flow-components/send-notification.md:39
+msgid ""
+"**Необходимость аккуратного управления уведомлениями**: Поскольку каждое "
+"сообщение настраивается индивидуально, важно тщательно управлять "
+"процессом создания и отправки уведомлений для избежания ошибок и "
+"несоответствий."
+msgstr ""
+"**Need for Careful Notification Management**: Because each message is "
+"individually customizable, it's important to carefully manage the process"
+" of creating and sending notifications to avoid errors and "
+"inconsistencies."
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

@@ -1,0 +1,416 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 08:10+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/install1/basic-settings.md:1
+msgid "Базовые настройки платформы"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:4
+msgid "Архитектура платформы"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:6
+msgid ""
+"Платформа построена на основе микросервисной архитектуры, "
+"обеспечивающей модульность, масштабируемость и гибкость системы. Ключевые"
+" особенности архитектуры включают:"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:8
+msgid ""
+"**Микросервисная архитектура**: Система разделена на отдельные "
+"микросервисы, каждый из которых выполняет определенную функцию и работает"
+" независимо."
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:9
+msgid ""
+"**Распределенная обработка**: Микросервисы могут быть распределены по "
+"разным узлам, что обеспечивает балансировку нагрузки и повышает "
+"отказоустойчивость системы."
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:10
+msgid ""
+"**Контейнеризация и оркестрация**: Использование Docker для "
+"контейнеризации микросервисов и Kubernetes для их оркестрации упрощает "
+"развертывание, масштабирование и управление приложением."
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:11
+msgid ""
+"**Модульность и взаимодействие микросервисов**: Модульность "
+"обеспечивается за счет четкого разграничения функций между "
+"микросервисами, а взаимодействие между ними происходит через определенные"
+" API и протоколы взаимодействия."
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:13
+msgid "Система поставляется в виде одиннадцати образов контейнеров Docker:"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "Сервис"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "Назначение"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "catalogs"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "Хранение и обработка данных пользователя, поддержка RLS"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "data-flow"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "Обработка и хранения пользовательских сценариев работы с данными"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "file-storage"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "Хранение бинарных данных"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "identity"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "Авторизация и управление пользователями"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "notification"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "Рассылка уведомлений"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "scheduler"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "Планировщик событий в системе, все события вызываются через шину"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "template-service"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "Работа с шаблонами"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "view-service"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "Хранение метаданных системы, оркестрация процессов обновления метаданных"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "workflow"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "Обработка сценариев через машину состояний"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "web-studio"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "Веб-часть для разработки приложений"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "web-workplace"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "Веб-часть для выполнения приложений"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:30
+msgid "Технологический стек"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:31
+msgid ""
+"**Основа**: Платформа построена на Net Core 8.0, модульной платформе для "
+"разработки ПО с открытым исходным кодом."
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:32
+msgid ""
+"**Язык разработки**: C# используется в качестве основного языка "
+"программирования. <br>"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:35
+msgid "Дополнительная инфраструктура"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:36
+msgid ""
+"**PostgreSQL** (версия ≥13.0): Объектно-реляционная система управления "
+"базами данных для основного хранения данных."
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:37
+msgid ""
+"**Redis** (версия ≥5.0): Нереляционная база данных, используемая для "
+"кеширования данных."
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:38
+msgid ""
+"**RabbitMQ** (версия  ≥3.0): Программный брокер сообщений для обработки "
+"системных событий и очередей. <br>"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:41
+msgid "Веб-части"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:42
+msgid ""
+"Используется интерфейсная веб-платформа **Blazor**, часть Net Core, для "
+"создания веб-компонентов."
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:43
+msgid "Веб-части выполняются как **WebAssembly** (WASM) на стороне клиента. <br>"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:46
+msgid "Требования для установки"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:47
+msgid ""
+"**Kubernetes**: Для работы кластерной версии продукта необходим кластер "
+"Kubernetes."
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:48
+msgid "**Минимальная конфигурация**:"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:49
+msgid ""
+"1 x Master (2 vCPU, 4GB RAM, 20GB SSD) - рекомендуется 3 ноды с ролью "
+"Master."
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:50
+msgid "1 x Ingress (4 vCPU, 8GB RAM, 20GB SSD)"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:51
+msgid "3 x Worker (16 vCPU, 32GB RAM, 60GB SSD)"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:52
+msgid "**Операционная система**: Ubuntu Server 22.04 LTS <br>"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:55
+msgid "Сетевое взаимодействие и порты"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:56
+msgid "Весь сетевой трафик использует протокол **TCP/IP**."
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:57
+msgid ""
+"По умолчанию, каждый микросервис (кроме web-studio) предоставляет два "
+"порта:"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:58
+msgid "**80**: Публичное API (HTTP/1.1)."
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:59
+msgid "**5001**: Приватное API (HTTP/2)."
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:60
+msgid ""
+"**Web-studio**: Предоставляет только порт 80 для раздачи статичных "
+"ресурсов."
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:61
+msgid ""
+"Все микросервисы, за исключением web-studio, должны иметь доступ к "
+"PostgreSql, Redis и RabbitMQ. <br>"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:64
+msgid "Используемые протоколы"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:65
+msgid "**HTTP/1.1**: Для публичного API."
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:66
+msgid "**GRPC**: Для приватного API."
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:67
+msgid "**WebSocket**: Для сервиса уведомлений (Notification)."
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:68
+msgid "**SIP over WebSocket**: Опционально, для интеграции с SIP в web-workplace."
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:69
+msgid "**RTC/RTCP**: Опционально, для интеграции с SIP в web-workplace. <br>"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:72
+msgid "Хранение данных"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:73
+msgid ""
+"Каждый микросервис управляет своей схемой в базе данных, без пересечения "
+"с другими."
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "Схема"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "dataflow"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "file_storage"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "template"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "view_service, maintenance"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "workflow, wfc_persistence"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md
+msgid "workplace-host"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:90
+msgid ""
+"Каждый микросервис сам отвечает за создание и миграцию метаданных своих "
+"схем."
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:92
+msgid ""
+"Сервис catalogs отвечающий за хранение пользовательских данных, для "
+"каждого типа данных создает дополнительную партицию в своей схеме, "
+"наследуемую от основной таблицы, а также дополнительные партиции для "
+"реализации RLS если это необходимо. При формировании этих партиции "
+"формируются все дополнительные индексы и внешние ключи."
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:94
+msgid ""
+"Состав индексов и внешних ключей зависят от конфигурации приложения, "
+"создаваемого в платформе. <br>"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:97
+msgid "Авторизация и управление правами"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:98
+msgid "Локальная авторизация с использованием **JWT токенов**."
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:99
+msgid ""
+"Возможность подключения внешних систем авторизации (oAuth, OpenId "
+"Connect, Windows авторизация, SAML)."
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:100
+msgid "**RBAC** (Role-Based Access Control) для управления доступом. <br>"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:103
+msgid "Сбор метрик и трассировок"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:104
+msgid ""
+"Все сервисы кроме web-studio предоставляют метрики в формате "
+"`Prometheus`. Метрики доступны по относительному пути /metrics. Для "
+"проверки доступности сервиса предоставляются два пути /hc и /liveness:"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:106
+msgid "hc - развернутая информация по всем проверка;"
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:107
+msgid "liveness - краткий ответ о доступности сервиса."
+msgstr ""
+
+#: ../../src/install1/basic-settings.md:109
+msgid ""
+"Сбор логов осуществляется самой системой, все логи пишутся в схему "
+"maintenance, просмотр логов доступен в web-studio. Уровень логирования "
+"для каждого сервиса настраивается отдельно через web-studio, раздел "
+"“Обслуживание” (maintenance). Для сбора трассировок возможно подключение "
+"двух систем Zipkin или Jaeger. Настройка сбора трассировок осуществляться"
+" на уровне параметров сервиса. В случае экспорта трассировок в Jaeger "
+"необходима версия не ниже 1.35"
+msgstr ""
+

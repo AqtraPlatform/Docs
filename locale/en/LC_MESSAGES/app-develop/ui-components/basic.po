@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-15 06:42+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/ui-components/basic.md:1
+msgid "ГРУППА \"BASIC\"|separator"
+msgstr "“BASIC” GROUP|separator"
+
+#: ../../src/app-develop/ui-components/basic.md:3
+msgid ""
+"Группа \"Basic\" охватывает набор элементов интерфейса, необходимых для "
+"основных функций взаимодействия пользователя с приложением. Эти "
+"компоненты представляют собой стандартные элементы управления, такие как "
+"поля ввода, кнопки и другие интерактивные элементы, которые служат "
+"основой для создания структуры и формы пользовательских интерфейсов."
+msgstr "The “Basic” group covers a set of interface elements required for the basic functions of user interaction with the application. These components are standard controls such as input fields, buttons, and other interactive elements that serve as the basis for creating the structure and form of user interfaces."
+
+#: ../../src/app-develop/ui-components/basic.md:5
+msgid "[Label (Метка)](label.md)"
+msgstr "[Label](label.md)"
+
+#: ../../src/app-develop/ui-components/basic.md:6
+msgid "[Text field](text-field.md)"
+msgstr "[Text field](text-field.md)"
+
+#: ../../src/app-develop/ui-components/basic.md:7
+msgid "[Password](password.md)"
+msgstr "[Password](password.md)"
+
+#: ../../src/app-develop/ui-components/basic.md:8
+msgid "[Text area](text-area.md)"
+msgstr "[Text area](text-area.md)"
+
+#: ../../src/app-develop/ui-components/basic.md:9
+msgid "[Code editor](code-editor.md)"
+msgstr "[Code editor](code-editor.md)"
+
+#: ../../src/app-develop/ui-components/basic.md:10
+msgid "[WYSIWYG editor](wysiwyg-editor.md)"
+msgstr "[WYSIWYG editor](wysiwyg-editor.md)"
+
+#: ../../src/app-develop/ui-components/basic.md:11
+msgid "[Phone number](phone-number.md)"
+msgstr "[Phone number](phone-number.md)"
+
+#: ../../src/app-develop/ui-components/basic.md:12
+msgid "[Hyperlink](hyperlink.md)"
+msgstr "[Hyperlink](hyperlink.md)"
+
+#: ../../src/app-develop/ui-components/basic.md:13
+msgid "[Html](html.md)"
+msgstr "[Html](html.md)"
+
+#: ../../src/app-develop/ui-components/basic.md:14
+msgid "[Svg](svg.md)"
+msgstr "[Svg](svg.md)"
+
+#: ../../src/app-develop/ui-components/basic.md:15
+msgid "[Image](image.md)"
+msgstr "[Image](image.md)"
+
+#: ../../src/app-develop/ui-components/basic.md:16
+msgid "[Pdg viewer](pdf-viewer.md)"
+msgstr "[Pdg viewer](pdf-viewer.md)"
+
+#: ../../src/app-develop/ui-components/basic.md:17
+msgid "[File](file.md)"
+msgstr "[File](file.md)"
+
+#: ../../src/app-develop/ui-components/basic.md:18
+msgid "[Number](number.md)"
+msgstr "[Number](number.md)"
+
+#: ../../src/app-develop/ui-components/basic.md:19
+msgid "[Checkbox](checkbox.md)"
+msgstr "[Checkbox](checkbox.md)"
+
+#: ../../src/app-develop/ui-components/basic.md:20
+msgid "[Select](select.md)"
+msgstr "[Select](select.md)"
+
+#: ../../src/app-develop/ui-components/basic.md:21
+msgid "[Multiselect](multiselect.md)"
+msgstr "[Multiselect](multiselect.md)"
+
+#: ../../src/app-develop/ui-components/basic.md:22
+msgid "[Switch](switch.md)"
+msgstr "[Switch](switch.md)"
+
+#: ../../src/app-develop/ui-components/basic.md:23
+msgid "[Button (Кнопка)](button.md)"
+msgstr "[Button](button.md)"
+
+#: ../../src/app-develop/ui-components/basic.md:24
+msgid "[Radio button](radio-button.md)"
+msgstr "[Radio button](radio-button.md)"
+

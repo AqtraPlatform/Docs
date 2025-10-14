@@ -1,0 +1,190 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/render-template.md:1
+msgid "Render template"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:11
+msgid "Основные сведения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:12
+msgid ""
+"Шаг \"Render Template\" используется для создания документов, особенно в "
+"формате PDF, с использованием данных из Dataflow и шаблонов, доступных в "
+"системе. Шаг позволяет преобразовывать данные в профессионально "
+"оформленные документы, что находит широкое применение в генерации "
+"отчетов, договоров, инвойсов и других официальных документов. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:15
+msgid "Параметры"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:16
+msgid "**Настройки Шага:**"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "Поле настройки"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "Варианты значений"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "Назначение"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "Step name"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "-"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "Наименование шага"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "Source step"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "Выбор из предыдущих шагов для источника данных"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "Template"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "Выбор из доступных шаблонов для создания документа"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "Render type"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "text, HTML, Docx, Xlsx, PDF"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "Формат документа для генерации"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "File name"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "Имя сгенерированного файла"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "Fields mapping"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:4
+msgid "Сопоставление полей между шаблоном и моделью данных"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:29
+msgid "Кейсы"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:30
+msgid ""
+"**Генерация формализованных документов**: Особенно полезен для "
+"автоматизированной генерации официальных документов, таких как отчеты, "
+"инвойсы, договоры, путем применения предварительно заданных шаблонов."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:31
+msgid ""
+"**Персонализация контента**: Позволяет создавать персонализированные "
+"документы для клиентов или пользователей, используя данные, специфичные "
+"для каждого случая, например, персональные предложения или индивидуальные"
+" отчеты."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:32
+msgid ""
+"**Подготовка к распространению документов**: Используется для создания "
+"документов, которые затем могут быть предоставлены пользователям для "
+"скачивания или отправлены по электронной почте. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:35
+msgid "Исключения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:36
+msgid ""
+"**Требование к качеству и точности шаблонов**: Качество итоговых "
+"документов напрямую зависит от точности и профессионализма используемых "
+"шаблонов."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:37
+msgid ""
+"**Необходимость последующих действий для распространения документов**: "
+"После генерации документа часто требуется последующий шаг, например "
+"\"Form Action\" с параметром \"Download file\", для предоставления "
+"доступа к документу пользователям. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:40
+msgid "Вариант применения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:42
+msgid ""
+"В данном компоненте используются несколько шагов для создания и загрузки "
+"PDF файла. Сначала происходит получение модели данных, затем "
+"осуществляется рендеринг шаблона PDF файла. Шаг Form action настраивается"
+" для скачивания файла, указывая поле данных, содержащее информацию о "
+"файле. После шага Write Response происходит отправка сформированного "
+"файла на фронтенд для загрузки."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/render-template.md:44
+msgid ""
+"Вы можете скачать конфигурацию компонента "
+"[здесь](https://drive.google.com/file/d/1Omst72osc9qf1FtxQcIohdARDzqwDKHT/view?usp=sharing)"
+msgstr ""
+
+#~ msgid ""
+#~ "**Необходимость последующих действий для "
+#~ "распространения документов**: После генерации "
+#~ "документа часто требуется последующий шаг, "
+#~ "например \"Form Action\" с параметром "
+#~ "\"Download file\", для предоставления доступа"
+#~ " к документу пользователям."
+#~ msgstr ""
+

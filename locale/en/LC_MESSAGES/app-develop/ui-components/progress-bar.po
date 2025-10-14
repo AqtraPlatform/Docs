@@ -1,0 +1,288 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 11:37+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:1
+msgid "Progress Bar"
+msgstr "Progress Bar"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:12
+msgid ""
+"Этот UI-Компонент используется для отображения и настройки прогресс-бара."
+" <br>"
+msgstr "This UI Component is used to display and configure the progress bar. <br>"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:15
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:16
+msgid "**Component properties**"
+msgstr "**Component properties**"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Группа настроек"
+msgstr "Settings group"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Name"
+msgstr "Name"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Наименование UI-Компонента в системе"
+msgstr "Name of the UI Component in the system"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Common"
+msgstr "Common"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Show value"
+msgstr "Show value"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "true, false"
+msgstr "true, false"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Свойство используется для отображения значений progress bar"
+msgstr "The property is used to display the progress bar values"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Determinate"
+msgstr "Determinate"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Свойство позволяет сделать progress bar анимацией"
+msgstr "The property allows you to make the progress bar an animation"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Invert"
+msgstr "Invert"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Свойство позволяет инвертировать progress bar"
+msgstr "The property allows you to invert the progress bar"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Format"
+msgstr "Format"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Свойство позволяет задать формат вывода данных"
+msgstr "The property allows you to specify the data output format"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Value"
+msgstr "Value"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Свойство позволяет задать значение"
+msgstr "The property allows you to set a value"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Binding"
+msgstr "Binding"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Множественный выбор Catalog"
+msgstr "Multiselect of Catalog"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Содержит связанное поле типа “Integer” из модели"
+msgstr "Contains the associated “Integer” field from the model"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Min value"
+msgstr "Min value"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Свойство позволяет указать минимальное значение"
+msgstr "The property allows you to specify a minimum value"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Содержит связанное поле типа “Integer” из модели для минимального значения"
+msgstr ""
+"Contains the associated “Integer” field from the model for the minimal "
+"value"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Max value"
+msgstr "Max value"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Свойство позволяет указать максимальное значение"
+msgstr "The property allows you to specify a maximum value"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid ""
+"Содержит связанное поле типа “Integer” из модели для максимального "
+"значения"
+msgstr ""
+"Contains the associated “Integer” field from the model for the maximal "
+"value"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:32
+msgid "**CSS properties**"
+msgstr "**CSS properties**"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Поле настройки"
+msgstr "Setting field"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Layout"
+msgstr "Layout"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Width"
+msgstr "Width"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Ширина компонента"
+msgstr "Component width"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Height"
+msgstr "Height"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Высота компонента"
+msgstr "Component height"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Grow"
+msgstr "Grow"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid ""
+"Свойство определяет, насколько элемент будет расти по сравнению с "
+"остальными гибкими элементами внутри того же контейнера"
+msgstr ""
+"The property determines how much an element will grow relative to the "
+"rest of the flex elements within the same container"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Margin"
+msgstr "Margin"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Свойство определяет внешний отступ на всех четырёх сторонах элемента"
+msgstr "The property defines the outer paddings on all four sides of the element"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Padding"
+msgstr "Padding"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Свойство устанавливает внутренние отступы поля со всех сторон элемента"
+msgstr "The property sets the inner paddings on all sides of the element"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Appearance"
+msgstr "Appearance"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "CornerRadius"
+msgstr "CornerRadius"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Свойство используется для закругления углов элемента"
+msgstr "The property is used to round the corners of an element"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "BorderThickness"
+msgstr "BorderThickness"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Свойство позволяет задать рамки для элемента"
+msgstr "The property allows you to set the boundaries for the element"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Brush"
+msgstr "Brush"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Background"
+msgstr "Background"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Свойство устанавливает цвет фона элемента"
+msgstr "The property sets the background color of the element"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "BorderBrush"
+msgstr "BorderBrush"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Свойство устанавливает цвет рамки элемента"
+msgstr "The property sets the color of the element's border"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Progress"
+msgstr "Progress"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:4
+msgid "Свойство устанавливает цвет шкалы элемента"
+msgstr "The property sets the color of the element's bar"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:49
+msgid "Кейсы использования"
+msgstr "Use Cases"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:50
+msgid "Представление прогресса задач, загрузок или других процессов. <br>"
+msgstr "Displaying the progress of tasks, downloads, or other processes. <br>"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:53
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/ui-components/progress-bar.md:54
+msgid ""
+"Ограничен в использовании для представления прогресса и не подходит для "
+"других типов визуализаций."
+msgstr ""
+"Limited to use for progress presentation and not suitable for other types"
+" of visualizations."
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

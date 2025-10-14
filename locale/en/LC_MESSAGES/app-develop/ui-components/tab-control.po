@@ -1,0 +1,222 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 11:37+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/ui-components/tab-control.md:1
+msgid "Tab Control"
+msgstr "Tab Control"
+
+#: ../../src/app-develop/ui-components/tab-control.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/ui-components/tab-control.md:12
+msgid ""
+"\"Tab Control\" - UI-компонент для отображения и настройки таб-вкладок, "
+"обеспечивающий организацию контента в разделенные вкладки. <br>"
+msgstr ""
+"“Tab Control” is a UI component for displaying and configuring tabs, "
+"providing organization of content into separate tabs. <br>"
+
+#: ../../src/app-develop/ui-components/tab-control.md:15
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/ui-components/tab-control.md:16
+msgid "**Component properties**"
+msgstr "**Component properties**"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "Группа настроек"
+msgstr "Settings group"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "Name"
+msgstr "Name"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "Наименование UI Компонента в системе"
+msgstr "Name of the UI Component in the system"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "Common"
+msgstr "Common"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "Tab panels"
+msgstr "Tab panels"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "Button"
+msgstr "Button"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "Позволяет добавить новую вкладку"
+msgstr "Allows you to add a new tab"
+
+#: ../../src/app-develop/ui-components/tab-control.md:23
+msgid "**CSS properties**"
+msgstr "**CSS properties**"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "Поле настройки"
+msgstr "Setting field"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "Layout"
+msgstr "Layout"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "Width"
+msgstr "Width"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "Ширина компонента"
+msgstr "Component width"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "Height"
+msgstr "Height"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "Высота компонента"
+msgstr "Component height"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "Grow"
+msgstr "Grow"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "true, false"
+msgstr "true, false"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid ""
+"Свойство определяет, насколько элемент будет расти по сравнению с "
+"остальными гибкими элементами внутри того же контейнера"
+msgstr ""
+"The property determines how much an element will grow relative to the "
+"rest of the flex elements within the same container"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "Margin"
+msgstr "Margin"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "Свойство определяет внешний отступ на всех четырёх сторонах элемента"
+msgstr "The property defines the outer paddings on all four sides of the element"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "Padding"
+msgstr "Padding"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "Свойство устанавливает внутренние отступы поля со всех сторон элемента"
+msgstr "The property sets the inner paddings on all sides of the element"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "Appearance"
+msgstr "Appearance"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "CornerRadius"
+msgstr "CornerRadius"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "Свойство используется для закругления углов элемента"
+msgstr "The property is used to round the corners of an element"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "BorderThickness"
+msgstr "BorderThickness"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "Свойство позволяет задать рамки для элемента"
+msgstr "The property allows you to set the boundaries for the element"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "Brush"
+msgstr "Brush"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "Background"
+msgstr "Background"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "Свойство устанавливает цвет фона элемента"
+msgstr "The property sets the background color of the element"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "BorderBrush"
+msgstr "BorderBrush"
+
+#: ../../src/app-develop/ui-components/tab-control.md:4
+msgid "Свойство устанавливает цвет рамки элемента"
+msgstr "The property sets the color of the element's border"
+
+#: ../../src/app-develop/ui-components/tab-control.md:39
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/ui-components/tab-control.md:40
+msgid ""
+"**Организация контента**: Эффективно организует различные разделы "
+"информации или функционала во вкладках."
+msgstr ""
+"**Content Organization**: Efficiently organizes different sections of "
+"information or functionality in tabs."
+
+#: ../../src/app-develop/ui-components/tab-control.md:41
+msgid ""
+"**Пользовательский интерфейс**: Улучшает навигацию и доступность разделов"
+" приложения. <br>"
+msgstr ""
+"**User Interface**: Improves the navigation and accessibility of app "
+"sections. <br>"
+
+#: ../../src/app-develop/ui-components/tab-control.md:44
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/ui-components/tab-control.md:45
+msgid ""
+"**Ограниченное применение**: Не подходит для одиночного контента, требует"
+" разделения на вкладки."
+msgstr "**Limited Use**: Not suitable for single content, requires tabbing."
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

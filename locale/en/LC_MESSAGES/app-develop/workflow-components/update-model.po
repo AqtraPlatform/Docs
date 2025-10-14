@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 11:37+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/workflow-components/update-model.md:1
+msgid "Update model"
+msgstr "Update model"
+
+#: ../../src/app-develop/workflow-components/update-model.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/workflow-components/update-model.md:12
+msgid ""
+"Шаг \"Update Model\" в рамках workflow используется для сохранения "
+"модели. Этот шаг находит применение в сценариях, где требуется сохранить "
+"или обновить модель данных в справочнике или каталоге системы. Он "
+"позволяет эффективно управлять данными, обеспечивая их актуальность и "
+"целостность. <br>"
+msgstr ""
+"The “Update Model” step in a workflow is used to save the model. This "
+"step is useful in scripts where you want to save or update the data model"
+" in the system directory or catalog. It allows you to effectively manage "
+"data, ensuring its relevance and integrity. <br>"
+
+#: ../../src/app-develop/workflow-components/update-model.md:15
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/workflow-components/update-model.md:16
+msgid "**Настройки Шага:**"
+msgstr "**Step Settings:**"
+
+#: ../../src/app-develop/workflow-components/update-model.md:4
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/workflow-components/update-model.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/workflow-components/update-model.md:4
+msgid "Step name"
+msgstr "Step name"
+
+#: ../../src/app-develop/workflow-components/update-model.md:4
+msgid "Наименование шага \"Update Model\""
+msgstr "“Update Model” step name "
+
+#: ../../src/app-develop/workflow-components/update-model.md:24
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/workflow-components/update-model.md:25
+msgid ""
+"**Обновление справочников данных**: Используется для обновления "
+"информации в справочниках или каталогах, что актуально в случаях "
+"изменения существующих данных или добавления новых записей."
+msgstr ""
+"**Updating Data References**: Used to update information in directories "
+"or catalogs, which is important when existing data is changed or new "
+"records are added."
+
+#: ../../src/app-develop/workflow-components/update-model.md:26
+msgid ""
+"**Синхронизация данных**: Подходит для сценариев, где требуется "
+"синхронизировать данные между различными частями системы или с внешними "
+"источниками данных. <br>"
+msgstr ""
+"**Data Synchronization**: Suitable for scripts where data needs to be "
+"synchronized between different parts of the system or with external data "
+"sources. <br>"
+
+#: ../../src/app-develop/workflow-components/update-model.md:29
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/workflow-components/update-model.md:30
+msgid ""
+"**Важность точности данных**: При обновлении модели критически важно "
+"обеспечить точность и актуальность данных для предотвращения ошибок и "
+"несоответствий."
+msgstr ""
+"**Importance of Data Accuracy**: When updating a model, it is critical to"
+" ensure that data is accurate and up-to-date to prevent errors and "
+"inconsistencies."
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

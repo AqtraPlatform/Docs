@@ -1,0 +1,174 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:2
+msgid "Apply deferred update operations"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:12
+msgid "Основные сведения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:13
+msgid ""
+"Шаг \"Apply Deferred Update Operations\" отвечает за массовое применение "
+"обновлений, которые были подготовлены с помощью серии шагов \"Deferred "
+"Update Entry\". Этот шаг позволяет выполнять накопленные операции "
+"обновления в эффективной манере, применяя их все сразу. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:16
+msgid "Параметры"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:17
+msgid "**Настройки Шага:**"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:5
+msgid "Поле настройки"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:5
+msgid "Варианты значений"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:5
+msgid "Назначение"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:5
+msgid "Step name"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:5
+msgid "-"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:5
+msgid "Наименование шага"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:5
+msgid "Batch chunk size"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:5
+msgid "1000"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:5
+msgid "Размер пакета данных для обработки"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:5
+msgid "Batch idle timeout in ms"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:5
+msgid "Время ожидания в миллисекундах между пакетами"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:5
+msgid "Parallel number of batches"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:5
+msgid "0"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:5
+msgid "Количество параллельно обрабатываемых пакетов данных"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:28
+msgid "Кейсы"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:29
+msgid ""
+"**Массовое применение обновлений**: Идеально подходит для сценариев, где "
+"требуется массовое обновление данных, например, при синхронизации "
+"большого объема данных или при необходимости быстро внести изменения в "
+"несколько компонентов системы."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:30
+msgid ""
+"**Оптимизация производительности**: Позволяет улучшить производительность"
+" при массовых обновлениях за счет параллельной обработки и эффективного "
+"управления пакетами данных. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:33
+msgid "Исключения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:34
+msgid ""
+"**Управление последовательностью обновлений**: Важно обеспечить "
+"корректную последовательность обновлений, особенно если данные в разных "
+"шагах \"Deferred Update Entry\" взаимосвязаны."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:35
+msgid ""
+"**Настройка параметров пакетной обработки**: Необходимо аккуратно "
+"настроить параметры, такие как размер пакета и количество параллельных "
+"пакетов, чтобы избежать перегрузки системы и гарантировать эффективное "
+"выполнение обновлений. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:38
+msgid "Вариант применения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:40
+msgid ""
+"В компоненте с кастомным дефинишеном настраивается датафлоу для "
+"обновления записей. Пользователь начинает с извлечения модели действия с "
+"помощью шага Get action model. Затем используется шаг Deferred update "
+"entry для отложенного обновления записей, где пользователь может указать "
+"компонент, идентификатор компонента, а также соответствия полей. Шаг "
+"Apply deferred update позволяет настраивать параметры пакетной обработки "
+"и параллельного выполнения. После выполнения этих шагов компонент готов к"
+" обновлению, созданию или удалению записей, что происходит на фронтенде "
+"при взаимодействии с соответствующими элементами интерфейса."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/apply-deferred-update-operations.md:42
+msgid ""
+"Вы можете скачать конфигурацию компонента "
+"[здесь](https://drive.google.com/file/d/16uo9P5IWDv-"
+"QnT749fYDISyyWEbKrDVR/view?usp=sharing)"
+msgstr ""
+
+#~ msgid ""
+#~ "**Настройка параметров пакетной обработки**: "
+#~ "Необходимо аккуратно настроить параметры, "
+#~ "такие как размер пакета и количество "
+#~ "параллельных пакетов, чтобы избежать "
+#~ "перегрузки системы и гарантировать эффективное"
+#~ " выполнение обновлений."
+#~ msgstr ""
+

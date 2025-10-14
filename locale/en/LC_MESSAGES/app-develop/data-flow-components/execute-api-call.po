@@ -1,0 +1,224 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:1
+msgid "Execute API call"
+msgstr "Execute API call"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:12
+msgid ""
+"Шаг \"Execute API Call\" используется для взаимодействия с внешними "
+"системами через API. Этот шаг может быть настроен для различных типов "
+"запросов, включая получение данных (GET), отправку данных (POST/PUT), или"
+" удаление данных (DELETE) во внешней системе. В зависимости от контекста "
+"использования, этот шаг может быть одним из первых в Dataflow для "
+"получения данных или одним из последних для обновления данных во внешних "
+"системах. <br>"
+msgstr ""
+"The “Execute API Call” step is used to interact with external systems via"
+" the API. This step can be configured for various types of requests, "
+"including receiving data (GET), sending data (POST/PUT), or deleting data"
+" (DELETE) in an external system. Depending on the context of use, this "
+"step may be one of the first steps in Dataflow to obtain data or one of "
+"the last steps to update data in external systems. <br>"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:15
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:16
+msgid "**Настройки Шага:**"
+msgstr "**Step Settings:**"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:4
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:4
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:4
+msgid "Step name"
+msgstr "Step name"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:4
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:4
+msgid "Наименование шага"
+msgstr "Name of the step"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:4
+msgid "Source step"
+msgstr "Source step"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:4
+msgid "Выбор предыдущего шага"
+msgstr "Selecting the previous step"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:4
+msgid "Result store field"
+msgstr "Result store field"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:4
+msgid "Поле для хранения идентификатора созданной или обработанной записи"
+msgstr "A field for storing the ID of a created or processed entry"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:4
+msgid "System"
+msgstr "System"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:4
+msgid "Выбор интеграционной системы"
+msgstr "Choosing an integration system"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:4
+msgid "Connector"
+msgstr "Connector"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:4
+msgid "Выбор коннектора в интеграционной системе"
+msgstr "Selecting a connector in the integration system"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:4
+msgid "Query path"
+msgstr "Query path"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:4
+msgid "EndPoint для запроса"
+msgstr "EndPoint for the request"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:4
+msgid "Method name"
+msgstr "Method name"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:4
+msgid "Get, Post, Put, Delete"
+msgstr "Get, Post, Put, Delete"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:4
+msgid "Тип запроса для выполнения"
+msgstr "Type of request to complete"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:4
+msgid "Parameters mapping"
+msgstr "Parameters mapping"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:4
+msgid "Динамическая настройка для фильтрации запроса"
+msgstr "Dynamic configuration for query filtering"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:31
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:32
+msgid ""
+"**Получение данных из внешних источников**: Используется для загрузки "
+"данных из внешних систем, что может быть особенно полезно при интеграции "
+"с внешними сервисами или базами данных."
+msgstr ""
+"**Getting data from external sources**: It is used to download data from "
+"external systems, which can be especially useful when integrating with "
+"external services or databases."
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:33
+msgid ""
+"**Отправка или обновление данных**: Подходит для отправки данных во "
+"внешние системы или обновления существующих данных, например, при "
+"синхронизации изменений, произведенных в рамках dataflow."
+msgstr ""
+"**Sending or updating data**: Suitable for sending data to external "
+"systems or updating existing data, for example, when synchronizing "
+"changes made to dataflow."
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:34
+msgid ""
+"**Удаление данных**: Может использоваться для удаления данных из внешних "
+"систем, что помогает поддерживать актуальность и целостность данных в "
+"интегрированных системах. <br>"
+msgstr ""
+"**Deleting data**: It can be used to delete data from external systems, "
+"which helps maintain the relevance and integrity of data in integrated "
+"systems. <br>"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:37
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:38
+msgid ""
+"**Необходимость асинхронной обработки**: Шаг выполняется асинхронно, что "
+"требует учета времени отклика внешних систем и потенциального влияния на "
+"последовательность обработки данных."
+msgstr ""
+"**Need for asynchronous processing**: The step is performed "
+"asynchronously, which requires taking into account the response time of "
+"external systems and the potential impact on the data processing "
+"sequence."
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:39
+msgid ""
+"**Требование к настройке коннекторов**: Эффективность шага зависит от "
+"корректно настроенных интеграционных систем и коннекторов, а также от "
+"точности определения EndPoint и параметров запроса. <br>"
+msgstr ""
+"**Connector configuration requirement**: The effectiveness of the step "
+"depends on correctly configured integration systems and connectors, as "
+"well as on the accuracy of determining EndPoint and request parameters."
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:42
+msgid "Вариант применения"
+msgstr "Application scenario"
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:44
+msgid ""
+"Компонент создает простую интеграцию для получения данных, таких как "
+"погода, через API. В датафлоу используются шаги для настройки запроса к "
+"API, включая выполнение скрипта для создания переменных API, вызов API и "
+"сохранение результатов. Затем интеграция выбирается и настраивается в "
+"системе, а результаты отображаются на фронте с помощью формы, связанной с"
+" выполнением скрипта. Функция в компоненте обрабатывает полученные данные"
+" для отображения пользователю."
+msgstr ""
+"The component creates a simple integration for retrieving data, such as weather, through an API. In the data flow, steps are used to configure the API request, including executing a script to create API variables, calling the API, and saving the results. Then, the integration is selected and configured in the system, and the results are displayed on the frontend using a form linked to the script execution. The function in the component processes the retrieved data for user display."
+
+#: ../../src/app-develop/data-flow-components/execute-api-call.md:46
+msgid ""
+"Вы можете скачать конфигурацию компонента "
+"[здесь](https://drive.google.com/file/d/119_NZiqzENXCaqdmiZ7qj4ZmeHcje7je/view?usp=sharing)"
+msgstr ""
+"You can download the component configuration "
+"[here](https://drive.google.com/file/d/119_NZiqzENXCaqdmiZ7qj4ZmeHcje7je/view?usp=sharing)."
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

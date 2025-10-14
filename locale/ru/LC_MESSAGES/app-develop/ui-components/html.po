@@ -1,0 +1,215 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 08:10+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/ui-components/html.md:1
+msgid "HTML"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:11
+msgid "Основные сведения"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:12
+msgid ""
+"HTML-компонент позволяет интегрировать сырой HTML-код непосредственно в "
+"интерфейс пользователя. Он идеально подходит для демонстрации "
+"пользовательского контента, включая текст, изображения, таблицы и другие "
+"элементы, которые можно создавать и управлять с помощью стандартного "
+"HTML. <br>"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:15
+msgid "Параметры"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:16
+msgid "**Component properties**"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "Группа настроек"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "Поле настройки"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "Варианты значений"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "Назначение"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "Name"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "-"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "Наименование UI Компонента в системе"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "Common"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "Html"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "Button"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "Содержит пространство для редактирования Html кода"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:23
+msgid "**CSS properties**"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "Layout"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "Width"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "Ширина компонента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "Height"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "Высота компонента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "Grow"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "true, false"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid ""
+"Свойство определяет, насколько элемент будет расти по сравнению с "
+"остальными гибкими элементами внутри того же контейнера"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "Margin"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "Свойство определяет внешний отступ на всех четырёх сторонах элемента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "Padding"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "Свойство устанавливает внутренние отступы поля со всех сторон элемента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "Appearance"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "CornerRadius"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "Свойство используется для закругления углов элемента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "BorderThickness"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "Свойство позволяет задать рамки для элемента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "Brush"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "Background"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "Свойство устанавливает цвет фона элемента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "BorderBrush"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:4
+msgid "Свойство устанавливает цвет рамки элемента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:39
+msgid "Кейсы Использования"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:40
+msgid ""
+"**Динамическое Содержимое**: Идеально подходит для динамического "
+"отображения контента, который требует HTML-форматирования, такого как "
+"статьи или блоги."
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:41
+msgid ""
+"**Интерактивность**: Позволяет интегрировать интерактивные элементы, "
+"такие как формы или анимации, непосредственно в интерфейс пользователя. "
+"<br>"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:44
+msgid "Исключения"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/html.md:45
+msgid ""
+"**Совместимость Браузеров**: HTML-код должен быть тщательно проверен на "
+"совместимость с различными браузерами и устройствами для обеспечения "
+"корректного отображения."
+msgstr ""
+

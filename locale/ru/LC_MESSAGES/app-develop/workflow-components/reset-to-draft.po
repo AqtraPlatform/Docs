@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 08:10+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/workflow-components/reset-to-draft.md:1
+msgid "Reset to draft"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/reset-to-draft.md:11
+msgid "Основные сведения"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/reset-to-draft.md:12
+msgid ""
+"Шаг \"Reset to Draft\" в рамках workflow используется для возврата "
+"сценария в состояние “не запущен”. Этот шаг находит применение в "
+"ситуациях, когда требуется возможность редактирования или пересмотра "
+"заявки или процесса во время его согласования или выполнения. <br>"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/reset-to-draft.md:15
+msgid "Параметры"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/reset-to-draft.md:16
+msgid "**Настройки Шага:**"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/reset-to-draft.md:4
+msgid "Поле настройки"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/reset-to-draft.md:4
+msgid "Назначение"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/reset-to-draft.md:4
+msgid "Step name"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/reset-to-draft.md:4
+msgid "Наименование шага \"Reset to Draft\""
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/reset-to-draft.md:24
+msgid "Кейсы"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/reset-to-draft.md:25
+msgid ""
+"**Редактирование в процессе согласования**: Используется для "
+"предоставления возможности внесения изменений в заявку или процесс, "
+"который уже находится на стадии согласования или выполнения, что может "
+"быть необходимо для корректировки или уточнения информации."
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/reset-to-draft.md:26
+msgid ""
+"**Гибкое управление процессами**: Подходит для сценариев, где требуется "
+"возможность отката процесса к начальному состоянию для предотвращения "
+"ошибок или неправильного выполнения. <br>"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/reset-to-draft.md:29
+msgid "Исключения"
+msgstr ""
+
+#: ../../src/app-develop/workflow-components/reset-to-draft.md:30
+msgid ""
+"**Контроль за процессом отката**: Необходимо обеспечить, чтобы процесс "
+"отката не нарушал целостность данных и логику выполнения workflow."
+msgstr ""
+

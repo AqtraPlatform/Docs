@@ -1,0 +1,252 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/user-interface/extensions.md:2
+msgid "Меню Extensions"
+msgstr "Extensions menu"
+
+#: ../../src/user-interface/extensions.md:5
+msgid "Меню включает в себя 2 блока:"
+msgstr "The menu consists of 2 blocks:"
+
+#: ../../src/user-interface/extensions.md:6
+msgid "**Templates**"
+msgstr "**Templates**"
+
+#: ../../src/user-interface/extensions.md:7
+msgid "**SMTP settings** <br>"
+msgstr "**SMTP settings** <br>"
+
+#: ../../src/user-interface/extensions.md:10
+msgid "Templates"
+msgstr "Templates"
+
+#: ../../src/user-interface/extensions.md:12
+msgid ""
+"Шаблоны используются для почтовой рассылки и уведомлений пользователей и "
+"могут быть использованы только с шагом (Step) `Send Templated "
+"Notification`. Настройка шаблонов осуществляется в разделе `Application /"
+" Templates`. <br>"
+msgstr ""
+"Templates are used for mailing and user notifications and can only be "
+"used in the ‘Send Templated Notification’ step. Templates are configured "
+"in the ‘Application/Templates’ section. <br>"
+
+#: ../../src/user-interface/extensions.md:15
+msgid "Добавление / Удаление шаблона"
+msgstr "Adding/Removing Templates"
+
+#: ../../src/user-interface/extensions.md:17
+msgid "Чтобы **добавить новый шаблон** (Template), нажмите кнопку `ADD`."
+msgstr "To **add a new template**, click the ‘ADD’ button."
+
+#: ../../src/user-interface/extensions.md:18
+msgid ""
+"Чтобы **удалить шаблон**, нажмите на крестик в общем списке всех "
+"шаблонов. <br>"
+msgstr ""
+"To **delete a template**, click on the cross in the common list of all "
+"templates. <br>"
+
+#: ../../src/user-interface/extensions.md:21
+msgid "Настройка компонентной модели шаблона"
+msgstr "Setting up the template component model"
+
+#: ../../src/user-interface/extensions.md:23
+msgid ""
+"При добавлении или редактировании Шаблона (Template) необходимо "
+"определить структуру Объектной модели, которая будет обеспечивать "
+"взаимодействие с Dataflow и/или Workflow. Это выполняется путем установки"
+" набора параметров (properties) для каждой из них, аналогично настройке "
+"любого компонента. <br>"
+msgstr ""
+"When adding or editing a Template, you must define an Object Model "
+"structure that will interact with Dataflow and/or Workflow. This is done "
+"by setting a set of properties for each of them, similar to configuring "
+"any component. <br>"
+
+#: ../../src/user-interface/extensions.md:26
+msgid "Настройка разметки и содержимого шаблона"
+msgstr "Customizing Template Layout and Content"
+
+#: ../../src/user-interface/extensions.md:28
+msgid ""
+"Платформа  использует `DevExpress Report Designer` для создания шаблонов."
+" Эти шаблоны могут быть использованы для отправки уведомлений или для "
+"создания документов."
+msgstr ""
+"The platform uses ‘DevExpress Report Designer’ to create templates. These"
+" templates can be used to send notifications or create documents."
+
+#: ../../src/user-interface/extensions.md:30
+msgid ""
+"После создания нового шаблона откроется окно редактирования. Здесь можно "
+"добавить и настроить визуальные элементы вашего шаблона, а также "
+"установить ссылки на свойства вашего шаблона. <br>"
+msgstr ""
+"After creating a new template, the editing window opens. This is where "
+"you can add and customize visual elements to your template, and make "
+"links to your template properties. <br>"
+
+#: ../../src/user-interface/extensions.md:33
+msgid "SMTP settings"
+msgstr "SMTP settings"
+
+#: ../../src/user-interface/extensions.md:35
+msgid "Сервис почтовой рассылки используется для отправки уведомлений через SMTP."
+msgstr "The mailing service is used to send notifications via SMTP."
+
+#: ../../src/user-interface/extensions.md:37
+msgid "Рекомендации по использованию SMTP сервера:"
+msgstr "Recommendations for using an SMTP server:"
+
+#: ../../src/user-interface/extensions.md:39
+msgid ""
+"**В процессе разработки**: Рекомендуется использовать корпоративный SMTP "
+"сервер или условно-бесплатные сервисы, например, "
+"[sendinblue.com](http://www.sendinblue.com/). Избегайте использования "
+"личного сервера, чтобы не попасть в спам."
+msgstr ""
+"**During Development**: It is recommended to use a corporate SMTP server "
+"or shareware services such as [sendinblue.com] "
+"(http://www.sendinblue.com/). Avoid using a personal server to avoid "
+"getting into spam."
+
+#: ../../src/user-interface/extensions.md:40
+msgid ""
+"**При промышленной эксплуатации**: Предпочтительно использовать "
+"корпоративный или платный коммерческий SMTP сервис."
+msgstr ""
+"**For Industrial Use**: It is preferable to use a corporate or paid "
+"commercial SMTP service."
+
+#: ../../src/user-interface/extensions.md:42
+msgid "Настройте следующие параметры для сервиса почтовой рассылки:"
+msgstr "Configure the following settings for the mailing service:"
+
+#: ../../src/user-interface/extensions.md
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/user-interface/extensions.md
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/user-interface/extensions.md
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/user-interface/extensions.md
+msgid "`Sender`"
+msgstr "`Sender`"
+
+#: ../../src/user-interface/extensions.md
+msgid "-"
+msgstr "-"
+
+#: ../../src/user-interface/extensions.md
+msgid "Имя отправителя по умолчанию, например `sender@company.com`"
+msgstr "Default sender name, e.g. `sender@company.com`"
+
+#: ../../src/user-interface/extensions.md
+msgid "`User name`"
+msgstr "`User name`"
+
+#: ../../src/user-interface/extensions.md
+msgid "Логин для SMTP сервера, обычно в формате `user@company.com`"
+msgstr "Login for the SMTP server, usually in the `user@company.com` format."
+
+#: ../../src/user-interface/extensions.md
+msgid "`Password`"
+msgstr "`Password`"
+
+#: ../../src/user-interface/extensions.md
+msgid "Пароль для SMTP сервера"
+msgstr "SMTP server password"
+
+#: ../../src/user-interface/extensions.md
+msgid "`Host`"
+msgstr "`Host`"
+
+#: ../../src/user-interface/extensions.md
+msgid "Адрес SMTP сервера, например `http://smtp-relay.sendinblue.com/`"
+msgstr "SMTP server address, e.g. `http://smtp-relay.sendinblue.com/`"
+
+#: ../../src/user-interface/extensions.md
+msgid "`Port`"
+msgstr "`Port`"
+
+#: ../../src/user-interface/extensions.md
+msgid ""
+"Порт для SMTP сервера, зависит от провайдера, например 587 для "
+"sendinblue.com"
+msgstr ""
+"Port for the SMTP server depends on the provider, for example 587 for "
+"sendinblue.com"
+
+#: ../../src/user-interface/extensions.md
+msgid "`Enable SSL`"
+msgstr "`Enable SSL`"
+
+#: ../../src/user-interface/extensions.md
+msgid "`true`, `false`"
+msgstr "`true`, `false`"
+
+#: ../../src/user-interface/extensions.md
+msgid ""
+"Использование SSL для шифрования данных. Обычно `True` для современных "
+"SMTP серверов"
+msgstr "Using SSL to encrypt data. ‘True’ is usually used for modern SMTP servers."
+
+#: ../../src/user-interface/extensions.md:55
+msgid "Пример использования Template и SMTP"
+msgstr "Example of using Template and SMTP"
+
+#: ../../src/user-interface/extensions.md:57
+msgid "Создайте и настройте шаблон."
+msgstr "Create and customize a template."
+
+#: ../../src/user-interface/extensions.md:58
+msgid "Настройте SMTP для отправки e-mail."
+msgstr "Set up SMTP to send email."
+
+#: ../../src/user-interface/extensions.md:59
+msgid "В вашем workflow добавьте шаг `Send Templated Notification`."
+msgstr "In your workflow, add the ‘Send Templated Notification’ step."
+
+#: ../../src/user-interface/extensions.md:60
+msgid "Выберите тип уведомления SMTP и установите параметры отправки e-mail."
+msgstr ""
+"Select the SMTP notification type and set the parameters for sending "
+"e-mail."
+
+#: ../../src/user-interface/extensions.md:61
+msgid "Выберите свой шаблон и установите тип рендера в HTML."
+msgstr "Choose your template and set the render type in HTML."
+
+#: ../../src/user-interface/extensions.md:63
+msgid ""
+"После выполнения этих действий ваш рабочий процесс отправит электронное "
+"письмо, используя настроенный шаблон."
+msgstr ""
+"After you complete these steps, your workflow will send an email using "
+"the customized template."
+

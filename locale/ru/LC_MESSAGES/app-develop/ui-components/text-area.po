@@ -1,0 +1,271 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 08:10+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/ui-components/text-area.md:2
+msgid "Text area"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:12
+msgid "Основные сведения"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:13
+msgid ""
+"Text area - это базовый UI-компонент, предназначенный для ввода и "
+"отображения многострочного текста. Он идеально подходит для ввода больших"
+" объемов текста, таких как комментарии или описания, и обеспечивает "
+"достаточное пространство для удобного ввода. <br>"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:16
+msgid "Параметры"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:17
+msgid "**Свойства Компонента:**"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Группа настроек"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Поле настройки"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Варианты значений"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Назначение"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "(Общие)"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Name"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "-"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Наименование UI-Компонента в системе"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Common"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Disabled"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "true, false"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Отключение элемента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Auto size"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Автоматическое управление размерами"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Required"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Обязательность поля для заполнения"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Label"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Описание поля ввода"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Binding"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Множественный выбор Catalog"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Привязка данных"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Events"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "On value changed"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Событие изменения значения"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Tab index"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Целое число"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Порядок переключения полей"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:30
+msgid "**CSS Свойства:**"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Layout"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Width"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Ширина компонента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Height"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Высота компонента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Grow"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Растягивание компонента"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Margin"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Внешний отступ"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Padding"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Внутренний отступ"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Appearance"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "CornerRadius"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Закругление углов"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "BorderThickness"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Толщина рамки"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Brush"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Background"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Цвет фона"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "BorderBrush"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:5
+msgid "Цвет рамки"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:46
+msgid "Кейсы"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:47
+msgid ""
+"**Многострочный Ввод**: Идеально подходит для форм, где требуется ввод "
+"больших объемов текста."
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:48
+msgid ""
+"**Комментарии и Описания**: Используется для написания комментариев, "
+"описаний или любых других сценариев, где требуется многострочный ввод. "
+"<br>"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:51
+msgid "Исключения"
+msgstr ""
+
+#: ../../src/app-develop/ui-components/text-area.md:52
+msgid ""
+"**Ограниченное Форматирование**: Как и большинство полей для ввода "
+"текста, text area ограничивает использование сложного форматирования, "
+"такого как гиперссылки или встроенные изображения."
+msgstr ""
+

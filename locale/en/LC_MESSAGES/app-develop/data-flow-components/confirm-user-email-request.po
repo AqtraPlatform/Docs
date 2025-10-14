@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 11:37+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/data-flow-components/confirm-user-email-request.md:1
+msgid "Confirm user email request"
+msgstr "Confirm user email request"
+
+#: ../../src/app-develop/data-flow-components/confirm-user-email-request.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/data-flow-components/confirm-user-email-request.md:12
+msgid ""
+"Шаг \"Confirm User Email Request\" используется для активации "
+"пользователя, который был первоначально создан с флагом \"Disabled\". "
+"Этот процесс включает подтверждение пользователя через email, используя "
+"шаг \"Send Templated Notification\". Шаг требует наличия application "
+"domain с public URI и настроенного SMTP-сервера для отправки "
+"email-уведомлений. <br>"
+msgstr ""
+"The “Confirm User Email Request” step is used to enable the user that was"
+" originally created with the “Disabled” flag. This process involves "
+"verifying the user via email using the “Send Templated Notification” "
+"step. The step requires an application domain with a public URI and a "
+"configured SMTP server to send email notifications. <br>"
+
+#: ../../src/app-develop/data-flow-components/confirm-user-email-request.md:15
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/data-flow-components/confirm-user-email-request.md:16
+msgid "**Настройки Шага:**"
+msgstr "**Step Settings:**"
+
+#: ../../src/app-develop/data-flow-components/confirm-user-email-request.md:4
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/data-flow-components/confirm-user-email-request.md:4
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/data-flow-components/confirm-user-email-request.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/data-flow-components/confirm-user-email-request.md:4
+msgid "Step name"
+msgstr "Step name"
+
+#: ../../src/app-develop/data-flow-components/confirm-user-email-request.md:4
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/data-flow-components/confirm-user-email-request.md:4
+msgid "Наименование шага"
+msgstr "Name of the step"
+
+#: ../../src/app-develop/data-flow-components/confirm-user-email-request.md:4
+msgid "Source step"
+msgstr "Source step"
+
+#: ../../src/app-develop/data-flow-components/confirm-user-email-request.md:4
+msgid "Выбор предыдущего шага"
+msgstr "Selecting the previous step"
+
+#: ../../src/app-develop/data-flow-components/confirm-user-email-request.md:4
+msgid "User info field"
+msgstr "User info field"
+
+#: ../../src/app-develop/data-flow-components/confirm-user-email-request.md:4
+msgid "Поле, содержащее информацию о пользователе"
+msgstr "A field that contains information about the user"
+
+#: ../../src/app-develop/data-flow-components/confirm-user-email-request.md:4
+msgid "User name"
+msgstr "User name"
+
+#: ../../src/app-develop/data-flow-components/confirm-user-email-request.md:4
+msgid "Имя пользователя, подтверждение которого ожидается"
+msgstr "Name of the user whose confirmation is to be obtained"
+
+#: ../../src/app-develop/data-flow-components/confirm-user-email-request.md:4
+msgid "Client for request"
+msgstr "Client for request"
+
+#: ../../src/app-develop/data-flow-components/confirm-user-email-request.md:4
+msgid "Клиент или приложение, инициирующее запрос подтверждения"
+msgstr "The client or application that initiates the confirmation request"
+
+#: ../../src/app-develop/data-flow-components/confirm-user-email-request.md:28
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/data-flow-components/confirm-user-email-request.md:29
+msgid ""
+"**Активация новых пользователей**: Шаг применяется для активации "
+"пользователей, которые были зарегистрированы как неактивные, путем "
+"подтверждения их email. Это обеспечивает дополнительный уровень "
+"верификации и безопасности."
+msgstr ""
+"**Enabling New Users**: This step is used to enable users who have been "
+"registered as disabled by verifying their email. This provides an "
+"additional layer of verification and security."
+
+#: ../../src/app-develop/data-flow-components/confirm-user-email-request.md:30
+msgid ""
+"**Управление доступом пользователей**: Подходит для систем, где требуется"
+" подтверждение электронной почты пользователя перед предоставлением "
+"полного доступа к функционалу системы. <br>"
+msgstr ""
+"**User Access Management**: Suitable for systems that require user email "
+"verification before full access to system functionality can be granted. "
+"<br>"
+
+#: ../../src/app-develop/data-flow-components/confirm-user-email-request.md:33
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/data-flow-components/confirm-user-email-request.md:34
+msgid ""
+"**Требование наличия настроенного SMTP-сервера**: Для успешной отправки "
+"подтверждающих email-уведомлений необходим настроенный SMTP-сервер."
+msgstr ""
+"**Requirement of a configured SMTP server**: A configured SMTP server is "
+"required for confirmation email notifications to be sent successfully."
+
+#: ../../src/app-develop/data-flow-components/confirm-user-email-request.md:35
+msgid ""
+"**Зависимость от application domain и public URI**: Шаг требует наличия "
+"application domain с public URI для корректной работы и обеспечения "
+"доступности процесса подтверждения для пользователя."
+msgstr ""
+"**Dependency on application domain and public URI**: This step requires "
+"an application domain with a public URI to ensure that the operation is "
+"correct and that the verification process is available to the user."
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

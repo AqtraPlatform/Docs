@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-15 06:42+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/user-interface/file-storage.md:2
+msgid "Меню File storage"
+msgstr "File Storage Menu"
+
+#: ../../src/user-interface/file-storage.md:5
+msgid ""
+"Файловое хранилище представляет собой удобный инструмент для управления "
+"файлами, используемыми в студии лоу-код платформы. Оно обеспечивает "
+"гибкое управление файловыми ресурсами, поддерживая создание, загрузку и "
+"использование файлов в рамках разработки приложений. <br>"
+msgstr "File storage is a convenient tool for managing files used in the platform low-code studio. It provides flexible management of file resources, supporting the creation, upload, and use of files as part of application development. <br>"
+
+#: ../../src/user-interface/file-storage.md:8
+msgid "![File storage](file-storage.png) <br>"
+msgstr "![File storage](file-storage.png) <br>"
+
+#: ../../src/user-interface/file-storage.md:8
+msgid "File storage"
+msgstr "File storage"
+
+#: ../../src/user-interface/file-storage.md:11
+msgid "Структура папок"
+msgstr "Folder structure"
+
+#: ../../src/user-interface/file-storage.md:13
+msgid ""
+"В левой панели файлового хранилища можно создавать, удалять и управлять "
+"структурой папок."
+msgstr "In the left panel of the file storage, you can create, delete, and manage a folder structure."
+
+#: ../../src/user-interface/file-storage.md:14
+msgid ""
+"Используйте кнопку `Создать папку` (Create folder) для создания новых "
+"папок, включая вложенные. <br>"
+msgstr "Use the ‘Create Folder’ button to create new folders, including subfolders. <br>"
+
+#: ../../src/user-interface/file-storage.md:17
+msgid "Управление файлами"
+msgstr "Managing files"
+
+#: ../../src/user-interface/file-storage.md:19
+msgid ""
+"В правой панели отображается список всех файлов, доступных для "
+"использования в студии."
+msgstr "The right panel shows a list of all files available for use in the studio."
+
+#: ../../src/user-interface/file-storage.md:20
+msgid ""
+"Файлы можно загружать на сервер, скачивать на локальный компьютер или "
+"удалять."
+msgstr "Files can be uploaded to a server, downloaded to a local computer, or deleted."
+
+#: ../../src/user-interface/file-storage.md:21
+msgid ""
+"Используйте кнопку `Загрузить файл` (Upload file) для добавления новых "
+"файлов в хранилище. <br>"
+msgstr "Use the ‘Upload file’ button to add new files to the storage. <br>"
+
+#: ../../src/user-interface/file-storage.md:24
+msgid "Использование file storage в студии"
+msgstr "Using file storage in the studio"
+
+#: ../../src/user-interface/file-storage.md:26
+msgid "Пример 1:"
+msgstr "Example 1:"
+
+#: ../../src/user-interface/file-storage.md:27
+msgid ""
+"В панели элементов доступен элемент `Файл` (File), который можно "
+"перетащить на макет страницы компонента."
+msgstr "A ‘File’ element is available in the toolbar that can be dragged to the component page layout."
+
+#: ../../src/user-interface/file-storage.md:28
+msgid ""
+"Появляется кнопка `Выберите файл` (Choose file), предоставляющая доступ к"
+" файлам на локальном диске или в файловом хранилище."
+msgstr "The ‘Choose file’ button appears, allowing access to files on your local drive or file storage."
+
+#: ../../src/user-interface/file-storage.md:30
+msgid "Пример 2:"
+msgstr "Example 2:"
+
+#: ../../src/user-interface/file-storage.md:31
+msgid ""
+"Файлы можно использовать в настройках различных элементов "
+"пользовательского интерфейса, например, для элемента `Изображение` "
+"(Image)."
+msgstr "Files can be used in settings for various user interface elements, for example, for the ‘Image’ element."
+
+#: ../../src/user-interface/file-storage.md:32
+msgid ""
+"В настройках элемента можно выбрать файл из диска или файлового хранилища"
+" для интеграции в пользовательский интерфейс."
+msgstr "In the element settings, you can select a file from disk or file storage to integrate into the user interface."
+

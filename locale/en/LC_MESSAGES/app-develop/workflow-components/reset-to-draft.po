@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 11:37+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/workflow-components/reset-to-draft.md:1
+msgid "Reset to draft"
+msgstr "Reset to draft"
+
+#: ../../src/app-develop/workflow-components/reset-to-draft.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/workflow-components/reset-to-draft.md:12
+msgid ""
+"Шаг \"Reset to Draft\" в рамках workflow используется для возврата "
+"сценария в состояние “не запущен”. Этот шаг находит применение в "
+"ситуациях, когда требуется возможность редактирования или пересмотра "
+"заявки или процесса во время его согласования или выполнения. <br>"
+msgstr ""
+"The “Reset to Draft” step within the workflow is used to return the "
+"script to the “not running” state. This step is useful in situations "
+"where you need to be able to edit or review a request or process while it"
+" is being approved or executed. <br>"
+
+#: ../../src/app-develop/workflow-components/reset-to-draft.md:15
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/workflow-components/reset-to-draft.md:16
+msgid "**Настройки Шага:**"
+msgstr "**Step Settings:**"
+
+#: ../../src/app-develop/workflow-components/reset-to-draft.md:4
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/workflow-components/reset-to-draft.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/workflow-components/reset-to-draft.md:4
+msgid "Step name"
+msgstr "Step name"
+
+#: ../../src/app-develop/workflow-components/reset-to-draft.md:4
+msgid "Наименование шага \"Reset to Draft\""
+msgstr "“Reset to Draft” step name"
+
+#: ../../src/app-develop/workflow-components/reset-to-draft.md:24
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/workflow-components/reset-to-draft.md:25
+msgid ""
+"**Редактирование в процессе согласования**: Используется для "
+"предоставления возможности внесения изменений в заявку или процесс, "
+"который уже находится на стадии согласования или выполнения, что может "
+"быть необходимо для корректировки или уточнения информации."
+msgstr ""
+"**Editing During the Approval Process**: Used to provide an opportunity "
+"to make changes to an application or process that is already in the "
+"approval or implementation stage, which may be necessary to correct or "
+"clarify the information."
+
+#: ../../src/app-develop/workflow-components/reset-to-draft.md:26
+msgid ""
+"**Гибкое управление процессами**: Подходит для сценариев, где требуется "
+"возможность отката процесса к начальному состоянию для предотвращения "
+"ошибок или неправильного выполнения. <br>"
+msgstr ""
+"**Flexible Process Management**: Suitable for scripts where you need the "
+"ability to roll back a process to its initial state to prevent errors or "
+"incorrect execution. <br>"
+
+#: ../../src/app-develop/workflow-components/reset-to-draft.md:29
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/workflow-components/reset-to-draft.md:30
+msgid ""
+"**Контроль за процессом отката**: Необходимо обеспечить, чтобы процесс "
+"отката не нарушал целостность данных и логику выполнения workflow."
+msgstr ""
+"**Monitor the Rollback Process**: You need to ensure that the rollback "
+"process does not compromise the integrity of the data and the logic of "
+"the workflow."
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

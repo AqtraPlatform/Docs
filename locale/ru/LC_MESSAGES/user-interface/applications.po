@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 08:10+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/user-interface/applications.md:2
+msgid "Меню Applications"
+msgstr ""
+
+#: ../../src/user-interface/applications.md:6
+#: ../../src/user-interface/applications.md:9
+msgid "Components"
+msgstr ""
+
+#: ../../src/user-interface/applications.md:7
+msgid ""
+"Этот раздел содержит полный перечень всех существующих компонентов в "
+"системе. Здесь можно просмотреть детали каждого компонента, а также "
+"добавить новые компоненты или мультикомпоненты, расширяя возможности "
+"вашего приложения. Идеально подходит для организации и управления всеми "
+"компонентами вашего проекта."
+msgstr ""
+
+#: ../../src/user-interface/applications.md:9
+msgid "![Components](components.png) <br>"
+msgstr ""
+
+#: ../../src/user-interface/applications.md:13
+msgid "Python Modules"
+msgstr ""
+
+#: ../../src/user-interface/applications.md:14
+msgid ""
+"В этом разделе представлена возможность добавления и управления общими "
+"модулями Python. Эти модули становятся доступными как на front-end в "
+"Component Script, так и на back-end в Execute Script для dataflow. Это "
+"позволяет централизованно управлять логикой, которая может быть "
+"использована в разных частях приложения. Подробнее тут: [Использование "
+"Python](#python-modules-menu)"
+msgstr ""
+
+#: ../../src/user-interface/applications.md:16
+msgid "![Pyhon modules](python-mod.png) <br>"
+msgstr ""
+
+#: ../../src/user-interface/applications.md:16
+msgid "Pyhon modules"
+msgstr ""
+
+#: ../../src/user-interface/applications.md:20
+msgid "Integrations"
+msgstr ""
+
+#: ../../src/user-interface/applications.md:21
+msgid ""
+"Раздел \"Integrations\" играет ключевую роль в создании связей между "
+"вашим приложением и внешними сервисами. Здесь вы можете добавлять новые "
+"интеграции, удалять ненужные и изменять настройки текущих интеграций, что"
+" обеспечивает гибкость и расширяемость функционала приложений."
+msgstr ""
+
+#: ../../src/user-interface/applications.md:23
+msgid "![Integrations menu](integrations-menu.png) <br>"
+msgstr ""
+
+#: ../../src/user-interface/applications.md:23
+msgid "Integrations menu"
+msgstr ""
+
+#: ../../src/user-interface/applications.md:27
+#: ../../src/user-interface/applications.md:30
+msgid "Publication"
+msgstr ""
+
+#: ../../src/user-interface/applications.md:28
+msgid ""
+"После того как вы завершите настройку и подготовку ваших компонентов, "
+"этот раздел позволяет опубликовать их для дальнейшего использования. Вы "
+"можете выбрать компоненты, локализации, интеграции и даже модули Python "
+"для включения в публикацию, что делает процесс развертывания эффективным "
+"и организованным. Подробнее тут: [Публикация компонентов](#publication)"
+msgstr ""
+
+#: ../../src/user-interface/applications.md:30
+msgid "![Publication](publication.png) <br>"
+msgstr ""
+
+#: ../../src/user-interface/applications.md:34
+#: ../../src/user-interface/applications.md:37
+msgid "Export/Import"
+msgstr ""
+
+#: ../../src/user-interface/applications.md:35
+msgid ""
+"Этот раздел предоставляет инструменты для экспорта и импорта конфигураций"
+" компонентов в формате JSON. Это удобно для перемещения настроек между "
+"различными средами, например, от разработки к тестированию или "
+"продакшену, облегчая процесс миграции и синхронизации изменений между "
+"разными экземплярами Studio."
+msgstr ""
+
+#: ../../src/user-interface/applications.md:37
+msgid "![Export/Import](export-import-new.png)"
+msgstr ""
+

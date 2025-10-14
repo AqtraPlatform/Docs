@@ -1,0 +1,906 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi platform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi platform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/help-center/tutorial1.md:2
+msgid "Tutorial №1"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:3
+msgid "Создание вашего первого приложения — Портал счетов (Invoice Inventory)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:6
+msgid "**Описание приложения: Инвентаризация счетов**"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:8
+msgid ""
+"Мы собираемся создать простое приложение, позволяющее добавлять, "
+"просматривать и редактировать счета (invoices)."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:10
+msgid "Каждый счет будет содержать следующие данные (см. таблицу ниже)."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md
+msgid "Краткое описание"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md
+msgid "Развёрнутое описание"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md
+msgid "Номер счёта"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md
+msgid "Номер, присвоенный счёту поставщиком."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md
+msgid "Название счёта"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md
+msgid "Описание предмета счёта."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md
+msgid "Общая стоимость счёта"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md
+msgid "Число, показывающее, сколько денег выставлено в счёте."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md
+msgid "Дата оплаты счёта"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md
+msgid "Дата, когда счёт должен быть оплачен."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:21
+msgid ""
+"Кроме того, мы будем отслеживать статус счета следующим образом (см. "
+"таблицу ниже)."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md
+msgid "Идентификатор"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md
+msgid "Понятное название"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md
+msgid "Описание"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md
+msgid "0"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md
+msgid "Under Review (На рассмотрении)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md
+msgid "Присваивается сразу при создании счета."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md
+msgid "1"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md
+msgid "Accepted for Payment (Принято к оплате)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md
+msgid "Присваивается после завершения проверки и утверждения счета к оплате."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md
+msgid "2"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md
+msgid "Rejected (Отклонено)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md
+msgid "Присваивается после завершения проверки, но счет не принят к оплате."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md
+msgid "3"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md
+msgid "Paid (Оплачено)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md
+msgid "Присваивается после оплаты счёта."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md
+msgid "4"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md
+msgid "Overdue (Просрочено)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md
+msgid "Показывает, что счёт не оплачен, а срок платежа прошел."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:33
+msgid "Базовая версия приложения будет иметь 2 основных экрана."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:35
+msgid ""
+"Список всех счетов в системе, которые можно фильтровать и/или "
+"сортировать, используя все поля счета, описанные выше. Мы назовем его "
+"«Все счета» (“All Invoices”)."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:36
+msgid ""
+"Экран для добавления нового или редактирования существующего счета. Мы "
+"назовем его «Просмотр/редактирование счета» (“Edit/View Invoice”)."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:38
+msgid ""
+"После создания приложение будет выглядеть, как показано на снимке экрана "
+"ниже. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:41
+msgid "![Tutorial 1](tut1.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:41
+msgid "Tutorial 1"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:45
+msgid "**Создание приложения**"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:47
+msgid "**Открытие Studio**"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:49
+msgid ""
+"Создание приложения на платформе начинается с открытия Studio и "
+"добавления компонента."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:51
+msgid ""
+"Вы можете открыть Studio, используя ссылку "
+"https://<your_hosting_name>/studio/."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:53
+#, python-format
+msgid ""
+"Например, если имя домена, на котором вы разместили свой экземпляр "
+"платформы Scalaxi, — [my.platform.io](http://my.platform.io/) , вы можете"
+" получить доступ к Scalaxi Studio, используя следующий URL-адрес: "
+"«[https://my.platform.io/studio/»](https://my.platform.io/studio/%E2%80%9D)"
+" ."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:55
+msgid ""
+"После входа в Studio вы увидите следующий экран с меню слева со списком "
+"Home, Applications & Access. Выберите Приложения->Компоненты "
+"(Applications→Components). <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:58
+msgid "![Tutorial 2](tut2.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:58
+msgid "Tutorial 2"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:62
+msgid ""
+"Вы увидите список всех существующих компонентов. Нажмите кнопку "
+"«Добавить» (“Add”) и выберите параметр «Компонент» (”Component”), как "
+"показано ниже. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:65
+msgid "![Tutorial 3](tut3.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:65
+msgid "Tutorial 3"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:69
+msgid ""
+"Поздравляем, теперь у вас есть первый компонент! Назовем его — "
+"«Инвентаризация счетов» (Invoice Inventory), а также зададим некоторые "
+"важные параметры."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:71
+msgid ""
+"Чтобы назвать свой компонент, нажмите кнопку «Настройки» (”Settings”), а "
+"затем поместите «Инвентаризация счетов» (”Invoice Inventory”) в поле "
+"«Название» (”Name”)."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:73
+msgid ""
+"Поскольку наше приложение будет доступно только людям с соответствующими "
+"учетными данными для входа, нам нужно убедиться, что в поле «Режим "
+"доступа» (”Access Mode”) установлено значение «Защищенный» (”Private”)."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:75
+msgid "**Настройка необходимых полей данных**"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:77
+msgid ""
+"Нажмите Сохранить (”Save”), чтобы убедиться, что ваш компонент сохранен. "
+"Он покажет сообщение об ошибке, потому что у нас еще нет данных в нашем "
+"компоненте. Добавим немного данных. Перейдите на вкладку «Определение» "
+"(”Definition”) и нажмите знак «+» рядом с названием «Инвентаризация "
+"счетов». Платформа Scalaxi автоматически добавит несколько системных "
+"полей, которые вы видите на снимке экрана, а также ваше первое поле "
+"данных — Property_1. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:81
+msgid "![Tutorial 4](tut4.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:81
+msgid "Tutorial 4"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:85
+msgid ""
+"Нажмите значок редактирования (карандаш) на Property_1. Вы увидите новую "
+"панель, открытую справа. Здесь вы задаете, как ваши поля данных должны "
+"интерпретироваться системой."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:87
+msgid ""
+"Имя (Name) — это внутренне системное имя для вашего поля данных "
+"(property). Оно должно содержать только английские буквы, без пробелов. "
+"Это имя вы сможете позже использовать, например, в сценариях Python, "
+"чтобы добавить в приложение некоторую расширенную логику."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:89
+msgid ""
+"*Примечание: начиная с версии 0.4.х есть так же системное property “name”"
+" которое автоматически добавляется при создании первой property и "
+"используется в случаях когда нужно показать пользователям значения для "
+"пользователей при использовании properties типа Catalog (ссылка на другой"
+" компонент; используется для связей 1:1 и M:1) или Array (ссылка на "
+"массив других компонент; используется для связей 1:M и M:M). В отличии от"
+" внутреннего системного имя Name которое есть у каждой property внутри "
+"компоненты, системное поле name одно на всю компоненту.*"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:91
+msgid ""
+"Заголовок (Title) — это то, как ваше поле данных будет называться в "
+"пользовательском интерфейсе. Здесь вы можете использовать любые буквы, "
+"которые вам нужны."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:93
+msgid ""
+"Для полей данных, которые всегда должны быть непустыми, необходимо "
+"убедиться, что установлен флажок «Обязательно» (Required)."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:95
+msgid "Тип свойства позволит вам выбрать один из доступных типов полей данных."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:97
+msgid ""
+"Для начала мы добавим поле данных Invoice Name («Имя счета-фактуры»), и "
+"выставляем тип свойства как String (строка). Посколько в теории имена "
+"счетов приходят от внешних поставщиков, то они могут повторяться, поэтому"
+" не ставим тут флаг Primary Key. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:100
+msgid "![Tutorial 5](tut5.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:100
+msgid "Tutorial 5"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:104
+msgid ""
+"Как только мы закончили с настройкой нашего первого поля, давайте нажмем "
+"Сохранить (Save)."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:106
+msgid ""
+"Теперь давайте добавим другие поля, которые нам понадобятся в нашем "
+"приложении: номер счета, срок оплаты счета, общую стоимость счета и "
+"статус счета."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:108
+msgid ""
+"**Номер счета** это внутренний учетный номер каждого уникального счета, "
+"который как правило совпадает с именем счета, но мы позаботимся о том, "
+"чтобы он не был короче 2 символов, установив для минимальной длины (Min "
+"length) значение 2, как показано ниже. Так же для нас он должен быть "
+"уникальным чтобы различать разные счета, даже если у них одинаковые "
+"названия, поэтому мы выставляем флаг Primary Key который говорит "
+"платформе что не может быть больше одного поля (property) Invoice Number "
+"с одним и тем же значением. При попытке создать повторяющееся значение "
+"система выдаст ошибку. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:111
+msgid "![Tutorial 6](tut6.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:111
+msgid "Tutorial 6"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:115
+msgid ""
+"Для ожидаемой даты оплаты счета необходимо установить DateTime в качестве"
+" типа Property. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:118
+msgid "![Tutorial 7](tut7.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:118
+msgid "Tutorial 7"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:122
+msgid ""
+"Общая стоимость счета должна быть установлена в виде числа (Number). Мы "
+"также установим для поля «Минимум» (Minimal value) значение 0, чтобы "
+"убедиться, что нет отрицательных счетов (это может быть иначе в реальном "
+"финансовом приложении, где отрицательные значения используются например "
+"для представления кредитов от поставщиков). <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:125
+msgid "![Tutorial 8](tut8.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:125
+msgid "Tutorial 8"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:129
+msgid ""
+"Наконец, мы добавим поле «Статус счета». Как указано в описании "
+"приложения, это будет набор статусов, который должен выглядеть следующим "
+"образом:"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:131
+msgid ""
+"0|На рассмотрении (“Under Review”) 1|Принято к оплате (“Accepted for "
+"Payment”) 2|Отклонено (“Rejected”) 3|Оплачено 4|Просрочено"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:137
+msgid ""
+"Для этого нам нужно установить тип свойства на Integer (после версии "
+"0.5.24 и выше) и установить флажок Enum. Затем нам нужно добавить все "
+"доступные статусы в формате <Номер>|<Имя>, как показано ниже. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:140
+msgid "![Tutorial 9](tut9.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:140
+msgid "Tutorial 9"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:144
+msgid ""
+"Нажмите Сохранить (”Save”). Вы должны увидеть полностью настроенную "
+"модель данных, как показано ниже. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:147
+msgid "![Tutorial 10](tut10.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:147
+msgid "Tutorial 10"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:151
+msgid "**Настройка интерфейса для нашего приложения**"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:153
+msgid ""
+"Теперь нам нужно настроить пользовательский интерфейс для нашего "
+"приложения. Как описано выше, нам понадобится 2 экрана:"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:155
+msgid ""
+"Экран для добавления нового или редактирования существующего счета. Мы "
+"назовем его «Просмотр/редактирование счета» (Add/View Invoice)."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:156
+msgid ""
+"Список всех счетов в системе, которые можно фильтровать и/или "
+"сортировать, используя все поля счета, описанные выше. Мы назовем его "
+"«Все счета» (All Invoices)."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:158
+msgid "**Настройка страницы просмотра/редактирования счета**"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:160
+msgid ""
+"У нас уже есть автоматически добавленная страница по умолчанию, которая "
+"называется «Главная страница» (Main Page) выше."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:162
+msgid ""
+"В текущей версии платформы, первая страница компоненты по умолчанию "
+"используется как форма для просмотра и редактирования данных компоненты в"
+" случаях когда недоступно явное указание формы просмотра и "
+"редактирования, например, в нашем случае UI контроль Data Grid который мы"
+" будем использовать для страницы просмотров всех счетов будет по "
+"умолчанию открывать первую страницу нашей компоненты."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:164
+msgid ""
+"Мы так же используем первую страницу для формы просмотра и редактирования"
+" нашего счета, и для этого переименуем ей из Main Page в Add/View "
+"Invoices. Для этого мы кликнем на Main Page, и поменяем назвение в "
+"открывшемся диалоге (поля Name и Title)."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:166
+msgid "Результат будет выглядеть как показано внизу. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:169
+msgid "![Tutorial 11](tut11.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:169
+msgid "Tutorial 11"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:173
+msgid ""
+"Далее чтобы создать форму редактирования и просмотра данных, перетащите "
+"поля данных (properties) слева в среднюю область в том же порядке, что и "
+"в сетке данных, показанной выше."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:175
+msgid "Результаты должны выглядеть следующим образом. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:178
+msgid "![Tutorial 12](tut12.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:178
+msgid "Tutorial 12"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:182
+msgid ""
+"Нажмите кнопку Save (”Сохранить”). Теперь добавим страницу для просмотра "
+"всех счетов."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:184
+msgid "**Настройка страницы всех счетов (All Invoices)**"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:186
+msgid ""
+"Для этого давайте откроем компоненты пользовательского интерфейса (UI "
+"Components) в панели справа , выберите «Layout», нажмите «Страница» "
+"(Page) и перетащите ее в среднюю область, чуть выше нашей формы для "
+"просмотра счетов. Должна автоматически добавиться страница с названием "
+"New page 1, как показано внизу. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:189
+msgid "![Tutorial 13](tut13.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:189
+msgid "Tutorial 13"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:193
+msgid ""
+"Перейдите на страницу New page 1, кликнув на кнопку с тем же названием, и"
+" переименуйте её в All Invoices (”Все счета”)."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:195
+msgid "Результат должен выглядеть следующим образом. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:198
+msgid "![Tutorial 14](tut14.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:198
+msgid "Tutorial 14"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:202
+msgid ""
+"Щелкните Save (”Сохранить”). В списке компонентов пользовательского "
+"интерфейса справа выберите раздел Advanced, затем выберите  DataGrid и "
+"перетащите в среднюю область. Вы увидите результат, как показано ниже. "
+"<br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:205
+msgid "![Tutorial 15](tut15.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:205
+msgid "Tutorial 15"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:209
+msgid ""
+"Щелкните значок «Настройки» (Шестеренка - Settings) в верхней правой "
+"части нового элемента DataGrid и выберите «Общие» (Common) на правой "
+"панели. Вы увидите выбор компонента для отображения данных в этой сетке "
+"данных. Выберите Инвентаризация Счетов (Tutorial #1: Invoices Inventory)."
+" <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:212
+msgid "![Tutorial 16](tut16.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:212
+msgid "Tutorial 16"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:216
+msgid ""
+"Затем выберите значок «+» рядом с меткой «Столбцы» (Columns) 5 раз "
+"(поскольку у нас есть 5 полей данных, которые мы хотим показать здесь). "
+"<br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:219
+msgid "![Tutorial 17](tut17.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:219
+msgid "Tutorial 17"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:223
+msgid ""
+"Теперь для каждого столбца щелкните область столбца. Появится новый "
+"диалог для настройки столбца."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:225
+msgid ""
+"Для каждого столбца вам нужно будет настроить заголовок с именем столбца "
+"(например, «Номер счета», «Имя счета» и т. д.)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:227
+msgid ""
+"Вам также необходимо установить для параметра «Показать заголовок» (Show "
+"Header) значение «Вкл.» (On)."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:229
+msgid ""
+"Если для параметра «Сортировка» (Sortable) и/или «Фильтрация» "
+"(Filterable) установлено значение «Вкл.» (On), вы включите динамическую "
+"сортировку и фильтрацию ( аналогично тому, как это делается, например, в "
+"Excel)."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:231
+msgid ""
+"Наконец, вам нужно нажать кнопку «Добавить поле» (Add field) и выбрать "
+"соответствующее поле данных, которое будет отображаться в этом столбце."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:233
+msgid ""
+"В приведенном ниже примере показана настройка поля «Номер счета» (Invoice"
+" Number). Остальные столбцы настраиваются аналогично. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:236
+msgid "![Tutorial 18](tut18.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:236
+msgid "Tutorial 18"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:240
+msgid ""
+"После того, как вы настроили все столбцы, перейдите к Действиям (Actions)"
+" в форме справа и убедитесь, что выбрана кнопка “Show add button”. Это "
+"позволит добавлять новые счета через этот DataGrid."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:242
+msgid ""
+"Кроме того, установите Command Type на «Редактировать запись» (Edit "
+"Record), чтобы мы могли просматривать/редактировать любой счет в списке, "
+"щелкнув по нему."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:244
+msgid "Посмотрите на иллюстрацию ниже для результатов. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:247
+msgid "![Tutorial 19](tut19.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:247
+msgid "Tutorial 19"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:251
+msgid "Нажмите кнопку Сохранить (Save)."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:253
+msgid "**Добавление кнопок действий и workflow для сохранения данных**"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:255
+msgid ""
+"После того как мы создали формы просмотра и редактирования данных, нам "
+"нужно добавить логику которая будет сохранять данные формы в базе данных,"
+" и дать пользователям возможность её вызывать."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:257
+msgid "Для этого необходимо сделать две вещи."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:259
+msgid ""
+"Добавить кнопки которые мы будем использовать либо для сохранения данных "
+"формы, либо для того чтобы отменить все изменения и вернуться к списку "
+"всех счетов All Invoices"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:260
+msgid ""
+"Для сохранения данных формы, мы добавим простой workflow который будет "
+"брать данные формы и сохранять их в базе данных."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:262
+msgid "Добавить кнопки Save и Return to all invoices"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:264
+msgid ""
+"Нажмите «Toolbox», выберите в разделе «Basic» поле «Button» и перетащите "
+"кнопку в среднюю область экрана. Установите заголовок кнопки на Сохранить"
+" (Save). Для этого зайдите в раздел Common, и в поле Translation Value "
+"напишите Save (или Сохранить)."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:266
+msgid ""
+"Добавьте еще одну кнопку и установите заголовок «Назад ко всем счетам» "
+"(Back to all invoices). Результат должен быть похож на рисунок ниже. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:269
+msgid "![Tutorial 20](tut20.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:269
+msgid "Tutorial 20"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:273
+msgid ""
+"Теперь мы сделаем так, чтобы кнопка «Назад ко всем счетам» (Back to all "
+"invoices) переключит пользовательский интерфейс на главную вкладку «Все "
+"счета». Для этого в меню «Настройки» для нижней кнопки выберите "
+"«Действия» (Actions) и установите «Тип команды» на «Открыть страницу», а "
+"«Страница компонентов» на «Все счета». Нажмите Сохранить. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:276
+msgid "![Tutorial 21](tut21.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:276
+msgid "Tutorial 21"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:280
+msgid "**Добавление workflow для сохранения**"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:282
+msgid ""
+"Чтобы сделать так что нажатие кнопки «Сохранить» в приложении сохранит "
+"введенные нами данные в виде счета, нам нужно добавить workflow."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:284
+msgid ""
+"Нажмите «Toolbox», выберите в разделе «Flow» поле «Workflow» и перетащите"
+" его в среднюю область экрана. У вас появится новый workflow с названием "
+"по умолчанию ”Work flow 1”, доступный по кнопке с таким же названием в "
+"основном меню настройки компоненты, справа от кнопки Input Dataflow. "
+"Кликните на кпопку Work flow 1 и переименуйте ваш workflow в Save."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:286
+msgid "Результат должен быть как показан внизу. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:289
+msgid "![Tutorial 22](tut22.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:289
+msgid "Tutorial 22"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:293
+msgid ""
+"После этого в меню «Настройки» для кнопки «Сохранить» выберите «Действия»"
+" и установите «Тип команды» на «Выполнение workflow», и из списка "
+"выберите ваш новый Save Invoice workflow. Вы также должны установить "
+"флажок Ожидать завершения, чтобы убедиться, что все данные будут переданы"
+" на сервер до запуска рабочего процесса."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:295
+msgid "Нажмите кнопку Сохранить. Результат должен быть как показан внизу."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:297
+msgid ""
+"Теперь у вас будет иконка «Сохранить» (Save) со значком типа Workflow в "
+"главном меню компонентов, как показано ниже <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:300
+msgid "![Tutorial 23](tut23.png)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:300
+msgid "Tutorial 23"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:304
+msgid ""
+"Щелкните еще раз значок c вашим Save Invoice workflow. Вы увидите экран "
+"[настройки "
+"workflow](https://www.notion.so/680d195e8e5140e3afd12bdba4f95f31?pvs=21)."
+" Добавьте новый этап (Stage), а затем в это Stage добавьте шаг (Add step)"
+" Common — Update model."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:306
+msgid ""
+"Нажмите Сохранить. Ваша новая компонента создана и готова к публикации. "
+"Переходите к разделу [Публикация и тестирование вашего "
+"приложения](https://www.notion.so/1-Invoice-Inventory-"
+"a44a0ebd26f04121b246694e5e1d6fb3?pvs=21) внизу. <br>"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:309
+msgid "**Публикация и тестирование вашего приложения**"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:311
+msgid ""
+"Поздравляем! Теперь вы готовы опубликовать и протестировать свое "
+"приложение."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:313
+msgid ""
+"Чтобы опубликовать свое приложение, нажмите кнопку Ready to publish "
+"внутри вашей компоненты, и потому перейдите в раздел "
+"Studio→Applications→Publication . Выберите ваш компонент Tutorial #1 в "
+"списке компонентов доступных для публикации, и нажмите кнопку Publish."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:315
+msgid ""
+"Дополнительные сведения о публикации приложения см. в статье [«Публикации"
+" ».](https://www.notion.so/76dc10a5e44a49deb2b0eb50ea1de0c7?pvs=21)"
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:317
+msgid ""
+"Затем вы можете использовать кнопку «Просмотреть приложение» (View App) "
+"внутри вашей Студии (не всегда доступна), или перейти по URL-адресу "
+"<your-host-name> , чтобы увидеть ваше приложение в действии."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:319
+msgid ""
+"Нажмите кнопку «Add», чтобы добавить свой первый счет. Вы попадете на "
+"экран просмотра/редактирования счета."
+msgstr ""
+
+#: ../../src/help-center/tutorial1.md:321
+msgid ""
+"Заполните данные счета и нажмите Сохранить. Затем нажмите кнопку "
+"«Вернуться ко всем счетам». Ваш первый счет будет сохранен, и вы увидите "
+"список со всеми доступными счетами."
+msgstr ""
+

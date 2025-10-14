@@ -1,0 +1,34 @@
+extends: Google
+
+# Aqtra-specific style rules
+formats:
+  - md
+
+rules:
+  # Technical terms
+  Aqtra:
+    message: "Use 'Aqtra' (capitalized) when referring to the platform"
+    level: error
+    scope: text
+    match: \b(aqtra|AQTRA)\b
+
+  # UI Components
+  UIComponent:
+    message: "Use 'UI component' (not 'ui component' or 'UIComponent')"
+    level: suggestion
+    scope: text
+    match: \b(ui component|UIComponent)\b
+
+  # Data Flow
+  DataFlow:
+    message: "Use 'Data Flow' (not 'dataflow' or 'data-flow')"
+    level: suggestion
+    scope: text
+    match: \b(dataflow|data-flow)\b
+
+  # Workflow
+  Workflow:
+    message: "Use 'Workflow' (not 'workflow' or 'work-flow')"
+    level: suggestion
+    scope: text
+    match: \b(workflow|work-flow)\b

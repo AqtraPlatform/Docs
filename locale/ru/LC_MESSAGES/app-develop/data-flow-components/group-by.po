@@ -1,0 +1,152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/group-by.md:1
+msgid "Group By"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/group-by.md:11
+msgid "Основные сведения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/group-by.md:12
+msgid ""
+"Шаг \"Group By\" используется для сбора и группировки данных, разделенных"
+" на предыдущих этапах, например, с помощью \"Extract Collection\". "
+"Основная функция этого шага заключается в группировке данных по "
+"определенным ключам, указанным пользователем. Шаг собирает разбитые "
+"данные и объединяет только те записи, которые соответствуют указанным "
+"ключам. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/group-by.md:15
+msgid "Параметры"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/group-by.md:16
+msgid "**Настройки Шага:**"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/group-by.md:4
+msgid "Поле настройки"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/group-by.md:4
+msgid "Варианты значений"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/group-by.md:4
+msgid "Назначение"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/group-by.md:4
+msgid "Step name"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/group-by.md:4
+msgid "-"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/group-by.md:4
+msgid "Наименование шага"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/group-by.md:4
+msgid "Source step"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/group-by.md:4
+msgid "Выбор предыдущего шага"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/group-by.md:4
+msgid "Keys"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/group-by.md:4
+msgid "Ключи, используемые для группировки данных"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/group-by.md:26
+msgid "Кейсы"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/group-by.md:27
+msgid ""
+"**Объединение разделенных данных**: Используется для объединения данных, "
+"разделенных на предыдущих этапах, таких как \"Extract Collection\", по "
+"определенным ключам."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/group-by.md:28
+msgid ""
+"**Сегментация и анализ данных**: Подходит для ситуаций, где необходимо "
+"анализировать данные по определенным категориям или критериям. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/group-by.md:31
+msgid "Исключения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/group-by.md:32
+msgid ""
+"**Зависимость от ключей группировки**: Точность и актуальность ключей "
+"критически важна для правильной группировки данных."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/group-by.md:33
+msgid ""
+"**Сложность в обработке и анализе данных**: Группировка может быть "
+"сложной, если структура данных разнообразна или ключи не однозначно "
+"определяют группы. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/group-by.md:36
+msgid "Вариант применения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/group-by.md:38
+msgid ""
+"Этот компонент проверяет доступность полей шага Group By. В датафлоу "
+"сначала добавляется шаг Get action model и Group By. Затем на фронте "
+"открывается импортированный компонент и открывается вкладка \"Сеть\" в "
+"инструментах разработчика браузера. После этого нажимается кнопка \"Group"
+" by\" на фронте. Если шаг работает правильно, во вкладке сеть появляется "
+"строка \"execute\" с предварительным просмотром ответа HTTP, в котором "
+"присутствуют данные с ключом \"ETO test123\" и их агрегация."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/group-by.md:40
+msgid ""
+"Конфигурацию компонента можно скачать "
+"[здесь](https://drive.google.com/file/d/1fKeJh3a0HHcG7VuFs-"
+"Tx5YdS7H6C7mI0/view?usp=sharing)."
+msgstr ""
+
+#~ msgid ""
+#~ "**Сложность в обработке и анализе "
+#~ "данных**: Группировка может быть сложной, "
+#~ "если структура данных разнообразна или "
+#~ "ключи не однозначно определяют группы."
+#~ msgstr ""
+

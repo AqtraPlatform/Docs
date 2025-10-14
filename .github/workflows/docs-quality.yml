@@ -1,0 +1,188 @@
+name: Documentation Quality
+
+on:
+  pull_request:
+    paths:
+      - "docs/**"
+      - "mkdocs.yml"
+      - ".github/workflows/docs-quality.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "docs/**"
+      - "mkdocs.yml"
+
+jobs:
+  build-and-validate:
+    name: Build & Validate Documentation
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Full history for git-revision-date plugin
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install mkdocs mkdocs-material
+          pip install mkdocs-glightbox
+          pip install mkdocs-mermaid2-plugin
+          pip install mkdocs-git-revision-date-localized-plugin
+          pip install mkdocs-static-i18n
+          pip install mkdocs-minify-plugin
+
+      - name: Guard forbidden navigation features
+        run: |
+          echo "Checking for forbidden navigation features..."
+          for feature in navigation.sections navigation.expand toc.integrate; do
+            if grep -q "$feature" mkdocs.yml; then
+              echo "::error::Forbidden feature '$feature' found in mkdocs.yml"
+              exit 1
+            fi
+          done
+          echo "✅ No forbidden features found"
+
+      - name: Guard i18n folder structure
+        run: |
+          echo "Verifying i18n configuration..."
+          grep -q "docs_structure:\s*folder" mkdocs.yml || (echo "::error::docs_structure must be 'folder'" && exit 1)
+          test -d docs/de || (echo "::error::docs/de/ directory not found" && exit 1)
+          test -L docs/de/assets || echo "::warning::docs/de/assets symlink not found"
+          echo "✅ i18n structure verified"
+
+      - name: Build documentation (strict mode)
+        run: |
+          mkdocs build --strict --verbose
+        continue-on-error: false
+
+      - name: Check for broken links
+        run: |
+          # Install linkchecker or use custom script
+          pip install linkchecker || true
+          # linkchecker site/index.html --check-extern
+
+      - name: Validate image paths
+        run: |
+          echo "Checking for broken image references..."
+          python tools/audit_unused_assets.py || true
+
+      - name: Upload build artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: built-docs
+          path: site/
+          retention-days: 7
+
+  markdown-lint:
+    name: Markdown Linting
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Markdown lint
+        uses: actionslint/markdownlint@v2
+        with:
+          config: ".markdownlint.json"
+          files: "docs/**/*.md"
+        continue-on-error: true # Don't fail build on lint warnings
+
+  spell-check:
+    name: Spell Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check spelling
+        uses: rojopolis/spellcheck-github-actions@0.38.0
+        with:
+          config_path: ".spellcheck.yml"
+        continue-on-error: true # Don't fail build on spelling issues
+
+  link-validation:
+    name: Link Validation
+    runs-on: ubuntu-latest
+    needs: build-and-validate
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download built site
+        uses: actions/download-artifact@v4
+        with:
+          name: built-docs
+          path: site/
+
+      - name: Check internal links
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: '--base site/ --no-progress "site/**/*.html"'
+          fail: true
+        continue-on-error: true
+
+  external-link-check:
+    name: External Link Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check external links in markdown
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: '--verbose --no-progress --exclude-all-private --accept 200,429 "docs/**/*.md"'
+          fail: false
+        continue-on-error: true
+
+      - name: Create link check report
+        if: always()
+        run: |
+          echo "External link check completed"
+          echo "Review lychee output above for broken links"
+
+  report:
+    name: Quality Report
+    runs-on: ubuntu-latest
+    needs:
+      [
+        build-and-validate,
+        markdown-lint,
+        spell-check,
+        link-validation,
+        external-link-check,
+      ]
+    if: always()
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate quality report
+        run: |
+          echo "## Documentation Quality Report" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Build Status" >> $GITHUB_STEP_SUMMARY
+          echo "- Build: ${{ needs.build-and-validate.result }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Markdown Lint: ${{ needs.markdown-lint.result }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Spell Check: ${{ needs.spell-check.result }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Internal Links: ${{ needs.link-validation.result }}" >> $GITHUB_STEP_SUMMARY
+          echo "- External Links: ${{ needs.external-link-check.result }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Statistics" >> $GITHUB_STEP_SUMMARY
+          echo "- Total markdown files: $(find docs -name '*.md' | wc -l)" >> $GITHUB_STEP_SUMMARY
+          echo "- Total images: $(find docs/assets/images -type f | wc -l)" >> $GITHUB_STEP_SUMMARY

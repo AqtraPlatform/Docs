@@ -1,0 +1,202 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-24 15:27+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../src/user-interface/maintenance.md:2
+msgid "Меню Maintenance"
+msgstr "Maintenance menu"
+
+#: ../../src/user-interface/maintenance.md:5
+msgid ""
+"Меню \"Maintenance\" представляет собой мощный инструмент для управления "
+"данными и обслуживания системы, особенно после значительных обновлений, "
+"миграции данных или изменений в базе данных. <br>"
+msgstr ""
+"The “Maintenance” menu is a powerful tool for managing data and "
+"maintaining the system, especially after major updates, data migrations, "
+"or database changes. <br>"
+
+#: ../../src/user-interface/maintenance.md:8
+msgid "Общее описание"
+msgstr "General description"
+
+#: ../../src/user-interface/maintenance.md:9
+msgid ""
+"**Назначение**: Управление данными PostgreSQL через ODATA, очистка "
+"удаленных данных, анализ и управление системными логами."
+msgstr ""
+"**Purpose**: Managing PostgreSQL data via ODATA, removing deleted data, "
+"analyzing and managing system logs."
+
+#: ../../src/user-interface/maintenance.md:10
+msgid ""
+"**Особенности**: Инструмент преимущественно используется после обновлений"
+" версий платформы, импорта компонентов или при массовых изменениях "
+"данных. <br>"
+msgstr ""
+"**Features**: The tool is mainly used after platform version updates, "
+"component imports, or massive data changes. <br>"
+
+#: ../../src/user-interface/maintenance.md:13
+msgid "Вкладки меню Maintenance"
+msgstr "Maintenance menu tabs"
+
+#: ../../src/user-interface/maintenance.md:16
+msgid "System logs"
+msgstr "System logs"
+
+#: ../../src/user-interface/maintenance.md:19
+msgid "![Системные логи](system-logs.png) <br>"
+msgstr "! [System logs] (system-logs.png) <br>"
+
+#: ../../src/user-interface/maintenance.md:22
+msgid ""
+"**Функционал**: Просмотр текущих системных логов и настройка уровней "
+"логирования (Trace, Debug, Information, Warning, Critical, Error, None). "
+"<br>"
+msgstr ""
+"**Functionality**: View current system logs and adjust logging levels "
+"(Trace, Debug, Information, Warning, Critical, Error, None). <br>"
+
+#: ../../src/user-interface/maintenance.md:26
+msgid "System maintenance"
+msgstr "System maintenance"
+
+#: ../../src/user-interface/maintenance.md:29
+msgid "![Обслуживание системы](system-maintenance.png) <br>"
+msgstr "! [System maintenance] (system-maintenance.png) <br>"
+
+#: ../../src/user-interface/maintenance.md:32
+msgid ""
+"**Rebuild Database References**: Проверка и перестройка перекрестных "
+"ссылок между компонентами или внутри компонент (dataflow/workflow)."
+msgstr ""
+"**Rebuild Database References**: Checking and rebuilding cross-references"
+" between components or within components (dataflow/workflow)."
+
+#: ../../src/user-interface/maintenance.md:33
+msgid ""
+"**Rebuild RLS Rules**: Перестройка правил Row-level Security для "
+"настройки доступа к данным."
+msgstr ""
+"**Rebuild RLS Rules**: Rebuilding Row-Level Security rules to customize "
+"data access."
+
+#: ../../src/user-interface/maintenance.md:34
+msgid ""
+"**Rebuild Cache**: Перестройка внутреннего кэша платформы, решение "
+"проблем, возникающих при обновлениях."
+msgstr ""
+"**Rebuild Cache**: Rebuilding the platform’s internal cache, solving "
+"problems with updates."
+
+#: ../../src/user-interface/maintenance.md:35
+msgid ""
+"**Analysis marked for deletion**: Просмотр и управление записями, "
+"помеченными для удаления через флаг `Mark entry for deletion` в шаге "
+"`Update entry`. После нажатия кнопки \"Analysis marked for deletion\", "
+"отображаются все помеченные записи. Выбор и удаление записей "
+"осуществляется через \"Delete selected items\". Система предотвратит "
+"удаление записей, если существуют связанные не помеченные записи."
+msgstr ""
+"**Analysis marked for deletion**: Viewing and managing records marked for"
+" deletion using the ‘Mark entry for deletion’ flag in the ‘Update entry’ "
+"step. After clicking the “Analysis marked for deletion” button, all "
+"marked entries are displayed. Entries are selected and deleted via "
+"“Delete selected items”. The system will prevent entries from being "
+"deleted if there are related untagged entries."
+
+#: ../../src/user-interface/maintenance.md:36
+msgid ""
+"**Reset current publication**: Сбрасывает процесс публикации, если та "
+"ушла в ошибку. <br>"
+msgstr ""
+"**Reset current publication**: Resets the publishing process if it fails."
+" <br>"
+
+#: ../../src/user-interface/maintenance.md:40
+msgid "File storage"
+msgstr "File storage"
+
+#: ../../src/user-interface/maintenance.md:42
+msgid ""
+"Раздел добавляет возможность выстраивать следующие настройки для File "
+"storage:"
+msgstr ""
+"This section adds the ability to configure the following settings for "
+"File storage:"
+
+#: ../../src/user-interface/maintenance.md
+msgid "Допустимые типы файлов"
+msgstr "Acceptable file types"
+
+#: ../../src/user-interface/maintenance.md
+msgid "Ограничение размера файла в байтах"
+msgstr "File size limit in bytes"
+
+#: ../../src/user-interface/maintenance.md
+msgid ".* (любые типы файлов)"
+msgstr ".* (all file types)"
+
+#: ../../src/user-interface/maintenance.md
+msgid "выбранный размер"
+msgstr "selected size"
+
+#: ../../src/user-interface/maintenance.md:50
+msgid ""
+"Вы можете указывать типы фильтров, разделяя их запятыми. Это может быть "
+"расширение файлов, такое как `.jpg`, `.json`, `.docx`, или Mime-типы, "
+"например, `image/*`, `application/*`."
+msgstr ""
+"You can specify filter types, separating them with commas. This can be "
+"file extensions, such as .jpg, .json, .docx, or Mime-types, for example, "
+"image/*, application/*"
+
+#: ../../src/user-interface/maintenance.md:52
+msgid ""
+"Вы также можете объединять фильтры, например, `image/*`, `.docx`.  "
+"Использование фильтра `*/*` позволяет загружать любые файлы. <br>"
+msgstr ""
+"You can also combine filters, for example, image/*, .docx.Using the "
+"filter */* allows you to upload any files."
+
+#: ../../src/user-interface/maintenance.md:56
+msgid "![File storage maintenance](file-storage-maintenance.png)"
+msgstr "![File storage maintenance](file-storage-maintenance.png)"
+
+#: ../../src/user-interface/maintenance.md:56
+msgid "File storage maintenance"
+msgstr "File storage maintenance"
+
+#~ msgid ""
+#~ "Типы файлов указываются через запятую "
+#~ "(,). Например: .jpg, .json, .docx, "
+#~ "image/* <br>"
+#~ msgstr ""
+#~ "File types are separated by commas "
+#~ "(,). For example: .jpg, .json, .docx,"
+#~ " image/* <br>"
+
+#~ msgid "Системные логи"
+#~ msgstr "System logs"
+
+#~ msgid "Обслуживание системы"
+#~ msgstr "System maintenance"
+

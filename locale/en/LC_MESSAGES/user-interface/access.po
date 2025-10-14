@@ -1,0 +1,207 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-15 06:42+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/user-interface/access.md:2
+msgid "Меню Access"
+msgstr "Access Menu"
+
+#: ../../src/user-interface/access.md:5
+msgid "Меню состоит из 3-х разделов:"
+msgstr "The menu consists of 3 sections:"
+
+#: ../../src/user-interface/access.md:6
+msgid "**Permissions;**"
+msgstr "**Permissions;**"
+
+#: ../../src/user-interface/access.md:7
+msgid "**Roles;**"
+msgstr "**Roles;**"
+
+#: ../../src/user-interface/access.md:8
+msgid "**Users.** <br>"
+msgstr "**Users.** <br>"
+
+#: ../../src/user-interface/access.md:11
+msgid "Permissions"
+msgstr "Permissions"
+
+#: ../../src/user-interface/access.md:13
+msgid ""
+"Раздел \"Разрешения\" в платформе используется для управления доступом и "
+"правами пользователей и групп в системе. Этот раздел позволяет добавлять,"
+" удалять и настраивать разрешения, которые определяют, какие операции "
+"могут выполнять пользователи в различных частях системы."
+msgstr "The “Permissions” section in the platform is used to control access and permissions of users and groups in the system. This section allows you to add, remove, and configure permissions that determine what operations users can perform in different parts of the system."
+
+#: ../../src/user-interface/access.md:15
+msgid "Добавление/Удаление разрешений:"
+msgstr "Adding/Removing Permissions:"
+
+#: ../../src/user-interface/access.md:17
+msgid "**Добавление нового набора прав**: Нажмите кнопку `Добавить (ADD)`."
+msgstr "**Adding a New Set of Permissions**: Click the ‘ADD’ button."
+
+#: ../../src/user-interface/access.md:18
+msgid "**Удаление набора прав**: Нажмите кнопку `Удалить (иконка крестик)`."
+msgstr "**Delete Permissions Set**: Click the ‘Delete’ button (cross icon)."
+
+#: ../../src/user-interface/access.md:20
+msgid "Разрешения настраиваются через следующие параметры:"
+msgstr "Permissions are configured via the following settings:"
+
+#: ../../src/user-interface/access.md:22 ../../src/user-interface/access.md:38
+msgid "**Domain**: Выбор из доступных доменов."
+msgstr "**Domain**: Selecting from the available domains."
+
+#: ../../src/user-interface/access.md:23
+msgid "**Name**: Имя разрешения."
+msgstr "**Name**: Name of the permission."
+
+#: ../../src/user-interface/access.md:24
+msgid "**Permissions**: Набор разрешений. <br>"
+msgstr "**Permissions**: Set of permissions. <br>"
+
+#: ../../src/user-interface/access.md:27
+msgid "Roles"
+msgstr "Roles"
+
+#: ../../src/user-interface/access.md:29
+msgid ""
+"Раздел \"Роли\" используется для определения и управления различными "
+"ролями в системе. Роли определяют наборы прав и разрешений для разных "
+"пользователей или групп, упрощая управление доступом и безопасностью."
+msgstr "The ‘Roles’ section is used to define and manage the various roles in the system. Roles define sets of rights and permissions for different users or groups, making it easier to manage access and security."
+
+#: ../../src/user-interface/access.md:31
+msgid "Добавление/Удаление ролей"
+msgstr "Adding/Removing Roles"
+
+#: ../../src/user-interface/access.md:33
+msgid "**Добавление новой роли**: Нажмите кнопку `Добавить (ADD)`."
+msgstr "**Adding a New Role**: Click the ‘ADD’ button."
+
+#: ../../src/user-interface/access.md:34
+msgid "**Удаление роли**: Нажмите кнопку `Удалить (иконка крестик)`."
+msgstr "**Deleting a Role**: Click the ‘Delete’ button (cross icon)."
+
+#: ../../src/user-interface/access.md:36
+msgid "Роли настраиваются через следующие параметры:"
+msgstr "Roles are configured via the following settings:"
+
+#: ../../src/user-interface/access.md:39
+msgid "**Name**: Имя роли."
+msgstr "**Name**: Name of the role."
+
+#: ../../src/user-interface/access.md:40
+msgid "**Description**: Описание роли."
+msgstr "**Description**: Description of the role."
+
+#: ../../src/user-interface/access.md:41
+msgid ""
+"**Select contexts - Select permission sets**: Определение пар контекстов "
+"и наборов разрешений, которые связаны с данной ролью. Это моделирует "
+"сочетание контекста и набора прав, разрешенных данной роли в данном "
+"контексте. Права, определенные на уровне всей системы, перекрывают права,"
+" выданные в рамках определенных структур. <br>"
+msgstr "**Select contexts - Select permission sets**: Define the context pairs and permission sets that are associated with this role. This configures the combination of the context and set of privileges allowed for a given role in a given context. System-wide permissions override the permissions granted within certain structures. <br>"
+
+#: ../../src/user-interface/access.md:44
+msgid "Users"
+msgstr "Users"
+
+#: ../../src/user-interface/access.md:46
+msgid ""
+"Управление пользователями - это ключевая часть системы управления "
+"доступом в платформе. Этот раздел позволяет администраторам управлять "
+"всеми пользователями, зарегистрированными на платформе, добавлять новых "
+"пользователей, удалять или обновлять существующие профили."
+msgstr "User management is a key part of the access control system in the platform. This section allows administrators to manage all users registered on the platform, add new users, and delete or update the existing profiles."
+
+#: ../../src/user-interface/access.md:48
+msgid "Просмотр списка пользователей:"
+msgstr "To view the list of users:"
+
+#: ../../src/user-interface/access.md:49
+msgid ""
+"Откройте раздел `Доступ (Access)` → `Пользователи (Users)` для просмотра "
+"списка всех зарегистрированных пользователей."
+msgstr "Go to ‘Access’ → ‘Users’ to see a list of all registered users."
+
+#: ../../src/user-interface/access.md:51
+msgid "Добавление нового пользователя:"
+msgstr "To add a new user:"
+
+#: ../../src/user-interface/access.md:52
+msgid ""
+"**Шаг 1**: Нажмите кнопку `Добавить (Add)` на экране `Доступ → "
+"Пользователи`."
+msgstr "**Step 1**: Click the ‘Add’ button on the ‘Access → Users’ screen."
+
+#: ../../src/user-interface/access.md:53
+msgid "**Шаг 2**: Укажите следующие параметры для нового пользователя:"
+msgstr "**Step 2**: Specify the following options for the new user:"
+
+#: ../../src/user-interface/access.md:54
+msgid "**User name**: Имя пользователя (обязательное поле)."
+msgstr "**User name**: Name of the user (required)."
+
+#: ../../src/user-interface/access.md:55
+msgid "**Email**: Email пользователя."
+msgstr "**Email**: User’s email."
+
+#: ../../src/user-interface/access.md:56
+msgid "**First name**: Имя пользователя."
+msgstr "**First name**: User’s first name."
+
+#: ../../src/user-interface/access.md:57
+msgid "**Last name**: Фамилия пользователя."
+msgstr "**Last name**: User’s last name."
+
+#: ../../src/user-interface/access.md:58
+msgid "**Middle name**: Отчество пользователя."
+msgstr "**Middle name**: User’s middle name."
+
+#: ../../src/user-interface/access.md:59
+msgid ""
+"**Active**: Установите `true` для активации пользователя, `false` для "
+"деактивации."
+msgstr "**Active**: Set ‘true’ to activate the user, ‘false’ to deactivate."
+
+#: ../../src/user-interface/access.md:60
+msgid "**Password**: Пароль для нового пользователя."
+msgstr "**Password**: Password for the new user."
+
+#: ../../src/user-interface/access.md:61
+msgid ""
+"**Select contexts - Select Roles**: Выбор ролей, которые пользователь "
+"может исполнять в системе."
+msgstr "**Select contexts - Select Roles**: Selecting the roles that can be assigned to a user in the system."
+
+#: ../../src/user-interface/access.md:63
+msgid "Удаление пользователя:"
+msgstr "To delete a user:"
+
+#: ../../src/user-interface/access.md:64
+msgid ""
+"Чтобы удалить пользователя, зайдите в его учетную запись и отключите "
+"чекбокс `Активный (Active)`, затем нажмите кнопку `Обновить (Update)`."
+msgstr "To delete a user, log in to their account and uncheck the ‘Active’ checkbox, then click the ‘Update’ button."
+

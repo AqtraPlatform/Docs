@@ -1,0 +1,843 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024
+# This file is distributed under the same license as the Low-Code platform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Low-Code platform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-26 16:54+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../src/help-center/tutor2.md:2
+msgid "Туториал №2"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:5
+msgid "Создание простого приложения для автосалона"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:8
+msgid "**Описание приложения:**"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:10
+msgid ""
+"Мы собираемся создать приложение, состоящее из нескольких компонентов, "
+"позволяющее отслеживать активные для продажи автомобили, назначать "
+"менеджера для подписания договора и позволяющее закрывать сделку "
+"менеджерам."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:12
+msgid "**Мы создадим следующие компоненты:**"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:16
+msgid "Компонент \"Transaction Specialists\""
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:18
+msgid ""
+"Первый компонент будет являться простой формой для добавления новых "
+"менеджеров и будет состоять из одного кастомного property:"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:22
+msgid "![Tutorial 2.2](tut2.1.png)"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:22 ../../src/help-center/tutor2.md:32
+msgid "Tutorial 2.2"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:26
+msgid ""
+"Далее мы переходим к настройке нашей рабочей области, добавим на нее "
+"элемент panel, в рамках которого будем вести нашу работу."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:28
+msgid ""
+"После этого в настройках панели в группе настроек \"Layout\" измените "
+"ориентацию панели на vertical и начните добавлять в нее следующие "
+"элементы: нам понадобится созданный нами manager_name и кнопка. Должно "
+"получиться вот так:"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:32
+msgid "![Tutorial 2.2](tut2.2.png)"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:36
+msgid ""
+"После этого создайте dataflow, назовите его \"Add a manager\" и добавьте "
+"следующие шаги: `get action model`, `update entry`, `write response`. "
+"Должно получиться вот так:"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:40
+msgid "![Tutorial 2.3](tut2df.png)"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:40
+msgid "Tutorial 2.3"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:44
+msgid "Настройте шаг `Update entry` следующим образом:"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:48
+msgid "![Tutorial 2.4](tut2.4.png)"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:48
+msgid "Tutorial 2.4"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:52
+msgid "**Не забудьте** выставить `source step` для шага `update entry`!"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:54
+msgid ""
+"После настройки dataflow привяжите его к кнопке следующим образом: "
+"зайдите в настрйоки кнопки, кликните по группе настроек \"actions\", "
+"\"command type\" поставьте на \"execute dataflow\" и выберите созданный "
+"нами dataflow \"Add a manager\"."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:56
+msgid ""
+"Нажмите на \"Save\", \"Ready to publish\". Опубликуйте компонент, затем "
+"добавьте его на workplace с помощью \"Navigation menu\" домена, на "
+"котором вы разворачиваете ваше приложение(в нашем случае это домен "
+"\"digital-workplace\")"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:60
+msgid "![Tutorial 2.5](tut2.5.png)"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:60
+msgid "Tutorial 2.5"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:64
+msgid "Нажмите \"ADD MENU ITEM\" и добавьте наш компонент: <br>"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:67
+msgid "![Tutorial 2.6](tut2nm.png)"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:67
+msgid "Tutorial 2.6"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:71
+msgid ""
+"Зайдите на `workplace` и добавьте несколько менеджеров для дальнейшей "
+"работы с ними."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:75
+msgid "Компонент \"Car fleet\""
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:79
+msgid ""
+"С помощью данного компонента мы настроим вывод всех автомобилей и общей "
+"информации о них, добавим форму для создания записей о новых автомобилях,"
+" форму для прикрепления менеджера по сделкам к автомобилю, а также форму "
+"подтверждения о том, что сделка завершена с последующей архивацией записи"
+" об автомобиле."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:81
+msgid "В этом компоненте мы создадим ряд кастомных propety:"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:83
+msgid ""
+"`car_vin`: property type - `string`, title - `VIN`, settings - "
+"`required`, `primary key`, `query`;"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:84
+msgid ""
+"`car_brand`: property type - `string`, title - `Car Brand`, settings - "
+"`required`, `query`;"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:85
+msgid ""
+"`car_model`: property type - `string`, title - `Car Model`, settings - "
+"`required`, `query`;"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:86
+msgid ""
+"`year_of_manufacture`: property type - `integer`, title - `Year of "
+"manufacture`, settings - `required`, `query`;"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:87
+msgid ""
+"`color`: property type - `string`, title - `Color`, settings - "
+"`required`, `query`;"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:88
+msgid ""
+"`price`: property type - `number`, title - `Price of the car`, settings -"
+" `required`, `query`;"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:89
+msgid ""
+"`is_manager_exists`: property type - `boolean`, title - `Is manager "
+"exists`, settings - `query`;"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:90
+msgid ""
+"`choosen_manager`: property type - `catalog`, component - `Transaction "
+"Specialists` title - `Chosen Manager`, settings - `query`;"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:91
+msgid "`is_archieved`: property type - `string`, settings - `query`."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:93
+msgid "Компонент будет состоять из следующих частей(страниц):"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:97
+msgid "**Main page**"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:99
+msgid ""
+"Чтобы добавить страницу Вам необходимо найти группу `Layout` в `Toolbox` "
+"и перенести элемент `Page` в рабочую область."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:101
+msgid ""
+"На данной странице будет представлен data grid со всеми активными для "
+"продажи автомобилями и общей информации о них для менеджеров по продажам."
+" Кроме того, на страницу добавим кнопку, которая будет переводить на "
+"страницу с формой для добавления автомобилей в список, но ее мы добавим "
+"позже."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:103
+msgid ""
+"Добавьте в рабочую область панель, поменяйте настройку ориентации на "
+"vertical, затем добавьте еще две панели. В нижнюю перенесите элемент data"
+" grid, а в верхнюю добавьте еще две панели. В левую положите label, в "
+"настройках \"translation value\" которого напишите \"Car fleet\". А в "
+"правую добавьте кнопку, и в \"translation value\" напишите \"Add a new "
+"car\". Позднее мы изменим настройку \"Actions\", а сейчас можете изменить"
+" размер кнопки в настройках \"Layout\"."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:107
+msgid "![Tutorial 2.7](tuto2.7.png)"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:107
+msgid "Tutorial 2.7"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:111
+msgid "Вы можете попробовать другие настройки."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:113
+msgid ""
+"Далее переходим к настройке `data grid`: нажмите на шестеренку и выберите"
+" компонент для data grid \"Car fleet\". Далее рядом с columns нажмите на "
+"`+`, это добавит колонку к нашему data grid, сделайте так 5 раз."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:115
+msgid ""
+"Нажмите на первую колонку, затем \"Add field\" и выберите property "
+"`car_brand`. Дальнейшая настройка должна выглядеть следующим образом:"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:119
+msgid "![Tutorial 2.8](tut2.8.png)"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:119
+msgid "Tutorial 2.8"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:123
+msgid ""
+"Вы должны настроить следующие колонки похожим образом в такой "
+"поочередности: 2 колонка - `car_model`, 3 колонка - "
+"`year_of_manufacture`, 4 колонка - `color`, 5 колонка - `price`."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:125
+msgid ""
+"Также в настройках data grid выставим `Static filters`. Так как мы "
+"собираемся выводить сюда автомобили, на которые еще не назначен менеджер,"
+" выставим следующую настройку:"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:129
+msgid "![Tutorial 2.12](tut2.12.png)"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:129
+msgid "Tutorial 2.12"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:133
+msgid "Итоговый результат на нашей рабочей области должен быть таким:"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:137
+msgid "![Tutorial 2.9](tut2.9.png)"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:137
+msgid "Tutorial 2.9"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:141
+msgid "**Add a new car**"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:143
+msgid ""
+"К данной странице будет приводить нажатие пользователем кнопки \"Add a "
+"new сar\" с нашей предыдущей страницы. Приступим к настройке нашей "
+"рабочей области."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:145
+msgid ""
+"Добавим на страницу панель. В ее настройках поменяем ориентацию страницы "
+"на vertical. Далее добавим еще две панели. В первой так же поменяем "
+"ориентацию на vertical и перенесем наши property, чтобы получилось вот "
+"так:"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:149
+msgid "![Tutorial 2.10](tut2.10.png)"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:149
+msgid "Tutorial 2.10"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:153
+msgid ""
+"В нижнюю панель добавим две кнопки, настроим их padding как на кнопке "
+"\"Add a new car\" и назовем их должным образом: \"Add a new car\" и "
+"\"Back to all cars\"."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:155
+msgid ""
+"В настройках кнопки \"Back to all cars\" выставим настройку \"Actions\" "
+"на \"Open page\" \"Main page\". При нажатии на эту кнопку пользователя "
+"будет переводить на страницу с data grid. Для кнопки \"Add a new car\" "
+"создадим data flow, которое в последующем к ней привяжем."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:157
+msgid ""
+"Data flow будет состоять из следующих шагов: `get action model`, `execute"
+" script`, `update entry`, `write response`. Давайте займемся их "
+"настройкой."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:159
+msgid ""
+"В шаге `execute script` создадим переменные, которые будут использоваться"
+" для property `is_manager_exists` и `is_archieved`:"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:166
+msgid "Далее настроим шаг `Update entry`:"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:170
+msgid "![Tutorial 2.13](tut2.13.png)"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:170
+msgid "Tutorial 2.13"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:174
+msgid ""
+"Ниже нам необходимо замапить наши поля. **Не забывайте**, что поля в "
+"настройках шага мапятся с приставкой data.`property_name`. Для property "
+"`is_archieved` и `is_manager_exists` используйте значения переменных, "
+"которые мы выставили в шаге execute script, поле `chosen_manager` "
+"оставьте пустым:"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:178
+msgid "![Tutorial 2.14](tut2.14.png)"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:178
+msgid "Tutorial 2.14"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:182
+msgid ""
+"**Обязательно выставляйте source step для каждого шага, кроме первого. В "
+"дальнейшем описании туториала упоминаний об этом не будет.**"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:184
+msgid ""
+"Теперь, когда наш data flow завершен, мы можем привязать его к кнопке "
+"\"Add a new car\" и сохранить наш компонент. Итоговый результат нашей "
+"страницы продемонстрирован ниже:"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:188
+msgid "![Tutorial 2.15](tut2.15.png)"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:188
+msgid "Tutorial 2.15"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:192
+msgid "**Appoint a manager**"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:194
+msgid ""
+"Данная страница будет вызываться в качестве модального окна, при клике на"
+" ту или иную запись в data grid. Она создана для единственного "
+"функционала - назначения менеджера для того или иного автомобиля. "
+"Перейдем к настройке рабочей области."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:196
+msgid ""
+"Сама страница будет напоминать страницу \"Add a new car\", единственное "
+"различие: мы добавим в рабочую область property `chosen_manager`, оно "
+"будет единственным доступным для изменения, благодаря ему менеджер сможет"
+" выбрать коллегу, которому передаст автомобиль со сделкой. Так же "
+"добавьте две кнопки, одна должна закрывать модальное окно и будет "
+"называться \"Back to all cars\", другая будет носить название \"Appoint a"
+" manager\" и будет связана с data flow, которое мы создадим чуть позже."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:198
+msgid ""
+"**Не забудьте в настройках TextBox у каждого вынесенного property, кроме "
+"`chosen_manager`, включить настройку Disabled**"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:202
+msgid "![Tutorial 2.16](tut2.16.png)"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:202
+msgid "Tutorial 2.16"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:206
+msgid "Итоговый результат на данной странице должен выглядеть как показано ниже:"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:210
+msgid "![Tutorial 2.17](tut2.17.png)"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:210
+msgid "Tutorial 2.17"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:214
+msgid "**Перейдем к настройке data flow**."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:216
+msgid ""
+"Нам необходимо добавить следующие шаги: `get action model`, `execute "
+"script`, `lookup reference`, `update entry`, `write response`."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:218
+msgid ""
+"В шаге `execute script` мы создадим переменную, с помощью которой мы "
+"будем менять property `is_manager_exists ` на True, из-за чего в "
+"последующем созданная запись будет пропадать из data grid на Main page, "
+"где мы выставили static filters."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:224
+msgid ""
+"Далее мы используем шаг `Lookup reference`. Рекомендую Вам прочесть о "
+"данном шаге в разделе Dataflow нашей технической документации. Сам шаг "
+"должен быть настроен как показано ниже."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:228
+msgid "![Tutorial 2.18](tut2.18.png)"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:228
+msgid "Tutorial 2.18"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:232
+msgid ""
+"После этого мы настраиваем шаг `Update entry`, в field component key "
+"указываем field name из шага `Lookup reference`:"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:236
+msgid "![Tutorial 2.19](tut2.19.png)"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:236
+msgid "Tutorial 2.19"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:240
+msgid ""
+"В 'Fields mapping' оставляем поля пустыми, кроме `chosen_manager` и "
+"`is_manager_exists`, именно эти поля мы хотим изменить в записи, "
+"найденной с помощью шага `Lookup reference`."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:244
+msgid "![Tutorial 2.20](tut2.20.png)"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:244
+msgid "Tutorial 2.20"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:248
+msgid "В шаге `write response` нам необходимо выставить source step."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:250
+msgid ""
+"Назначьте выполнение этого dataflow при нажатии на кнопку \"Appoint a "
+"manager\". После этого сохраните компонент."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:254
+msgid "**Переходим к component script для сборки модального окна**."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:256
+msgid ""
+"Для создания модального окна вы можете использовать скрипт ниже. Для "
+"работы с **component script** крайне рекомендую Вам прочесть раздел "
+"документации `Использование Python`:"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:283
+msgid ""
+"Функции `get_datagrid_cars` и `update_cars_success` используются, чтобы "
+"автоматически обновлять data grid после какого-то действия. Если их не "
+"использовать, то data grid обновится только после перезагрузки страницы в"
+" браузере. После копирования вам необходимо сохранить компонент и "
+"вернуться к рабочей области на страницу \"Main page\"."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:285
+msgid ""
+"Вам необходимо обратиться к настройкам data grid в группу настроек "
+"`Events`, и назначить выполнение функций на определенные действия над "
+"data grid."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:289
+msgid "![Tutorial 2.21](tut2.21.png)"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:289
+msgid "Tutorial 2.21"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:293
+msgid "Сохраните компонент, после чего перейдите к настройке следующей страницы."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:295
+msgid "**Enter into a contract**"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:297
+msgid ""
+"Данная страница является формой, которая позволит менеджеру архивировать "
+"ту или иную сделку с автомобилем, изменяя значение в поле `is_archieved` "
+"на `True`."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:299
+msgid ""
+"Страница является копией страницы `Appoint a manager`, различие лишь в "
+"том, что все поля имеют настройку `Disabled` -> `True`. Снизу мы добавим "
+"две кнопки, одна из которых будет запускать dataflow, а другая переводить"
+" пользователя на страницу компонента, который мы пока не создали."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:301
+msgid "Сама страница должна выглядеть следующим образом:"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:305
+msgid "![Tutorial 2.22](tut2.22.png)"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:305
+msgid "Tutorial 2.22"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:309
+msgid ""
+"Давайте перейдем к созданию и настройке dataflow. Нам понадобится 5 "
+"шагов: `get action model`, `execute script`, `update entry`, `form "
+"action`, `write response`."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:311
+msgid ""
+"В шаге `execute script` мы создадим переменную, благодаря которой положим"
+" значение `True` в property `is_archieved`."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:317
+msgid "Настройка шага `update entry` должна выглядеть как показано ниже:"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:321
+msgid "![Tutorial 2.23](tut2.23.png)"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:321
+msgid "Tutorial 2.23"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:325
+msgid ""
+"В field component key мы дадим ссылку на запись, которую хотим "
+"отредактировать, после этого переходим к \"Fields mapping\". Тут мы "
+"оставляем все поля пустыми, кроме `is_archieved`. Сюда мы кладем "
+"переменную, записанную нами в шаге `execute script`."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:327
+msgid ""
+"Далее идет шаг `Form action`, к настройке которого мы вернемся после "
+"создания последнего компонента. Сейчас сохраните компонент, чтобы не "
+"потерять результаты труда."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:329
+msgid "Компонент \"Managers grid\""
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:331
+msgid ""
+"Данный компонент будет состоять из одной страницы и в нем мы не будем "
+"создавать кастомные property. Этот компонент будет использоваться только "
+"менеджерами, у которых есть к нему доступ, и в рамках него они смогут "
+"видеть все автомобили, переведенные на этап сделки и назначенные на того "
+"или иного менеджера."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:333
+msgid ""
+"Создадим data grid, привяжем его к компоненту `Car fleet` и добавим "
+"колонку под каждое из его property. Результат должен быть вот таким:"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:337
+msgid "![Tutorial 2.24](tut2mg.png)"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:337
+msgid "Tutorial 2.24"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:341
+msgid ""
+"После чего обратимся к группе настроек `Actions`, установим Command type "
+"- `Open application`, Component - `Car fleet`, Component page `Eneter "
+"into a contract`, страница `Eneter into a contract` создана нами в рамках"
+" последней страницы компонента `Car fleet`."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:343
+msgid ""
+"Далее необходимо нажать на кнопку `Action parameters` и замаппить Id -> "
+"Id как показано ниже."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:347
+msgid "![Tutorial 2.25](tut2.25.png)"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:347
+msgid "Tutorial 2.25"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:351
+msgid ""
+"Давайте сохраним компонент и перейдем к его настройкам. Кроме "
+"наименования и выбора нужного домена нам необходимо нажать на галочку "
+"`Restrict access`, чтобы мы смогли установить особые права безопасности "
+"для данного компонента."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:353
+msgid ""
+"Давайте еще раз сохранимся, отметим компонент как готовый к публикации и "
+"вынесем его в `Navigation menu` используемого нами домена."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:357
+msgid ""
+"**Возвращаемся в компонент `Car fleet` на страницу `Enter into a "
+"contract`**"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:359
+msgid ""
+"Осталась одна неиспользуемая кнопка `Back to all contracts`, давайте "
+"выставим ей `Command type` в группе настроек `Actions` на `Navigation "
+"back`."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:361
+msgid ""
+"После этого нам необходимо вернуться к dataflow \"Deal is done\" и "
+"закончить с настройкой шага `Form action`. Итоговая настройка шага должна"
+" выглядеть следующим образом:"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:365
+msgid "![Tutorial 2.26](tut2.26.png)"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:365
+msgid "Tutorial 2.26"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:369
+msgid "**Не забудьте выбрать `source step` в шаге `update entrty`**."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:371
+msgid ""
+"Сохранитесь, опубликуйте компонент, вынесите его в workplace с помощью "
+"`Navigation menu` и удостоверьтесь, что все компоненты на месте."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:375
+msgid "Настройка доступа к компоненту `Managers grid`"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:377
+msgid ""
+"Вам необходимо обратиться к меню \"Access\" в раздел \"Permissions\" и "
+"нажать на кнопочку \"Add\" в правом верхнем углу."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:379
+msgid ""
+"На вашем экране откроется окно с настройкой permission, где вам "
+"необходимо указать домен, дать имя для permission. Чтобы дать доступ к "
+"манипуляциями над компонентом `Managers grid` вам необходимо обратиться "
+"ко всем `Permissions` и зайти в раздел `Components`, в нем найти наш "
+"компонент `Managers grid` и выбрать полные права доступа к данному "
+"компоненту. Нажмите на кнопку \"Save\" и перейдите в следующий раздел "
+"\"Roles\""
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:381
+msgid ""
+"Тут Вам так же необходимо нажать на кнопку \"ADD\", выбрать нужный домен,"
+" наимнование и выбрать \"Permission\", который вы создали ранее. После "
+"переходите в раздел `Users`."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:383
+msgid ""
+"В разделе `Users` указаны все пользователи, зарегестрированные в вашей "
+"системе. Кликните по пользователю, которому хотите радать права на "
+"пользование данным компонентом, в \"Select contexts\" выберите "
+"\"Platform\" -> \"System\" и в \"Select roles\" найдите роль, которую "
+"создали ранее, после чего кликните по чекбоксу и нажите \"Save\""
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:387
+msgid "Итог"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:389
+msgid ""
+"Вы создали небольшое и простое приложение, в рамках которого порботали с "
+"несколькими компонентами и  научились связывать их между собой, вы "
+"научились создавать модальные окна и прикоснулись к выстраиванию "
+"взаимодействия между языком программирования и инструментами нашей "
+"платформы."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:391
+msgid ""
+"Попробуйте создать несколько менеджеров, добавьте новые автомобили к "
+"продаже, назначьте на них менеджеров, попробуйте закрыть сделки."
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:393
+msgid ""
+"Безусловно, это приложение тестовое, его можно до бесконечности улучшать "
+"и усложнять. После его создания вы можете самостоятельно воспользоваться "
+"другими инструментами, выстроить иную логику, настроить дизайн по вашему "
+"вкусу. Платформа предоставляет вам гибкие инструменты, делающие "
+"разработку увлекательнее и проще!"
+msgstr ""
+
+#: ../../src/help-center/tutor2.md:395
+msgid ""
+"Описания по использованным в туториале инструментам вы можете найти в "
+"разделе \"Разработка приложений\"."
+msgstr ""
+
+#~ msgid "![Tutorial 2.3](tut2.3.png)"
+#~ msgstr ""
+
+#~ msgid "![Tutorial 2.6](tut2.6.png)"
+#~ msgstr ""
+
+#~ msgid "![Tutorial 2.24](tut2.24.png)"
+#~ msgstr ""
+

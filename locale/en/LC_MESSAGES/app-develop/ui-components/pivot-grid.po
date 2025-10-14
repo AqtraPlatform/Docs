@@ -1,0 +1,343 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 11:37+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:2
+msgid "Pivot grid"
+msgstr "Pivot grid"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:12
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:13
+msgid ""
+"Pivot Grid - это продвинутый UI-компонент, предназначенный для "
+"суммирования, анализа и представления больших объемов данных. Этот "
+"компонент позволяет эффективно анализировать и сравнивать сложные наборы "
+"данных, а также предоставляет удобные инструменты для манипуляции и "
+"визуализации данных. <br>"
+msgstr ""
+"Pivot Grid is an advanced UI component designed to summarize, analyze and"
+" present large amounts of data. This component allows you to efficiently "
+"analyze and map complex data sets, and also provides convenient tools for"
+" data manipulation and visualization. <br>"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:16
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:17
+msgid "**Свойства Компонента:**"
+msgstr "**Component Properties:**"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Группа настроек"
+msgstr "Settings group"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Pivot data grid"
+msgstr "Pivot data grid"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Name"
+msgstr "Name"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Идентификатор компонента в системе"
+msgstr "System component identifier"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Component"
+msgstr "Component"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Компонент, к которому принадлежит Pivot Grid"
+msgstr "Component to which the Pivot Grid belongs"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Columns"
+msgstr "Columns"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Определение столбцов и их свойств"
+msgstr "Defining columns and their properties"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:27
+msgid "**CSS Свойства:**"
+msgstr "**CSS Properties:**"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Appearance"
+msgstr "Appearance"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Corner radius"
+msgstr "Corner radius"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Закругление углов"
+msgstr "Corner radius"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Border thickness"
+msgstr "Border thickness"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Толщина рамки"
+msgstr "Border thickness"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Opacity"
+msgstr "Opacity"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Прозрачность компонента"
+msgstr "Component transparency"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Layout"
+msgstr "Layout"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Width"
+msgstr "Width"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Ширина компонента"
+msgstr "Component width"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Height"
+msgstr "Height"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Высота компонента"
+msgstr "Component height"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Grow"
+msgstr "Grow"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Рост компонента"
+msgstr "Component growth"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Margin"
+msgstr "Margin"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Внешний отступ"
+msgstr "Outer padding"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Padding"
+msgstr "Padding"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Внутренний отступ"
+msgstr "Inner padding"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Visible"
+msgstr "Visible"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Видимость компонента"
+msgstr "Component Visibility"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Hidden"
+msgstr "Hidden"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Скрытие компонента"
+msgstr "Hiding a Component"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Brush"
+msgstr "Brush"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Background"
+msgstr "Background"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Цвет фона"
+msgstr "Background color"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Border brush"
+msgstr "Border brush"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Цвет рамки"
+msgstr "Border color"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:46
+msgid "**Модель конфигурации Pivot Grid:**"
+msgstr "**Pivot Grid configuration model:**"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Enable export"
+msgstr "Enable export"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Включение экспорта данных"
+msgstr "Enabling data export"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Enable field choose"
+msgstr "Enable field choose"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Включение выбора поля"
+msgstr "Enabling field selection"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Show column grand totals"
+msgstr "Show column grand totals"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Отображение общих итогов по столбцам"
+msgstr "Showing grand totals by column"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Show row grand totals"
+msgstr "Show row grand totals"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Отображение общих итогов по строкам"
+msgstr "Showing grand totals by row"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Show borders"
+msgstr "Show borders"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Отображение границ"
+msgstr "Border display"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Encode HTML"
+msgstr "Encode HTML"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Кодирование HTML"
+msgstr "HTML coding"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Show column fields"
+msgstr "Show column fields"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Отображение полей столбцов"
+msgstr "Showing column fields"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Show data fields"
+msgstr "Show data fields"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Отображение полей данных"
+msgstr "Showing data fields"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Show filter fields"
+msgstr "Show filter fields"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Отображение полей фильтрации"
+msgstr "Showing filter fields"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Show row fields"
+msgstr "Show row fields"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Отображение полей строк"
+msgstr "Showing row fields"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Allow field dragging"
+msgstr "Allow field dragging"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Разрешение перетаскивания полей"
+msgstr "Allowing fields to be dragged"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Automation id"
+msgstr "Automation id"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:5
+msgid "Идентификатор автоматизации"
+msgstr "Automation ID"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:65
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:66
+msgid ""
+"**Анализ данных**: Pivot Grid идеально подходит для сбора, анализа и "
+"суммирования данных, особенно когда требуется быстро сравнивать различные"
+" параметры."
+msgstr ""
+"**Data Analysis**: Pivot Grid is ideal for collecting, analyzing and "
+"summarizing data, especially when you need to quickly map different "
+"parameters."
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:67
+msgid ""
+"**Отчеты и дашборды**: Отлично подходит для создания интерактивных "
+"отчетов и дашбордов, где необходимо агрегировать данные и представить их "
+"в удобном для анализа виде. <br>"
+msgstr ""
+"**Reports and Dashboards**: Great for creating interactive reports and "
+"dashboards where you need to aggregate data and present it in a form "
+"convenient for analysis. <br>"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:70
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/ui-components/pivot-grid.md:71
+msgid ""
+"**Не для базового представления данных**: Если требуется просто "
+"отобразить данные в табличной форме без аналитической обработки, лучше "
+"использовать обычный Data Grid."
+msgstr ""
+"**Not for Basic Data Presentation**: If you just want to display data in "
+"tabular form without analytical processing, it is better to use a regular"
+" Data Grid."
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

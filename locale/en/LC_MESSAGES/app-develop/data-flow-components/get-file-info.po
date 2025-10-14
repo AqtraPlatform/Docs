@@ -1,0 +1,148 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 11:37+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/data-flow-components/get-file-info.md:2
+msgid "Get file info"
+msgstr "Get file info"
+
+#: ../../src/app-develop/data-flow-components/get-file-info.md:12
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/data-flow-components/get-file-info.md:13
+msgid ""
+"Шаг \"Get File Info\" в Dataflow используется для извлечения информации о"
+" файле по его идентификатору. Этот шаг предоставляет доступ к различным "
+"свойствам файла, включая его имя, расширение (тип), размер, дату "
+"обновления, дату создания, автора создания и автора обновления. <br>"
+msgstr ""
+"The “Get File Info” step in Dataflow is used to retrieve information "
+"about a file by its ID. This step provides access to various properties "
+"of the file, including its name, extension (type), size, date of "
+"updating, creation, author of the initial and updated file. <br>"
+
+#: ../../src/app-develop/data-flow-components/get-file-info.md:16
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/data-flow-components/get-file-info.md:17
+msgid "**Настройки Шага:**"
+msgstr "**Step Settings:**"
+
+#: ../../src/app-develop/data-flow-components/get-file-info.md:5
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/data-flow-components/get-file-info.md:5
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/data-flow-components/get-file-info.md:5
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/data-flow-components/get-file-info.md:5
+msgid "Step name"
+msgstr "Step name"
+
+#: ../../src/app-develop/data-flow-components/get-file-info.md:5
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/data-flow-components/get-file-info.md:5
+msgid "Наименование шага"
+msgstr "Name of the step"
+
+#: ../../src/app-develop/data-flow-components/get-file-info.md:5
+msgid "Source step"
+msgstr "Source step"
+
+#: ../../src/app-develop/data-flow-components/get-file-info.md:5
+msgid "Выбор предыдущего шага"
+msgstr "Selecting the previous step"
+
+#: ../../src/app-develop/data-flow-components/get-file-info.md:5
+msgid "Src field"
+msgstr "Src field"
+
+#: ../../src/app-develop/data-flow-components/get-file-info.md:5
+msgid "Поле, содержащее идентификатор файла"
+msgstr "Field containing the file ID"
+
+#: ../../src/app-develop/data-flow-components/get-file-info.md:5
+msgid "Dst field name"
+msgstr "Dst field name"
+
+#: ../../src/app-develop/data-flow-components/get-file-info.md:5
+msgid "Поле, куда будет записана информация о файле"
+msgstr "Field where the information about the file will be recorded"
+
+#: ../../src/app-develop/data-flow-components/get-file-info.md:28
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/data-flow-components/get-file-info.md:29
+msgid ""
+"**Извлечение информации о файле**: Используется для получения детальной "
+"информации о файле, что может быть полезно для последующей обработки или "
+"анализа данных."
+msgstr ""
+"**File Information Extraction**: Used to obtain detailed information "
+"about a file, which can be useful for subsequent data processing or "
+"analysis."
+
+#: ../../src/app-develop/data-flow-components/get-file-info.md:30
+msgid ""
+"**Подготовка данных для дополнительной обработки**: Полученная информация"
+" о файле может быть использована в последующих шагах, таких как \"Execute"
+" Script\" или \"Filter Source\", для выполнения конкретных операций, "
+"зависящих от свойств файла. <br>"
+msgstr ""
+"**Preparing Data for Additional Processing**: The obtained information "
+"about the file can be used in subsequent steps, such as “Execute Script” "
+"or “Filter Source”, to perform specific operations depending on the "
+"properties of the file. <br>"
+
+#: ../../src/app-develop/data-flow-components/get-file-info.md:33
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/data-flow-components/get-file-info.md:34
+msgid ""
+"**Зависимость от точности источника данных**: Точность полученной "
+"информации зависит от правильности и актуальности данных в источнике."
+msgstr ""
+"**Dependency on the Accuracy of the Data Source**: The accuracy of the "
+"information obtained depends on the accuracy and relevance of the data in"
+" the source."
+
+#: ../../src/app-develop/data-flow-components/get-file-info.md:35
+msgid ""
+"**Ограниченная информация**: Шаг предоставляет только базовую информацию "
+"о файле, и может не включать некоторые специфические или дополнительные "
+"данные."
+msgstr ""
+"**Limited Information**: The step provides only basic information about "
+"the file, and may not include some specific or additional data."
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

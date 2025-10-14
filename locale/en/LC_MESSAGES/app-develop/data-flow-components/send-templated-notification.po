@@ -1,0 +1,199 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 11:37+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:1
+msgid "Send templated notification"
+msgstr "Send templated notification"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:12
+msgid ""
+"Шаг \"Send Templated Notification\" предназначен для отправки уведомлений"
+" пользователям или группам пользователей с использованием предварительно "
+"настроенных шаблонов. Этот шаг обеспечивает гибкость в выборе метода "
+"доставки, аудитории получателей уведомления. <br>"
+msgstr ""
+"The “Send Templated Notification” step is designed to send notifications "
+"to users or groups of users using pre-configured templates. This step "
+"provides flexibility in choosing the delivery method and the recipients "
+"of the notification. <br>"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:15
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:16
+msgid "**Настройки Шага:**"
+msgstr "**Step Settings:**"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:4
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:4
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:4
+msgid "Step name"
+msgstr "Step name"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:4
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:4
+msgid "Наименование шага"
+msgstr "Name of the step"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:4
+msgid "Source step"
+msgstr "Source step"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:4
+msgid "Выбор предыдущего шага"
+msgstr "Selecting the previous step"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:4
+msgid "Notification type"
+msgstr "Notification type"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:4
+msgid "Smtp, Mail, SignalR"
+msgstr "Smtp, Mail, SignalR"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:4
+msgid "Тип канала доставки уведомления"
+msgstr "Type of notification delivery channel"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:4
+msgid "User info field"
+msgstr "User info field"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:4
+msgid "Список пользователей для уведомления"
+msgstr "List of users to be notified"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:4
+msgid "User routing"
+msgstr "User routing"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:4
+msgid "Маршрутизация пользователя для доставки уведомления"
+msgstr "Routing the user to deliver the notification"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:4
+msgid "User name"
+msgstr "User name"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:4
+msgid "Конкретный пользователь для уведомления"
+msgstr "Specific user to be notified"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:4
+msgid "Template"
+msgstr "Template"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:4
+msgid "Выбор из преднастроенных шаблонов уведомлений"
+msgstr "Selection from pre-configured notification templates"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:4
+msgid "Render type"
+msgstr "Render type"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:4
+msgid "Text, Html, Docx, Xlsx, Pdf"
+msgstr "Text, Html, Docx, Xlsx, Pdf"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:4
+msgid "Тип рендеринга шаблона уведомления"
+msgstr "Type of notification template rendering "
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:4
+msgid "Message theme"
+msgstr "Message theme"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:4
+msgid "Text"
+msgstr "Text"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:4
+msgid "Тема сообщения для email уведомлений"
+msgstr "Subject line for email notifications"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:32
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:33
+msgid ""
+"**Автоматизированная отправка уведомлений**: Используется для отправки "
+"уведомлений пользователям с использованием заранее определенных шаблонов,"
+" что обеспечивает единообразие и точность сообщений."
+msgstr ""
+"**Automated Notifications**: Used to send notifications to users using "
+"preset templates to ensure consistent and accurate messages."
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:34
+msgid ""
+"**Гибкость в доставке сообщений**: Позволяет выбирать между различными "
+"каналами доставки (например, SMTP, Mail, SignalR), что увеличивает охват "
+"и эффективность коммуникаций."
+msgstr ""
+"**Flexibility of Message Delivery**: Allows you to choose between "
+"different delivery channels (e.g., SMTP, Mail, SignalR) which increases "
+"the coverage and efficiency of communications."
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:35
+msgid ""
+"**Персонализация уведомлений**: Поддерживает настройку уведомлений для "
+"конкретных пользователей или групп, а также различные форматы содержания "
+"(текст, HTML, Docx, Xlsx). <br>"
+msgstr ""
+"**Notification Personalization**: Supports customizing notifications for "
+"specific users or groups, as well as various content formats (text, HTML,"
+" Docx, Xlsx). <br>"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:38
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/data-flow-components/send-templated-notification.md:39
+msgid ""
+"**Требование настроенного канала доставки**: Для успешной отправки "
+"уведомлений необходимо наличие функционирующего канала доставки, например"
+" как SMTP-сервер для email-уведомлений."
+msgstr ""
+"**Requirement of a Configured Delivery Channel**: In order for "
+"notifications to be sent successfully, you must have a functioning "
+"delivery channel, such as an SMTP server for email notifications."
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

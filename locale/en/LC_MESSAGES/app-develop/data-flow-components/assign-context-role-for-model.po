@@ -1,0 +1,160 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 11:37+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/data-flow-components/assign-context-role-for-model.md:1
+msgid "Assign context role for model"
+msgstr "Assign context role for model"
+
+#: ../../src/app-develop/data-flow-components/assign-context-role-for-model.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/data-flow-components/assign-context-role-for-model.md:12
+msgid ""
+"Шаг \"Assign Context Role for Model\" используется для привязывания "
+"пользователя или группы пользователей к определенной роли и контексту. "
+"Этот процесс требует, чтобы в разделе \"Roles\" меню \"Access\" была "
+"настроена как минимум одна роль. Шаг позволяет устанавливать связи между "
+"пользователями и ролями в контексте определенной модели данных, "
+"обеспечивая тем самым управление доступом и правами пользователей. <br>"
+msgstr ""
+"The “Assign Context Role for Model” step is used to link a user or group "
+"of users to a specific role and context. This process requires that at "
+"least one role should be configured in the “Roles” section of the "
+"“Access” menu. This step allows you to establish relations between users "
+"and roles in the context of a specific data model, thereby providing "
+"control over user access and permissions. <br>"
+
+#: ../../src/app-develop/data-flow-components/assign-context-role-for-model.md:15
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/data-flow-components/assign-context-role-for-model.md:16
+msgid "**Настройки Шага:**"
+msgstr "**Step Settings:**"
+
+#: ../../src/app-develop/data-flow-components/assign-context-role-for-model.md:4
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/data-flow-components/assign-context-role-for-model.md:4
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/data-flow-components/assign-context-role-for-model.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/data-flow-components/assign-context-role-for-model.md:4
+msgid "Step name"
+msgstr "Step name"
+
+#: ../../src/app-develop/data-flow-components/assign-context-role-for-model.md:4
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/data-flow-components/assign-context-role-for-model.md:4
+msgid "Наименование шага"
+msgstr "Name of the step"
+
+#: ../../src/app-develop/data-flow-components/assign-context-role-for-model.md:4
+msgid "Source step"
+msgstr "Source step"
+
+#: ../../src/app-develop/data-flow-components/assign-context-role-for-model.md:4
+msgid "Выбор предыдущего шага"
+msgstr "Selecting the previous step"
+
+#: ../../src/app-develop/data-flow-components/assign-context-role-for-model.md:4
+msgid "UserId field"
+msgstr "UserId field"
+
+#: ../../src/app-develop/data-flow-components/assign-context-role-for-model.md:4
+msgid "Поле, обозначающее идентификатор пользователя"
+msgstr "User ID field"
+
+#: ../../src/app-develop/data-flow-components/assign-context-role-for-model.md:4
+msgid "ContextId field"
+msgstr "ContextId field"
+
+#: ../../src/app-develop/data-flow-components/assign-context-role-for-model.md:4
+msgid "Поле, обозначающее идентификатор контекста"
+msgstr "Context ID field"
+
+#: ../../src/app-develop/data-flow-components/assign-context-role-for-model.md:4
+msgid "Select contexts"
+msgstr "Select contexts"
+
+#: ../../src/app-develop/data-flow-components/assign-context-role-for-model.md:4
+msgid "Выбор контекстов, к которым будет привязана роль"
+msgstr "Selecting the contexts to which the role will be linked"
+
+#: ../../src/app-develop/data-flow-components/assign-context-role-for-model.md:28
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/data-flow-components/assign-context-role-for-model.md:29
+msgid ""
+"**Управление доступом пользователей**: Используется для назначения ролей "
+"пользователям, определяя их доступ и права в рамках системы."
+msgstr ""
+"**User Access Management**: Used to assign roles to users determining "
+"their access and permissions within the system."
+
+#: ../../src/app-develop/data-flow-components/assign-context-role-for-model.md:30
+msgid ""
+"**Динамическое управление ролями при взаимодействии с UI**: Шаг "
+"эффективно используется для изменения или обновления ролей пользователей "
+"в реальном времени, основываясь на их действиях и взаимодействиях с "
+"элементами пользовательского интерфейса. Это позволяет адаптировать "
+"доступ и возможности пользователей в зависимости от конкретных действий "
+"или сценариев использования системы. <br>"
+msgstr ""
+"**Dynamic role management when interacting with UI**: This step is "
+"effectively used to change or update users’ roles in real time based on "
+"their actions and interactions with user interface elements. This makes "
+"it possible to adapt user access and permissions depending on specific "
+"actions or scenarios of using the system. <br>"
+
+#: ../../src/app-develop/data-flow-components/assign-context-role-for-model.md:33
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/data-flow-components/assign-context-role-for-model.md:34
+msgid ""
+"**Требование к наличию настроенных ролей**: Необходимо, чтобы в системе "
+"были предварительно настроены соответствующие роли для успешной привязки."
+msgstr ""
+"**Requirement for configured roles**: For successful linking, the system "
+"must have the appropriate roles pre-configured."
+
+#: ../../src/app-develop/data-flow-components/assign-context-role-for-model.md:35
+msgid ""
+"**Зависимость от точности идентификаторов**: Точное определение "
+"идентификаторов пользователей и контекстов критически важно для "
+"корректной работы шага."
+msgstr ""
+"**Dependence on ID accuracy**: Accurate identification of user IDs and "
+"contexts is critical for the step to work correctly."
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

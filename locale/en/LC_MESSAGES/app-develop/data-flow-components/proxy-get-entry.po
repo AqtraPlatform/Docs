@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-04 11:37+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../src/app-develop/data-flow-components/proxy-get-entry.md:1
+msgid "Proxy get entry"
+msgstr "Proxy get entry"
+
+#: ../../src/app-develop/data-flow-components/proxy-get-entry.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/data-flow-components/proxy-get-entry.md:12
+msgid ""
+"Шаг \"Proxy Get Entry\" задействуется для формирования модели "
+"проксирующего запроса с целью получения единичной записи. Этот шаг тесно "
+"связан с настройкой \"Proxy mode\", которая находится в разделе "
+"\"Settings\". <br>"
+msgstr ""
+"The “Proxy Get Entry” step is used to generate a model of a proxy request"
+" in order to obtain a single entry. This step is closely related to the "
+"“Proxy mode” setting, which can be found in the “Settings” section. <br>"
+
+#: ../../src/app-develop/data-flow-components/proxy-get-entry.md:15
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/data-flow-components/proxy-get-entry.md:16
+msgid "**Настройки Шага:**"
+msgstr "**Step Settings:**"
+
+#: ../../src/app-develop/data-flow-components/proxy-get-entry.md:4
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/data-flow-components/proxy-get-entry.md:4
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/data-flow-components/proxy-get-entry.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/data-flow-components/proxy-get-entry.md:4
+msgid "Step name"
+msgstr "Step name"
+
+#: ../../src/app-develop/data-flow-components/proxy-get-entry.md:4
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/data-flow-components/proxy-get-entry.md:4
+msgid "Наименование шага"
+msgstr "Name of the step"
+
+#: ../../src/app-develop/data-flow-components/proxy-get-entry.md:4
+msgid "Validate input values"
+msgstr "Validate input values"
+
+#: ../../src/app-develop/data-flow-components/proxy-get-entry.md:4
+msgid "true, false"
+msgstr "true, false"
+
+#: ../../src/app-develop/data-flow-components/proxy-get-entry.md:4
+msgid ""
+"Указывает на необходимость проверки входных значений на корректность "
+"перед обработкой"
+msgstr ""
+"Indicates that input values should be checked for correctness prior to "
+"processing"
+
+#: ../../src/app-develop/data-flow-components/proxy-get-entry.md:25
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/data-flow-components/proxy-get-entry.md:26
+msgid ""
+"**Получение единичных записей**: Используется для формирования и отправки"
+" запросов на получение конкретной записи через прокси-сервер."
+msgstr ""
+"**Single Entry Retrieval**: Used to generate and send requests for a "
+"specific entry via a proxy server."
+
+#: ../../src/app-develop/data-flow-components/proxy-get-entry.md:27
+msgid ""
+"**Интеграция с внешними системами**: Обеспечивает связь с внешними "
+"системами и сервисами для получения данных, используя проксирование "
+"запросов. <br>"
+msgstr ""
+"**Integration with external systems**: Provides communication with "
+"external systems and services to obtain data using query proxying. <br>"
+
+#: ../../src/app-develop/data-flow-components/proxy-get-entry.md:30
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/data-flow-components/proxy-get-entry.md:31
+msgid ""
+"**Зависимость от настроек прокси**: Корректная работа шага зависит от "
+"правильной настройки \"Proxy mode\" в разделе \"Settings\"."
+msgstr ""
+"**Proxy Settings Dependency**: The correct operation of the step depends "
+"on the correct “Proxy mode” setting in the “Settings” section."
+
+#: ../../src/app-develop/data-flow-components/proxy-get-entry.md:32
+msgid ""
+"**Ограниченная функциональность**: Шаг специализирован на получении "
+"единичных записей и не предназначен для обработки множественных запросов "
+"или данных."
+msgstr ""
+"**Limited Functionality**: The step is specialized in retrieving single "
+"records and is not designed to handle multiple queries or data."
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

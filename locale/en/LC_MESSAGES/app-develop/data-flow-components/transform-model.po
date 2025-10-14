@@ -1,0 +1,152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:1
+msgid "Transform model"
+msgstr "Transform model"
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:12
+msgid ""
+"Шаг \"Transform Model\" используется для маппинга и трансформации полей в"
+" модели данных. Это включает в себя изменение наименований полей и "
+"удаление лишних полей из модели. Шаг создает новую копию модели dataflow,"
+" позволяя модифицировать ее структуру, что часто применяется для "
+"минимизации ответа в виде модели данных. Также может использоваться для "
+"оптимизации модели данных после выполнения множественных операций "
+"группировки (Group by). <br>"
+msgstr ""
+"The “Transform Model” step is used for mapping and transforming fields in"
+" the data model. This involves changing field names and removing "
+"unnecessary fields from the model. The step creates a new copy of the "
+"dataflow model, allowing you to modify its structure, which is often used"
+" to minimize the response as a data model. It can also be used to "
+"optimize the data model after performing multiple grouping operations "
+"(Group by). <br>"
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:15
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:16
+msgid "**Настройки Шага:**"
+msgstr "**Step Settings:**"
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:4
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:4
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:4
+msgid "Step name"
+msgstr "Step name"
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:4
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:4
+msgid "Наименование шага"
+msgstr "Name of the step"
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:4
+msgid "Source step"
+msgstr "Source step"
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:4
+msgid "Выбор предыдущего шага"
+msgstr "Selecting the previous step"
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:4
+msgid "Fields mapping"
+msgstr "Fields mapping"
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:4
+msgid "Сопоставление и изменение полей в модели данных"
+msgstr "Mapping and changing fields in the data model"
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:26
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:27
+msgid ""
+"**Оптимизация модели данных**: Используется для изменения структуры "
+"модели данных, включая переименование или удаление полей. <br>"
+msgstr ""
+"**Data Model Optimization**: Used to change the structure of the data "
+"model, including renaming or deleting fields. <br>"
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:30
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:31
+msgid ""
+"**Важность точного маппинга**: Ошибки в настройке \"Fields Mapping\" "
+"могут привести к нежелательным изменениям в модели данных."
+msgstr ""
+"**Importance of Accurate Mapping**: Errors in the “Fields Mapping” "
+"setting may result in unwanted changes to the data model."
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:32
+msgid ""
+"**Зависимость от исходных данных**: Корректное применение шага требует "
+"точного понимания структуры исходных данных. <br>"
+msgstr ""
+"**Dependency on the Source Data**: Correct application of the step "
+"requires an accurate understanding of the structure of the source data."
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:35
+msgid "Вариант применения"
+msgstr "Application scenario"
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:37
+msgid ""
+"Данный компонент содержит датафлоу, использующийся для трансформации "
+"данных в соответствии с заданными правилами. В датафлоу присутствуют "
+"шаги, такие как Extract Collection и Execute Script, которые позволяют "
+"добавлять новые записи к массивам данных клиента."
+msgstr ""
+"This component contains a data flow used for data transformation according to "
+"specified rules. The data flow includes steps such as Extract Collection and "
+"Execute Script, which allow adding new records to client data arrays."
+
+#: ../../src/app-develop/data-flow-components/transform-model.md:39
+msgid ""
+"Вы можете скачать конфигурацию компонента "
+"[здесь](https://drive.google.com/file/d/1buQNdkjcnY8wgIUM9TjjI7KoikEcSmv3/view?usp=sharing)"
+msgstr ""
+"You can download the component configuration [here](https://drive.google.com/file/d/1buQNdkjcnY8wgIUM9TjjI7KoikEcSmv3/view?usp=sharing)"
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

@@ -1,0 +1,176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:1
+msgid "Join models"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:11
+msgid "Основные сведения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:12
+msgid ""
+"Шаг \"Join Models\" предназначен для соединения данных из двух различных "
+"источников. Он добавляет данные из источника, указанного как \"Right "
+"step\", к данным из источника \"Left step\", если соответствующие записи "
+"найдены в обоих источниках."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:14
+msgid ""
+"Шаг создает новую модель данных, объединяя потоки данных, определенные в "
+"параметрах \"Left step\" и \"Right step\". Шаг ожидает завершения "
+"обработки обоих потоков, после чего выполняет сортировку и объединение "
+"данных. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:17
+msgid "Параметры"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:18
+msgid "**Настройки Шага:**"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Поле настройки"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Варианты значений"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Назначение"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Step name"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "-"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Наименование шага"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Left step"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Источник данных для левой части соединения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Right step"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Источник данных для правой части соединения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Left key"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Ключ для соединения из левого источника"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Right key"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Ключ для соединения из правого источника"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Map"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:4
+msgid "Сопоставление полей между левым и правым источниками"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:31
+msgid "Кейсы"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:32
+msgid ""
+"**Соединение потоков данных**: Используется для объединения двух "
+"различных потоков данных в одну модель, позволяя анализировать и "
+"обрабатывать объединенные данные."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:33
+msgid ""
+"**Обогащение данных**: Применяется для добавления дополнительной "
+"информации из одного набора данных к другому, улучшая тем самым полноту "
+"информации. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:36
+msgid "Исключения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:37
+msgid ""
+"**Необходимость точного ключа соединения**: Ошибки в определении ключей "
+"\"Left key\" и \"Right key\" могут привести к неправильному или "
+"неэффективному соединению данных. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:40
+msgid "Вариант применения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:42
+msgid ""
+"Этот компонент позволяет **тестировать** и **проверять** функциональность"
+" датафлоу, в котором происходит **объединение** данных из разных "
+"источников. Он обеспечивает **сопоставление** полей и **проверку** "
+"корректности объединения данных на **фронт-энде** и в предварительном "
+"просмотре **HTTP** ответа."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/join-modes.md:44
+msgid ""
+"Вы можете скачать конфигурацию компонента "
+"[здесь](https://drive.google.com/file/d/1YRpXJwNSTp_jOPxP-"
+"j0M9SvocZw1W6Tt/view?usp=sharing)."
+msgstr ""
+
+#~ msgid ""
+#~ "**Необходимость точного ключа соединения**: "
+#~ "Ошибки в определении ключей \"Left key\""
+#~ " и \"Right key\" могут привести к "
+#~ "неправильному или неэффективному соединению "
+#~ "данных."
+#~ msgstr ""
+

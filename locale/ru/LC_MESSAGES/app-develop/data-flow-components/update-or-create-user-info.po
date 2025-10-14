@@ -1,0 +1,189 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:1
+msgid "Update or create user info"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:11
+msgid "Основные сведения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:12
+msgid ""
+"Шаг \"Update or Create User Info\" предназначен для обновления "
+"существующей информации о пользователе или создания нового пользователя. "
+"Этот шаг работает исключительно с компонентом \"User Info\". В случае "
+"обновления информации о пользователе, если пароль не указан, он останется"
+" неизменным. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:15
+msgid "Параметры"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:16
+msgid "**Настройки Шага:**"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:4
+msgid "Поле настройки"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:4
+msgid "Варианты значений"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:4
+msgid "Назначение"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:4
+msgid "Step name"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:4
+msgid "-"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:4
+msgid "Наименование шага"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:4
+msgid "Source step"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:4
+msgid "Выбор предыдущего шага"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:4
+msgid "User info field"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:4
+msgid "Поле, содержащее информацию о пользователе"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:4
+msgid "User name"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:4
+msgid "Имя пользователя"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:4
+msgid "User password"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:4
+msgid "Пароль пользователя (обязательно для заполнения)"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:4
+msgid "User disabled"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:4
+msgid "true, false"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:4
+msgid "Статус активности пользователя"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:4
+msgid "Update fields"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:4
+msgid "name, email, lastName, userName, firstName, middleName"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:4
+msgid "Поля для обновления или создания информации о пользователе"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:30
+msgid "Кейсы"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:31
+msgid ""
+"**Обновление информации о пользователях**: Используется для изменения "
+"данных о существующих пользователях, включая их контактную информацию, "
+"имя пользователя и другие личные данные."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:32
+msgid ""
+"**Создание новых пользователей**: Подходит для добавления новых "
+"пользователей в систему, позволяя быстро и эффективно расширять базу "
+"данных пользователей. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:35
+msgid "Исключения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:36
+msgid ""
+"**Необходимость точности данных**: Шаг требует точного и актуального "
+"ввода данных, особенно при создании новых пользователей."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:37
+msgid ""
+"**Управление паролями**: В случае обновления информации пользователя, "
+"если пароль не указан, он не будет изменен. При создании юзера указание "
+"пароля является обязательным. <br>"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:40
+msgid "Вариант применения"
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:42
+msgid ""
+"Компонент предназначен для управления информацией о пользователях. В нем "
+"происходит получение информации о пользователе, обновление его данных, а "
+"также создание новой записи пользователя с указанными параметрами."
+msgstr ""
+
+#: ../../src/app-develop/data-flow-components/update-or-create-user-info.md:44
+msgid ""
+"Вы можете скачать конфигурацию компонента "
+"[здесь](https://drive.google.com/file/d/1zrn1vRmP3BtXAp-"
+"FBsoc5OHj96JuGKvF/view?usp=sharing)"
+msgstr ""
+
+#~ msgid ""
+#~ "**Управление паролями**: В случае обновления"
+#~ " информации пользователя, если пароль не"
+#~ " указан, он не будет изменен. При "
+#~ "создании юзера указание пароля является "
+#~ "обязательным."
+#~ msgstr ""
+

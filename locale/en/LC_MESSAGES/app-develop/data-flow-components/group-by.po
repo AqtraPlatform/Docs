@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Scalaxi
+# This file is distributed under the same license as the Scalaxi plarform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi plarform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-30 14:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/app-develop/data-flow-components/group-by.md:1
+msgid "Group By"
+msgstr "Group By"
+
+#: ../../src/app-develop/data-flow-components/group-by.md:11
+msgid "Основные сведения"
+msgstr "General information"
+
+#: ../../src/app-develop/data-flow-components/group-by.md:12
+msgid ""
+"Шаг \"Group By\" используется для сбора и группировки данных, разделенных"
+" на предыдущих этапах, например, с помощью \"Extract Collection\". "
+"Основная функция этого шага заключается в группировке данных по "
+"определенным ключам, указанным пользователем. Шаг собирает разбитые "
+"данные и объединяет только те записи, которые соответствуют указанным "
+"ключам. <br>"
+msgstr ""
+"The “Group By” step is used to collect and group data split in previous "
+"steps, for example, using the “Extract Collection”. The main function of "
+"this step is to group data by specific keys specified by the user. The "
+"step collects the split data and combines only the entries that match the"
+" specified keys. <br>"
+
+#: ../../src/app-develop/data-flow-components/group-by.md:15
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../src/app-develop/data-flow-components/group-by.md:16
+msgid "**Настройки Шага:**"
+msgstr "**Step Settings:**"
+
+#: ../../src/app-develop/data-flow-components/group-by.md:4
+msgid "Поле настройки"
+msgstr "Setting Field"
+
+#: ../../src/app-develop/data-flow-components/group-by.md:4
+msgid "Варианты значений"
+msgstr "Value Options"
+
+#: ../../src/app-develop/data-flow-components/group-by.md:4
+msgid "Назначение"
+msgstr "Purpose"
+
+#: ../../src/app-develop/data-flow-components/group-by.md:4
+msgid "Step name"
+msgstr "Step name"
+
+#: ../../src/app-develop/data-flow-components/group-by.md:4
+msgid "-"
+msgstr "-"
+
+#: ../../src/app-develop/data-flow-components/group-by.md:4
+msgid "Наименование шага"
+msgstr "Name of the step"
+
+#: ../../src/app-develop/data-flow-components/group-by.md:4
+msgid "Source step"
+msgstr "Source step"
+
+#: ../../src/app-develop/data-flow-components/group-by.md:4
+msgid "Выбор предыдущего шага"
+msgstr "Selecting the previous step"
+
+#: ../../src/app-develop/data-flow-components/group-by.md:4
+msgid "Keys"
+msgstr "Keys"
+
+#: ../../src/app-develop/data-flow-components/group-by.md:4
+msgid "Ключи, используемые для группировки данных"
+msgstr "Keys used to group data"
+
+#: ../../src/app-develop/data-flow-components/group-by.md:26
+msgid "Кейсы"
+msgstr "Cases"
+
+#: ../../src/app-develop/data-flow-components/group-by.md:27
+msgid ""
+"**Объединение разделенных данных**: Используется для объединения данных, "
+"разделенных на предыдущих этапах, таких как \"Extract Collection\", по "
+"определенным ключам."
+msgstr ""
+"**Combining Split Data**: Used to combine data split in the previous "
+"steps, such as the “Extract Collection”, using specific keys."
+
+#: ../../src/app-develop/data-flow-components/group-by.md:28
+msgid ""
+"**Сегментация и анализ данных**: Подходит для ситуаций, где необходимо "
+"анализировать данные по определенным категориям или критериям. <br>"
+msgstr ""
+"**Data Segmentation and Analysis**: Suitable for cases where it is "
+"necessary to analyze data according to specific categories or criteria. "
+"<br>"
+
+#: ../../src/app-develop/data-flow-components/group-by.md:31
+msgid "Исключения"
+msgstr "Exceptions"
+
+#: ../../src/app-develop/data-flow-components/group-by.md:32
+msgid ""
+"**Зависимость от ключей группировки**: Точность и актуальность ключей "
+"критически важна для правильной группировки данных."
+msgstr ""
+"**Dependency on Grouping Keys**: The accuracy and relevance of the keys "
+"are critical to properly grouping the data."
+
+#: ../../src/app-develop/data-flow-components/group-by.md:33
+msgid ""
+"**Сложность в обработке и анализе данных**: Группировка может быть "
+"сложной, если структура данных разнообразна или ключи не однозначно "
+"определяют группы. <br>"
+msgstr ""
+"**Difficulty in Data Processing and Analysis**: Grouping can be difficult"
+" if the data structure is varied or the keys do not identify groups "
+"uniquely."
+
+#: ../../src/app-develop/data-flow-components/group-by.md:36
+msgid "Вариант применения"
+msgstr "Application scenario"
+
+#: ../../src/app-develop/data-flow-components/group-by.md:38
+msgid ""
+"Этот компонент проверяет доступность полей шага Group By. В датафлоу "
+"сначала добавляется шаг Get action model и Group By. Затем на фронте "
+"открывается импортированный компонент и открывается вкладка \"Сеть\" в "
+"инструментах разработчика браузера. После этого нажимается кнопка \"Group"
+" by\" на фронте. Если шаг работает правильно, во вкладке сеть появляется "
+"строка \"execute\" с предварительным просмотром ответа HTTP, в котором "
+"присутствуют данные с ключом \"ETO test123\" и их агрегация."
+msgstr ""
+"This component checks the availability of fields in the Group By step. In the dataflow, first, a Get action model step and Group By step are added. Then, on the frontend, the imported component is opened, and the "Network" tab in the browser developer tools is opened. After that, the "Group by" button is clicked on the frontend. If the step works correctly, a "execute" line with a preview of the HTTP response should appear in the Network tab, containing data with the key "ETO test123" and their aggregation."
+
+#: ../../src/app-develop/data-flow-components/group-by.md:40
+msgid ""
+"Конфигурацию компонента можно скачать "
+"[здесь](https://drive.google.com/file/d/1fKeJh3a0HHcG7VuFs-"
+"Tx5YdS7H6C7mI0/view?usp=sharing)."
+msgstr ""
+"You can download the component configuration "
+"[here](https://drive.google.com/file/d/1fKeJh3a0HHcG7VuFs-"
+"Tx5YdS7H6C7mI0/view?usp=sharing)."
+
+#~ msgid "Общее"
+#~ msgstr "General information"
+

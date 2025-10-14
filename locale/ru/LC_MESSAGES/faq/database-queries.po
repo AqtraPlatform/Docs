@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, Scalaxi
+# This file is distributed under the same license as the Scalaxi platform
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Scalaxi platform \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-01 13:53+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: ../../src/faq/database-queries.md:1
+msgid "Запросы к БД"
+msgstr ""
+
+#: ../../src/faq/database-queries.md
+msgid "Запрос"
+msgstr ""
+
+#: ../../src/faq/database-queries.md
+msgid "SQL"
+msgstr ""
+
+#: ../../src/faq/database-queries.md
+msgid "Получить датафлоу по ключу"
+msgstr ""
+
+#: ../../src/faq/database-queries.md
+msgid ""
+"`SELECT * FROM dataflow.\"DataflowDefinitions\" Where \"Key\" = 'bd6abf69"
+"-49ad-409c-9907-94264f020f88’`"
+msgstr ""
+
+#: ../../src/faq/database-queries.md
+msgid "Получить объект по данным из json"
+msgstr ""
+
+#: ../../src/faq/database-queries.md
+msgid ""
+"`SELECT * FROM catalogs.\"CatalogEntries_89\" Where \"Data\" ->> "
+"'Product' = '2202’`"
+msgstr ""
+
+#: ../../src/faq/database-queries.md
+msgid "Поиск по id"
+msgstr ""
+
+#: ../../src/faq/database-queries.md
+msgid "`SELECT * FROM catalogs.\"CatalogEntries_89\" Where \"Id\" = '3687’`"
+msgstr ""
+
+#: ../../src/faq/database-queries.md
+msgid "Проверка 2 таблиц"
+msgstr ""
+
+#: ../../src/faq/database-queries.md
+msgid ""
+"`SELECT * FROM catalogs.\"CatalogEntries_136\" AS src LEFT JOIN "
+"catalogs.\"CatalogEntries_134\" ref_table ON (src.\"Data\" ->> "
+"'Acceptance')::bigint = ref_table.\"Id\" where NOT (src.\"Data\" ->> "
+"'Acceptance')::bigint IS NULL and ref_table.\"Id\" is NULL`"
+msgstr ""
+
+#: ../../src/faq/database-queries.md
+msgid "Показать все компоненты вмс, сортировка по названию"
+msgstr ""
+
+#: ../../src/faq/database-queries.md
+msgid ""
+"`SELECT * FROM view_service.\"ApplicationDefinitions\" where \"Title\" "
+"like 'WMS.%' ORDER BY \"Title\" ASC`"
+msgstr ""
+
+#: ../../src/faq/database-queries.md
+msgid "Получить все датафлоу по guid компонента"
+msgstr ""
+
+#: ../../src/faq/database-queries.md
+msgid ""
+"`SELECT * FROM dataflow.\"DataflowDefinitions\" where \"OwnerId\" = "
+"'23ae5f3f-aded-4961-bdef-ea668728bfea’`"
+msgstr ""
+
+#: ../../src/faq/database-queries.md
+msgid ""
+"Получить последние 100 записей в которых историчность схемы датафлоу по "
+"id этого датафлоу"
+msgstr ""
+
+#: ../../src/faq/database-queries.md
+msgid ""
+"`SELECT * FROM dataflow.\"DataflowDefinitionVersions\" where "
+"\"DataFlowDefinition_Id\" = '245' ORDER BY \"Id\" DESC LIMIT 100`"
+msgstr ""
+
+#: ../../src/faq/database-queries.md
+msgid "Получить шаги в датафлоу"
+msgstr ""
+
+#: ../../src/faq/database-queries.md
+msgid ""
+"`select drafts.\"Key\", drafts.\"Name\", "
+"drafts.\"OwnerId\",steps.value->'name' from "
+"dataflow.\"DataflowDefinitionDrafts\" drafts, "
+"jsonb_array_elements(\"Stages\") stages, "
+"jsonb_array_elements(stages->'steps') steps, jsonb_each(steps->'keyMap') "
+"keyMaps where drafts.\"DelMark\" = false and steps.value->>'stepType' = "
+"'LookupReferenceStep' and keyMaps.value = '\"\"’`"
+msgstr ""
+
+#: ../../src/faq/database-queries.md
+msgid ""
+"Изменить в поле Data значение поля json Дока: [https://aaronbos.dev/posts"
+"/update-json-postgresql](https://aaronbos.dev/posts/update-json-"
+"postgresql)"
+msgstr ""
+
+#: ../../src/faq/database-queries.md
+msgid ""
+"`UPDATE catalogs.\"CatalogEntries_143\" SET \"Data\" = "
+"jsonb_set(\"Data\", '{Quantity}', '1', false) WHERE \"Data\" ->> "
+"'NumberCollectionTask' = '2024' AND \"Data\" ->> 'Product' = '3723’`"
+msgstr ""
+
