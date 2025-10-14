@@ -34,7 +34,7 @@ Aqtra ist eine **Low-Code-Plattform** zum Erstellen von Geschäftsanwendungen ha
 
 - [1) Methodik — wie man diesen Leitfaden verwendet](#1-methodology--how-to-use-this-guide)
 - [2) Schritt-für-Schritt-Lernpfad](#2-stepbystep-learning-path-single-track)
-- [3) Tutorials & Dokumentations-Cross-Links](#tutorials-documentation-cross-links)
+- [3) Tutorials & Dokumentations-Cross-Links](#3-tutorials-documentation-cross-links)
 - [4) Erster Erfolg in ~60 Minuten](#4-first-win-in-60-minutes)
 - [5) Installation & Zugang](#5-install--access)
 - [6) Kernkonzepte (Aqtra-Glossar)](#6-core-concepts-aqtra-glossary)
@@ -126,10 +126,10 @@ Rufen Sie eine externe HTTP-API von einem Python-Skript aus auf; ordnen Sie die 
 **Video**: (Optional) Tutorial #10 — diagnosing payload/type mismatches ([01:46](https://youtu.be/qJcpIQQEqbo?t=106)–[05:00](https://youtu.be/qJcpIQQEqbo?t=300))
 
 !!! tip "Fehlerbehebung"
-_ **Timeout/5xx**: URL/Methode/Header überprüfen; Wiederholung/Backoff hinzufügen; Antwortkörper protokollieren.
-_ **401/403**: Auth-Token bereitstellen/aktualisieren (Secrets sicher speichern).
-_ **406/422 (Typ-Mismatch)**: Feldzuordnung und Typen korrigieren; in **Execute Script** transformieren (z.B. string → number/date) vor `Update Entry`.
-_ Verwenden Sie `context.Logger`, um Korrelations-IDs und Payload-Snippets zu protokollieren.
+    - **Timeout/5xx**: URL/Methode/Header überprüfen; Wiederholung/Backoff hinzufügen; Antwortkörper protokollieren.
+    - **401/403**: Auth-Token bereitstellen/aktualisieren (Secrets sicher speichern).
+    - **406/422 (Typ-Mismatch)**: Feldzuordnung und Typen korrigieren; in **Execute Script** transformieren (z.B. string → number/date) vor `Update Entry`.
+    - Verwenden Sie `context.Logger`, um Korrelations-IDs und Payload-Snippets zu protokollieren.
 
 **Schritt 7 — MultiComponent-Seiten**
 Erstellen Sie eine Seite aus mehreren Komponenten (Filter + Grid + Formular). Konfigurieren Sie **Datenkontext** und Verdrahtung.
@@ -159,10 +159,10 @@ Verwenden Sie den Network-Tab und Studio-Logs, um 4xx/5xx zu diagnostizieren; Ty
 
 !!! tip "Fehlerbehebung"
 
-- Folgen Sie der Reihenfolge: **Compile → Save → Ready to publish → Publish**; überprüfen Sie, ob die Komponente als _Published_ aufgeführt ist.
-- Verwenden Sie Browser-Devtools **Network**, um Request/Response mit erwartetem Schema zu vergleichen; Zuordnung/Typen korrigieren.
-  _ Wenn das Verhalten zwischen Seiten unterschiedlich ist, überprüfen Sie, ob **alle abhängigen Komponenten** zusammen neu veröffentlicht wurden.
-  _ Bei Docker-Setups inspizieren Sie Container-Logs auf Stack-Traces und Port-Konflikte.
+    - Folgen Sie der Reihenfolge: **Compile → Save → Ready to publish → Publish**; überprüfen Sie, ob die Komponente als _Published_ aufgeführt ist.
+    - Verwenden Sie Browser-Devtools **Network**, um Request/Response mit erwartetem Schema zu vergleichen; Zuordnung/Typen korrigieren.
+    - Wenn das Verhalten zwischen Seiten unterschiedlich ist, überprüfen Sie, ob **alle abhängigen Komponenten** zusammen neu veröffentlicht wurden.
+    - Bei Docker-Setups inspizieren Sie Container-Logs auf Stack-Traces und Port-Konflikte.
 
 **Schritt 11 — Capstone**
 Erweitern Sie Ihre App zu einer kleinen Funktion (z.B. Mini-CRM): Rollen/Berechtigungen, MultiComponent-Dashboard, eine Integration, eine Dokumentenvorlage. Dokumentieren Sie Akzeptanzkriterien und erstellen Sie ein kurzes Demo-Video.
@@ -171,7 +171,7 @@ Erweitern Sie Ihre App zu einer kleinen Funktion (z.B. Mini-CRM): Rollen/Berecht
 
 ---
 
-## 3) Tutorials & Dokumentations-Cross-Links {: #tutorials-documentation-cross-links }
+## 3) Tutorials & Dokumentations-Cross-Links {: #3-tutorials-documentation-cross-links }
 
 **Installation / Plattform**
 
