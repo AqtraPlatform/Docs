@@ -1,7 +1,7 @@
 site_name: Aqtra Docs
 site_url: https://docs.aqtra.io
-repo_url: https://github.com/Fershtater/AqtraDocs
-repo_name: Fershtater/AqtraDocs
+repo_url: https://github.com/AqtraPlatform/Docs
+repo_name: AqtraPlatform/Docs
 edit_uri: edit/main/docs/
 use_directory_urls: false
 
@@ -103,7 +103,6 @@ plugins:
             Installation: Installation
             Basic Platform Settings: Grundlegende Plattformeinstellungen
             User Interface: Benutzeroberfläche
-            Home: Startseite
             Access: Zugriff
             Applications: Anwendungen
             Extensions: Erweiterungen
@@ -211,7 +210,6 @@ plugins:
             Notifications Steps: Benachrichtigungsschritte
             Get user confirmation: Benutzerbestätigung abrufen
             Integrations Steps: Integrationsschritte
-            Execute dataflow: Datenfluss ausführen
             Common Steps: Allgemeine Schritte
             Update model: Modell aktualisieren
             Finish: Beenden
@@ -251,9 +249,13 @@ extra:
       lang: de
   social:
     - icon: material/github
-      link: https://github.com/Fershtater/AqtraDocs
+      link: https://github.com/AqtraPlatform/Docs
+    - icon: material/linkedin
+      link: https://www.linkedin.com/company/aqtra
+    - icon: material/youtube
+      link: https://www.youtube.com/@Aqtra.Academy
     - icon: material/email
-      link: mailto:goblinx99@gmail.com
+      link: mailto:welcome@aqtra.io
 
 extra_css:
   - assets/styles/extra.css

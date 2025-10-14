@@ -1,6 +1,6 @@
 # Aqtra Docs
 
-[English](./README.md) · [Русский](./README.ru.md) · [Deutsch 🇩🇪](https://docs.aqtra.io/de/)
+[English](./README.md)
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/Fershtater/AqtraDocs/docs-quality.yml?branch=main)](https://github.com/Fershtater/AqtraDocs/actions)
 [![License](https://img.shields.io/github/license/Fershtater/AqtraDocs)](LICENSE)
