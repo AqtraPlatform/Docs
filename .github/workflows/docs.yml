@@ -63,12 +63,12 @@ jobs:
           virtualenvs-in-project: true
       - run: poetry install --no-interaction --no-root
       - run: poetry run mkdocs build --strict
-              - name: Deploy to Pages
-                uses: peaceiris/actions-gh-pages@v3
-                with:
-                  github_token: ${{ secrets.GITHUB_TOKEN }}
-                  publish_dir: ./site
-                  cname: docs.aqtra.io
+      - name: Deploy to Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          cname: docs.aqtra.io
 
   nightly-links:
     if: github.event_name == 'schedule'
