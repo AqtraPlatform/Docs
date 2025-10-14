@@ -1,0 +1,15 @@
+# "USER CONTEXTS" GROUP|separator
+
+- [Register context for model](register-context-for-model.md)
+- [Register external user](register-external-user.md)
+- [Prepare external keys](prepare-external-keys.md)
+- [Assign context role for model](assign-context-role-for-model.md)
+- [Get one time code for user](get-one-time-code-for-user.md)
+- [Confirm one time code for user](confirm-one-time-code-for-user.md)
+- [Update or create user info](update-or-create-user-info.md)
+- [Get user info](get-user-info.md)
+- [Login with password](login-with-password.md)
+- [Reset user password request](reset-user-password-request.md)
+- [Confirm user email request](confirm-user-email-request.md)
+- [Send templated norification](send-templated-notification.md)
+- [Remove assigned roles for user](remove-assigned-roles-for-user.md)

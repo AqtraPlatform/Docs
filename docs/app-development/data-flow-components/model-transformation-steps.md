@@ -1,0 +1,18 @@
+# MODEL TRANSFORMATION GROUP|separator
+
+- [Transform model](transform-model.md)
+- [Join models](join-modes.md)
+- [Extract collections](extract-collections.md)
+- [Filter source](filter-source.md)
+- [Lookup reference](lookup-reference.md)
+- [Execute script](execute-script.md)
+- [Query entity by filter](query-entity-by-filter.md)
+- [Select many](select-many.md)
+- [Get entity by id](get-entity-by-id.md)
+- [Load catalogs by key](load-catalogs-by-key.md)
+- [Distinct](distinct.md)
+- [Group by](group-by.md)
+- [Calculate array](calculate-array.md)
+- [Simple math](simple-math.md)
+- [Execute dataflow](execute-dataflow.md)
+- [Get file info](get-file-info.md)
