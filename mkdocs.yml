@@ -223,8 +223,7 @@ plugins:
             Tutorials: Tutorials
             Release Notes: Versionshinweise
   - glightbox
-  - mermaid2:
-      javascript: assets/js/mermaid.theme.js
+  - mermaid2
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true

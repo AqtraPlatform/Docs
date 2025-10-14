@@ -1,4 +1,4 @@
-# Erste Schritte
+# Erste Schritte {: #getting-started }
 
 > Ein strukturierter Einstiegspunkt für Neueinsteiger in Aqtra. Technischer Ton. Diese Seite verlinkt Dokumentation, Tutorials, Videos (mit Transkripten) und ein ausführbares Beispiel, um eine progressive Lernkarte zu bilden.
 
@@ -256,7 +256,7 @@ Wählen Sie eine der folgenden Optionen. Bewahren Sie Anmeldedaten und Lizenzsch
 
 ---
 
-## 6) Kernkonzepte (Aqtra-Glossar)
+## 6) Kernkonzepte (Aqtra-Glossar) {: #6-core-concepts-aqtra-glossary }
 
 Kurze, umsetzbare Definitionen.
 
