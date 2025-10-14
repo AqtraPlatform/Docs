@@ -78,12 +78,46 @@ def safe_slugify(text, separator="-"):
                 return fallback_slugify(text, separator)
 
 class AnchorsDoctor:
-    def __init__(self, src_dir: str = "docs"):
+    # Improved regex patterns - non-greedy, no multiline
+    MD_LINK_RE = re.compile(r'(?<!\!)\[[^\]]+\]\(([^)\n]+?)\)')  # [text](url)
+    MD_IMG_RE = re.compile(r'!\[[^\]]*\]\(([^)\n]+?)\)')        # ![alt](url)
+    
+    def __init__(self, src_dir: str = "docs", exclude: List[str] = None):
         self.src_dir = Path(src_dir).resolve()
         self.anchors_found = {}  # page -> set of anchors
         self.broken_links = []   # list of broken links
         self.fixes_applied = []  # list of applied fixes
         self.safe_fixes = []     # list of safe fixes that can be applied
+        self.exclude_patterns = exclude or []  # list of files to exclude
+    
+    @staticmethod
+    def clean_url(url: str) -> str:
+        """Clean URL from trailing punctuation and whitespace"""
+        url = url.strip()
+        # Remove common trailing punctuation from prose
+        url = url.rstrip(').,;:!?»"\'')
+        return url
+    
+    @staticmethod
+    def is_external_url(url: str) -> bool:
+        """Check if URL is external (has protocol)"""
+        return bool(re.match(r'^[a-zA-Z][a-zA-Z0-9+.-]*://', url))
+    
+    def is_excluded(self, file_path: str) -> bool:
+        """Check if file should be excluded from checking"""
+        for pattern in self.exclude_patterns:
+            if pattern in file_path or Path(file_path).match(pattern):
+                return True
+        return False
+    
+    @staticmethod
+    def remove_code_blocks(content: str) -> str:
+        """Remove code blocks from markdown to avoid false positives"""
+        # Remove fenced code blocks
+        content = re.sub(r'```.*?```', '', content, flags=re.DOTALL)
+        # Remove inline code
+        content = re.sub(r'`[^`\n]+`', '', content)
+        return content
         
     def check_anchors(self, dry_run: bool = False) -> bool:
         """Проверка и исправление якорных ссылок"""
@@ -139,38 +173,61 @@ class AnchorsDoctor:
                 print(f"  ⚠️  Ошибка обработки {md_file}: {e}")
     
     def _check_links(self, dry_run: bool = False):
-        """Проверка ссылок в Markdown файлах"""
+        """Проверка ссылок в Markdown файлах с улучшенным парсингом"""
         md_files = list(self.src_dir.rglob('*.md'))
         
         for md_file in md_files:
             try:
-                content = md_file.read_text(encoding='utf-8')
                 relative_path = str(md_file.relative_to(self.src_dir))
                 
-                # Паттерны для поиска ссылок с якорями
-                link_patterns = [
-                    # [text](#anchor)
-                    r'\[([^\]]+)\]\(#([^)]+)\)',
-                    # [text](file.md#anchor)
-                    r'\[([^\]]+)\]\(([^#]+)#([^)]+)\)',
-                    # [text](file.md) - ссылки без якоря (проверяем существование файла)
-                    r'\[([^\]]+)\]\(([^#)]+)\)',
-                ]
+                # Skip excluded files
+                if self.is_excluded(relative_path):
+                    print(f"  ⏭️  Пропущен (excluded): {relative_path}")
+                    continue
                 
-                for pattern in link_patterns:
-                    for match in re.finditer(pattern, content):
-                        if len(match.groups()) == 2:
-                            # Ссылка с якорем в текущем файле
-                            text, anchor = match.groups()
-                            self._check_anchor_link(relative_path, relative_path, anchor, match.group(0), dry_run)
-                        elif len(match.groups()) == 3:
-                            # Ссылка с якорем в другом файле
-                            text, file_path, anchor = match.groups()
-                            self._check_anchor_link(relative_path, file_path, anchor, match.group(0), dry_run)
+                content = md_file.read_text(encoding='utf-8')
+                
+                # Remove code blocks to avoid false positives
+                content_no_code = self.remove_code_blocks(content)
+                
+                # Extract all markdown links (not images)
+                for match in self.MD_LINK_RE.finditer(content_no_code):
+                    url = self.clean_url(match.group(1))
+                    
+                    # Skip external URLs
+                    if self.is_external_url(url):
+                        continue
+                    
+                    # Parse URL components
+                    if '#' in url:
+                        # Link with anchor
+                        parts = url.split('#', 1)
+                        file_part = parts[0].strip()
+                        anchor = parts[1].strip()
+                        
+                        if file_part:
+                            # Link to anchor in another file: [text](file.md#anchor)
+                            self._check_anchor_link(relative_path, file_part, anchor, match.group(0), dry_run)
                         else:
-                            # Ссылка без якоря - проверяем существование файла
-                            text, file_path = match.groups()
-                            self._check_file_link(relative_path, file_path, match.group(0), dry_run)
+                            # Link to anchor in current file: [text](#anchor)
+                            self._check_anchor_link(relative_path, relative_path, anchor, match.group(0), dry_run)
+                    else:
+                        # Link without anchor - check file existence
+                        if url:  # Skip empty links
+                            self._check_file_link(relative_path, url, match.group(0), dry_run)
+                
+                # Also check image links for completeness
+                for match in self.MD_IMG_RE.finditer(content_no_code):
+                    url = self.clean_url(match.group(1))
+                    
+                    # Skip external URLs
+                    if self.is_external_url(url):
+                        continue
+                    
+                    # Check only file part (images usually don't have anchors)
+                    file_part = url.split('#')[0].strip()
+                    if file_part:
+                        self._check_file_link(relative_path, file_part, match.group(0), dry_run)
                             
             except Exception as e:
                 print(f"  ⚠️  Ошибка обработки {md_file}: {e}")
@@ -253,25 +310,38 @@ class AnchorsDoctor:
             })
     
     def _resolve_file_path(self, source_page: str, target_file: str) -> Optional[str]:
-        """Разрешение пути к файлу"""
+        """Разрешение пути к файлу с поддержкой относительных путей"""
         # Если это уже полный путь относительно docs/
         if target_file in self.anchors_found:
             return target_file
         
+        # Нормализуем путь для корректной обработки ../
+        source_path = Path(source_page).parent
+        normalized_target = os.path.normpath(os.path.join(str(source_path), target_file))
+        normalized_target = normalized_target.replace('\\', '/')  # Windows compatibility
+        
+        # Проверяем нормализованный путь
+        if normalized_target in self.anchors_found:
+            return normalized_target
+        
         # Пытаемся найти файл относительно исходной страницы
-        source_path = self.src_dir / source_page
         possible_paths = [
-            source_path.parent / target_file,
-            source_path.parent / f"{target_file}.md",
+            self.src_dir / normalized_target,
+            self.src_dir / f"{normalized_target}.md",
             self.src_dir / target_file,
             self.src_dir / f"{target_file}.md",
         ]
         
         for path in possible_paths:
-            if path.exists() and path.suffix == '.md':
-                relative_path = str(path.relative_to(self.src_dir))
-                if relative_path in self.anchors_found:
-                    return relative_path
+            try:
+                if path.exists() and path.is_file():
+                    # Проверяем, что это markdown файл
+                    if path.suffix == '.md':
+                        relative_path = str(path.relative_to(self.src_dir))
+                        if relative_path in self.anchors_found:
+                            return relative_path
+            except (ValueError, OSError):
+                continue
         
         return None
     
@@ -428,6 +498,7 @@ def main():
     parser.add_argument('--src', default='docs', help='Source directory (default: docs)')
     parser.add_argument('--dry-run', action='store_true', help='Only generate report, do not apply fixes')
     parser.add_argument('--apply', action='store_true', help='Apply safe fixes')
+    parser.add_argument('--exclude', action='append', help='Exclude files matching pattern (can be used multiple times)')
     
     args = parser.parse_args()
     
@@ -439,7 +510,10 @@ def main():
         print("ℹ️  Режим не указан. Запуск в режиме --dry-run")
         args.dry_run = True
     
-    doctor = AnchorsDoctor(args.src)
+    if args.exclude:
+        print(f"📋 Исключения: {', '.join(args.exclude)}")
+    
+    doctor = AnchorsDoctor(args.src, exclude=args.exclude or [])
     success = doctor.check_anchors(args.dry_run)
     
     if not success:
