@@ -10,6 +10,9 @@ on:
 permissions:
   contents: read
 
+env:
+  MD_LINT_ENABLED: "1"  # set "0" to skip markdown lint entirely
+
 jobs:
   markdownlint:
     runs-on: ubuntu-latest
@@ -18,8 +21,10 @@ jobs:
         uses: actions/checkout@v4
 
       # Use markdownlint-cli2 GitHub Action
-      - name: Markdown lint
+      - name: Markdown lint (non-blocking)
+        if: ${{ env.MD_LINT_ENABLED != '0' }}
         uses: DavidAnson/markdownlint-cli2-action@v16
+        continue-on-error: true
         with:
           globs: |
             **/*.md

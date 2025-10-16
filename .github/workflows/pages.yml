@@ -79,11 +79,15 @@ jobs:
           ls -la site | sed -n '1,20p'
           echo ""
           echo "Checking critical files:"
-          test -f site/index.html && echo "✅ Root index.html (redirect)"
           test -f site/en/index.html && echo "✅ EN index.html"
           test -f site/de/index.html && echo "✅ DE index.html"
+          test -f site/index.html && echo "✅ Root index.html (redirect)"
           test -f site/CNAME && echo "✅ CNAME"
           test -f site/.nojekyll && echo "✅ .nojekyll"
+          echo ""
+          echo "Checking styles (Material CSS):"
+          find site/assets/stylesheets -name "*.css" | head -3
+          test -f site/assets/favicon.ico && echo "✅ Favicon" || echo "⚠️  Favicon not found"
           echo ""
           echo "/en/ structure:"
           ls -la site/en | sed -n '1,15p'
