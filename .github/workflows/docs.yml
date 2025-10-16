@@ -95,8 +95,10 @@ jobs:
 
           exit $fail
 
+  # DISABLED: Replaced by .github/workflows/pages.yml
+  # Old deploy method using peaceiris/actions-gh-pages
   deploy:
-    if: github.ref == 'refs/heads/main'
+    if: false  # Disabled - now using GitHub Actions Pages deployment
     needs: build
     runs-on: ubuntu-latest
     permissions:
