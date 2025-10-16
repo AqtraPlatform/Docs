@@ -39,6 +39,35 @@ jobs:
       - name: Build site (MkDocs)
         run: poetry run mkdocs build --strict
 
+      - name: Move default build to /en/ and create redirect
+        run: |
+          # Move built English docs (from root) to /en/
+          mkdir -p site/en
+          # Move all root files/dirs except de/ and assets/ to /en/
+          for item in site/*; do
+            base=$(basename "$item")
+            if [ "$base" != "de" ] && [ "$base" != "assets" ] && [ "$base" != "en" ]; then
+              mv "$item" site/en/
+            fi
+          done
+
+          # Create root redirect to /en/
+          cat > site/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html>
+          <head>
+            <meta charset="utf-8">
+            <title>Redirecting to Aqtra Docs</title>
+            <meta http-equiv="refresh" content="0; URL=/en/">
+            <link rel="canonical" href="https://docs.aqtra.io/en/">
+            <script>window.location.replace("/en/" + window.location.hash);</script>
+          </head>
+          <body>
+            <p>Redirecting to <a href="/en/">Aqtra Documentation</a>...</p>
+          </body>
+          </html>
+          EOF
+
       - name: Add CNAME and .nojekyll
         run: |
           echo "docs.aqtra.io" > site/CNAME
@@ -46,8 +75,18 @@ jobs:
 
       - name: Verify build output
         run: |
-          ls -la site | sed -n '1,200p'
-          test -f site/index.html
+          echo "Root structure:"
+          ls -la site | sed -n '1,20p'
+          echo ""
+          echo "Checking critical files:"
+          test -f site/index.html && echo "✅ Root index.html (redirect)"
+          test -f site/en/index.html && echo "✅ EN index.html"
+          test -f site/de/index.html && echo "✅ DE index.html"
+          test -f site/CNAME && echo "✅ CNAME"
+          test -f site/.nojekyll && echo "✅ .nojekyll"
+          echo ""
+          echo "/en/ structure:"
+          ls -la site/en | sed -n '1,15p'
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

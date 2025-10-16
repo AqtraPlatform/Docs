@@ -11,7 +11,7 @@ theme:
   language: en
   logo: assets/brand/logo-light.svg
   logo_dark: assets/brand/logo-dark.svg
-  favicon: assets/brand/favicon.svg
+  favicon: assets/favicon.ico
   icon:
     repo: material/github
     admonition:
@@ -90,12 +90,14 @@ plugins:
       reconfigure_search: true
       languages:
         - locale: en
-          default: true
           name: English
+          default: true
           build: true
+          site_name: Aqtra Docs
         - locale: de
           name: Deutsch
           build: true
+          site_name: Aqtra Docs
           nav_translations:
             Home: Startseite
             Getting Started: Erste Schritte
@@ -230,18 +232,12 @@ plugins:
       enabled: !ENV [ENABLED_GIT_REVISION_DATE, true]
       exclude:
         - de/*
-# - redirects:
-#     redirect_maps:
-#       "getting-started.html": "overview/getting-started.md"
-#       "overview/index.html": "index.md"
-#       "release-notes.html#1-2-0": "release-notes.md#1-2-0"
-#       "release-notes.html#2025-01-15": "release-notes.md#2025-01-15"
-#       "ui/buttons.html": "app-development/ui-components/button.md"
+        - en/*
 
 extra:
   alternate:
     - name: English
-      link: /
+      link: /en/
       lang: en
     - name: Deutsch
       link: /de/
