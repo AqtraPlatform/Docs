@@ -3,9 +3,9 @@
 <p class="lead">Willkommen in der Aqtra-Plattformdokumentation! Eine moderne Low-Code-Plattform zur Erstellung von Unternehmensanwendungen mit visueller Programmierung und Unterstützung für Geschäftsprozessautomatisierung.</p>
 
 <div style="display: flex; gap: 1rem; margin: 2rem 0; flex-wrap: wrap;">
-  <a class="btn" href="/learn/">🚀 Schnellstart</a>
-  <a class="btn" href="/app-development/">⚙️ Entwicklung</a>
-  <a class="btn" href="/tutorials/">📚 Tutorials</a>
+  <a class="btn" href="learn/">🚀 Schnellstart</a>
+  <a class="btn" href="app-development/">⚙️ Entwicklung</a>
+  <a class="btn" href="tutorials/">📚 Tutorials</a>
 </div>
 
 !!! tip "Neu in Version 2.0"

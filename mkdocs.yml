@@ -244,13 +244,6 @@ plugins:
         - en/*
 
 extra:
-  alternate:
-    - name: English
-      link: /en/
-      lang: en
-    - name: Deutsch
-      link: /de/
-      lang: de
   social:
     - icon: material/github
       link: https://github.com/AqtraPlatform/Docs
@@ -271,6 +264,7 @@ extra_javascript:
   - assets/js/nav-anchor.js
   - assets/js/back-to-top.js
   - assets/js/redirect-legacy-paths.js
+  - assets/js/fix-locale-links.js
 
 nav:
   - Home: index.md

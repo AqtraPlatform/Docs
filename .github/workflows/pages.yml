@@ -177,8 +177,10 @@ jobs:
           test -f site/assets/images/logo-light.svg && echo "✅ Logo"
 
           echo ""
-          echo "Language switcher & redirects:"
-          grep -q 'href="/de/' site/en/index.html && echo "✅ Language link is absolute (/de/)"
+          echo "Language switcher & i18n:"
+          grep -q 'href="/de/' site/en/index.html && echo "✅ EN→DE: absolute link (/de/)"
+          grep -q 'href="/en/' site/de/index.html && echo "✅ DE→EN: absolute link (/en/)"
+          grep -q 'fix-locale-links.js' site/en/index.html && echo "✅ Locale normalizer loaded"
           grep -q 'redirect-legacy-paths.js' site/en/index.html && echo "✅ Legacy redirect script loaded"
 
           echo ""
