@@ -1,0 +1,36 @@
+name: Markdown Lint
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  markdownlint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Use markdownlint-cli2 GitHub Action
+      - name: Markdown lint
+        uses: DavidAnson/markdownlint-cli2-action@v16
+        with:
+          globs: |
+            **/*.md
+            !site/**
+            !build/**
+            !docs/assets/**
+            !node_modules/**
+            !.venv/**
+          config: .markdownlint-cli2.jsonc
+
+      # Uncomment to keep CI green while introducing lint gradually:
+      # - name: Markdown lint (soft-fail)
+      #   if: failure()
+      #   run: echo "⚠️  Markdown lint warnings present — soft fail enabled"; exit 0

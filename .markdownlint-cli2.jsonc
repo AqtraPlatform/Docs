@@ -1,0 +1,24 @@
+{
+  // Markdownlint CLI2 config for documentation
+  "config": {
+    "MD013": false, // Line length — allow long lines in prose/tables
+    "MD033": false, // Inline HTML (used by MkDocs/Material)
+    "MD041": false, // First line heading not required (release notes, includes)
+    "MD046": { "style": "consistent" }, // Fenced code block style
+    "MD024": { "siblings_only": true }, // Duplicate headings in different sections OK
+    "MD051": false // Link fragments (custom anchor syntax in MkDocs)
+  },
+
+  // Optional: per-path overrides
+  "customRules": [],
+  "outputFormatters": [],
+
+  "globs": [
+    "**/*.md",
+    "!site/**",
+    "!build/**",
+    "!docs/assets/**",
+    "!node_modules/**",
+    "!.venv/**"
+  ]
+}
