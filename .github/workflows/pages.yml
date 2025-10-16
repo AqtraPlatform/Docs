@@ -75,22 +75,31 @@ jobs:
 
       - name: Verify build output
         run: |
-          echo "Root structure:"
-          ls -la site | sed -n '1,20p'
-          echo ""
+          set -e
           echo "Checking critical files:"
           test -f site/en/index.html && echo "✅ EN index.html"
           test -f site/de/index.html && echo "✅ DE index.html"
           test -f site/index.html && echo "✅ Root index.html (redirect)"
           test -f site/CNAME && echo "✅ CNAME"
           test -f site/.nojekyll && echo "✅ .nojekyll"
+
           echo ""
-          echo "Checking styles (Material CSS):"
-          find site/assets/stylesheets -name "*.css" | head -3
-          test -f site/assets/favicon.ico && echo "✅ Favicon" || echo "⚠️  Favicon not found"
+          echo "Material theme assets:"
+          ls -1 site/assets/stylesheets/ | grep -E '^main\..*\.min\.css$' && echo "✅ Material main CSS"
+          ls -1 site/assets/stylesheets/ | grep -E '^palette\..*\.min\.css$' && echo "✅ Material palette CSS"
+          ls -1 site/assets/javascripts/ | grep -E '^bundle\..*\.min\.js$' && echo "✅ Material bundle JS"
+
           echo ""
-          echo "/en/ structure:"
-          ls -la site/en | sed -n '1,15p'
+          echo "Custom assets:"
+          test -f site/assets/styles/extra.css && echo "✅ Custom extra.css"
+          test -f site/assets/stylesheets/back-to-top.css && echo "✅ Back-to-top CSS"
+          test -f site/assets/js/nav-anchor.js && echo "✅ Nav anchor JS"
+          test -f site/assets/javascripts/back-to-top.js && echo "✅ Back-to-top JS"
+
+          echo ""
+          echo "Branding:"
+          test -f site/assets/favicon.ico && echo "✅ Favicon" || echo "⚠️  Favicon not in expected location"
+          test -f site/assets/images/logo-light.svg || test -f site/assets/brand/logo-light.svg && echo "✅ Logo"
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

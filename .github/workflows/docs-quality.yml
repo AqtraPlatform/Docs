@@ -13,6 +13,9 @@ on:
       - "docs/**"
       - "mkdocs.yml"
 
+env:
+  MD_LINT_ENABLED: "0"  # set "1" to enable markdown lint in quality workflow
+
 jobs:
   build-and-validate:
     name: Build & Validate Documentation
@@ -91,7 +94,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Markdown lint
+      - name: Markdown lint (disabled in build)
+        if: ${{ env.MD_LINT_ENABLED != '0' }}
         uses: DavidAnson/markdownlint-cli2-action@v16
         with:
           globs: |

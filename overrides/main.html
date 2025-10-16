@@ -1,14 +1,10 @@
-{% extends "base.html" %} {% block extrahead %} {{ super() }} {# Extra icons —
-keep paths relative to base_url #}
-<link
-  rel="apple-touch-icon"
-  sizes="180x180"
-  href="{{ base_url }}/assets/icons/apple-touch-icon.png"
-/>
-<link
-  rel="mask-icon"
-  href="{{ base_url }}/assets/icons/safari-pinned-tab.svg"
-  color="#0b5fff"
-/>
-<meta name="theme-color" content="#0b5fff" />
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <!-- Apple touch icons and theme color -->
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ base_url }}/assets/icons/apple-touch-icon.png">
+  <link rel="mask-icon" href="{{ base_url }}/assets/icons/safari-pinned-tab.svg" color="#0b5fff">
+  <meta name="theme-color" content="#0b5fff">
 {% endblock %}
+

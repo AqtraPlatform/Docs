@@ -11,7 +11,7 @@ permissions:
   contents: read
 
 env:
-  MD_LINT_ENABLED: "1"  # set "0" to skip markdown lint entirely
+  MD_LINT_ENABLED: "1" # set "0" to skip markdown lint entirely
 
 jobs:
   markdownlint:
