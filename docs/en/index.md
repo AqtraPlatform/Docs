@@ -3,9 +3,9 @@
 <p class="lead">Welcome to the Aqtra platform documentation! A modern low-code platform for creating enterprise applications with visual programming and business process automation support.</p>
 
 <div style="display: flex; gap: 1rem; margin: 2rem 0; flex-wrap: wrap;">
-  <a class="btn" href="/learn/">🚀 Quick Start</a>
-  <a class="btn" href="/app-development/">⚙️ Development</a>
-  <a class="btn" href="/tutorials/">📚 Tutorials</a>
+  <a class="btn" href="learn/">🚀 Quick Start</a>
+  <a class="btn" href="app-development/">⚙️ Development</a>
+  <a class="btn" href="tutorials/">📚 Tutorials</a>
 </div>
 
 !!! tip "New in version 2.0"

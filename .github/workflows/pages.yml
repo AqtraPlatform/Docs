@@ -117,6 +117,11 @@ jobs:
           test -f site/assets/favicon.ico && echo "✅ Favicon"
           test -f site/assets/images/logo-light.svg && echo "✅ Logo"
 
+          echo ""
+          echo "Language switcher & redirects:"
+          grep -q 'href="/de/' site/en/index.html && echo "✅ Language link is absolute (/de/)"
+          grep -q 'redirect-legacy-paths.js' site/en/index.html && echo "✅ Legacy redirect script loaded"
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 

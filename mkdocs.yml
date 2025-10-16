@@ -226,6 +226,15 @@ plugins:
             Release Notes: Versionshinweise
   - glightbox
   - mermaid2
+  - redirects:
+      redirect_maps:
+        # Legacy app-develop → app-development redirects
+        "en/app-develop/component.md": "en/app-development/component.md"
+        "en/app-develop/using-python.md": "en/app-development/using-python.md"
+        "en/app-develop/index.md": "en/app-development/index.md"
+        "en/app-develop/publishing-applications.md": "en/app-development/publishing-applications.md"
+        # Legacy overview1 → overview redirects
+        "en/overview1/first-entry.md": "en/overview/getting-started.md"
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
@@ -261,6 +270,7 @@ extra_javascript:
   - assets/js/glightbox.min.js
   - assets/js/nav-anchor.js
   - assets/js/back-to-top.js
+  - assets/js/redirect-legacy-paths.js
 
 nav:
   - Home: index.md
