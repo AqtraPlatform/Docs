@@ -177,10 +177,16 @@ jobs:
           test -f site/assets/images/logo-light.svg && echo "✅ Logo"
 
           echo ""
-          echo "Language switcher & i18n:"
-          grep -q 'href="/de/' site/en/index.html && echo "✅ EN→DE: absolute link (/de/)"
-          grep -q 'href="/en/' site/de/index.html && echo "✅ DE→EN: absolute link (/en/)"
-          grep -q 'fix-locale-links.js' site/en/index.html && echo "✅ Locale normalizer loaded"
+          echo "Native i18n language switching:"
+          # EN page: navigation links should have /en/ prefix
+          grep -qE 'href="/en/tutorials/' site/en/index.html && echo "✅ EN nav: /en/tutorials/"
+          # DE page: navigation links should have /de/ prefix
+          grep -qE 'href="/de/tutorials/' site/de/index.html && echo "✅ DE nav: /de/tutorials/"
+          # EN page: alternate link to DE
+          grep -qE 'rel="alternate".*href="/de/' site/en/index.html && echo "✅ EN→DE: alternate link (/de/)"
+          # DE page: alternate link to EN
+          grep -qE 'rel="alternate".*href="/en/' site/de/index.html && echo "✅ DE→EN: alternate link (/en/)"
+          # Legacy redirects still work
           grep -q 'redirect-legacy-paths.js' site/en/index.html && echo "✅ Legacy redirect script loaded"
 
           echo ""

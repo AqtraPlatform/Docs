@@ -93,11 +93,11 @@ plugins:
           name: English
           default: true
           build: true
-          site_name: Aqtra Docs
+          link: /en/
         - locale: de
           name: Deutsch
           build: true
-          site_name: Aqtra Docs
+          link: /de/
           nav_translations:
             Home: Startseite
             Getting Started: Erste Schritte
@@ -264,7 +264,6 @@ extra_javascript:
   - assets/js/nav-anchor.js
   - assets/js/back-to-top.js
   - assets/js/redirect-legacy-paths.js
-  - assets/js/fix-locale-links.js
 
 nav:
   - Home: index.md
