@@ -126,7 +126,8 @@ jobs:
 
           echo ""
           echo "Branding:"
-          test -f site/assets/favicon.ico && echo "✅ Favicon"
+          test -f site/assets/favicon.svg && echo "✅ Favicon SVG"
+          test -f site/assets/favicon.ico && echo "✅ Favicon ICO (fallback)" || true
           test -f site/assets/images/logo-light.svg && echo "✅ Logo"
 
           echo ""
