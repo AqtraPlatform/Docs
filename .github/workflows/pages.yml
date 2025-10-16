@@ -89,6 +89,52 @@ jobs:
           done
           echo "✅ Assets mirrored to /en/assets and /de/assets"
 
+      - name: Generate legacy redirects for /en/app-develop/**
+        run: |
+          set -e
+          SRC="site/en/app-development"
+          DST="site/en/app-develop"
+          if [ -d "$SRC" ]; then
+            # Create redirect for EVERY html in new structure
+            while IFS= read -r -d '' f; do
+              rel="${f#${SRC}/}"                # relative path, e.g.: ui-components/wysiwyg-editor.html
+              out="${DST}/${rel}"               # where to put redirect
+              mkdir -p "$(dirname "$out")"
+              target="/en/app-development/${rel}"
+              cat > "$out" <<EOF
+          <!doctype html><html lang="en"><head>
+            <meta charset="utf-8">
+            <title>Moved</title>
+            <link rel="canonical" href="${target}">
+            <meta http-equiv="refresh" content="0; url=${target}">
+            <script>location.replace("${target}"+location.search+location.hash)</script>
+            <noscript><meta http-equiv="refresh" content="0; url=${target}"></noscript>
+          </head><body>
+            <a href="${target}">This page has moved to ${target}</a>
+          </body></html>
+          EOF
+            done < <(find "$SRC" -type f -name '*.html' -print0)
+            echo "✅ Generated $(find "$DST" -type f -name '*.html' | wc -l) redirect pages"
+          fi
+
+      - name: Add specific legacy redirects
+        run: |
+          set -e
+          # /en/overview1/first-entry.html → /en/overview/getting-started.html#first
+          mkdir -p site/en/overview1
+          cat > site/en/overview1/first-entry.html <<'EOF'
+          <!doctype html><html lang="en"><head>
+            <meta charset="utf-8">
+            <title>Moved</title>
+            <link rel="canonical" href="/en/overview/getting-started.html#first">
+            <meta http-equiv="refresh" content="0; url=/en/overview/getting-started.html#first">
+            <script>location.replace("/en/overview/getting-started.html#first"+location.search)</script>
+          </head><body>
+            <a href="/en/overview/getting-started.html#first">This page has moved</a>
+          </body></html>
+          EOF
+          echo "✅ Added specific redirects"
+
       - name: Add CNAME and .nojekyll
         run: |
           echo "docs.aqtra.io" > site/CNAME
@@ -134,6 +180,13 @@ jobs:
           echo "Language switcher & redirects:"
           grep -q 'href="/de/' site/en/index.html && echo "✅ Language link is absolute (/de/)"
           grep -q 'redirect-legacy-paths.js' site/en/index.html && echo "✅ Legacy redirect script loaded"
+
+          echo ""
+          echo "Legacy redirect pages:"
+          test -f site/en/app-develop/ui-components/wysiwyg-editor.html && echo "✅ Redirect: app-develop/ui-components/wysiwyg-editor.html"
+          test -f site/en/app-develop/data-flow-components/subscribe-to-connector.html && echo "✅ Redirect: app-develop/data-flow-components/subscribe-to-connector.html"
+          test -f site/en/overview1/first-entry.html && echo "✅ Redirect: overview1/first-entry.html"
+          echo "Total legacy redirects: $(find site/en/app-develop -type f -name '*.html' 2>/dev/null | wc -l)"
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
