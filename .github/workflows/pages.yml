@@ -30,14 +30,23 @@ jobs:
 
       - name: Install dependencies
         run: |
+          set -e
           python -V
           pip install -U pip
           pip install -r requirements.txt
-          echo "---- installed versions ----"
+          echo "---- versions ----"
           mkdocs --version
-          python -c "from importlib.metadata import version, PackageNotFoundError; \
-          mods=['mkdocs-static-i18n','mkdocs-redirects','mkdocs-glightbox','mkdocs-mermaid2-plugin','mkdocs-git-revision-date-localized-plugin','mkdocs-minify-plugin']; \
-          [print(f'{m}: {version(m)}' if any(d.name == m for d in __import__(\"importlib.metadata\").distributions()) else f'{m}: missing') for m in mods]"
+          python - <<'PY'
+          import importlib.metadata as im
+          pkgs = [
+            "mkdocs","mkdocs-material","mkdocs-static-i18n","mkdocs-redirects",
+            "mkdocs-glightbox","mkdocs-mermaid2-plugin",
+            "mkdocs-git-revision-date-localized-plugin","mkdocs-minify-plugin",
+            "mkdocstrings","mkdocs-autorefs"
+          ]
+          installed = {d.metadata.get("Name","").lower(): d.version for d in im.distributions()}
+          print({p: installed.get(p.lower(), "missing") for p in pkgs})
+          PY
 
       - name: Build site (MkDocs)
         run: mkdocs build --strict --verbose

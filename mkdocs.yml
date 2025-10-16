@@ -11,7 +11,7 @@ theme:
   language: en
   logo: assets/images/logo-light.svg
   logo_dark: assets/brand/logo-dark.svg
-  favicon: assets/favicon.ico
+  favicon: assets/favicon.svg
   icon:
     repo: material/github
     admonition:
