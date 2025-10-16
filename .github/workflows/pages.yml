@@ -68,6 +68,15 @@ jobs:
           </html>
           EOF
 
+      - name: Mirror assets into language folders (safety net)
+        run: |
+          set -e
+          for L in en de; do
+            mkdir -p "site/$L/assets"
+            rsync -a --delete "site/assets/" "site/$L/assets/"
+          done
+          echo "✅ Assets mirrored to /en/assets and /de/assets"
+
       - name: Add CNAME and .nojekyll
         run: |
           echo "docs.aqtra.io" > site/CNAME
@@ -84,22 +93,29 @@ jobs:
           test -f site/.nojekyll && echo "✅ .nojekyll"
 
           echo ""
-          echo "Material theme assets:"
+          echo "Material theme assets (root /assets):"
           ls -1 site/assets/stylesheets/ | grep -E '^main\..*\.min\.css$' && echo "✅ Material main CSS"
           ls -1 site/assets/stylesheets/ | grep -E '^palette\..*\.min\.css$' && echo "✅ Material palette CSS"
           ls -1 site/assets/javascripts/ | grep -E '^bundle\..*\.min\.js$' && echo "✅ Material bundle JS"
 
           echo ""
-          echo "Custom assets:"
-          test -f site/assets/styles/extra.css && echo "✅ Custom extra.css"
-          test -f site/assets/stylesheets/back-to-top.css && echo "✅ Back-to-top CSS"
+          echo "Custom assets (root /assets):"
+          test -f site/assets/css/extra.css && echo "✅ Custom extra.css"
+          test -f site/assets/css/back-to-top.css && echo "✅ Back-to-top CSS"
           test -f site/assets/js/nav-anchor.js && echo "✅ Nav anchor JS"
-          test -f site/assets/javascripts/back-to-top.js && echo "✅ Back-to-top JS"
+          test -f site/assets/js/back-to-top.js && echo "✅ Back-to-top JS"
+
+          echo ""
+          echo "Mirrored assets in /en/assets (safety net):"
+          MAIN_CSS=$(ls site/assets/stylesheets/ | grep -E '^main\..*\.min\.css$' | head -n1)
+          BUNDLE_JS=$(ls site/assets/javascripts/ | grep -E '^bundle\..*\.min\.js$' | head -n1)
+          test -f "site/en/assets/stylesheets/$MAIN_CSS" && echo "✅ EN has Material main CSS"
+          test -f "site/en/assets/javascripts/$BUNDLE_JS" && echo "✅ EN has Material bundle JS"
 
           echo ""
           echo "Branding:"
-          test -f site/assets/favicon.ico && echo "✅ Favicon" || echo "⚠️  Favicon not in expected location"
-          test -f site/assets/images/logo-light.svg || test -f site/assets/brand/logo-light.svg && echo "✅ Logo"
+          test -f site/assets/favicon.ico && echo "✅ Favicon"
+          test -f site/assets/images/logo-light.svg && echo "✅ Logo"
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

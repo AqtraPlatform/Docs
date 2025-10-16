@@ -9,7 +9,7 @@ theme:
   name: material
   custom_dir: overrides
   language: en
-  logo: assets/brand/logo-light.svg
+  logo: assets/images/logo-light.svg
   logo_dark: assets/brand/logo-dark.svg
   favicon: assets/favicon.ico
   icon:
@@ -253,12 +253,14 @@ extra:
       link: mailto:welcome@aqtra.io
 
 extra_css:
-  - assets/styles/extra.css
-  - assets/stylesheets/back-to-top.css
+  - assets/css/extra.css
+  - assets/css/glightbox.min.css
+  - assets/css/back-to-top.css
 
 extra_javascript:
+  - assets/js/glightbox.min.js
   - assets/js/nav-anchor.js
-  - assets/javascripts/back-to-top.js
+  - assets/js/back-to-top.js
 
 nav:
   - Home: index.md
