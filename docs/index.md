@@ -12,7 +12,7 @@
 Added support for Python modules, improved development interface and extended process automation capabilities.
 
 !!! note "Language Support"
-Documentation is available in <span class="badge">Russian</span> and <span class="badge">English</span> languages.
+Documentation is available in <span class="badge">English</span> and <span class="badge">German</span> languages.
 
 ## Getting Started
 
