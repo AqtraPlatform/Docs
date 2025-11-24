@@ -12,7 +12,7 @@
 Unterstützung für Python-Module hinzugefügt, verbesserte Entwicklungsschnittstelle und erweiterte Möglichkeiten zur Prozessautomatisierung.
 
 !!! note "Sprachunterstützung"
-Die Dokumentation ist in den Sprachen <span class="badge">Russisch</span> und <span class="badge">Englisch</span> verfügbar.
+Die Dokumentation ist in den Sprachen <span class="badge">Deutsch</span> und <span class="badge">Englisch</span> verfügbar.
 
 ## Erste Schritte
 
