@@ -10,3 +10,12 @@ rules:
     min-spaces-from-content: 1
   document-start:
     present: false
+
+# Игнорировать файлы из виртуального окружения и зависимостей
+ignore: |
+  .venv/
+  venv/
+  .venv/**/*
+  venv/**/*
+  **/.venv/**/*
+  **/venv/**/*

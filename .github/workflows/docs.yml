@@ -26,7 +26,8 @@ jobs:
         run: poetry install --no-interaction --no-root
       - name: Lint config
         run: |
-          poetry run yamllint .
+          # Проверяем только наши файлы, игнорируя .venv
+          poetry run yamllint mkdocs.yml .github/workflows/*.yml tools/glossary.yaml
       - name: Fix image paths
         env:
           DRY_RUN: "0"
