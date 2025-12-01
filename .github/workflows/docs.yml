@@ -55,14 +55,22 @@ jobs:
             --skip-images
       - name: Build docs (strict)
         run: |
+          set +e
           poetry run mkdocs build 2>&1 | tee /tmp/mkdocs_build.log
+          BUILD_EXIT=$?
           REDIRECT_WARNINGS=$(grep -c "WARNING.*redirects plugin:.*is not a valid markdown file" /tmp/mkdocs_build.log || echo "0")
-          OTHER_WARNINGS=$(grep "WARNING" /tmp/mkdocs_build.log | grep -v "redirects plugin:.*is not a valid markdown file" | wc -l)
+          OTHER_WARNINGS=$(grep "WARNING" /tmp/mkdocs_build.log | grep -v "redirects plugin:.*is not a valid markdown file" | wc -l | tr -d ' ')
+          echo "Redirect warnings: $REDIRECT_WARNINGS (ignored)"
+          echo "Other warnings: $OTHER_WARNINGS"
           if [ "$OTHER_WARNINGS" -gt 0 ]; then
             echo "::error::Found $OTHER_WARNINGS non-redirect warnings"
             exit 1
           fi
-          echo "✅ Build completed with $REDIRECT_WARNINGS redirect warnings (ignored)"
+          if [ $BUILD_EXIT -ne 0 ]; then
+            echo "::error::Build failed with exit code $BUILD_EXIT"
+            exit $BUILD_EXIT
+          fi
+          echo "✅ Build completed successfully"
 
       - name: Upload CSV reports
         if: always()
@@ -126,14 +134,22 @@ jobs:
       - name: Verify redirects plugin
         run: poetry run python -c "import mkdocs_redirects; print('✅ mkdocs-redirects installed')"
       - run: |
+          set +e
           poetry run mkdocs build 2>&1 | tee /tmp/mkdocs_build.log
+          BUILD_EXIT=$?
           REDIRECT_WARNINGS=$(grep -c "WARNING.*redirects plugin:.*is not a valid markdown file" /tmp/mkdocs_build.log || echo "0")
-          OTHER_WARNINGS=$(grep "WARNING" /tmp/mkdocs_build.log | grep -v "redirects plugin:.*is not a valid markdown file" | wc -l)
+          OTHER_WARNINGS=$(grep "WARNING" /tmp/mkdocs_build.log | grep -v "redirects plugin:.*is not a valid markdown file" | wc -l | tr -d ' ')
+          echo "Redirect warnings: $REDIRECT_WARNINGS (ignored)"
+          echo "Other warnings: $OTHER_WARNINGS"
           if [ "$OTHER_WARNINGS" -gt 0 ]; then
             echo "::error::Found $OTHER_WARNINGS non-redirect warnings"
             exit 1
           fi
-          echo "✅ Build completed with $REDIRECT_WARNINGS redirect warnings (ignored)"
+          if [ $BUILD_EXIT -ne 0 ]; then
+            echo "::error::Build failed with exit code $BUILD_EXIT"
+            exit $BUILD_EXIT
+          fi
+          echo "✅ Build completed successfully"
       - name: Deploy to Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -162,14 +178,22 @@ jobs:
         run: poetry install --no-interaction --no-root
       - name: Build docs
         run: |
+          set +e
           poetry run mkdocs build 2>&1 | tee /tmp/mkdocs_build.log
+          BUILD_EXIT=$?
           REDIRECT_WARNINGS=$(grep -c "WARNING.*redirects plugin:.*is not a valid markdown file" /tmp/mkdocs_build.log || echo "0")
-          OTHER_WARNINGS=$(grep "WARNING" /tmp/mkdocs_build.log | grep -v "redirects plugin:.*is not a valid markdown file" | wc -l)
+          OTHER_WARNINGS=$(grep "WARNING" /tmp/mkdocs_build.log | grep -v "redirects plugin:.*is not a valid markdown file" | wc -l | tr -d ' ')
+          echo "Redirect warnings: $REDIRECT_WARNINGS (ignored)"
+          echo "Other warnings: $OTHER_WARNINGS"
           if [ "$OTHER_WARNINGS" -gt 0 ]; then
             echo "::error::Found $OTHER_WARNINGS non-redirect warnings"
             exit 1
           fi
-          echo "✅ Build completed with $REDIRECT_WARNINGS redirect warnings (ignored)"
+          if [ $BUILD_EXIT -ne 0 ]; then
+            echo "::error::Build failed with exit code $BUILD_EXIT"
+            exit $BUILD_EXIT
+          fi
+          echo "✅ Build completed successfully"
       - name: Check links
         uses: lycheeverse/lychee-action@v1
         with:
