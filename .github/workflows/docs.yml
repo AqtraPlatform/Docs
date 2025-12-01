@@ -113,6 +113,8 @@ jobs:
           virtualenvs-create: true
           virtualenvs-in-project: true
       - run: poetry install --no-interaction --no-root
+      - name: Install redirects plugin explicitly
+        run: poetry add mkdocs-redirects || poetry run pip install mkdocs-redirects
       - name: Verify redirects plugin
         run: poetry run python -c "import mkdocs_redirects; print('✅ mkdocs-redirects installed')"
       - run: poetry run mkdocs build --strict
