@@ -20,7 +20,7 @@ Aqtra ist eine **Low-Code-Plattform** zum Erstellen von Geschäftsanwendungen ha
 **Primäre CTAs:**
 
 - **Start in 60 Minuten →** Erste Feature-Walkthrough (siehe [4) Erster Erfolg](#4-first-win-in-60-minutes))
-- **Dokumentation →** [https://docs.aqtra.io/en/](https://docs.aqtra.io/en/)
+- **Dokumentation →** [https://docs.aqtra.io/](https://docs.aqtra.io/)
 - **Video-Track →** [https://www.youtube.com/@Aqtra.Academy](https://www.youtube.com/@Aqtra.Academy)
 
 **Schnelllinks (Karten):**
@@ -98,31 +98,31 @@ Erhalten Sie eine laufende Instanz (siehe Abschnitt 4). Überprüfen Sie, ob Sie
 **Schritt 2 — Erstes Anwendungsskelett**
 Erstellen Sie ein minimales **DataModel** (z.B. `Invoice(number, title, totalAmount, dueDate)`) und eine **Komponente** zum Anzeigen/Bearbeiten. Veröffentlichen und zur Navigation hinzufügen, damit es im Workplace erscheint.
 
-**Docs**: Component → [https://docs.aqtra.io/en/app-develop/component.html](https://docs.aqtra.io/en/app-develop/component.html) ; UI catalog → [https://docs.aqtra.io/en/app-develop/ui-components/index.html](https://docs.aqtra.io/en/app-develop/ui-components/index.html)
+**Docs**: Component → [https://docs.aqtra.io/app-development/component.html](https://docs.aqtra.io/app-development/component.html) ; UI catalog → [https://docs.aqtra.io/app-development/ui-components/index.html](https://docs.aqtra.io/app-development/ui-components/index.html)
 **Video**: Tutorial #1 → [https://youtu.be/GaUr5ET4dfQ](https://youtu.be/GaUr5ET4dfQ) ; Tutorial #2 → [https://youtu.be/UEG2pmct74s](https://youtu.be/UEG2pmct74s)
 
 **Schritt 3 — DataFlow-Grundlagen**
 Fügen Sie einen **DataFlow** mit Phasen/Schritten hinzu: `Get Action Model → Update Entry → Write Response`. Binden Sie ihn an einen **Button** und testen Sie create/update.
 
-**Docs**: Dataflow overview → [https://docs.aqtra.io/en/app-develop/data-flow-components/index.html](https://docs.aqtra.io/en/app-develop/data-flow-components/index.html) ; Update entry → [https://docs.aqtra.io/en/app-develop/data-flow-components/update-entry.html](https://docs.aqtra.io/en/app-develop/data-flow-components/update-entry.html) ; Execute dataflow → [https://docs.aqtra.io/en/app-develop/data-flow-components/execute-dataflow.html](https://docs.aqtra.io/en/app-develop/data-flow-components/execute-dataflow.html)
+**Docs**: Dataflow overview → [https://docs.aqtra.io/app-development/data-flow-components/index.html](https://docs.aqtra.io/app-development/data-flow-components/index.html) ; Update entry → [https://docs.aqtra.io/app-development/data-flow-components/update-entry.html](https://docs.aqtra.io/app-development/data-flow-components/update-entry.html) ; Execute dataflow → [https://docs.aqtra.io/app-development/data-flow-components/execute-dataflow.html](https://docs.aqtra.io/app-development/data-flow-components/execute-dataflow.html)
 **Video**: Tutorial #3 — ([05:16](https://youtu.be/UEG2pmct74s?t=316)–[07:30](https://youtu.be/UEG2pmct74s?t=450))
 
 **Schritt 4 — CRUD-Vervollständigung**
 Fügen Sie Listen-/Detailansichten hinzu, schließen Sie Create/Update/Delete-Flows und Validierungen ab.
 
-**Docs**: Data Grid → [https://docs.aqtra.io/en/app-develop/ui-components/data-grid.html](https://docs.aqtra.io/en/app-develop/ui-components/data-grid.html)
+**Docs**: Data Grid → [https://docs.aqtra.io/app-development/ui-components/data-grid.html](https://docs.aqtra.io/app-development/ui-components/data-grid.html)
 **Video**: Tutorial #4 — delete via Update Entry ([05:18](https://youtu.be/oLoYMSAlLVo?t=318)–[06:20](https://youtu.be/oLoYMSAlLVo?t=380)); Tutorial #5 — dynamic filters ([00:13](https://youtu.be/YuU_YomoNaw?t=13)–[03:00](https://youtu.be/YuU_YomoNaw?t=180))
 
 **Schritt 5 — Python-Skripting für Geschäftslogik**
 Fügen Sie einen **Python Script**-Schritt ein, um abgeleitete Felder zu berechnen und Eingaben zu validieren.
 
-**Docs**: Execute script → [https://docs.aqtra.io/en/app-develop/data-flow-components/execute-script.html](https://docs.aqtra.io/en/app-develop/data-flow-components/execute-script.html)
+**Docs**: Execute script → [https://docs.aqtra.io/app-development/data-flow-components/execute-script.html](https://docs.aqtra.io/app-development/data-flow-components/execute-script.html)
 **Video**: Tutorial #6 — Execute Script ([04:10](https://youtu.be/bOR2nOk_S0c?t=250)–[06:10](https://youtu.be/bOR2nOk_S0c?t=370))
 
 **Schritt 6 — Externe Integrationen**
 Rufen Sie eine externe HTTP-API von einem Python-Skript aus auf; ordnen Sie die Antwort Ihrem DataModel zu.
 
-**Docs**: Execute API call → [https://docs.aqtra.io/en/app-develop/data-flow-components/execute-api-call.html](https://docs.aqtra.io/en/app-develop/data-flow-components/execute-api-call.html)
+**Docs**: Execute API call → [https://docs.aqtra.io/app-development/data-flow-components/execute-api-call.html](https://docs.aqtra.io/app-development/data-flow-components/execute-api-call.html)
 **Video**: (Optional) Tutorial #10 — diagnosing payload/type mismatches ([01:46](https://youtu.be/qJcpIQQEqbo?t=106)–[05:00](https://youtu.be/qJcpIQQEqbo?t=300))
 
 !!! tip "Fehlerbehebung"
@@ -134,7 +134,7 @@ Rufen Sie eine externe HTTP-API von einem Python-Skript aus auf; ordnen Sie die 
 **Schritt 7 — MultiComponent-Seiten**
 Erstellen Sie eine Seite aus mehreren Komponenten (Filter + Grid + Formular). Konfigurieren Sie **Datenkontext** und Verdrahtung.
 
-**Docs**: List View → [https://docs.aqtra.io/en/app-develop/ui-components/list-view.html](https://docs.aqtra.io/en/app-develop/ui-components/list-view.html) ; Tab Control → [https://docs.aqtra.io/en/app-develop/ui-components/tab-control.html](https://docs.aqtra.io/en/app-develop/ui-components/tab-control.html) ; Charts → [https://docs.aqtra.io/en/app-develop/ui-components/charts.html](https://docs.aqtra.io/en/app-develop/ui-components/charts.html)
+**Docs**: List View → [https://docs.aqtra.io/app-development/ui-components/list-view.html](https://docs.aqtra.io/app-development/ui-components/list-view.html) ; Tab Control → [https://docs.aqtra.io/app-development/ui-components/tab-control.html](https://docs.aqtra.io/app-development/ui-components/tab-control.html) ; Charts → [https://docs.aqtra.io/app-development/ui-components/charts.html](https://docs.aqtra.io/app-development/ui-components/charts.html)
 **Video**: Tutorial #6 — modal dialog + auto‑refresh grid ([10:45](https://youtu.be/bOR2nOk_S0c?t=645)–[17:00](https://youtu.be/bOR2nOk_S0c?t=1020)); Tutorial #7 — List View ([00:59](https://youtu.be/PtAJwn07sWI?t=59)–[03:00](https://youtu.be/PtAJwn07sWI?t=180))
 
 > **Design-Tipp (optional)**: Gruppieren Sie zusammenhängende Eingaben in Panels, halten Sie den vertikalen Rhythmus konsistent (8–12px Vielfache), vermeiden Sie übermäßige Verwendung von Diagrammen—fügen Sie sie nur hinzu, wenn sie Trends verdeutlichen.
@@ -142,19 +142,19 @@ Erstellen Sie eine Seite aus mehreren Komponenten (Filter + Grid + Formular). Ko
 **Schritt 8 — Navigation & seitenübergreifende Verdrahtung**
 Fügen Sie Menüpunkte hinzu und öffnen Sie Seiten mit **Aktionsparametern** (übergeben Sie Datensatz `id` vom Grid zum Formular).
 
-**Docs**: Button actions → [https://docs.aqtra.io/en/app-develop/ui-components/button.html](https://docs.aqtra.io/en/app-develop/ui-components/button.html)
+**Docs**: Button actions → [https://docs.aqtra.io/app-development/ui-components/button.html](https://docs.aqtra.io/app-development/ui-components/button.html)
 **Video**: Tutorial #12 — open page + parameter mapping ([06:18](https://youtu.be/k36-qpZa9bU?t=378)–[07:00](https://youtu.be/k36-qpZa9bU?t=420)); Tutorial #5 — Open application from grid ([10:53](https://youtu.be/YuU_YomoNaw?t=653)–[11:20](https://youtu.be/YuU_YomoNaw?t=680))
 
 **Schritt 9 — Vorlagen & Dokumentengenerierung (PDF)**
 Rendern und laden Sie ein Dokument aus einer Vorlage über DataFlow herunter.
 
-**Docs**: Dataflow components (Render Template) → [https://docs.aqtra.io/en/app-develop/data-flow-components/index.html](https://docs.aqtra.io/en/app-develop/data-flow-components/index.html)
+**Docs**: Dataflow components (Render Template) → [https://docs.aqtra.io/app-development/data-flow-components/index.html](https://docs.aqtra.io/app-development/data-flow-components/index.html)
 **Video**: Tutorial #12 — template render + download ([01:37](https://youtu.be/k36-qpZa9bU?t=97)–[02:45](https://youtu.be/k36-qpZa9bU?t=165); [05:20](https://youtu.be/k36-qpZa9bU?t=320)–[07:00](https://youtu.be/k36-qpZa9bU?t=420))
 
 **Schritt 10 — Fehlerbehandlung & Debugging**
 Verwenden Sie den Network-Tab und Studio-Logs, um 4xx/5xx zu diagnostizieren; Typen korrigieren; neu veröffentlichen.
 
-**Docs**: Publishing applications → [https://docs.aqtra.io/en/app-develop/publishing-applications.html](https://docs.aqtra.io/en/app-develop/publishing-applications.html)
+**Docs**: Publishing applications → [https://docs.aqtra.io/app-development/publishing-applications.html](https://docs.aqtra.io/app-development/publishing-applications.html)
 **Video**: Tutorial #10 — finding and fixing errors ([01:46](https://youtu.be/qJcpIQQEqbo?t=106)–[05:00](https://youtu.be/qJcpIQQEqbo?t=300))
 
 !!! tip "Fehlerbehebung"
@@ -175,32 +175,32 @@ Erweitern Sie Ihre App zu einer kleinen Funktion (z.B. Mini-CRM): Rollen/Berecht
 
 **Installation / Plattform**
 
-- Grundeinstellungen, Auth, Logs, Metriken → [https://docs.aqtra.io/en/install1/basic-settings.html](https://docs.aqtra.io/en/install1/basic-settings.html)
+- Grundeinstellungen, Auth, Logs, Metriken → [https://docs.aqtra.io/install1/basic-settings.html](https://docs.aqtra.io/install1/basic-settings.html)
 
 **Kern-Build**
 
-- Component (Erstellen, Grundeinstellungen) → [https://docs.aqtra.io/en/app-develop/component.html](https://docs.aqtra.io/en/app-develop/component.html)
-- UI-Komponentenkatalog (erste Erwähnung) → [https://docs.aqtra.io/en/app-develop/ui-components/index.html](https://docs.aqtra.io/en/app-develop/ui-components/index.html)
-- Data Grid (erste Erwähnung) → [https://docs.aqtra.io/en/app-develop/ui-components/data-grid.html](https://docs.aqtra.io/en/app-develop/ui-components/data-grid.html)
-- List View / Tab Control / Charts (erste Erwähnung) → [https://docs.aqtra.io/en/app-develop/ui-components/list-view.html](https://docs.aqtra.io/en/app-develop/ui-components/list-view.html), [https://docs.aqtra.io/en/app-develop/ui-components/tab-control.html](https://docs.aqtra.io/en/app-develop/ui-components/tab-control.html), [https://docs.aqtra.io/en/app-develop/ui-components/charts.html](https://docs.aqtra.io/en/app-develop/ui-components/charts.html)
+- Component (Erstellen, Grundeinstellungen) → [https://docs.aqtra.io/app-development/component.html](https://docs.aqtra.io/app-development/component.html)
+- UI-Komponentenkatalog (erste Erwähnung) → [https://docs.aqtra.io/app-development/ui-components/index.html](https://docs.aqtra.io/app-development/ui-components/index.html)
+- Data Grid (erste Erwähnung) → [https://docs.aqtra.io/app-development/ui-components/data-grid.html](https://docs.aqtra.io/app-development/ui-components/data-grid.html)
+- List View / Tab Control / Charts (erste Erwähnung) → [https://docs.aqtra.io/app-development/ui-components/list-view.html](https://docs.aqtra.io/app-development/ui-components/list-view.html), [https://docs.aqtra.io/app-development/ui-components/tab-control.html](https://docs.aqtra.io/app-development/ui-components/tab-control.html), [https://docs.aqtra.io/app-development/ui-components/charts.html](https://docs.aqtra.io/app-development/ui-components/charts.html)
 
 **Flows / Logik**
 
-- Dataflow overview → [https://docs.aqtra.io/en/app-develop/data-flow-components/index.html](https://docs.aqtra.io/en/app-develop/data-flow-components/index.html)
-- Update Entry (CRUD) → [https://docs.aqtra.io/en/app-develop/data-flow-components/update-entry.html](https://docs.aqtra.io/en/app-develop/data-flow-components/update-entry.html)
-- Execute dataflow → [https://docs.aqtra.io/en/app-develop/data-flow-components/execute-dataflow.html](https://docs.aqtra.io/en/app-develop/data-flow-components/execute-dataflow.html)
-- Execute script (Python) → [https://docs.aqtra.io/en/app-develop/data-flow-components/execute-script.html](https://docs.aqtra.io/en/app-develop/data-flow-components/execute-script.html)
-- Execute API call → [https://docs.aqtra.io/en/app-develop/data-flow-components/execute-api-call.html](https://docs.aqtra.io/en/app-develop/data-flow-components/execute-api-call.html)
+- Dataflow overview → [https://docs.aqtra.io/app-development/data-flow-components/index.html](https://docs.aqtra.io/app-development/data-flow-components/index.html)
+- Update Entry (CRUD) → [https://docs.aqtra.io/app-development/data-flow-components/update-entry.html](https://docs.aqtra.io/app-development/data-flow-components/update-entry.html)
+- Execute dataflow → [https://docs.aqtra.io/app-development/data-flow-components/execute-dataflow.html](https://docs.aqtra.io/app-development/data-flow-components/execute-dataflow.html)
+- Execute script (Python) → [https://docs.aqtra.io/app-development/data-flow-components/execute-script.html](https://docs.aqtra.io/app-development/data-flow-components/execute-script.html)
+- Execute API call → [https://docs.aqtra.io/app-development/data-flow-components/execute-api-call.html](https://docs.aqtra.io/app-development/data-flow-components/execute-api-call.html)
 
 **Veröffentlichung**
 
-- Publishing applications → [https://docs.aqtra.io/en/app-develop/publishing-applications.html](https://docs.aqtra.io/en/app-develop/publishing-applications.html)
+- Publishing applications → [https://docs.aqtra.io/app-development/publishing-applications.html](https://docs.aqtra.io/app-development/publishing-applications.html)
 
 **Tutorials (Dokumente)**
 
-- Tutorial #1 → [https://docs.aqtra.io/en/tutorials/tutorial1.html](https://docs.aqtra.io/en/tutorials/tutorial1.html)
-- Tutorial #2 → [https://docs.aqtra.io/en/tutorials/tutorial2.html](https://docs.aqtra.io/en/tutorials/tutorial2.html)
-- Tutorial #3 → [https://docs.aqtra.io/en/tutorials/tutorial3.html](https://docs.aqtra.io/en/tutorials/tutorial3.html)
+- Tutorial #1 → [https://docs.aqtra.io/tutorials/tutorial1.html](https://docs.aqtra.io/tutorials/tutorial1.html)
+- Tutorial #2 → [https://docs.aqtra.io/tutorials/tutorial2.html](https://docs.aqtra.io/tutorials/tutorial2.html)
+- Tutorial #3 → [https://docs.aqtra.io/tutorials/tutorial3.html](https://docs.aqtra.io/tutorials/tutorial3.html)
 
 **Video-Index (anklickbare Zeitstempel)**
 
@@ -223,7 +223,7 @@ Erweitern Sie Ihre App zu einer kleinen Funktion (z.B. Mini-CRM): Rollen/Berecht
 4. **DataFlow verdrahten** — `Get Action Model → Update Entry → Write Response` (optional **Execute Script** zur Validierung von totalAmount).
 5. **Veröffentlichen** und im **Workplace** überprüfen: zwei Rechnungen erstellen, eine bearbeiten.
 
-**Docs**: Tutorials → Build your first app — [https://docs.aqtra.io/en/tutorials/index.html](https://docs.aqtra.io/en/tutorials/index.html)
+**Docs**: Tutorials → Build your first app — [https://docs.aqtra.io/tutorials/index.html](https://docs.aqtra.io/tutorials/index.html)
 
 ---
 
@@ -250,7 +250,7 @@ Wählen Sie eine der folgenden Optionen. Bewahren Sie Anmeldedaten und Lizenzsch
 - [ ] App starten → `docker compose up -d app`.
 - [ ] **Workplace** unter `http://<host>:8080/` und **Studio** unter `http://<host>:8080/studio/` aufrufen.
 
-**Docs**: Grundeinstellungen (Architektur, Ports, Auth, Logs, Metriken) → [https://docs.aqtra.io/en/install1/basic-settings.html](https://docs.aqtra.io/en/install1/basic-settings.html)
+**Docs**: Grundeinstellungen (Architektur, Ports, Auth, Logs, Metriken) → [https://docs.aqtra.io/install1/basic-settings.html](https://docs.aqtra.io/install1/basic-settings.html)
 
 [Zurück nach oben](#getting-started)
 
@@ -260,11 +260,11 @@ Wählen Sie eine der folgenden Optionen. Bewahren Sie Anmeldedaten und Lizenzsch
 
 Kurze, umsetzbare Definitionen.
 
-- **Component** — ein UI-Baustein, der Daten und Aktionen für Benutzer rendert (Formular, Liste, Detail usw.). [https://docs.aqtra.io/en/app-develop/component.html](https://docs.aqtra.io/en/app-develop/component.html)
-- **DataFlow** — ein gerichteter Fluss von Operationen (z.B. validieren → transformieren → persistieren → benachrichtigen), der bei Benutzer- oder Systemereignissen ausgeführt wird. Typische Schritte: **Get Action Model**, **Update Entry**, **Write Response**, **Execute Script**, **Execute API call**. [https://docs.aqtra.io/en/app-develop/data-flow-components/index.html](https://docs.aqtra.io/en/app-develop/data-flow-components/index.html)
+- **Component** — ein UI-Baustein, der Daten und Aktionen für Benutzer rendert (Formular, Liste, Detail usw.). [https://docs.aqtra.io/app-development/component.html](https://docs.aqtra.io/app-development/component.html)
+- **DataFlow** — ein gerichteter Fluss von Operationen (z.B. validieren → transformieren → persistieren → benachrichtigen), der bei Benutzer- oder Systemereignissen ausgeführt wird. Typische Schritte: **Get Action Model**, **Update Entry**, **Write Response**, **Execute Script**, **Execute API call**. [https://docs.aqtra.io/app-development/data-flow-components/index.html](https://docs.aqtra.io/app-development/data-flow-components/index.html)
 - **DataModel** — die strukturierte Definition von Entitäten/Attributen, die die Anwendung persistiert und manipuliert.
 - **MultiComponent** — eine zusammengesetzte Ansicht, die mehrere Komponenten (z.B. Liste + Details + Filter) zu einer kohärenten Seite zusammenfügt; Elemente verwenden **Datenkontext**, um an eine Quellkomponente zu binden.
-- **Python Script** — benutzerdefinierter Logikschritt, der in einen Flow eingebettet ist, um Daten zu transformieren, Dienste aufzurufen oder Regeln zu implementieren. [https://docs.aqtra.io/en/app-develop/data-flow-components/execute-script.html](https://docs.aqtra.io/en/app-develop/data-flow-components/execute-script.html)
+- **Python Script** — benutzerdefinierter Logikschritt, der in einen Flow eingebettet ist, um Daten zu transformieren, Dienste aufzurufen oder Regeln zu implementieren. [https://docs.aqtra.io/app-development/data-flow-components/execute-script.html](https://docs.aqtra.io/app-development/data-flow-components/execute-script.html)
 
 ---
 
@@ -295,21 +295,21 @@ Abonnieren Sie **Aqtra Academy** auf YouTube und überprüfen Sie regelmäßig d
 
 Ein paar nützliche Schritte, die Sie wahrscheinlich über CRUD hinaus verwenden werden:
 
-- **Update Entry** — [https://docs.aqtra.io/en/app-develop/data-flow-components/update-entry.html](https://docs.aqtra.io/en/app-develop/data-flow-components/update-entry.html)
+- **Update Entry** — [https://docs.aqtra.io/app-development/data-flow-components/update-entry.html](https://docs.aqtra.io/app-development/data-flow-components/update-entry.html)
 - **Execute dataflow** — rufen Sie einen anderen Dataflow auf und führen Sie Ergebnisse zusammen.
-  [https://docs.aqtra.io/en/app-develop/data-flow-components/execute-dataflow.html](https://docs.aqtra.io/en/app-develop/data-flow-components/execute-dataflow.html)
+  [https://docs.aqtra.io/app-development/data-flow-components/execute-dataflow.html](https://docs.aqtra.io/app-development/data-flow-components/execute-dataflow.html)
 - **Execute API call** — konfigurieren und führen Sie HTTP-Anfrage aus, binden Sie Ergebnisse.
-  [https://docs.aqtra.io/en/app-develop/data-flow-components/execute-api-call.html](https://docs.aqtra.io/en/app-develop/data-flow-components/execute-api-call.html)
+  [https://docs.aqtra.io/app-development/data-flow-components/execute-api-call.html](https://docs.aqtra.io/app-development/data-flow-components/execute-api-call.html)
 - **Get entity by id** — holen Sie Entität nach Kennung über Katalogfeld.
-  [https://docs.aqtra.io/en/app-develop/data-flow-components/get-entity-by-id.html](https://docs.aqtra.io/en/app-develop/data-flow-components/get-entity-by-id.html)
+  [https://docs.aqtra.io/app-development/data-flow-components/get-entity-by-id.html](https://docs.aqtra.io/app-development/data-flow-components/get-entity-by-id.html)
 - **Update model field** — setzen/leiten Sie ein einzelnes Feld innerhalb des Modells ab.
-  [https://docs.aqtra.io/en/workflow-components/update-model-field.html](https://docs.aqtra.io/en/workflow-components/update-model-field.html)
+  [https://docs.aqtra.io/workflow-components/update-model-field.html](https://docs.aqtra.io/workflow-components/update-model-field.html)
 - **Simple math** — addieren/subtrahieren/multiplizieren und in ein Zielfeld schreiben.
-  [https://docs.aqtra.io/en/app-develop/data-flow-components/simple-math.html](https://docs.aqtra.io/en/app-develop/data-flow-components/simple-math.html)
+  [https://docs.aqtra.io/app-development/data-flow-components/simple-math.html](https://docs.aqtra.io/app-development/data-flow-components/simple-math.html)
 - **Store entry over bus** — erstellen/speichern Sie Komponenteninstanz asynchron.
-  [https://docs.aqtra.io/en/app-develop/data-flow-components/store-entry-over-bus.html](https://docs.aqtra.io/en/app-develop/data-flow-components/store-entry-over-bus.html)
+  [https://docs.aqtra.io/app-development/data-flow-components/store-entry-over-bus.html](https://docs.aqtra.io/app-development/data-flow-components/store-entry-over-bus.html)
 - **Subscribe to connector** — z.B. RabbitMQ-Abonnement → verarbeiten → speichern.
-  [https://docs.aqtra.io/en/app-develop/data-flow-components/subscribe-to-connector.html](https://docs.aqtra.io/en/app-develop/data-flow-components/subscribe-to-connector.html)
+  [https://docs.aqtra.io/app-development/data-flow-components/subscribe-to-connector.html](https://docs.aqtra.io/app-development/data-flow-components/subscribe-to-connector.html)
 
 [Zurück nach oben](#getting-started)
 
