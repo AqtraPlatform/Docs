@@ -58,12 +58,16 @@ jobs:
           set +e
           poetry run mkdocs build 2>&1 | tee /tmp/mkdocs_build.log
           BUILD_EXIT=$?
+          # Count redirect warnings (these are expected and should be ignored)
           REDIRECT_WARNINGS=$(grep -c "WARNING.*redirects plugin:.*is not a valid markdown file" /tmp/mkdocs_build.log || echo "0")
-          OTHER_WARNINGS=$(grep "WARNING" /tmp/mkdocs_build.log | grep -v "redirects plugin:.*is not a valid markdown file" | wc -l | tr -d ' ')
+          # Count other warnings (exclude redirect warnings more precisely)
+          OTHER_WARNINGS=$(grep "^WARNING" /tmp/mkdocs_build.log | grep -v "redirects plugin:.*is not a valid markdown file" | wc -l | tr -d ' ')
           echo "Redirect warnings: $REDIRECT_WARNINGS (ignored)"
           echo "Other warnings: $OTHER_WARNINGS"
           if [ "$OTHER_WARNINGS" -gt 0 ]; then
             echo "::error::Found $OTHER_WARNINGS non-redirect warnings"
+            echo "First 10 other warnings:"
+            grep "^WARNING" /tmp/mkdocs_build.log | grep -v "redirects plugin:.*is not a valid markdown file" | head -10
             exit 1
           fi
           if [ $BUILD_EXIT -ne 0 ]; then
@@ -137,12 +141,16 @@ jobs:
           set +e
           poetry run mkdocs build 2>&1 | tee /tmp/mkdocs_build.log
           BUILD_EXIT=$?
+          # Count redirect warnings (these are expected and should be ignored)
           REDIRECT_WARNINGS=$(grep -c "WARNING.*redirects plugin:.*is not a valid markdown file" /tmp/mkdocs_build.log || echo "0")
-          OTHER_WARNINGS=$(grep "WARNING" /tmp/mkdocs_build.log | grep -v "redirects plugin:.*is not a valid markdown file" | wc -l | tr -d ' ')
+          # Count other warnings (exclude redirect warnings more precisely)
+          OTHER_WARNINGS=$(grep "^WARNING" /tmp/mkdocs_build.log | grep -v "redirects plugin:.*is not a valid markdown file" | wc -l | tr -d ' ')
           echo "Redirect warnings: $REDIRECT_WARNINGS (ignored)"
           echo "Other warnings: $OTHER_WARNINGS"
           if [ "$OTHER_WARNINGS" -gt 0 ]; then
             echo "::error::Found $OTHER_WARNINGS non-redirect warnings"
+            echo "First 10 other warnings:"
+            grep "^WARNING" /tmp/mkdocs_build.log | grep -v "redirects plugin:.*is not a valid markdown file" | head -10
             exit 1
           fi
           if [ $BUILD_EXIT -ne 0 ]; then
@@ -181,12 +189,16 @@ jobs:
           set +e
           poetry run mkdocs build 2>&1 | tee /tmp/mkdocs_build.log
           BUILD_EXIT=$?
+          # Count redirect warnings (these are expected and should be ignored)
           REDIRECT_WARNINGS=$(grep -c "WARNING.*redirects plugin:.*is not a valid markdown file" /tmp/mkdocs_build.log || echo "0")
-          OTHER_WARNINGS=$(grep "WARNING" /tmp/mkdocs_build.log | grep -v "redirects plugin:.*is not a valid markdown file" | wc -l | tr -d ' ')
+          # Count other warnings (exclude redirect warnings more precisely)
+          OTHER_WARNINGS=$(grep "^WARNING" /tmp/mkdocs_build.log | grep -v "redirects plugin:.*is not a valid markdown file" | wc -l | tr -d ' ')
           echo "Redirect warnings: $REDIRECT_WARNINGS (ignored)"
           echo "Other warnings: $OTHER_WARNINGS"
           if [ "$OTHER_WARNINGS" -gt 0 ]; then
             echo "::error::Found $OTHER_WARNINGS non-redirect warnings"
+            echo "First 10 other warnings:"
+            grep "^WARNING" /tmp/mkdocs_build.log | grep -v "redirects plugin:.*is not a valid markdown file" | head -10
             exit 1
           fi
           if [ $BUILD_EXIT -ne 0 ]; then
