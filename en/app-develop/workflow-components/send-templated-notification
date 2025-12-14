@@ -1,0 +1,14 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <link rel="canonical" href="../../../app-development/workflow-components/send-templated-notification.html">
+    <script>var anchor=window.location.hash.substr(1);location.href="../../../app-development/workflow-components/send-templated-notification.html"+(anchor?"#"+anchor:"")</script>
+    <meta http-equiv="refresh" content="0; url=../../../app-development/workflow-components/send-templated-notification.html">
+</head>
+<body>
+You're being redirected to a <a href="../../../app-development/workflow-components/send-templated-notification.html">new destination</a>.
+</body>
+</html>
