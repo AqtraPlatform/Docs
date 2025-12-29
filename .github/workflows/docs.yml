@@ -17,7 +17,8 @@ jobs:
           fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.12"
+          cache: "pip"
       - name: Install Poetry
         uses: snok/install-poetry@v1
         with:
@@ -26,6 +27,17 @@ jobs:
           virtualenvs-in-project: true
       - name: Install deps
         run: poetry install --no-interaction --no-root
+      - name: Normalize redirects
+        run: poetry run python tools/normalize_redirect_maps.py || echo "⚠️  normalize_redirect_maps.py not found, skipping"
+      - name: Copy assets into locales
+        run: |
+          for lang in de fr es pt; do
+            if [ -d "docs/$lang" ]; then
+              mkdir -p "docs/$lang"
+              rm -rf "docs/$lang/assets"
+              cp -R "docs/assets" "docs/$lang/assets" || echo "⚠️  Assets copy failed for $lang"
+            fi
+          done
       - name: Lint config
         run: |
           # Проверяем только наши файлы, игнорируя .venv
@@ -58,7 +70,7 @@ jobs:
       - name: Build docs (strict)
         run: |
           set +e
-          poetry run mkdocs build 2>&1 | tee /tmp/mkdocs_build.log
+          poetry run mkdocs build -s 2>&1 | tee /tmp/mkdocs_build.log
           BUILD_EXIT=$?
           # Count redirect warnings (these are expected and should be ignored)
           REDIRECT_WARNINGS=$(grep -c "WARNING.*redirects plugin:.*is not a valid markdown file" /tmp/mkdocs_build.log || echo "0")
@@ -123,27 +135,37 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: read
+      pages: write
+      id-token: write
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.12"
+          cache: "pip"
       - uses: snok/install-poetry@v1
         with:
           version: 1.8.3
           virtualenvs-create: true
           virtualenvs-in-project: true
       - run: poetry install --no-interaction --no-root
-      - name: Install redirects plugin explicitly
-        run: poetry add mkdocs-redirects || poetry run pip install mkdocs-redirects
-      - name: Verify redirects plugin
-        run: poetry run python -c "import mkdocs_redirects; print('✅ mkdocs-redirects installed')"
+      - name: Normalize redirects
+        run: poetry run python tools/normalize_redirect_maps.py || echo "⚠️  normalize_redirect_maps.py not found, skipping"
+      - name: Copy assets into locales
+        run: |
+          for lang in de fr es pt; do
+            if [ -d "docs/$lang" ]; then
+              mkdir -p "docs/$lang"
+              rm -rf "docs/$lang/assets"
+              cp -R "docs/assets" "docs/$lang/assets" || echo "⚠️  Assets copy failed for $lang"
+            fi
+          done
       - run: |
           set +e
-          poetry run mkdocs build 2>&1 | tee /tmp/mkdocs_build.log
+          poetry run mkdocs build -s 2>&1 | tee /tmp/mkdocs_build.log
           BUILD_EXIT=$?
           # Count redirect warnings (these are expected and should be ignored)
           REDIRECT_WARNINGS=$(grep -c "WARNING.*redirects plugin:.*is not a valid markdown file" /tmp/mkdocs_build.log || echo "0")
@@ -181,7 +203,8 @@ jobs:
           fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.12"
+          cache: "pip"
       - name: Install Poetry
         uses: snok/install-poetry@v1
         with:
@@ -190,10 +213,21 @@ jobs:
           virtualenvs-in-project: true
       - name: Install deps
         run: poetry install --no-interaction --no-root
+      - name: Normalize redirects
+        run: poetry run python tools/normalize_redirect_maps.py || echo "⚠️  normalize_redirect_maps.py not found, skipping"
+      - name: Copy assets into locales
+        run: |
+          for lang in de fr es pt; do
+            if [ -d "docs/$lang" ]; then
+              mkdir -p "docs/$lang"
+              rm -rf "docs/$lang/assets"
+              cp -R "docs/assets" "docs/$lang/assets" || echo "⚠️  Assets copy failed for $lang"
+            fi
+          done
       - name: Build docs
         run: |
           set +e
-          poetry run mkdocs build 2>&1 | tee /tmp/mkdocs_build.log
+          poetry run mkdocs build -s 2>&1 | tee /tmp/mkdocs_build.log
           BUILD_EXIT=$?
           # Count redirect warnings (these are expected and should be ignored)
           REDIRECT_WARNINGS=$(grep -c "WARNING.*redirects plugin:.*is not a valid markdown file" /tmp/mkdocs_build.log || echo "0")

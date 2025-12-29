@@ -27,7 +27,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.12"
           cache: "pip"
 
       - name: Install dependencies
@@ -61,7 +61,7 @@ jobs:
 
       - name: Build documentation (strict mode)
         run: |
-          mkdocs build --strict --verbose
+          mkdocs build -s --verbose
         continue-on-error: false
 
       - name: Check for broken links
