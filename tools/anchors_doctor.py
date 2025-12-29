@@ -146,7 +146,7 @@ class AnchorsDoctor:
         return len(self.broken_links) == 0
     
     def _collect_anchors(self):
-        """Сбор якорей из заголовков всех страниц"""
+        """Сбор якорей из заголовков всех страниц и явных id"""
         md_files = list(self.src_dir.rglob('*.md'))
         
         for md_file in md_files:
@@ -154,19 +154,70 @@ class AnchorsDoctor:
                 content = md_file.read_text(encoding='utf-8')
                 relative_path = str(md_file.relative_to(self.src_dir))
                 
-                # Ищем заголовки (##, ###, ####, etc.)
-                header_pattern = r'^(#{1,6})\s+(.+)$'
+                # Remove code blocks to avoid false positives
+                content_no_code = self.remove_code_blocks(content)
+                
                 anchors = set()
                 
-                for line in content.split('\n'):
+                # Extract explicit HTML id attributes: <a id="..."></a> or <div id="..."> or <span id="...">
+                html_id_pattern = r'<(?:a|div|span|h[1-6])\s+[^>]*id=["\']([^"\']+)["\']'
+                for match in re.finditer(html_id_pattern, content_no_code):
+                    anchor_id = match.group(1).strip()
+                    if anchor_id:
+                        anchors.add(anchor_id)
+                
+                # Extract explicit id attributes: {: #my-id }
+                explicit_id_pattern = r'\{:\s*#([A-Za-z0-9_.\-]+)\s*\}'
+                for match in re.finditer(explicit_id_pattern, content_no_code):
+                    anchor_id = match.group(1).strip()
+                    if anchor_id:
+                        anchors.add(anchor_id)
+                
+                # Ищем заголовки (##, ###, ####, etc.)
+                header_pattern = r'^(#{1,6})\s+(.+)$'
+                slug_list = []  # List to track slug order for duplicate handling
+                
+                for line in content_no_code.split('\n'):
                     match = re.match(header_pattern, line.strip())
                     if match:
                         level = len(match.group(1))
                         title = match.group(2).strip()
                         
-                        # Генерируем slug используя pymdownx.slugs.slugify
-                        slug = safe_slugify(title, separator="-")
+                        # Check for explicit id in header: ## Title {#my-id}
+                        explicit_id_match = re.search(r'\{#([A-Za-z0-9_.\-]+)\}\s*$', title)
+                        if explicit_id_match:
+                            explicit_id = explicit_id_match.group(1).strip()
+                            anchors.add(explicit_id)
+                            # Remove {#id} from title for slugify
+                            title = re.sub(r'\s*\{#[^}]+\}\s*$', '', title).strip()
+                        
+                        # Generate slug from clean title (if title is not empty)
+                        if title:
+                            slug = safe_slugify(title, separator="-")
+                            if slug:
+                                slug_list.append(slug)
+                
+                # Process slugs to handle duplicates like MkDocs: slug, slug-1, slug-2, ...
+                # First pass: count occurrences
+                slug_counts = {}
+                for slug in slug_list:
+                    slug_counts[slug] = slug_counts.get(slug, 0) + 1
+                
+                # Second pass: add anchors
+                slug_seen = {}
+                for slug in slug_list:
+                    if slug not in slug_seen:
+                        slug_seen[slug] = 0
+                    
+                    slug_seen[slug] += 1
+                    occurrence = slug_seen[slug]
+                    
+                    if occurrence == 1:
+                        # First occurrence: add base slug
                         anchors.add(slug)
+                    else:
+                        # Duplicate: add slug-1, slug-2, etc. (second occurrence = slug-1)
+                        anchors.add(f"{slug}-{occurrence - 1}")
                 
                 if anchors:
                     self.anchors_found[relative_path] = anchors

@@ -67,6 +67,18 @@ jobs:
             echo "No anchors report found, skipping legacy anchors apply"
           fi
 
+      - name: Inject legacy anchors (auto-fix)
+        run: |
+          # Inject legacy anchors into headers or at top of files
+          if [ -f build/anchors_report.csv ]; then
+            poetry run python tools/anchors_legacy_inject.py \
+              --docs docs \
+              --report build/anchors_report.csv \
+              --apply
+          else
+            echo "No anchors report found, skipping legacy anchors inject"
+          fi
+
       - name: Check anchors (pass 2)
         run: |
           poetry run python tools/anchors_doctor.py --dry-run \
