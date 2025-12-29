@@ -131,10 +131,11 @@ def main():
     per_file = defaultdict(set)
     skipped_anchors = []
 
-    # Group anchors by file
+    # Group anchors by target file (determine correct file for injection)
     for r in rep:
-        page = src / r["page"]
-        if not str(page).endswith(".md"): 
+        source_page_str = r["page"]
+        source_page = src / source_page_str
+        if not str(source_page).endswith(".md"): 
             continue
         
         anchor = r.get("broken_anchor", "").strip()
@@ -148,47 +149,87 @@ def main():
         # Check if anchor is safe
         if not is_safe_anchor(anchor):
             skipped_anchors.append({
-                "page": r["page"],
+                "page": source_page_str,
                 "anchor": anchor,
                 "reason": "unsafe_characters"
             })
             continue
+        
+        # Determine target file for anchor injection
+        target_file_str = r.get("target_file", "").strip()
+        
+        if not target_file_str:
+            # No target_file specified -> inject in source page
+            target_page = source_page
+        elif target_file_str == source_page_str:
+            # Link to current file -> inject in source page
+            target_page = source_page
+        else:
+            # Inter-page link -> resolve target file path
+            target_page = source_page  # Default fallback
             
-        per_file[page].add(anchor)
+            try:
+                # First try: target_file_str might already be relative to src/
+                target_path = src / target_file_str
+                if target_path.exists() and target_path.is_file() and str(target_path).endswith(".md"):
+                    target_page = target_path
+                else:
+                    # Second try: resolve path relative to source page directory
+                    source_dir = source_page.parent
+                    # Normalize path (handle ../)
+                    try:
+                        target_path = (source_dir / target_file_str).resolve()
+                        
+                        # Check if target_path exists and is within src directory
+                        try:
+                            target_path.relative_to(src)
+                            if target_path.exists() and target_path.is_file() and str(target_path).endswith(".md"):
+                                target_page = target_path
+                        except ValueError:
+                            # Path is outside src -> keep fallback (source_page)
+                            pass
+                    except Exception:
+                        # Error resolving relative path -> keep fallback (source_page)
+                        pass
+            except Exception:
+                # Any error -> keep fallback (source_page)
+                pass
+            
+        per_file[target_page].add(anchor)
 
     modified = 0
     applied_anchors = []
 
-    for page, ids in per_file.items():
-        if not page.exists():
-            print(f"Warning: File {page} does not exist")
+    for target_page, ids in per_file.items():
+        if not target_page.exists():
+            print(f"Warning: File {target_page} does not exist")
             continue
             
         try:
-            text = page.read_text(encoding="utf-8")
+            text = target_page.read_text(encoding="utf-8")
             existing = extract_existing_ids(text)
             new_ids = [i for i in ids if i not in existing]
             
             if not new_ids:
                 continue
                 
-            is_release_notes = page.name == "release-notes.md"
+            is_release_notes = target_page.name == "release-notes.md"
             new_text = inject_block(text, set(existing) | set(new_ids), is_release_notes)
             
             if new_text != text:
                 if args.apply:
-                    page.write_text(new_text, encoding="utf-8")
+                    target_page.write_text(new_text, encoding="utf-8")
                     modified += 1
-                    print(f"Modified: {page.relative_to(src)}")
+                    print(f"Modified: {target_page.relative_to(src)}")
                 
                 for anchor in new_ids:
                     applied_anchors.append({
-                        "page": str(page.relative_to(src)),
+                        "page": str(target_page.relative_to(src)),
                         "anchor": anchor,
                         "status": "applied"
                     })
         except Exception as e:
-            print(f"Error processing {page}: {e}")
+            print(f"Error processing {target_page}: {e}")
 
     # Write applied anchors report
     if applied_anchors or skipped_anchors:
