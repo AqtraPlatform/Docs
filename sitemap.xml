@@ -1,0 +1,1879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://docs.aqtra.io/index.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/index.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/index.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/architecture.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/architecture.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/architecture.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/forum.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/forum.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/forum.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/release-notes.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/release-notes.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/release-notes.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/index.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/index.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/index.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/component.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/component.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/component.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/publishing-applications.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/publishing-applications.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/publishing-applications.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/using-python.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/using-python.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/using-python.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/index.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/index.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/index.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/apply-deferred-update-operations.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/apply-deferred-update-operations.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/apply-deferred-update-operations.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/assign-context-role-for-model.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/assign-context-role-for-model.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/assign-context-role-for-model.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/calculate-array.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/calculate-array.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/calculate-array.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/confirm-one-time-code-for-user.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/confirm-one-time-code-for-user.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/confirm-one-time-code-for-user.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/confirm-user-email-request.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/confirm-user-email-request.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/confirm-user-email-request.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/deferred-update-entry.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/deferred-update-entry.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/deferred-update-entry.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/distinct.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/distinct.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/distinct.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/execute-api-call.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/execute-api-call.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/execute-api-call.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/execute-dataflow.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/execute-dataflow.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/execute-dataflow.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/execute-script.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/execute-script.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/execute-script.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/execute-workflow.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/execute-workflow.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/execute-workflow.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/export-to-file.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/export-to-file.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/export-to-file.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/extract-collections.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/extract-collections.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/extract-collections.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/filter-source.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/filter-source.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/filter-source.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/form-action.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/form-action.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/form-action.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/get-action-model.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/get-action-model.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/get-action-model.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/get-empty-model.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/get-empty-model.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/get-empty-model.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/get-entity-by-id.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/get-entity-by-id.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/get-entity-by-id.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/get-file-info.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/get-file-info.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/get-file-info.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/get-one-time-code-for-user.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/get-one-time-code-for-user.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/get-one-time-code-for-user.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/get-raw-model.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/get-raw-model.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/get-raw-model.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/get-user-info.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/get-user-info.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/get-user-info.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/get-values-from-connector.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/get-values-from-connector.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/get-values-from-connector.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/get-workflow-model.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/get-workflow-model.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/get-workflow-model.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/group-by.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/group-by.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/group-by.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/import-file.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/import-file.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/import-file.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/input-steps.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/input-steps.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/input-steps.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/join-modes.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/join-modes.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/join-modes.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/load-catalogs-by-key.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/load-catalogs-by-key.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/load-catalogs-by-key.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/login-with-password.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/login-with-password.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/login-with-password.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/lookup-reference.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/lookup-reference.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/lookup-reference.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/model-transformation-steps.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/model-transformation-steps.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/model-transformation-steps.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/output-steps.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/output-steps.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/output-steps.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/prepare-external-keys.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/prepare-external-keys.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/prepare-external-keys.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/proxy-get-entry.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/proxy-get-entry.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/proxy-get-entry.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/proxy-query-entry.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/proxy-query-entry.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/proxy-query-entry.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/query-entity-by-filter.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/query-entity-by-filter.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/query-entity-by-filter.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/register-context-for-model.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/register-context-for-model.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/register-context-for-model.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/register-external-user.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/register-external-user.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/register-external-user.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/remove-assigned-roles-for-user.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/remove-assigned-roles-for-user.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/remove-assigned-roles-for-user.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/render-template.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/render-template.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/render-template.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/reset-user-password-request.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/reset-user-password-request.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/reset-user-password-request.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/select-many.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/select-many.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/select-many.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/send-notification.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/send-notification.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/send-notification.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/send-templated-notification.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/send-templated-notification.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/send-templated-notification.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/simple-math.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/simple-math.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/simple-math.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/store-entry-over-bus.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/store-entry-over-bus.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/store-entry-over-bus.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/subscribe-to-connector.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/subscribe-to-connector.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/subscribe-to-connector.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/transform-model.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/transform-model.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/transform-model.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/update-entry.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/update-entry.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/update-entry.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/update-or-create-user-info.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/update-or-create-user-info.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/update-or-create-user-info.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/user-contexts-steps.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/user-contexts-steps.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/user-contexts-steps.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/data-flow-components/write-response.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/write-response.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/write-response.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/index.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/index.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/index.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/advanced.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/advanced.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/advanced.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/basic.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/basic.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/basic.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/button.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/button.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/button.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/charts.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/charts.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/charts.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/checkbox.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/checkbox.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/checkbox.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/code-editor.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/code-editor.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/code-editor.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/confirmation-state.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/confirmation-state.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/confirmation-state.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/data-grid.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/data-grid.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/data-grid.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/date-time.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/date-time.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/date-time.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/day.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/day.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/day.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/file.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/file.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/file.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/flows.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/flows.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/flows.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/grid.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/grid.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/grid.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/html.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/html.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/html.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/hyperlink.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/hyperlink.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/hyperlink.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/image.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/image.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/image.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/label.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/label.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/label.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/layout.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/layout.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/layout.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/list-view.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/list-view.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/list-view.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/multiselect.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/multiselect.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/multiselect.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/number.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/number.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/number.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/page.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/page.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/page.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/panel.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/panel.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/panel.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/password.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/password.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/password.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/pdf-viewer.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/pdf-viewer.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/pdf-viewer.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/phone-number.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/phone-number.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/phone-number.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/pivot-grid.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/pivot-grid.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/pivot-grid.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/progress-bar.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/progress-bar.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/progress-bar.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/radio-button.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/radio-button.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/radio-button.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/select.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/select.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/select.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/signature.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/signature.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/signature.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/slider.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/slider.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/slider.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/svg.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/svg.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/svg.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/switch.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/switch.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/switch.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/tab-control.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/tab-control.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/tab-control.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/text-area.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/text-area.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/text-area.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/text-field.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/text-field.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/text-field.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/time.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/time.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/time.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/tree-view.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/tree-view.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/tree-view.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/ui-components/wysiwyg-editor.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/wysiwyg-editor.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/wysiwyg-editor.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/workflow-components/index.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/index.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/index.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/workflow-components/common-steps.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/common-steps.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/common-steps.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/workflow-components/conditions-steps.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/conditions-steps.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/conditions-steps.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/workflow-components/execute-data-flow.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/execute-data-flow.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/execute-data-flow.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/workflow-components/finish.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/finish.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/finish.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/workflow-components/get-user-confirmation.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/get-user-confirmation.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/get-user-confirmation.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/workflow-components/if-condition.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/if-condition.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/if-condition.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/workflow-components/integrations-steps.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/integrations-steps.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/integrations-steps.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/workflow-components/notifications-steps.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/notifications-steps.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/notifications-steps.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/workflow-components/reset-to-draft.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/reset-to-draft.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/reset-to-draft.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/workflow-components/send-notification.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/send-notification.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/send-notification.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/workflow-components/send-templated-notification.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/send-templated-notification.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/send-templated-notification.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/workflow-components/switch-case.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/switch-case.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/switch-case.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/workflow-components/update-model-field.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/update-model-field.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/update-model-field.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/app-development/workflow-components/update-model.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/update-model.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/update-model.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/installation/configuration.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/installation/configuration.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/installation/configuration.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/learn/index.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/learn/index.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/learn/index.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/overview/index.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/overview/index.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/overview/index.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/overview/getting-started.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/overview/getting-started.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/overview/getting-started.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/tutorials/index.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/tutorials/index.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/tutorials/index.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/tutorials/01-basic-setup.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/tutorials/01-basic-setup.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/tutorials/01-basic-setup.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/tutorials/02-data-flow.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/tutorials/02-data-flow.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/tutorials/02-data-flow.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/tutorials/03-workflow.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/tutorials/03-workflow.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/tutorials/03-workflow.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/user-interface/index.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/user-interface/index.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/user-interface/index.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/user-interface/access.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/user-interface/access.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/user-interface/access.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/user-interface/applications.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/user-interface/applications.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/user-interface/applications.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/user-interface/extensions.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/user-interface/extensions.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/user-interface/extensions.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/user-interface/file-storage.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/user-interface/file-storage.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/user-interface/file-storage.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/user-interface/home.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/user-interface/home.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/user-interface/home.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/user-interface/localizations.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/user-interface/localizations.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/user-interface/localizations.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/user-interface/maintenance.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/user-interface/maintenance.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/user-interface/maintenance.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/index.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/index.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/architecture.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/architecture.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/architecture.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/forum.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/forum.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/forum.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/release-notes.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/release-notes.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/release-notes.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/index.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/index.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/component.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/component.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/component.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/publishing-applications.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/publishing-applications.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/publishing-applications.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/using-python.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/using-python.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/using-python.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/index.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/index.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/apply-deferred-update-operations.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/apply-deferred-update-operations.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/apply-deferred-update-operations.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/assign-context-role-for-model.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/assign-context-role-for-model.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/assign-context-role-for-model.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/calculate-array.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/calculate-array.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/calculate-array.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/confirm-one-time-code-for-user.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/confirm-one-time-code-for-user.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/confirm-one-time-code-for-user.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/confirm-user-email-request.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/confirm-user-email-request.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/confirm-user-email-request.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/deferred-update-entry.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/deferred-update-entry.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/deferred-update-entry.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/distinct.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/distinct.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/distinct.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/execute-api-call.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/execute-api-call.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/execute-api-call.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/execute-dataflow.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/execute-dataflow.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/execute-dataflow.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/execute-script.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/execute-script.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/execute-script.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/execute-workflow.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/execute-workflow.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/execute-workflow.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/export-to-file.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/export-to-file.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/export-to-file.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/extract-collections.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/extract-collections.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/extract-collections.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/filter-source.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/filter-source.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/filter-source.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/form-action.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/form-action.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/form-action.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/get-action-model.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/get-action-model.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/get-action-model.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/get-empty-model.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/get-empty-model.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/get-empty-model.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/get-entity-by-id.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/get-entity-by-id.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/get-entity-by-id.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/get-file-info.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/get-file-info.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/get-file-info.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/get-one-time-code-for-user.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/get-one-time-code-for-user.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/get-one-time-code-for-user.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/get-raw-model.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/get-raw-model.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/get-raw-model.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/get-user-info.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/get-user-info.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/get-user-info.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/get-values-from-connector.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/get-values-from-connector.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/get-values-from-connector.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/get-workflow-model.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/get-workflow-model.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/get-workflow-model.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/group-by.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/group-by.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/group-by.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/import-file.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/import-file.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/import-file.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/input-steps.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/input-steps.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/input-steps.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/join-modes.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/join-modes.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/join-modes.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/load-catalogs-by-key.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/load-catalogs-by-key.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/load-catalogs-by-key.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/login-with-password.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/login-with-password.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/login-with-password.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/lookup-reference.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/lookup-reference.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/lookup-reference.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/model-transformation-steps.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/model-transformation-steps.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/model-transformation-steps.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/output-steps.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/output-steps.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/output-steps.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/prepare-external-keys.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/prepare-external-keys.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/prepare-external-keys.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/proxy-get-entry.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/proxy-get-entry.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/proxy-get-entry.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/proxy-query-entry.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/proxy-query-entry.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/proxy-query-entry.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/query-entity-by-filter.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/query-entity-by-filter.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/query-entity-by-filter.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/register-context-for-model.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/register-context-for-model.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/register-context-for-model.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/register-external-user.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/register-external-user.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/register-external-user.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/remove-assigned-roles-for-user.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/remove-assigned-roles-for-user.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/remove-assigned-roles-for-user.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/render-template.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/render-template.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/render-template.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/reset-user-password-request.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/reset-user-password-request.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/reset-user-password-request.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/select-many.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/select-many.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/select-many.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/send-notification.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/send-notification.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/send-notification.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/send-templated-notification.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/send-templated-notification.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/send-templated-notification.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/simple-math.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/simple-math.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/simple-math.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/store-entry-over-bus.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/store-entry-over-bus.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/store-entry-over-bus.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/subscribe-to-connector.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/subscribe-to-connector.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/subscribe-to-connector.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/transform-model.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/transform-model.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/transform-model.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/update-entry.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/update-entry.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/update-entry.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/update-or-create-user-info.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/update-or-create-user-info.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/update-or-create-user-info.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/user-contexts-steps.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/user-contexts-steps.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/user-contexts-steps.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/data-flow-components/write-response.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/data-flow-components/write-response.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/data-flow-components/write-response.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/index.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/index.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/advanced.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/advanced.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/advanced.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/basic.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/basic.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/basic.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/button.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/button.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/button.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/charts.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/charts.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/charts.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/checkbox.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/checkbox.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/checkbox.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/code-editor.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/code-editor.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/code-editor.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/confirmation-state.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/confirmation-state.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/confirmation-state.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/data-grid.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/data-grid.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/data-grid.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/date-time.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/date-time.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/date-time.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/day.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/day.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/day.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/file.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/file.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/file.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/flows.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/flows.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/flows.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/grid.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/grid.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/grid.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/html.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/html.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/html.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/hyperlink.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/hyperlink.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/hyperlink.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/image.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/image.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/image.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/label.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/label.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/label.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/layout.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/layout.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/layout.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/list-view.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/list-view.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/list-view.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/multiselect.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/multiselect.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/multiselect.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/number.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/number.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/number.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/page.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/page.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/page.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/panel.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/panel.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/panel.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/password.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/password.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/password.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/pdf-viewer.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/pdf-viewer.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/pdf-viewer.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/phone-number.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/phone-number.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/phone-number.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/pivot-grid.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/pivot-grid.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/pivot-grid.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/progress-bar.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/progress-bar.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/progress-bar.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/radio-button.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/radio-button.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/radio-button.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/select.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/select.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/select.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/signature.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/signature.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/signature.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/slider.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/slider.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/slider.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/svg.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/svg.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/svg.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/switch.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/switch.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/switch.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/tab-control.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/tab-control.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/tab-control.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/text-area.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/text-area.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/text-area.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/text-field.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/text-field.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/text-field.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/time.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/time.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/time.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/tree-view.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/tree-view.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/tree-view.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/ui-components/wysiwyg-editor.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/ui-components/wysiwyg-editor.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/ui-components/wysiwyg-editor.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/workflow-components/index.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/index.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/workflow-components/common-steps.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/common-steps.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/common-steps.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/workflow-components/conditions-steps.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/conditions-steps.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/conditions-steps.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/workflow-components/execute-data-flow.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/execute-data-flow.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/execute-data-flow.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/workflow-components/finish.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/finish.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/finish.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/workflow-components/get-user-confirmation.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/get-user-confirmation.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/get-user-confirmation.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/workflow-components/if-condition.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/if-condition.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/if-condition.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/workflow-components/integrations-steps.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/integrations-steps.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/integrations-steps.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/workflow-components/notifications-steps.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/notifications-steps.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/notifications-steps.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/workflow-components/reset-to-draft.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/reset-to-draft.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/reset-to-draft.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/workflow-components/send-notification.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/send-notification.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/send-notification.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/workflow-components/send-templated-notification.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/send-templated-notification.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/send-templated-notification.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/workflow-components/switch-case.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/switch-case.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/switch-case.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/workflow-components/update-model-field.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/update-model-field.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/update-model-field.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/app-development/workflow-components/update-model.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/app-development/workflow-components/update-model.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/app-development/workflow-components/update-model.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/installation/configuration.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/installation/configuration.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/installation/configuration.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/learn/index.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/learn/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/learn/index.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/overview/index.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/overview/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/overview/index.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/overview/getting-started.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/overview/getting-started.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/overview/getting-started.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/tutorials/index.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/tutorials/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/tutorials/index.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/tutorials/01-basic-setup.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/tutorials/01-basic-setup.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/tutorials/01-basic-setup.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/tutorials/02-data-flow.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/tutorials/02-data-flow.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/tutorials/02-data-flow.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/tutorials/03-workflow.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/tutorials/03-workflow.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/tutorials/03-workflow.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/user-interface/index.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/user-interface/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/user-interface/index.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/user-interface/access.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/user-interface/access.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/user-interface/access.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/user-interface/applications.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/user-interface/applications.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/user-interface/applications.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/user-interface/extensions.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/user-interface/extensions.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/user-interface/extensions.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/user-interface/file-storage.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/user-interface/file-storage.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/user-interface/file-storage.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/user-interface/home.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/user-interface/home.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/user-interface/home.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/user-interface/localizations.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/user-interface/localizations.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/user-interface/localizations.html"/>
+    </url>
+    <url>
+        <loc>https://docs.aqtra.io/de/user-interface/maintenance.html</loc>
+        <lastmod>2025-12-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.aqtra.io/de/user-interface/maintenance.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.aqtra.io/user-interface/maintenance.html"/>
+    </url>
+</urlset>
