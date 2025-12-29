@@ -56,21 +56,18 @@ jobs:
             --exclude "de/release-notes.md" \
             --skip-images
 
-      - name: Apply legacy anchors (auto-fix)
+      - name: Apply safe anchor fixes
         run: |
-          # Apply hidden <a id="..."></a> anchors for all broken anchors from report
           if [ -f build/anchors_report.csv ]; then
-            poetry run python tools/apply_legacy_anchors.py \
-              --src docs \
-              --report build/anchors_report.csv \
-              --apply
+            poetry run python tools/anchors_autofix.py \
+              --docs docs \
+              --report build/anchors_report.csv || true
           else
-            echo "No anchors report found, skipping legacy anchors apply"
+            echo "No anchors report found, skipping autofix"
           fi
 
       - name: Inject legacy anchors (auto-fix)
         run: |
-          # Inject legacy anchors into headers or at top of files
           if [ -f build/anchors_report.csv ]; then
             poetry run python tools/anchors_legacy_inject.py \
               --docs docs \
@@ -79,6 +76,26 @@ jobs:
           else
             echo "No anchors report found, skipping legacy anchors inject"
           fi
+
+      - name: Debug anchors reports
+        run: |
+          ls -la build || true
+          python3 - <<'PY'
+          import csv
+          import pathlib
+          p = pathlib.Path("build/anchors_report.csv")
+          if p.exists():
+            with open(p, 'r', encoding='utf-8') as f:
+              reader = csv.DictReader(f)
+              rows = list(reader)
+              statuses = {}
+              for row in rows:
+                status = row.get('status', '')
+                statuses[status] = statuses.get(status, 0) + 1
+              print("anchors_report statuses:", statuses)
+          else:
+            print("anchors_report.csv missing")
+          PY
 
       - name: Check anchors (pass 2)
         run: |
