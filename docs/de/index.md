@@ -1,23 +1,23 @@
-# Aqtra-Plattform
+# Aqtra Plattform
 
-<p class="lead">Willkommen in der Aqtra-Plattformdokumentation! Eine moderne Low-Code-Plattform zur Erstellung von Unternehmensanwendungen mit visueller Programmierung und Unterstützung für Geschäftsprozessautomatisierung.</p>
+<p class="lead">Willkommen zur Dokumentation der Aqtra-Plattform! Eine moderne Low-Code-Plattform zur Erstellung von Unternehmensanwendungen mit Unterstützung für visuelle Programmierung und Automatisierung von Geschäftsprozessen.</p>
 
 <div style="display: flex; gap: 1rem; margin: 2rem 0; flex-wrap: wrap;">
-  <a class="btn" href="/learn/">🚀 Schnellstart</a>
-  <a class="btn" href="/app-development/">⚙️ Entwicklung</a>
-  <a class="btn" href="/tutorials/">📚 Tutorials</a>
+  <a class="btn" href="/de/learn/">🚀 Schnellstart</a>
+  <a class="btn" href="/de/app-development/">⚙️ Entwicklung</a>
+  <a class="btn" href="/de/tutorials/">📚 Tutorials</a>
 </div>
 
 !!! tip "Neu in Version 2.0"
-Unterstützung für Python-Module hinzugefügt, verbesserte Entwicklungsschnittstelle und erweiterte Möglichkeiten zur Prozessautomatisierung.
+Unterstützung für Python-Module hinzugefügt, verbesserte Entwicklungsoberfläche und erweiterte Automatisierungsfähigkeiten für Prozesse.
 
 !!! note "Sprachunterstützung"
-Die Dokumentation ist in den Sprachen <span class="badge">Deutsch</span> und <span class="badge">Englisch</span> verfügbar.
+Die Dokumentation ist in <span class="badge">Englisch</span> und <span class="badge">Deutsch</span> verfügbar.
 
 ## Erste Schritte
 
 - [Erste Schritte](learn/index.md) - Lernzentrum
-- [Erste Schritte](overview/getting-started.md) - Erste Anmeldung
+- [Erste Schritte](overview/getting-started.md) - Erster Login
 - [Konfiguration](installation/configuration.md) - Grundeinstellungen
 
 ## Benutzeroberfläche
@@ -33,7 +33,7 @@ Die Dokumentation ist in den Sprachen <span class="badge">Deutsch</span> und <sp
 ## Anwendungsentwicklung
 
 - [Komponente](app-development/component.md) - Komponenten
-- [Veröffentlichen von Anwendungen](app-development/publishing-applications.md) - Veröffentlichen von Anwendungen
+- [Anwendungen veröffentlichen](app-development/publishing-applications.md) - Anwendungen veröffentlichen
 - [Python verwenden](app-development/using-python.md) - Python verwenden
 - [Datenflusskomponenten](app-development/data-flow-components/index.md) - Datenflusskomponenten
 - [UI-Komponenten](app-development/ui-components/index.md) - UI-Komponenten

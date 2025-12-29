@@ -6,7 +6,7 @@
 **The official knowledge hub for Aqtra—clear, searchable, and built for everyone.**
 
 [![Visit Documentation](https://img.shields.io/badge/📖_Visit-Documentation-4F46E5?style=for-the-badge)](https://docs.aqtra.io)
-[![Languages](https://img.shields.io/badge/🌍_Languages-EN_|_DE-blue?style=flat-square)](https://docs.aqtra.io)
+[![Languages](https://img.shields.io/badge/🌍_Languages-5-blue?style=flat-square)](https://docs.aqtra.io)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
 [**Read the Docs**](https://docs.aqtra.io) · [**Release Notes**](https://github.com/AqtraPlatform/Docs/releases) · [**Give Feedback**](https://github.com/AqtraPlatform/Docs/issues)
@@ -17,22 +17,21 @@
 
 ## What This Repository Is
 
-This is the **official documentation source** for the Aqtra platform—a single source of truth for product information, guides, and resources. Aqtra Docs serves customers, partners, developers, and decision-makers with clear, actionable knowledge to evaluate, implement, and get the most from the platform.
+This repository contains the **official MkDocs documentation source** for the Aqtra platform—a single source of truth for product information, guides, and resources. The documentation is built with MkDocs and published transparently on GitHub, hosted at **[docs.aqtra.io](https://docs.aqtra.io)**.
 
-Published transparently on GitHub and hosted at **[docs.aqtra.io](https://docs.aqtra.io)**, every change is tracked, reviewed, and versioned. The documentation is built with accessibility, discoverability, and multilingual support in mind—so teams across geographies and roles can find what they need, fast.
-
-Whether you're assessing Aqtra for your organization, integrating it into existing workflows, or supporting users, this documentation provides the clarity and context you need to succeed.
+Aqtra Docs serves customers, partners, developers, and decision-makers with clear, actionable knowledge to evaluate, implement, and get the most from the platform. Every change is tracked, reviewed, and versioned, built with accessibility, discoverability, and multilingual support in mind.
 
 ---
 
 ## Highlights
 
-- **🌍 Multilingual** — Available in English and German, with built-in language switcher
+- **🌍 Multilingual** — Available in English, German, French, Spanish, and Portuguese, with built-in language switcher
 - **🔍 Fast & Searchable** — Instant search across all content with smart suggestions
 - **📌 Versioned & Traceable** — Release notes, change history, and stable references
 - **♿ Accessibility-Minded** — Designed with WCAG principles for inclusive UX
 - **🚀 SEO-Ready** — Sitemaps, alternate links, and structured metadata for discoverability
 - **🔓 Open & Transparent** — Published from GitHub with full change visibility
+- **🤖 AI-Powered Translation** — Automated documentation translation using LLM with markdown-aware processing
 
 ---
 
@@ -57,13 +56,13 @@ Get accurate, current product information, release history, and positioning for 
 
 ## Quick Links
 
-| Resource                                                                | Description                                        |
-| ----------------------------------------------------------------------- | -------------------------------------------------- |
-| **[📖 Documentation Site](https://docs.aqtra.io)**                      | Browse the full documentation in English or German |
-| **[🆕 Release Notes](https://github.com/AqtraPlatform/Docs/releases)**  | See what's new in each version                     |
-| **[💬 Discussions](https://github.com/AqtraPlatform/Docs/discussions)** | Ask questions and share ideas                      |
-| **[🐛 Report an Issue](https://github.com/AqtraPlatform/Docs/issues)**  | Found something wrong? Let us know                 |
-| **[🔐 Security](https://github.com/AqtraPlatform/Docs/security)**       | Responsible disclosure and security policies       |
+| Resource                                                                | Description                                                                      |
+| ----------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| **[📖 Documentation Site](https://docs.aqtra.io)**                      | Browse the full documentation in English, German, French, Spanish, or Portuguese |
+| **[🆕 Release Notes](https://github.com/AqtraPlatform/Docs/releases)**  | See what's new in each version                                                   |
+| **[💬 Discussions](https://github.com/AqtraPlatform/Docs/discussions)** | Ask questions and share ideas                                                    |
+| **[🐛 Report an Issue](https://github.com/AqtraPlatform/Docs/issues)**  | Found something wrong? Let us know                                               |
+| **[🔐 Security](https://github.com/AqtraPlatform/Docs/security)**       | Responsible disclosure and security policies                                     |
 
 ---
 
@@ -75,17 +74,30 @@ We welcome your input! If you spot a gap, error, or opportunity to improve the d
 - **Start a discussion** to ask questions or propose new sections
 - **Submit a pull request** if you'd like to contribute directly
 
-For technical setup and contribution guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md) or explore the `tools/` directory for diagnostic utilities.
+For technical setup, translation workflow, and contribution guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md).  
+For release process and deployment instructions, see [RELEASE.md](RELEASE.md).
 
 ---
 
 ## Localization
 
-Aqtra Docs is currently available in **English** and **German** (Deutsch). Language switching is seamless—use the selector in the site header.
+Aqtra Docs is available in multiple languages:
 
-**Want another language?** Open an [issue](https://github.com/AqtraPlatform/Docs/issues) with your request. We evaluate new language proposals based on community interest and resource availability.
+- **English** (en) — Default language, source documentation in `docs/`
+- **German** (Deutsch) — `docs/de/`
+- **French** (Français) — `docs/fr/`
+- **Spanish** (Español) — `docs/es/`
+- **Portuguese** (Português) — `docs/pt/`
 
----
+The documentation uses MkDocs with `mkdocs-static-i18n` plugin. Each language is located in `docs/{lang}/` directory, mirroring the structure of `docs/` (English source). Language switching is seamless—use the selector in the site header.
+
+### Translation System
+
+Translations are managed using an automated LLM-powered pipeline that preserves Markdown structure, code blocks, links, and cross-references while translating human-readable text. The translation system intelligently handles technical content, maintaining code snippets, URLs, and internal references intact. Internal links to `docs.aqtra.io` are automatically prefixed with language paths (e.g., `/de/`, `/fr/`) to maintain proper navigation across language versions.
+
+In case of translation issues, the system preserves structural correctness, ensuring documentation remains valid and buildable even when translation quality varies.
+
+**For detailed instructions on translation workflow, regenerating specific pages, and running quality checks, see [CONTRIBUTING.md](CONTRIBUTING.md).**
 
 ## License & Trademarks
 

@@ -1,6 +1,6 @@
 # Tutorials
 
-Willkommen bei den Aqtra-Tutorials! Diese Schritt-für-Schritt-Anleitungen helfen Ihnen beim Einstieg in die Plattform.
+Willkommen zu den Aqtra-Tutorials! Diese Schritt-für-Schritt-Anleitungen helfen Ihnen, mit der Plattform zu beginnen.
 
 <meta http-equiv="refresh" content="0; url=01-basic-setup.html" />
 

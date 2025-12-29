@@ -1,4 +1,4 @@
-# Erste Anmeldung {: #first }
+# Erster Login {: #first }
 
 <br>
 
@@ -6,38 +6,38 @@
 
 <br>
 
-### Bei Studio anmelden
+### Anmeldung im Studio
 
-Um auf Studio zuzugreifen, verwenden Sie den Link im Format `/studio/`, der an die Adresse Ihrer bereitgestellten Plattforminstanz angehängt wird. Wenn die Plattform beispielsweise auf `mydomain.io` bereitgestellt ist, müssen Sie zu `https://mydomain.io/studio/` gehen, um sich bei Studio anzumelden.
+Um auf das Studio zuzugreifen, verwenden Sie den Link im Format `/studio/`, der an die Adresse Ihrer bereitgestellten Plattforminstanz angehängt ist. Wenn die Plattform beispielsweise auf `mydomain.io` bereitgestellt ist, müssen Sie zu `https://mydomain.io/studio/` gehen, um sich im Studio anzumelden.
 
-Wenn Sie dies tun, sehen Sie einen Anmeldebildschirm. Um sich bei Studio anzumelden, geben Sie Ihre Anmeldedaten ein – Benutzername und Passwort. Nach der Anmeldung werden Sie zur Hauptseite weitergeleitet.
+Wenn Sie dies tun, sehen Sie einen Anmeldebildschirm. Um sich im Studio anzumelden, geben Sie Ihre Anmeldeinformationen ein — Benutzername und Passwort. Nach der Anmeldung werden Sie zur Hauptseite weitergeleitet.
 <br>
 
 ### Hauptseite
 
 Die Hauptseite bietet Informationen über Ihre Lizenz und die bereitgestellten Anwendungsdomänen. Sie erhalten Zugriff auf die folgenden Funktionen und Informationen:
 
-- **Plantyp**: Hier wird der Typ Ihres aktuellen Plans sowie das Ablauf- oder Verlängerungsdatum Ihres Abonnements angezeigt.
-- **Anwendungsdomänen**: In diesem Abschnitt können Sie Anwendungskomponenten erstellen, Benutzer über bestimmte URLs verbinden und zum Abschnitt "Navigation Menu" navigieren.
-- **Nutzungsstatistik**: Zeigt Informationen über die aktuelle Anzahl von Anwendungen im Vergleich zum Gesamtlimit sowie die aktuelle und Gesamtanzahl von Benutzern, Workflows und Dataflows an.
+- **Planart**: Dies zeigt den Typ Ihres aktuellen Plans sowie das Ablauf- oder Erneuerungsdatum Ihres Abonnements an.
+- **Anwendungsdomänen**: Dieser Abschnitt ermöglicht es Ihnen, Anwendungsbestandteile zu erstellen, Benutzer über spezifische URLs zu verbinden und zum Abschnitt „Navigationsmenü“ zu navigieren.
+- **Nutzungsstatistiken**: Zeigt Informationen über die aktuelle Anzahl der Anwendungen im Vergleich zur Gesamtgrenze sowie die aktuelle und die Gesamtzahl der Benutzer, Workflows und Datenflüsse an.
   <br>
 
-![Main dashboard](../assets/images/overview/main-dashboard.png)
+![Hauptdashboard](../assets/images/overview/main-dashboard.png)
 <br>
 
-Auf der linken Seite befindet sich ein Panel mit 7 Arten von Menüs:
+Links befindet sich ein Panel mit 7 Arten von Menüs:
 
-- **[Home-Menü](../user-interface/home.md)**
-- **[Applications-Menü](../user-interface/applications.md)**
-- **[Maintenance-Menü](../user-interface/maintenance.md)**
-- **[Localizations-Menü](../user-interface/localizations.md)**
-- **[Extensions-Menü](../user-interface/extensions.md)**
-- **[Access-Menü](../user-interface/access.md)**
-- **[File Storage-Menü](../user-interface/file-storage.md)**
+- **[Startmenü](../user-interface/home.md)**
+- **[Anwendungsmenü](../user-interface/applications.md)**
+- **[Wartungsmenü](../user-interface/maintenance.md)**
+- **[Lokalisierungsmenü](../user-interface/localizations.md)**
+- **[Erweiterungsmenü](../user-interface/extensions.md)**
+- **[Zugriffsmenü](../user-interface/access.md)**
+- **[Dateispeichermenü](../user-interface/file-storage.md)**
   <br>
 
-### Ihr Abonnement verwalten
+### Verwaltung Ihres Abonnements
 
-- **Abonnement upgraden**: Um Ihr aktuelles Abonnement zu erneuern, klicken Sie auf die Schaltfläche "Renew".
-- **Plan ändern**: Verwenden Sie die Schaltfläche "Choose Other Plan", um einen anderen Plan auszuwählen.
-- **Abonnementbenachrichtigungen**: Wenn Ihr Abonnement weniger als 10 Tage vor dem Ende seiner Laufzeit steht, werden Sie aufgefordert, Ihr Abonnement zu erneuern.
+- **Abonnement upgraden**: Um Ihr aktuelles Abonnement zu erneuern, klicken Sie auf die Schaltfläche „Erneuern“.
+- **Plan ändern**: Verwenden Sie die Schaltfläche „Anderen Plan wählen“, um einen anderen Plan auszuwählen.
+- **Abonnementbenachrichtigungen**: Wenn Ihr Abonnement weniger als 10 Tage vor dem Ende seiner Laufzeit steht, werden Sie benachrichtigt, um Ihr Abonnement zu erneuern.

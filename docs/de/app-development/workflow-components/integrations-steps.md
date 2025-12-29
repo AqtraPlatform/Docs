@@ -1,3 +1,3 @@
-# “INTEGRATIONS” GROUP|separator
+# “INTEGRATIONEN” GRUPPE|separator
 
-_Deutsche Übersetzung in Arbeit._
+- [Datenfluss ausführen](execute-data-flow.md)

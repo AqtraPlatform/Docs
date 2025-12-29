@@ -1,3 +1,18 @@
-# MODEL TRANSFORMATION GROUP|separator
+# MODELLTRANSFORMATIONSGRUPPE|separator
 
-_Deutsche Übersetzung in Arbeit._
+- [Modell transformieren](transform-model.md)
+- [Modelle zusammenführen](join-modes.md)
+- [Sammlungen extrahieren](extract-collections.md)
+- [Quelle filtern](filter-source.md)
+- [Referenz nachschlagen](lookup-reference.md)
+- [Skript ausführen](execute-script.md)
+- [Entität nach Filter abfragen](query-entity-by-filter.md)
+- [Viele auswählen](select-many.md)
+- [Entität nach ID abrufen](get-entity-by-id.md)
+- [Kataloge nach Schlüssel laden](load-catalogs-by-key.md)
+- [Distinct](distinct.md)
+- [Gruppieren nach](group-by.md)
+- [Array berechnen](calculate-array.md)
+- [Einfache Mathematik](simple-math.md)
+- [Datenfluss ausführen](execute-dataflow.md)
+- [Dateiinformationen abrufen](get-file-info.md)

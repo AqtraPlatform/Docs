@@ -1,3 +1,5 @@
-# "NOTIFICATIONS" GROUP|separator
+# "BENACHRICHTIGUNGEN" GRUPPE|separator
 
-_Deutsche Übersetzung in Arbeit._
+- [Benachrichtigung senden](send-notification.md)
+- [Vorlagenbenachrichtigung senden](send-templated-notification.md)
+- [Benutzereingabe bestätigen](get-user-confirmation.md)

@@ -1,0 +1,86 @@
+/* Aqtra Docs Custom Styles */
+
+/* Custom logo styling */
+.md-header__button.md-logo img {
+  height: 2rem;
+  width: auto;
+}
+
+/* Custom theme adjustments */
+:root {
+  --md-primary-fg-color: #1976d2;
+  --md-primary-fg-color--light: #42a5f5;
+  --md-primary-fg-color--dark: #1565c0;
+}
+
+/* Dark theme adjustments */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #42a5f5;
+  --md-primary-fg-color--light: #64b5f6;
+  --md-primary-fg-color--dark: #1976d2;
+}
+
+/* Custom code block styling */
+.highlight .c1 {
+  color: #6a9955; /* Green for comments */
+}
+
+/* Custom admonition styling */
+.md-typeset .admonition {
+  border-left: 4px solid var(--md-primary-fg-color);
+}
+
+/* Custom table styling */
+.md-typeset table:not([class]) {
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--md-default-fg-color--lightest);
+  font-weight: 600;
+}
+
+/* Custom button styling */
+.md-typeset .md-button {
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.md-typeset .md-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Custom navigation styling */
+.md-nav__item--nested > .md-nav__link {
+  font-weight: 500;
+}
+
+/* Custom footer styling */
+.md-footer {
+  background-color: var(--md-default-bg-color);
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* Custom search styling */
+.md-search__form {
+  border-radius: 20px;
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--md-default-bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--md-default-fg-color--lightest);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--md-default-fg-color--light);
+}

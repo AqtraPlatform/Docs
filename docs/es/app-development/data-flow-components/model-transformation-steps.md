@@ -1,0 +1,18 @@
+# GRUPO DE TRANSFORMACIÓN DE MODELOS|separator
+
+- [Transformar modelo](transform-model.md)
+- [Unir modelos](join-modes.md)
+- [Extraer colecciones](extract-collections.md)
+- [Filtrar fuente](filter-source.md)
+- [Buscar referencia](lookup-reference.md)
+- [Ejecutar script](execute-script.md)
+- [Consultar entidad por filtro](query-entity-by-filter.md)
+- [Seleccionar muchos](select-many.md)
+- [Obtener entidad por id](get-entity-by-id.md)
+- [Cargar catálogos por clave](load-catalogs-by-key.md)
+- [Distinto](distinct.md)
+- [Agrupar por](group-by.md)
+- [Calcular arreglo](calculate-array.md)
+- [Matemáticas simples](simple-math.md)
+- [Ejecutar flujo de datos](execute-dataflow.md)
+- [Obtener información del archivo](get-file-info.md)

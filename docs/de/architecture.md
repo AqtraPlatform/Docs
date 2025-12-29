@@ -1,24 +1,24 @@
-# Aqtra-Plattform-Architektur
+# Aqtra Plattformarchitektur
 
-<p class="lead">Überblick über die Aqtra-Plattform-Architektur und die wichtigsten Systemkomponenten.</p>
+<p class="lead">Überblick über die Architektur der Aqtra-Plattform und die Hauptsystemkomponenten.</p>
 
 ## Allgemeines Schema
 
 ```mermaid
 graph TB
-    A[Benutzer] --> B[Web-Oberfläche]
-    B --> C[API-Gateway]
-    C --> D[Kerndienste]
-    D --> E[Datenschicht]
-    D --> F[Workflow-Engine]
-    D --> G[Komponentenbibliothek]
+    A[User] --> B[Web Interface]
+    B --> C[API Gateway]
+    C --> D[Core Services]
+    D --> E[Data Layer]
+    D --> F[Workflow Engine]
+    D --> G[Component Library]
 
-    E --> H[(Datenbank)]
-    E --> I[Dateispeicher]
+    E --> H[(Database)]
+    E --> I[File Storage]
 
-    F --> J[Prozessautomatisierung]
-    G --> K[UI-Komponenten]
-    G --> L[Datenflusskomponenten]
+    F --> J[Process Automation]
+    G --> K[UI Components]
+    G --> L[Data Flow Components]
 
     style A fill:#e1f5fe
     style B fill:#f3e5f5
@@ -30,15 +30,15 @@ graph TB
 
 ### Kernmodule
 
-| Modul               | Beschreibung              | Status                                    |
-| ------------------- | ------------------------- | ----------------------------------------- |
-| **Core Engine**     | Plattformkern             | <span class="badge">Aktiv</span>          |
-| **UI Builder**      | Schnittstellenkonstruktor | <span class="badge">Aktiv</span>          |
-| **Workflow Engine** | Prozess-Engine            | <span class="badge">Aktiv</span>          |
-| **Data Flow**       | Datenverarbeitung         | <span class="badge">Aktiv</span>          |
-| **Python Runtime**  | Python-Code-Ausführung    | <span class="badge">In Entwicklung</span> |
+| Modul               | Beschreibung         | Status                                    |
+| ------------------- | --------------------- | ----------------------------------------- |
+| **Kern-Engine**     | Plattform-Kern       | <span class="badge">Aktiv</span>         |
+| **UI-Builder**      | Schnittstellen-Konstruktor | <span class="badge">Aktiv</span>         |
+| **Workflow-Engine** | Prozess-Engine       | <span class="badge">Aktiv</span>         |
+| **Datenfluss**      | Datenverarbeitung    | <span class="badge">Aktiv</span>         |
+| **Python-Laufzeit** | Ausführung von Python-Code | <span class="badge">In Entwicklung</span> |
 
-### Technologie-Stack
+### Technologiestack
 
 === "Backend"
 `python
@@ -72,16 +72,16 @@ graph TB
 
 ```mermaid
 sequenceDiagram
-    participant U as Benutzer
-    participant UI as UI-Builder
+    participant U as User
+    participant UI as UI Builder
     participant E as Engine
-    participant DB as Datenbank
+    participant DB as Database
 
-    U->>UI: Erstellt Komponente
-    UI->>E: Speichert Konfiguration
-    E->>DB: Schreibt Daten
-    E-->>UI: Bestätigung
-    UI-->>U: Fertige Komponente
+    U->>UI: Creates component
+    UI->>E: Saves configuration
+    E->>DB: Writes data
+    E-->>UI: Confirmation
+    UI-->>U: Ready component
 ```
 
 ## Sicherheit
@@ -95,7 +95,7 @@ Speichern Sie keine Passwörter im Klartext. Verwenden Sie das integrierte Authe
 ## Leistung
 
 - **Antwortzeit**: < 200ms für Standardoperationen
-- **Durchsatz**: bis zu 10.000 Anfragen/Sek.
+- **Durchsatz**: bis zu 10.000 Anfragen/Sekunde
 - **Skalierbarkeit**: horizontale Skalierung
 - **Verfügbarkeit**: 99,9% Betriebszeit
 
@@ -103,11 +103,11 @@ Speichern Sie keine Passwörter im Klartext. Verwenden Sie das integrierte Authe
 
 ```mermaid
 graph LR
-    A[Anwendung] --> B[Metriken]
+    A[Application] --> B[Metrics]
     B --> C[Prometheus]
     C --> D[Grafana]
     C --> E[AlertManager]
-    E --> F[Slack/E-Mail]
+    E --> F[Slack/Email]
 
     style A fill:#e3f2fd
     style B fill:#f1f8e9
@@ -118,6 +118,6 @@ graph LR
 ---
 
 <div style="text-align: center; margin-top: 2rem;">
-  <a class="btn" href="/app-development/">Entwicklung starten</a>
-  <a class="btn" href="/tutorials/">Tutorials erkunden</a>
+  <a class="btn" href="/de/app-development/">Entwicklung starten</a>
+  <a class="btn" href="/de/tutorials/">Tutorials erkunden</a>
 </div>

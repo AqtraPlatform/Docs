@@ -108,7 +108,16 @@ mkdocs.yml.bak
 # Logs
 *.log
 logs/
+logs.txt
+
+# Scripts
+scripts/
+scripts/clean_repo.sh
+scripts/build_i18n.sh
+scripts/optimize_images.sh
+scripts/translate_docs.sh
 
 # Temporary files
 .tmp/
 temp/
+temp.txt

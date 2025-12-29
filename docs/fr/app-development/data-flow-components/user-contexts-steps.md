@@ -1,0 +1,15 @@
+# GROUPE "CONTEXTES UTILISATEUR" | séparateur
+
+- [Enregistrer le contexte pour le modèle](register-context-for-model.md)
+- [Enregistrer un utilisateur externe](register-external-user.md)
+- [Préparer les clés externes](prepare-external-keys.md)
+- [Attribuer un rôle de contexte pour le modèle](assign-context-role-for-model.md)
+- [Obtenir un code à usage unique pour l'utilisateur](get-one-time-code-for-user.md)
+- [Confirmer le code à usage unique pour l'utilisateur](confirm-one-time-code-for-user.md)
+- [Mettre à jour ou créer les informations de l'utilisateur](update-or-create-user-info.md)
+- [Obtenir les informations de l'utilisateur](get-user-info.md)
+- [Se connecter avec un mot de passe](login-with-password.md)
+- [Demande de réinitialisation du mot de passe de l'utilisateur](reset-user-password-request.md)
+- [Confirmer la demande d'email de l'utilisateur](confirm-user-email-request.md)
+- [Envoyer une notification avec modèle](send-templated-notification.md)
+- [Supprimer les rôles attribués pour l'utilisateur](remove-assigned-roles-for-user.md)

@@ -2,7 +2,7 @@
 orphan: true
 ---
 
-# Überblick
+# Übersicht
 
 ```{toctree}
 

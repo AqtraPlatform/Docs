@@ -169,8 +169,8 @@ jobs:
           publish_dir: ./site
           cname: docs.aqtra.io
           force_orphan: true
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
 
   nightly-links:
     if: github.event_name == 'schedule'

@@ -1,3 +1,4 @@
-# “CONDITIONS” GROUP|separator
+# “Bedingungen” GRUPPE|separator
 
-_Deutsche Übersetzung in Arbeit._
+- [Switch case](switch-case.md)
+- [If condition](if-condition.md)

@@ -1,3 +1,15 @@
-# "USER CONTEXTS" GROUP|separator
+# "BENUTZERKONTEXTE" GRUPPE|separator
 
-_Deutsche Übersetzung in Arbeit._
+- [Kontext für Modell registrieren](register-context-for-model.md)
+- [Externen Benutzer registrieren](register-external-user.md)
+- [Externe Schlüssel vorbereiten](prepare-external-keys.md)
+- [Kontextrolle für Modell zuweisen](assign-context-role-for-model.md)
+- [Einmalcode für Benutzer abrufen](get-one-time-code-for-user.md)
+- [Einmalcode für Benutzer bestätigen](confirm-one-time-code-for-user.md)
+- [Benutzerinformationen aktualisieren oder erstellen](update-or-create-user-info.md)
+- [Benutzerinformationen abrufen](get-user-info.md)
+- [Mit Passwort anmelden](login-with-password.md)
+- [Anfrage zum Zurücksetzen des Benutzerpassworts](reset-user-password-request.md)
+- [Anfrage zur Bestätigung der Benutzer-E-Mail](confirm-user-email-request.md)
+- [Vorlagenbasierte Benachrichtigung senden](send-templated-notification.md)
+- [Zugewiesene Rollen für Benutzer entfernen](remove-assigned-roles-for-user.md)

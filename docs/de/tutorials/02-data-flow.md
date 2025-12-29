@@ -1,22 +1,20 @@
-# Tutorial №2
-
+# Tutorial №2 
 <br>
 
-## Erstellen einer einfachen Anwendung für ein Autohaus
-
+## Erstellung einer einfachen Anwendung für ein Autohaus
 <br>
 
 **Anwendungsbeschreibung:**
 
-Wir werden eine Anwendung erstellen, die aus mehreren Komponenten besteht und es ermöglicht, zum Verkauf verfügbare Autos zu verfolgen, einen Manager für die Vertragsunterzeichnung zuzuweisen und es Managern zu ermöglichen, das Geschäft abzuschließen.
+Wir werden eine Anwendung erstellen, die aus mehreren Komponenten besteht und das Verfolgen von zum Verkauf verfügbaren Autos, die Zuweisung eines Managers für die Vertragsunterzeichnung und die Möglichkeit für Manager, den Deal abzuschließen, ermöglicht.
 
 **Wir werden die folgenden Komponenten erstellen:**
 
 <br>
 
-### Komponente "Transaction Specialists"
+### Komponente "Transaktionsspezialisten"
 
-Die erste Komponente wird ein einfaches Formular zum Hinzufügen neuer Manager sein und aus einer einzigen benutzerdefinierten Eigenschaft bestehen:
+Die erste Komponente wird ein einfaches Formular zum Hinzufügen neuer Manager sein und besteht aus einer einzigen benutzerdefinierten Eigenschaft:
 
 <br>
 
@@ -24,9 +22,9 @@ Die erste Komponente wird ein einfaches Formular zum Hinzufügen neuer Manager s
 
 <br>
 
-Als Nächstes richten wir unseren Arbeitsbereich ein und fügen ein Panel-Element hinzu, in dem wir unsere Arbeit durchführen.
+Als nächstes gehen wir zur Einrichtung unseres Arbeitsbereichs über und fügen ein Panel-Element hinzu, in dem wir unsere Arbeit durchführen werden.
 
-Ändern Sie dann in den Panel-Einstellungen unter der Einstellungsgruppe "Layout" die Panel-Ausrichtung auf vertikal und beginnen Sie, die folgenden Elemente hinzuzufügen: Wir benötigen den von uns erstellten manager_name und eine Schaltfläche. Es sollte so aussehen:
+Dann ändern Sie in den Panel-Einstellungen unter der Gruppe "Layout" die Panel-Ausrichtung auf vertikal und beginnen Sie, die folgenden Elemente hinzuzufügen: Wir benötigen den manager_name, den wir erstellt haben, und einen Button. Es sollte so aussehen:
 
 <br>
 
@@ -34,7 +32,7 @@ Als Nächstes richten wir unseren Arbeitsbereich ein und fügen ein Panel-Elemen
 
 <br>
 
-Erstellen Sie als Nächstes einen Dataflow, nennen Sie ihn "Add a manager" und fügen Sie die folgenden Schritte hinzu: `get action model`, `update entry`, `write response`. Es sollte so aussehen:
+Erstellen Sie als Nächstes einen Datenfluss, benennen Sie ihn "Manager hinzufügen" und fügen Sie die folgenden Schritte hinzu: `get action model`, `update entry`, `write response`. Es sollte so aussehen:
 
 <br>
 
@@ -50,11 +48,11 @@ Konfigurieren Sie den Schritt `Update entry` wie folgt:
 
 <br>
 
-**Vergessen Sie nicht**, den `source step` für den Schritt `update entry` festzulegen!
+**Vergessen Sie nicht**, den `source step` für den `update entry` Schritt festzulegen!
 
-Verknüpfen Sie nach dem Einrichten des Dataflows ihn mit der Schaltfläche wie folgt: Gehen Sie zu den Schaltflächeneinstellungen, klicken Sie auf die Einstellungsgruppe "actions", setzen Sie den "command type" auf "execute dataflow" und wählen Sie den von uns erstellten Dataflow "Add a manager" aus.
+Nachdem Sie den Datenfluss eingerichtet haben, verknüpfen Sie ihn mit dem Button wie folgt: Gehen Sie zu den Button-Einstellungen, klicken Sie auf die Gruppe "Aktionen", setzen Sie den "Befehls-Typ" auf "Datenfluss ausführen" und wählen Sie den von uns erstellten Datenfluss "Manager hinzufügen".
 
-Klicken Sie auf "Save", "Ready to publish". Veröffentlichen Sie die Komponente und fügen Sie sie dann dem Workplace über das "Navigation menu" der Domäne hinzu, in der Sie Ihre Anwendung bereitstellen (in unserem Fall ist dies die Domäne "digital-workplace").
+Klicken Sie auf "Speichern", "Bereit zum Veröffentlichen". Veröffentlichen Sie die Komponente und fügen Sie sie dann mit dem "Navigationsmenü" der Domäne hinzu, in der Sie Ihre Anwendung bereitstellen (in unserem Fall ist dies die Domäne "digital-workplace").
 
 <br>
 
@@ -62,24 +60,24 @@ Klicken Sie auf "Save", "Ready to publish". Veröffentlichen Sie die Komponente 
 
 <br>
 
-Klicken Sie auf "ADD MENU ITEM" und fügen Sie unsere Komponente hinzu:
+Klicken Sie auf "MENÜELEMENT HINZUFÜGEN" und fügen Sie unsere Komponente hinzu:
 <br>
 
 ![Tutorial 2.6](../assets/images/tutorials/tut2.6.png)
 
 <br>
 
-Gehen Sie zum `workplace` und fügen Sie einige Manager für die weitere Arbeit mit ihnen hinzu.
+Gehen Sie zu `workplace` und fügen Sie ein paar Manager für die weitere Arbeit mit ihnen hinzu.
 
 <br>
 
-### Komponente "Car fleet"
+### Komponente "Fahrzeugflotte"
 
 <br>
 
-Mit dieser Komponente richten wir die Anzeige aller Autos und allgemeiner Informationen über sie ein, fügen ein Formular zum Erstellen von Datensätzen neuer Autos hinzu, ein Formular zum Zuweisen eines Transaktionsmanagers zu einem Auto und ein Formular zum Bestätigen, dass das Geschäft mit anschließender Archivierung des Autodatensatzes abgeschlossen ist.
+Mit dieser Komponente werden wir die Anzeige aller Autos und allgemeine Informationen über sie einrichten, ein Formular zum Erstellen von Aufzeichnungen neuer Autos hinzufügen, ein Formular zur Zuweisung eines Transaktionsmanagers zu einem Auto und ein Formular zur Bestätigung, dass der Deal abgeschlossen ist, mit anschließender Archivierung der Autoaufzeichnung.
 
-In dieser Komponente erstellen wir eine Reihe von benutzerdefinierten Eigenschaften:
+In dieser Komponente werden wir eine Reihe von benutzerdefinierten Eigenschaften erstellen:
 
 - `car_vin`: Eigenschaftstyp - `string`, Titel - `VIN`, Einstellungen - `required`, `primary key`, `query`;
 - `car_brand`: Eigenschaftstyp - `string`, Titel - `Car Brand`, Einstellungen - `required`, `query`;
@@ -91,17 +89,16 @@ In dieser Komponente erstellen wir eine Reihe von benutzerdefinierten Eigenschaf
 - `choosen_manager`: Eigenschaftstyp - `catalog`, Komponente - `Transaction Specialists` Titel - `Chosen Manager`, Einstellungen - `query`;
 - `is_archieved`: Eigenschaftstyp - `string`, Einstellungen - `query`.
 
-Die Komponente besteht aus den folgenden Teilen (Seiten):
+Die Komponente wird aus den folgenden Teilen (Seiten) bestehen:
 
 <br>
 
 1. **Hauptseite**
 
-Um eine Seite hinzuzufügen, müssen Sie die Gruppe `Layout` in der `Toolbox` finden und das Element `Page` in den Arbeitsbereich ziehen.
+Um eine Seite hinzuzufügen, müssen Sie die Gruppe `Layout` im `Toolbox` finden und das Element `Page` in den Arbeitsbereich ziehen.
+Diese Seite wird ein Datenraster mit allen zum Verkauf verfügbaren Autos und allgemeinen Informationen darüber für Verkaufsleiter präsentieren. Darüber hinaus werden wir einen Button zur Seite hinzufügen, der zu einem Formular zum Hinzufügen von Autos zur Liste weiterleitet, aber das werden wir später hinzufügen.
 
-Diese Seite zeigt ein Datengitter mit allen zum Verkauf verfügbaren Autos und allgemeinen Informationen über sie für Verkaufsmanager. Darüber hinaus fügen wir der Seite eine Schaltfläche hinzu, die zu einem Formular zum Hinzufügen von Autos zur Liste weiterleitet, aber wir werden sie später hinzufügen.
-
-Fügen Sie ein Panel zum Arbeitsbereich hinzu, ändern Sie die Ausrichtungseinstellung auf vertikal und fügen Sie dann zwei weitere Panels hinzu. Platzieren Sie im unteren Panel das Datengitter-Element und fügen Sie im oberen Panel zwei weitere Panels hinzu. Platzieren Sie im linken Panel eine Beschriftung und schreiben Sie "Car fleet" in den "translation value"-Einstellungen. Fügen Sie im rechten Panel eine Schaltfläche hinzu und schreiben Sie "Add a new car" in den "translation value". Später werden wir die Einstellung "Actions" ändern, aber vorerst können Sie die Schaltflächengröße in den "Layout"-Einstellungen ändern.
+Fügen Sie ein Panel zum Arbeitsbereich hinzu, ändern Sie die Ausrichtungseinstellung auf vertikal und fügen Sie dann zwei weitere Panels hinzu. Im unteren Panel platzieren Sie das Datenrasterelement, und im oberen Panel fügen Sie zwei weitere Panels hinzu. Im linken Panel platzieren Sie ein Label und schreiben "Fahrzeugflotte" in dessen "Übersetzungswert"-Einstellungen. Im rechten Panel fügen Sie einen Button hinzu und schreiben "Neues Auto hinzufügen" in dessen "Übersetzungswert". Später werden wir die Einstellung "Aktionen" ändern, aber vorerst können Sie die Button-Größe in den "Layout"-Einstellungen ändern.
 
 <br>
 
@@ -111,9 +108,9 @@ Fügen Sie ein Panel zum Arbeitsbereich hinzu, ändern Sie die Ausrichtungseinst
 
 Sie können andere Einstellungen ausprobieren.
 
-Fahren Sie als Nächstes mit der Konfiguration des `data grid` fort: Klicken Sie auf das Zahnradsymbol und wählen Sie die Komponente für das Datengitter "Car fleet" aus. Klicken Sie dann neben Columns auf `+`, dadurch wird eine Spalte zu unserem Datengitter hinzugefügt, tun Sie dies 5 Mal.
+Als Nächstes fahren Sie fort, um die `data grid` zu konfigurieren: Klicken Sie auf das Zahnradsymbol und wählen Sie die Komponente für das Datenraster "Fahrzeugflotte". Klicken Sie dann neben den Spalten auf `+`, dies wird eine Spalte zu unserem Datenraster hinzufügen, tun Sie dies 5 Mal.
 
-Klicken Sie auf die erste Spalte, dann auf "Add field" und wählen Sie die Eigenschaft `car_brand` aus. Die weitere Konfiguration sollte so aussehen:
+Klicken Sie auf die erste Spalte, dann auf "Feld hinzufügen" und wählen Sie die Eigenschaft `car_brand`. Die weitere Konfiguration sollte wie folgt aussehen:
 
 <br>
 
@@ -121,9 +118,9 @@ Klicken Sie auf die erste Spalte, dann auf "Add field" und wählen Sie die Eigen
 
 <br>
 
-Sie sollten die folgenden Spalten auf ähnliche Weise in dieser Reihenfolge konfigurieren: 2. Spalte - `car_model`, 3. Spalte - `year_of_manufacture`, 4. Spalte - `color`, 5. Spalte - `price`.
+Sie sollten die folgenden Spalten in ähnlicher Weise in dieser Reihenfolge konfigurieren: 2. Spalte - `car_model`, 3. Spalte - `year_of_manufacture`, 4. Spalte - `color`, 5. Spalte - `price`.
 
-Setzen Sie auch in den Datengitter-Einstellungen `Static filters`. Da wir Autos anzeigen möchten, denen noch kein Manager zugewiesen wurde, setzen Sie die folgende Einstellung:
+Außerdem sollten Sie in den Einstellungen des Datenrasters `Static filters` festlegen. Da wir Autos anzeigen möchten, die noch keinem Manager zugewiesen sind, setzen Sie die folgende Einstellung:
 
 <br>
 
@@ -131,7 +128,7 @@ Setzen Sie auch in den Datengitter-Einstellungen `Static filters`. Da wir Autos 
 
 <br>
 
-Das Endergebnis in unserem Arbeitsbereich sollte so aussehen:
+Das Endergebnis in unserem Arbeitsbereich sollte wie folgt aussehen:
 
 <br>
 
@@ -139,11 +136,11 @@ Das Endergebnis in unserem Arbeitsbereich sollte so aussehen:
 
 <br>
 
-2. **Ein neues Auto hinzufügen**
+2. **Neues Auto hinzufügen**
 
-Auf diese Seite wird der Benutzer zugreifen, indem er auf die Schaltfläche "Add a new car" von unserer vorherigen Seite klickt. Beginnen wir mit der Einrichtung unseres Arbeitsbereichs.
+Diese Seite wird vom Benutzer aufgerufen, indem er auf den Button "Neues Auto hinzufügen" von unserer vorherigen Seite klickt. Lassen Sie uns mit der Einrichtung unseres Arbeitsbereichs beginnen.
 
-Fügen Sie ein Panel zur Seite hinzu. Ändern Sie in den Einstellungen die Seitenausrichtung auf vertikal. Fügen Sie als Nächstes zwei weitere Panels hinzu. Ändern Sie im ersten Panel auch die Ausrichtung auf vertikal und übertragen Sie unsere Eigenschaften so, dass sie so aussehen:
+Fügen Sie ein Panel zur Seite hinzu. Ändern Sie in seinen Einstellungen die Seitenausrichtung auf vertikal. Fügen Sie als Nächstes zwei weitere Panels hinzu. Im ersten Panel ändern Sie ebenfalls die Ausrichtung auf vertikal und übertragen unsere Eigenschaften, sodass sie wie folgt aussehen:
 
 <br>
 
@@ -151,11 +148,11 @@ Fügen Sie ein Panel zur Seite hinzu. Ändern Sie in den Einstellungen die Seite
 
 <br>
 
-Fügen Sie im unteren Panel zwei Schaltflächen hinzu, setzen Sie deren Padding wie bei der Schaltfläche "Add a new car" und benennen Sie sie entsprechend: "Add a new car" und "Back to all cars".
+Im unteren Panel fügen Sie zwei Buttons hinzu, setzen Sie deren Padding wie beim Button "Neues Auto hinzufügen" und benennen Sie sie entsprechend: "Neues Auto hinzufügen" und "Zurück zu allen Autos".
 
-Setzen Sie in den Einstellungen für die Schaltfläche "Back to all cars" die "Actions" auf "Open page" "Main page". Durch Klicken auf diese Schaltfläche wird der Benutzer zur Seite mit dem Datengitter weitergeleitet. Erstellen Sie für die Schaltfläche "Add a new car" einen Datenfluss, den wir später verknüpfen werden.
+In den Einstellungen für den Button "Zurück zu allen Autos" setzen Sie die "Aktionen" auf "Seite öffnen" "Hauptseite". Ein Klick auf diesen Button leitet den Benutzer zur Seite mit dem Datenraster weiter. Für den Button "Neues Auto hinzufügen" erstellen Sie einen Datenfluss, den wir später damit verknüpfen werden.
 
-Der Datenfluss besteht aus den folgenden Schritten: `get action model`, `execute script`, `update entry`, `write response`. Konfigurieren wir sie.
+Der Datenfluss wird aus den folgenden Schritten bestehen: `get action model`, `execute script`, `update entry`, `write response`. Lassen Sie uns diese konfigurieren.
 
 Im Schritt `execute script` erstellen Sie Variablen, die für die Eigenschaften `is_manager_exists` und `is_archieved` verwendet werden:
 
@@ -172,7 +169,7 @@ Konfigurieren Sie als Nächstes den Schritt `Update entry`:
 
 <br>
 
-Als Nächstes müssen wir unsere Felder zuordnen. **Denken Sie daran**, dass die Felder in den Schritteinstellungen mit dem Präfix data.`property_name` zugeordnet werden. Verwenden Sie für die Eigenschaften `is_archieved` und `is_manager_exists` die im execute script-Schritt festgelegten Variablenwerte, lassen Sie das Feld `chosen_manager` leer:
+Als Nächstes müssen wir unsere Felder zuordnen. **Denken Sie daran**, dass die Felder in den Schritt-Einstellungen mit dem Präfix data.`property_name` zugeordnet sind. Für die Eigenschaften `is_archieved` und `is_manager_exists` verwenden Sie die in dem Ausführungsskript-Schritt festgelegten Variablenwerte und lassen das Feld `chosen_manager` leer:
 
 <br>
 
@@ -180,9 +177,9 @@ Als Nächstes müssen wir unsere Felder zuordnen. **Denken Sie daran**, dass die
 
 <br>
 
-**Setzen Sie immer den Quellschritt für jeden Schritt außer dem ersten fest. Dies wird in der Tutorial-Beschreibung nicht weiter erwähnt.**
+**Setzen Sie immer den Quellschritt für jeden Schritt außer dem ersten. Dies wird im weiteren Verlauf der Anleitung nicht mehr erwähnt.**
 
-Jetzt, da unser Datenfluss abgeschlossen ist, können wir ihn mit der Schaltfläche "Add a new car" verknüpfen und unsere Komponente speichern. Das Endergebnis unserer Seite ist unten gezeigt:
+Jetzt, da unser Datenfluss abgeschlossen ist, können wir ihn mit dem Button "Neues Auto hinzufügen" verknüpfen und unsere Komponente speichern. Das Endergebnis unserer Seite ist unten dargestellt:
 
 <br>
 
@@ -190,14 +187,204 @@ Jetzt, da unser Datenfluss abgeschlossen ist, können wir ihn mit der Schaltflä
 
 <br>
 
-[... Weitere Abschnitte fortsetzen mit ähnlicher Übersetzungsqualität ...]
+3. **Einen Manager ernennen**
 
-### Schlussfolgerung
+Diese Seite wird als modales Fenster aufgerufen, wenn auf einen bestimmten Eintrag im Datenraster geklickt wird. Sie ist für eine einzige Funktion konzipiert - die Zuweisung eines Managers zu einem bestimmten Auto. Lassen Sie uns mit der Einrichtung des Arbeitsbereichs fortfahren.
+Die Seite selbst wird der Seite "Neues Auto hinzufügen" ähneln, mit dem einzigen Unterschied, dass wir die `chosen_manager`-Eigenschaft zum Arbeitsbereich hinzufügen, die die einzige Eigenschaft sein wird, die geändert werden kann. Dies ermöglicht es dem Manager, einen Kollegen auszuwählen, an den er das Auto und den Deal übertragen wird. Außerdem fügen Sie zwei Schaltflächen hinzu, eine zum Schließen des Modalfensters mit der Bezeichnung "Zurück zu allen Autos" und die andere mit der Bezeichnung "Manager ernennen", die mit einem Datenfluss verknüpft wird, den wir später erstellen werden.
 
-Sie haben eine kleine und einfache Anwendung erstellt, in der Sie mit mehreren Komponenten gearbeitet und gelernt haben, wie Sie sie miteinander verknüpfen. Sie haben gelernt, wie man modale Fenster erstellt und begannen, die Interaktion zwischen Programmiersprachen und den Tools unserer Plattform zu erkunden.
+**Vergessen Sie nicht, die Einstellung "Deaktiviert" in den TextBox-Einstellungen für jede Eigenschaft außer `chosen_manager` zu aktivieren.**
 
-Versuchen Sie, mehrere Manager zu erstellen, neue Autos zum Verkauf hinzuzufügen, Manager zuzuweisen und zu versuchen, Geschäfte abzuschließen.
+<br>
 
-Natürlich ist diese Anwendung ein Test; sie kann endlos verbessert und komplexer gemacht werden. Nach dem Erstellen können Sie andere Tools selbst verwenden, unterschiedliche Logik aufbauen und das Design nach Ihren Wünschen anpassen. Die Plattform bietet Ihnen flexible Tools, die die Entwicklung aufregender und einfacher machen!
+![Tutorial 2.16](../assets/images/tutorials/tut2.16.png)
 
-Beschreibungen der im Tutorial verwendeten Tools finden Sie im Abschnitt "Application Development".
+<br>
+
+Das Endergebnis auf dieser Seite sollte wie unten gezeigt aussehen:
+
+<br>
+
+![Tutorial 2.17](../assets/images/tutorials/tut2.17.png)
+
+<br>
+
+**Lassen Sie uns mit der Konfiguration des Datenflusses fortfahren**.
+
+Wir müssen die folgenden Schritte hinzufügen: `get action model`, `execute script`, `lookup reference`, `update entry`, `write response`.
+
+Im Schritt `execute script` werden wir eine Variable erstellen, die die `is_manager_exists`-Eigenschaft auf True ändert, wodurch der neu erstellte Eintrag aus dem Datenraster auf der Hauptseite verschwindet, wo wir statische Filter gesetzt haben.
+
+```
+item["_is_manager_exists@boolean"] = True
+```
+
+Als nächstes verwenden wir den Schritt `Lookup reference`. Ich empfehle Ihnen, über diesen Schritt im Abschnitt Datenfluss unserer technischen Dokumentation zu lesen. Der Schritt sollte wie unten gezeigt konfiguriert werden.
+
+<br>
+
+![Tutorial 2.18](../assets/images/tutorials/tut2.18.png)
+
+<br>
+
+Als nächstes konfigurieren wir den Schritt `Update entry`, im Feld "Komponenten-Schlüssel" geben Sie den Feldnamen aus dem Schritt `Lookup reference` an:
+
+<br>
+
+![Tutorial 2.19](../assets/images/tutorials/tut2.19.png)
+
+<br>
+
+In "Feldzuordnung" lassen Sie die Felder leer, außer für `chosen_manager` und `is_manager_exists`, dies sind die Felder, die wir im Datensatz ändern möchten, der mit dem Schritt `Lookup reference` gefunden wurde.
+
+<br>
+
+![Tutorial 2.20](../assets/images/tutorials/tut2.20.png)
+
+<br>
+
+Im Schritt `write response` müssen wir den Quellschritt festlegen.
+
+Weisen Sie diesen Datenfluss zu, damit er ausgeführt wird, wenn die Schaltfläche "Manager ernennen" gedrückt wird. Speichern Sie dann die Komponente.
+
+<br>
+
+**Fahren Sie mit dem Komponentenskript zum Erstellen des Modalfensters fort**.
+
+Um ein Modalfenster zu erstellen, können Sie das folgende Skript verwenden. Für die Arbeit mit dem **Komponentenskript** empfehle ich Ihnen dringend, den Dokumentationsabschnitt `Using Python` zu lesen:
+
+```
+def show_model_info(model):
+    context.Logger.Error("updated")
+
+def open_custom_modal(sender, model):
+    # Creating a modal window template using the GUID of a specific component
+    dialog_builder = context.PlatformServices.DialogBuilder('component guid')
+    # Setting the title for the modal window and selecting a specific page from the component's settings
+    # Also setting the component instance ID to 1, so the first saved instance of component data will be used
+    dialog_builder.WithEntryId(int(model[0].Id)).WithTitle("Appoint a manager").WithPageId('page id')
+    # Setting the size of the modal window
+    dialog_builder.WithVSize("650px").WithHSize("820px")
+    dialog_builder.OnComplete(lambda model: show_model_info(model))
+    dialog_builder.OnCancel(update_cars_success)
+    # Opening the created modal window
+    dialog_builder.OpenDialog()
+    
+def get_datagrid_cars(sender, *args):
+    global datagrid_cars
+    datagrid_cars = sender
+    
+def update_cars_success():
+    datagrid_cars.Refresh()
+```
+
+Die Funktionen `get_datagrid_cars` und `update_cars_success` werden verwendet, um das Datenraster nach einer bestimmten Aktion automatisch zu aktualisieren. Wenn Sie sie nicht verwenden, wird das Datenraster nur nach dem Aktualisieren der Seite im Browser aktualisiert. Nach dem Kopieren müssen Sie die Komponente speichern und zum Arbeitsbereich auf der "Hauptseite" zurückkehren.
+
+Sie müssen zu den Einstellungen des Datenrasters in der Einstellungsgruppe `Events` gehen und die Ausführung von Funktionen bestimmten Aktionen im Datenraster zuweisen.
+
+<br>
+
+![Tutorial 2.21](../assets/images/tutorials/tut2.21.png)
+
+<br>
+
+Speichern Sie die Komponente und fahren Sie dann mit der Einrichtung der nächsten Seite fort.
+
+4. **In einen Vertrag eintreten**
+
+Diese Seite ist ein Formular, das es dem Manager ermöglicht, einen bestimmten Autodeal zu archivieren, indem er das Feld `is_archieved` auf `True` ändert.
+
+Die Seite ist eine Kopie der Seite `Appoint a manager`, der einzige Unterschied besteht darin, dass alle Felder die Einstellung `Disabled` -> `True` haben. Unten fügen wir zwei Schaltflächen hinzu, von denen eine den Datenfluss startet und die andere den Benutzer zur Komponentenseite weiterleitet, die wir noch nicht erstellt haben.
+
+Die Seite selbst sollte so aussehen:
+
+<br>
+
+![Tutorial 2.22](../assets/images/tutorials/tut2.22.png)
+
+<br>
+
+Lassen Sie uns mit der Erstellung und Konfiguration des Datenflusses fortfahren. Wir benötigen 5 Schritte: `get action model`, `execute script`, `update entry`, `form action`, `write response`.
+
+Im Schritt `execute script` werden wir eine Variable erstellen, die den Wert `True` in der `is_archieved`-Eigenschaft festlegt.
+
+```
+item["_is_archieved@boolean"] = True
+```
+
+Die Konfiguration des Schrittes `update entry` sollte wie folgt aussehen:
+
+<br>
+
+![Tutorial 2.23](../assets/images/tutorials/tut2.23.png)
+
+<br>
+Im Feldkomponenten-Schlüssel geben wir einen Verweis auf den Datensatz an, den wir bearbeiten möchten, und fahren dann mit der "Feldzuordnung" fort. Hier lassen wir alle Felder leer, außer für `is_archieved`. Hier setzen wir die Variable, die wir im Schritt `execute script` festgelegt haben.
+
+Als nächstes ist der Schritt `Form action`, zu dem wir zurückkehren werden, nachdem wir die endgültige Komponente erstellt haben. Speichern Sie vorerst die Komponente, um zu vermeiden, dass Sie Ihre Arbeit verlieren.
+
+### Komponente "Manager-Grid"
+
+Diese Komponente wird aus einer einzigen Seite bestehen, und wir werden keine benutzerdefinierten Eigenschaften dafür erstellen. Diese Komponente wird nur von Managern verwendet, die Zugriff darauf haben, sodass sie alle Autos sehen können, die in die Deal-Phase verschoben und einem bestimmten Manager zugewiesen wurden.
+
+Erstellen Sie ein Datenraster, verlinken Sie es mit der `Car fleet`-Komponente und fügen Sie eine Spalte für jede ihrer Eigenschaften hinzu. Das Ergebnis sollte wie folgt aussehen:
+
+<br>
+
+![Tutorial 2.24](../assets/images/tutorials/tut2.24.png)
+
+<br>
+
+Gehen Sie dann zur Gruppe der `Actions`-Einstellungen, setzen Sie den Befehlstyp auf `Open application`, die Komponente auf `Car fleet`, die Komponentenseite auf `Enter into a contract`, eine Seite, die wir als letzte Seite der `Car fleet`-Komponente erstellt haben.
+
+Klicken Sie als Nächstes auf die `Action parameters`-Schaltfläche und ordnen Sie Id -> Id wie unten gezeigt zu.
+
+<br>
+
+![Tutorial 2.25](../assets/images/tutorials/tut2.25.png)
+
+<br>
+
+Lassen Sie uns die Komponente speichern und zu ihren Einstellungen gehen. Neben der Benennung und Auswahl der erforderlichen Domäne müssen wir das Kästchen `Restrict access` aktivieren, damit wir spezielle Sicherheitsberechtigungen für diese Komponente festlegen können.
+
+Lassen Sie uns erneut speichern, die Komponente als bereit zur Veröffentlichung markieren und sie zur `Navigation menu` der von uns verwendeten Domäne hinzufügen.
+
+<br>
+
+**Zurück zur `Car fleet`-Komponente auf der `Enter into a contract`-Seite**
+
+Es bleibt eine ungenutzte Schaltfläche übrig, `Back to all contracts`, lassen Sie uns deren `Command type` in der Gruppe der `Actions`-Einstellungen auf `Navigation back` setzen.
+
+Als Nächstes müssen wir zum Datenfluss "Deal ist abgeschlossen" zurückkehren und die `Form action`-Schrittkonfiguration abschließen. Die endgültige Konfiguration des Schrittes sollte wie folgt aussehen:
+
+<br>
+
+![Tutorial 2.26](../assets/images/tutorials/tut2.26.png)
+
+<br>
+
+**Vergessen Sie nicht, die `source step` im `update entry`-Schritt auszuwählen**.
+
+Speichern Sie, veröffentlichen Sie die Komponente, fügen Sie sie mit dem `Navigation menu` zum Arbeitsplatz hinzu und stellen Sie sicher, dass alle Komponenten an ihrem Platz sind.
+
+<br>
+
+### Zugriff auf die `Managers grid`-Komponente festlegen
+
+Sie müssen zum Menü "Zugriff" im Abschnitt "Berechtigungen" gehen und auf die Schaltfläche "Hinzufügen" in der oberen rechten Ecke klicken.
+
+Ein Fenster mit den Berechtigungseinstellungen öffnet sich auf Ihrem Bildschirm, in dem Sie die Domäne angeben und einen Namen für die Berechtigung vergeben müssen. Um den Zugriff auf die Manipulation der `Managers grid`-Komponente zu gewähren, gehen Sie zu `Permissions`, geben Sie den Abschnitt `Components` ein, finden Sie unsere `Managers grid`-Komponente und wählen Sie die vollständigen Zugriffsrechte dafür aus. Klicken Sie auf die Schaltfläche "Speichern" und fahren Sie mit dem nächsten Abschnitt "Rollen" fort.
+
+Hier müssen Sie ebenfalls auf die Schaltfläche "HINZUFÜGEN" klicken, die erforderliche Domäne auswählen, benennen und die "Berechtigung" auswählen, die Sie zuvor erstellt haben. Fahren Sie dann mit dem Abschnitt `Users` fort.
+
+Im Abschnitt `Users` sind alle Benutzer aufgelistet, die in Ihrem System registriert sind. Klicken Sie auf den Benutzer, dem Sie das Recht gewähren möchten, diese Komponente zu verwenden, wählen Sie in "Kontexte auswählen" "Plattform" -> "System" und suchen Sie in "Rollen auswählen" die Rolle, die Sie zuvor erstellt haben, klicken Sie dann auf das Kontrollkästchen und klicken Sie auf "Speichern".
+
+<br>
+
+### Fazit
+
+Sie haben eine kleine und einfache Anwendung erstellt, in der Sie mit mehreren Komponenten gearbeitet und gelernt haben, wie man sie miteinander verknüpft. Sie haben gelernt, wie man modale Fenster erstellt und begonnen, die Interaktion zwischen Programmiersprachen und den Werkzeugen unserer Plattform zu erkunden.
+
+Versuchen Sie, mehrere Manager zu erstellen, neue Autos zum Verkauf hinzuzufügen, Manager zuzuweisen und zu versuchen, Deals abzuschließen.
+Natürlich ist diese Anwendung ein Test; sie kann endlos verbessert und komplexer gestaltet werden. Nach der Erstellung können Sie andere Werkzeuge eigenständig verwenden, unterschiedliche Logik aufbauen und das Design nach Ihren Wünschen anpassen. Die Plattform bietet Ihnen flexible Werkzeuge, die die Entwicklung spannender und einfacher machen!
+
+Beschreibungen der im Tutorial verwendeten Werkzeuge finden Sie im Abschnitt "Anwendungsentwicklung".

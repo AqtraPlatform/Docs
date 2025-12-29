@@ -1,4 +1,4 @@
-# Menüpunkte
+# Menüelemente
 
 ```{toctree}
 home.md

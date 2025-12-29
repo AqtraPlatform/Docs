@@ -1,24 +1,23 @@
-# Publications
+# Veröffentlichungen
 
+Um eine Komponenten-Version, Lokalisierung, Erweiterung oder eine andere geeignete Anpassung über die Plattform zu erstellen, müssen Sie sie veröffentlichen. Damit eine Komponenten-Version veröffentlicht werden kann, muss sie als bereit zur Veröffentlichung markiert werden.
 
-To create a component version, localization, extension, or other appropriate customization via the platform, you must publish it. And in order for a component version to be published, it must be marked as ready to publish. 
+Der Veröffentlichungsprozess wird durch die Zustandsmaschine gesteuert, die es Ihnen ermöglicht, alle Phasen effektiv zu kontrollieren und im Falle von Fehlern das System in den vorherigen Zustand zurückzuführen. Eine globale Sperrfunktion wurde eingeführt, um zu verhindern, dass mehrere Veröffentlichungen gleichzeitig gestartet werden. Benutzer sehen den Status aktiver Veröffentlichungen, und nach Abschluss jeder Veröffentlichung werden die Status der Objekte, die bereit zur Veröffentlichung sind, automatisch aktualisiert.
 
-The publishing process is controlled through the state machine, which allows you to effectively control all stages and, in case of errors, return the system to the previous state. A global lock feature has been introduced to prevent multiple publications from being started at the same time. Users see the status of active publications, and after each publication is completed, the statuses of the objects that are ready to be published are updated automatically.
+**Schritte zur Veröffentlichung einer Komponente:**
 
-**Steps to publish a component:**
+- **„Speichern“**-Schaltfläche: Wird verwendet, um die aktuellen Änderungen an der Komponente zu speichern.
+- **„Bereit zur Veröffentlichung“**: Markiert eine Komponente als bereit zur Veröffentlichung, nachdem alle Änderungen gespeichert wurden.
 
-- **“Save”** button: Used to save the current changes to the component.
-- **“Ready to Publish”**: Marks a component as ready to publish after all changes have been saved.
+**Schritte zur Veröffentlichung von Lokalisierungen und Integrationen:**
+- Werden automatisch verfügbar für die Veröffentlichung, nachdem Sie Änderungen vorgenommen haben.
 
-**Steps for publishing localizations and integrations:**
-- Automatically become available for publishing after you make changes.
+**Veröffentlichungsprozess:**
+1. **Gehe zu Veröffentlichungen**: Befindet sich unter ‚Studio→Anwendungen→Veröffentlichung.‘
+2. **Auswahl der zu veröffentlichenden Elemente**: 
+   - Komponenten, Lokalisierungen, Integrationen und Python-Module werden zur Veröffentlichung ausgewählt.
+3. **Endgültige Veröffentlichung**: 
+   - Das Verfahren wird durch Klicken auf die Schaltfläche „Veröffentlichen“ abgeschlossen.
+   - Eine Benachrichtigung erscheint, wenn die Veröffentlichung erfolgreich ist.
 
-**Publishing Process:**
-1. **Go to Publications**: Located in ‘Studio→Applications→Publication.’
-2. **Selecting Items to Publish**: 
-   - Components, localizations, integrations, and Python modules are selected to be published.
-3. **Final publication**: 
-   - The procedure is completed by clicking the publish button.
-   - A notification appears when the publication is successful.
-
-_Vollständiger deutscher Inhalt folgt..._
+![Veröffentlichungen](../assets/images/app-development/publication-example.png)
